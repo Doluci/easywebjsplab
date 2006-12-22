@@ -1,3 +1,5 @@
+#summary The reference to the wiki syntax for Google Code projects
+
 == Paragraphs ==
 
 Use one or more blank lines to separate paragraphs.
