@@ -1,0 +1,67 @@
+== Paragraphs ==
+
+Use one or more blank lines to separate paragraphs.
+
+== Typeface ==
+
+||* Name/Sample*   || * Markup *       ||
+||  _italic_       || `_italic_`       ||
+||  *bold*         || `*bold*`         ||
+||  `code`         || {{{`code`}}}     ||
+||  {{{code}}}     || `{{{code}}}`     ||
+||  ^super^script  || `^super^script`  ||
+||  ,,sub,,script  || `,,sub,,script`  ||
+|| ~~strikeout~~   || `~~strikeout~~`  ||
+
+You can mix these typefaces in some ways:
+
+||       *Markup*                    ||        *Result*                 ||
+|| `_*bold* in italics_`             || _*bold* in italics_             ||
+|| `*_italics_ in bold*`             || *_italics_ in bold*             ||
+|| `*~~strike~~ works too*`          || *~~strike~~ works too*          ||
+|| `~~as well as _this_ way round~~` || ~~as well as _this_ way round~~ ||
+
+== Code ==
+
+If you have a multiline code block that you want to display verbatim,
+use the multiline code delimiter:
+
+{{{
+{{{
+def fib(n):
+  if n == 0 or n == 1:
+    return n
+  else:
+    # This recursion is not good for large numbers.
+    return fib(n-1) + fib(n-2)
+}}}
+}}}
+
+Which results in:
+
+{{{
+def fib(n):
+  if n == 0 or n == 1:
+    return n
+  else:
+    # This recursion is not good for large numbers.
+    return fib(n-1) + fib(n-2)
+}}}
+
+== Headings ==
+
+{{{
+= Heading =
+== Subheading ==
+=== Level 3 ===
+==== Level 4 ====
+===== Level 5 =====
+====== Level 6 ======
+}}}
+
+= Heading =
+== Subheading ==
+=== Level 3 ===
+==== Level 4 ====
+===== Level 5 =====
+====== Level 6 ======
