@@ -201,8 +201,9 @@ automatically made into links.
 You can also provide some descriptive text. For example, the following
 link points to the [http://www.google.com Google home page].
 
-If your link points to an image, it will get inserted as an image into
-the page:
+If your link points to an image (that is, if it ends in `.png`,
+`.gif`, `.jpg` or `.jpeg`), it will get inserted as an image into the
+page:
 
 http://code.google.com/images/code_sm.png
 
