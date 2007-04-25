@@ -150,7 +150,7 @@ the page.
 WikiSyntax is identified and linked automatically
 
 Wikipage is not identified, so if you have a page named [Wikipage] you
-need to link it explicitely.
+need to link it explicitly.
 
 If the WikiSyntax page is actually about reindeers, you can provide a
 description, so that people know you're actually linking to a page on
@@ -163,7 +163,7 @@ exclamation mark to prevent linking.
 WikiSyntax is identified and linked automatically
 
 Wikipage is not identified, so if you have a page named [Wikipage] you
-need to link it explicitely.
+need to link it explicitly.
 
 If the WikiSyntax page is actually about reindeers, you can provide a
 description, so that people know you're actually linking to a page on
