@@ -181,7 +181,7 @@ using a syntax similar to that for internal links:
 Plain URLs such as http://www.google.com/ or ftp://ftp.kernel.org/ are
 automatically made into links.
 
-You can also provide some descriptive text. For example, the follwing
+You can also provide some descriptive text. For example, the following
 link points to the [http://www.google.com Google home page].
 
 If your link points to an image, it will get inserted as an image tag
