@@ -3,7 +3,7 @@
 
 == Paragraphs ==
 
-Use one or more blank lines to separate paragraphs.
+Use one or more blank lines to separate paragraphs. 
 
 == Typeface ==
 
