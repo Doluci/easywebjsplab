@@ -1,0 +1,48 @@
+#summary Announcements of the latest project hosting features
+
+Welcome to the What's New page for project hosting on Google Code. Here you'll find descriptions of our latest improvements to our collaborative development environment.
+
+= July 2007 =
+
+== Improvements to list views ==
+
+Project artifacts in your project workspace have a variety of built-in attributes, and can be labeled with Key-Value pairs as user-defined attributes.  These attributes can be used as column headings in any list view as a way to bring out and organize information according to the structure that makes the most sense for that project.
+
+Several improvements were made to the list views to help project owners use the power of user-defined attributes more fully:
+
+   * Project owners can now define default columns and sorting in the issue tracker, wiki page list, and downloads list.
+   * End-user list configuration is now kept when the user edits an issue
+   * The number of items displayed per page has been increased to 100
+   * We now display the entire summary of artifacts, even it it would be so long that it word-wraps
+
+== Clarification of the purpose of stars ==
+
+When a user clicks the star icon on an issue, he or she is indicating an interest in that issue.  We make it easy for users to search the issues that they have starred.  Also, users will receive email notification of changes to issues that they have starred.  And, everyone who visits the project can see the number of users who have starred each issue.
+
+We have clarified the email notification aspect of stars by adding tool-tips to the stars and a reminder that starring causes notification of changes to the issue detail page.
+
+== Issue tracker comments ==
+
+Sometimes a user leaves a comment on an issue that is irrelevant or which contains information like a password that should not be displayed to other users.  It can happen to any of us if we accidentally comment on the wrong issue or paste in a big chunk of text.  
+
+Now, those unwanted comments can be deleted or undeleted by the user who entered them or any project member.
+
+== Wiki page comments ==
+
+Wiki's are community-owned knowledge-bases: they should allow contributions from anyone who notices a problem or wants to add valuable information, but they can also lose some of their value if they are vandalized, if they become disorganized, or if incorrect information is added.
+
+The project wiki feature that we offer now strikes a balance between these trade-offs by allowing any logged in use to append a comment to the wiki pages.  Project members may then review the comments and choose to:
+  * Leave them as useful comments
+  * Incorporate them into the page, and delete the comment since it would be redundant
+  * Delete any valueless comments
+
+== Google Analytics integration ==
+
+Open source projects are all about collaboration between project members and the users of the software being developed.  To provide the most useful software to your users, you might want to know simply how many potential users have visited your project workspace, which countries they come from, which browsers they use, and which of your wiki pages they have viewed.
+
+Now all those questions can be answered.  Project owners may simply sign up for [http://www.google.com/analytics Google Analytics] and enter an analytics profile number into the project admin page.  Tracking data can be viewed on the Google Analytics site about 24 hours later.
+
+== Bug fixes ==
+
+We continue to work hard to improve the quality and reliability of the project hosting service by finding and fixing defects.  Please check our current [http://code.google.com/p/support/issues/list support issues], star the issues that are most important to you, and report and new defects that you find.
+
