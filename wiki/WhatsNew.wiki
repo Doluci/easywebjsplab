@@ -51,3 +51,11 @@ Now all those questions can be answered.  Project owners may simply sign up for 
 == Bug fixes ==
 
 We continue to work hard to improve the quality and reliability of the project hosting service by finding and fixing defects.  Please check our current [http://code.google.com/p/support/issues/list support issues], star the issues that are most important to you, and report and new defects that you find.
+
+= April 2007 =
+
+== Autolinking of issues ==
+
+Software development is all about putting ideas into working software.  It turns out that the software created has a lot of interconnections, and the process of creating that software requires even more connections, dependencies, and references between all the information produced as part of the project.  Google code hosting has always offered the developers the ability to link web pages in subversion, and wiki pages.  We also encourage the use of Google groups or other mailing list archives that make past messages accessible via a link.  And, every issue has had a clear URL that can be linked to, but only by specifying the full link.
+
+Now, you can easily and automatically link to any issue from another issue comment or from a wiki page.  Just write "issue N" or "issue #N" and it will be linked to the corresponding issue in your project.  If that issue is closed, the link text will be crossed out.  oving your mouse over the link shows the summary of the issue.
