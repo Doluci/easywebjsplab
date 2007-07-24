@@ -8,7 +8,7 @@ Welcome to the What's New page for project hosting on Google Code. Here you'll f
 
 When projects start, they have a few defect reports and requests for enhancements.  A simple list of issues is good enough: a developer picks some issue, solves it, and closes it.  But, as projects grow in scope, the number of open issues can grow and it can be hard to know which issues to work on first.  Sorting and filtering the list can help developers understand the set of open issues, but now there is an easier way.
 
-The grid view of issues can use two dimensions to lay out issues according to any two attributes.  For example, [http://code.google.com/p/support/issues/list?can=2&q=milestone&sort=&mode=grid&y=Milestone&x=Priority&cells=tiles&nobtn=Update support issues by milestone and priority]. The grid view can also easily show the number of open issues associated with each component, or the number of issues owned by each project member.
+The grid view of issues uses rows and columns to lay out issues according to any two attributes.  For example, [http://code.google.com/p/support/issues/list?can=2&q=milestone&sort=&mode=grid&y=Milestone&x=Priority&cells=tiles&nobtn=Update support issues by milestone and priority]. The grid view can also easily show the number of open issues associated with each component, or the number of issues owned by each project member.
 
 == Improvements to list views ==
 
@@ -51,4 +51,3 @@ Now all those questions can be answered.  Project owners may simply sign up for 
 == Bug fixes ==
 
 We continue to work hard to improve the quality and reliability of the project hosting service by finding and fixing defects.  Please check our current [http://code.google.com/p/support/issues/list support issues], star the issues that are most important to you, and report and new defects that you find.
-
