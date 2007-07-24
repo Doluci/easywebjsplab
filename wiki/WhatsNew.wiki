@@ -4,6 +4,12 @@ Welcome to the What's New page for project hosting on Google Code. Here you'll f
 
 = July 2007 =
 
+== Grid view of issues ==
+
+When projects start, they have a few defect reports and requests for enhancements.  A simple list of issues is good enough: a developer picks some issue, solves it, and closes it.  But, as projects grow in scope, the number of open issues can grow and it can be hard to know which issues to work on first.  Sorting and filtering the list can help developers understand the set of open issues, but now there is an easier way.
+
+The grid view of issues can use two dimensions to lay out issues according to any two attributes.  For example, [http://code.google.com/p/support/issues/list?can=2&q=milestone&sort=&mode=grid&y=Milestone&x=Priority&cells=tiles&nobtn=Update support issues by milestone and priority]. The grid view can also easily show the number of open issues associated with each component, or the number of issues owned by each project member.
+
 == Improvements to list views ==
 
 Project artifacts in your project workspace have a variety of built-in attributes, and can be labeled with Key-Value pairs as user-defined attributes.  These attributes can be used as column headings in any list view as a way to bring out and organize information according to the structure that makes the most sense for that project.
