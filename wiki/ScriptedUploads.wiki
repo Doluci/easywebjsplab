@@ -6,7 +6,7 @@ Nope, using a browser not the only way. We want to make it as easy as possible t
 
 == Python Script ==
 
-We've dropped a handy script called [http://support.googlecode.com/svn/trunk/scripts/googlecode-upload.py googlecode-upload.py] into the Subversion repository for the Google Code [http://code.google.com/p/support Support Project]. Run `googlecode-upload.py --help` for the details in how to use the script. 
+We've dropped a handy script called [http://support.googlecode.com/svn/trunk/scripts/googlecode_upload.py googlecode_upload.py] into the Subversion repository for the Google Code [http://code.google.com/p/support Support Project]. Run `googlecode-upload.py --help` for the details in how to use the script. 
 
 == Ant Task ==
 
