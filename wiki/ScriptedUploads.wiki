@@ -1,8 +1,8 @@
 #summary How to do scripted uploads to your Google Code project
 
-= Do I have to use my web browser to upload files? = 
+= Do I have to use my web browser to upload files? =
 
-Nope. We want to make it as easy as possible to upload files to your project, so there are several ways to script uploads:
+Nope, using a browser not the only way. We want to make it as easy as possible to upload files to your project, so there are several ways to script uploads:
 
 == Python Script ==
 
