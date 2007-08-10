@@ -4,6 +4,12 @@ Welcome to the What's New page for project hosting on Google Code. Here you'll f
 
 = July 2007 =
 
+== Easier way to get to project home pages ==
+
+Shorter, simpler URLs look better and are easier to remember. When developers put their heart into a project they want it to make the best first impression, which is often in the form of a URL in an email or on another web page.
+
+We've always valued clean URLs for project home pages, and have used `http://code.google.com/p/PROJECTNAME` since we started offering project hosting.  Now, projects can also be reached via an even cleaner URL: `http://PROJECTNAME.googlecode.com`.
+
 == Grid view of issues ==
 
 When projects start, they have a few defect reports and requests for enhancements.  A simple list of issues is good enough: a developer picks some issue, solves it, and closes it.  But, as projects grow in scope, the number of open issues can grow and it can be hard to know which issues to work on first.  Sorting and filtering the list can help developers understand the set of open issues, but now there is an easier way.
