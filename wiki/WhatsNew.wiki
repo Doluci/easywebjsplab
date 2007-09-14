@@ -2,6 +2,14 @@
 
 Welcome to the What's New page for project hosting on Google Code. Here you'll find descriptions of our latest improvements to our collaborative development environment.
 
+= Sept 2007 =
+
+== Use any Google Account, not just !GMail accounts ==
+
+Previously, we required that all project owners and members use [http://www.gmail.com/ GMail] accounts.  That restriction helped us manage certain types of spam, but it inconvenienced many legitimate users as well. We've made improvements to the way that we manage the site, and we can pass on the convenience to users.  
+
+Project owners and members can now be specified with the full email address of any Google Account. 
+
 = July 2007 =
 
 == Easier way to get to project home pages ==
@@ -65,3 +73,5 @@ We continue to work hard to improve the quality and reliability of the project h
 Software development is all about putting ideas into working software.  It turns out that the software created has a lot of interconnections, and the process of creating that software requires even more connections, dependencies, and references between all the information produced as part of the project.  Google code hosting has always offered the developers the ability to link web pages in subversion, and wiki pages.  We also encourage the use of Google groups or other mailing list archives that make past messages accessible via a link.  And, every issue has had a clear URL that can be linked to, but only by specifying the full link.
 
 Now, you can easily and automatically link to any issue from another issue comment or from a wiki page.  Just write "issue N" or "issue #N" and it will be linked to the corresponding issue in your project.  If that issue is closed, the link text will be crossed out.  oving your mouse over the link shows the summary of the issue.
+ 
+ 
