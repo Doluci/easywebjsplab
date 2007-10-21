@@ -4,9 +4,9 @@ Welcome to the What's New page for project hosting on Google Code. Here you'll f
 
 = Sept 2007 =
 
-== Use any Google Account, not just GMail accounts ==
+== Use any Google Account, not just Gmail accounts ==
 
-Previously, we required that all project owners and members use [http://www.gmail.com/ GMail] accounts.  That restriction helped us manage certain types of spam, but it inconvenienced many legitimate users as well. We've made improvements to the way that we manage the site, and can now pass on the convenience to users.  
+Previously, we required that all project owners and members use [http://www.gmail.com/ Gmail] accounts.  That restriction helped us manage certain types of spam, but it inconvenienced many legitimate users as well. We've made improvements to the way that we manage the site, and can now pass on the convenience to users.  
 
 Project owners and members can now be specified with the full email address of any Google Account. 
 
