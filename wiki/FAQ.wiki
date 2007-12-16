@@ -246,7 +246,7 @@ Running svnsync on a large repository will take a significant amount of time. If
 The [http://cvs2svn.tigris.org/ cvs2svn] tool is a well-established tool to convert CVS history to Subversion history. Use it to create a Subversion repository, then use the svnsync to push the Subversion history up to your Google Code repository. (See "How do I import existing Subversion history?")
 
 === How do I download my Subversion history? ===
-To download the history of your Google Code repository, use the svnsync tool that ships with Subversion 1.4. Run 'svnsync help' to read more about this tool. Note that you local repository must have an executable 'pre-revprop-change' hook script which allows revprop changes (or at least those of the form 'svnsync*'.) Here's a sample transcript that demonstrates how you can pull history from your Google Code repository to a local repository: 
+To download the history of your Google Code repository, use the svnsync tool that ships with Subversion 1.4. Run 'svnsync help' to read more about this tool. Note that you local repository must have an executable 'pre-revprop-change' hook script which allows revprop changes (or at least those of the form '`svnsync*`'.) Here's a sample transcript that demonstrates how you can pull history from your Google Code repository to a local repository: 
 
 {{{
   $ svnadmin create localrepos
