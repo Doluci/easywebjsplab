@@ -8,7 +8,7 @@ Welcome to the What's New page for project hosting on Google Code. Here you'll f
 
 To keep our project hosting service simple and easy to use, we only offer one version control system, one wiki, one download system, and one issue tracker.  These tools are designed to be flexible to fit the needs and best practices of most small- to medium-sized open source projects. However, we know that one size does not fit all: some projects have existing tools hosted elsewhere, or simply prefer to use other google products or tools hosted on another site.
 
-Now project owners can write a simple wiki page giving end-users instructions on how to get to your external tool, and then replace the corresponding project tab with that wiki page.  That wiki page can link to the other site, or you can customize the landing pages for our hosted tools by linking to specific pages within your own project.
+Now project owners can write a simple wiki page giving end-users instructions on how to get to your external tool, and then replace the corresponding project tab with that wiki page.  That wiki page can link to the other site, or you can customize the landing pages for our hosted tools by linking to specific pages within your own project.  And, undesired project tabs can be hidden from users, for example a documentation project you might not need the Downloads tab.
 
 
 = Sept 2007 =
