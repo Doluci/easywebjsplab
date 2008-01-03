@@ -107,7 +107,7 @@ You can use [http://pages.google.com/ Google Page Creator] to create web pages, 
 Yes. If Google Code doesn't have all the tools you need, feel free to start with Google Code and use a combination of tools from this site and others. Use hyperlinks on your project summary page to guide your users to these other resources.
 
 === What other limits exist? ===
-There are disk-space quota limits for both issue tracker attachments and total Subversion repository size. If you hit these limits, please contact us via our [http://groups.google.com/group/google-code-hosting?lnk=sg Google Group] or email google-code-hosting@googlegroups.com directly to discuss the situation.
+There are disk-space quota limits for both issue tracker attachments and total Subversion repository size, along with a limit on how many total projects you are able to create. If you hit these limits, please contact us via our [http://groups.google.com/group/google-code-hosting?lnk=sg Google Group] or email google-code-hosting@googlegroups.com directly to discuss the situation.
 
 === Why aren't you offering my favorite tool? ===
 We want our collaborative development environment to be simple, fast, reliable, and scalable, so we only offer tools that are aligned with those goals. This way, we can manage and support the tools we offer in a scalable manner. 
