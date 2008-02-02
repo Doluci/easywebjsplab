@@ -69,6 +69,12 @@ def fib(n):
 ===== Level 5 =====
 ====== Level 6 ======
 
+
+== Dividers ==
+
+Four or more dashes on a line by themselves results in a horizontal rule.
+
+
 == Lists ==
 
 Google Code wikis support both bulleted and numbered lists. A list
