@@ -213,7 +213,7 @@ We currently use Subversion 1.4.0, made available via WebDAV.
 Anonymous checkouts can be done via http://, while developers must use authenticated https:// to commit changes.
 
 === Do you have support for ViewVC or similar repository-browsing tools? ===
-This feature isn't implemented yet, but you can still browse the latest version of your project's code by entering the repository URL into a web browser.
+Support for tools such as ViewVC isn't implemented yet, but you we do provide our own web-based source browsing. Source browsing can be accessed under the "Source" tab for each project, under the "Browse" sub-tab.
 
 === How do I import my existing source code? ===
 Just use the 'svn import' command. Note that this command only loads a single tree of code into your repository.
