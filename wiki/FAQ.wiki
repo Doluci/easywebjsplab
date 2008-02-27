@@ -11,6 +11,8 @@ Our new hosting service offers a collaborative development environment that incl
   * Project workspaces with simple membership controls 
   * Version control via Subversion 
   * Issue tracking 
+  * Wiki pages
+  * Downloads
   * Mailing lists at groups.google.com
 
 === Who's the service for? ===
