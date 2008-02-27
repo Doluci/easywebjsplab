@@ -2,6 +2,7 @@
 
 = Project Hosting FAQ =
 
+----
 
 == Getting Started ==
 
@@ -33,6 +34,7 @@ Much of it's right here in this FAQ. Also, most project and issue tracker pages 
 === How is this project-hosting service related to Summer of Code? ===
 Both are part of our larger initiative to support and encourage the development of open source software. Google Summer of Code projects may also be hosted on Google Code, should the student or mentor so wish.
 
+----
 
 == Hosting Your Open Source Project on Google Code ==
 
@@ -79,6 +81,7 @@ One of the project owners must use the project administration page to add your G
 
 Most projects have mailing lists that the developers use to discuss the project. To become a developer, first participate on the mailing list by showing your interest in the project and your ability to help the project. Then, ask the project owners to make you a member of the project.
 
+----
 
 == Hosted Tools ==
 
@@ -114,6 +117,7 @@ We want our collaborative development environment to be simple, fast, reliable, 
 
 If you need more tools, you might choose to run them yourself on your own servers, or you might make use of individual tools that are offered by other project-hosting sites. You can loosely integrate with other tools and websites by linking to them from your project-summary page.
 
+----
 
 == Issue Tracking ==
 
@@ -157,6 +161,7 @@ For example, if your project is building a graphics driver, maybe you would like
 === What if someone types in a nonsense label or status? ===
 Remember, only project owners and members can edit issue metadata. Usually, if someone in the project uses an unexpected status or label, it is because the issue itself is a special case that does not follow the normal workflow. The issue tracker shows a brief warning whenever an uncommon status or labels is used. If some project member goes out of their way to enter a nonsensical label, you can always see who did it, change it back, and send them an email.
 
+----
 
 == Project Wikis ==
 
@@ -186,6 +191,7 @@ Only project members and owners can add and edit wiki pages for a particular pro
 === Where is the wiki content stored? ===
 All wiki pages are stored in the /wiki/ directory of your project's Subversion repository, as files ending in .wiki (other files and subdirectories will be ignored). That means you can use a Subversion client and your favorite text editor to add and edit wiki pages.
 
+----
 
 == Google Groups ==
 
@@ -204,6 +210,7 @@ Sure. Just link to its existing web interface using a regular project link. If y
 === How do I make my mailing list accept Subversion commit emails? ===
 Simply configure your mailing list to accept posts from codesite-noreply@google.com. You can do this by adding the address to the "allowed posters" list, or by making that address a member of the list with no delivery.
 
+----
 
 == Subversion ==
 
@@ -320,6 +327,7 @@ If it is not, please email us at code-hosting@google.com.
 === Does Google own the code that I check into Subversion? ===
 Hosting your code on Google Code doesn't change ownership of the code in any way.
 
+----
 
 == Other Questions ==
 
