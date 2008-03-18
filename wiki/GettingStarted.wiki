@@ -1,0 +1,45 @@
+#summary A quick guide to getting started with Project Hosting.
+
+= Getting Started with Project Hosting =
+
+Project Hosting provides a free collaborative development environment for open source projects. Each project comes with its own member controls, Subversion repository, issue tracker, wiki pages, and downloads section.
+
+This guide provides step-by-step instructions for setting up a new project, working with your source repository, and highlighting some useful customization features.
+
+== Create a Google Account ==
+
+Project Hosting is open to anyone with a Google Account, including Gmail users. If you don't already have a Google Account, [https://www.google.com/accounts/NewAccount create one now].
+
+== Create a Project ==
+
+New projects are created through the [http://code.google.com/hosting/createProject Create a Project] page.
+
+Your project's name must consist of a lowercase letter, followed by lowercase letters, digits, and dashes, with no spaces. The project name will be part of your project's URL and unlike other options cannot be changed later.
+
+Your project's summary is a one-line description that will be shown when the project's name is shown.
+
+This project description will be the main content of your project's home page. You may use [WikiSyntax wiki markup].
+
+Your choice of license determines how others are allowed to use your work.
+
+Project labels help to classify your project so that other users can easily find it or browse projects by label.
+
+*Note:* you have a lifetime creation limit of 10 projects in total. If you need more, please come to the [http://groups.google.com/group/google-code-hosting google-code-hosting Google Group] to discuss.
+
+== Working with your Source Repository ==
+
+Each project comes with its own [http://subversion.tigris.org/ Subversion] repository. If you aren't familiar with Subversion, the [http://svnbook.red-bean.com/ Subversion Book] is a good starting point.
+
+The Source tab within each project provides instructions on how to check out its Subversion repository from the command line. Any user, whether they have a Google Account or not, can check out and browse the repository anonymously, while project owners and members are granted full read and write permissions.
+
+*Note:* If you plan on syncing from an existing repository, you *must* click the "reset this repository" link at the bottom of your Source tab before making any other changes to your repository. This includes creating any new wiki pages.
+
+== Customizing your Project ==
+
+Projects can be customized via the Administer tab, visible only to project owners.
+
+Some notable areas for new projects include the Project Summary tab, where the options set during project creation can be modified, along with setting up email alerts and analytics, and the Project Members tab, where new owners and members can be added to the project.
+
+== Finding Further Help ==
+
+For general questions, check the [FAQ] wiki page. For help creating your own wiki pages, refer to the [WikiSyntax] page. If you have a question still isn't answered, bring it up no the [http://groups.google.com/group/google-code-hosting Google Group].
