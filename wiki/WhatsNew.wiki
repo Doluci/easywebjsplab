@@ -2,6 +2,19 @@
 
 Welcome to the What's New page for project hosting on Google Code. Here you'll find descriptions of our latest improvements to our collaborative development environment.
 
+= Jan 2008 =
+
+== Source code browsing tool ==
+
+The great thing about open source is that anyone can see the source code. Well, that just got a lot easier on Google Code.  
+
+Unlike many of the existing source code browsing tools, ours allows you to quickly drill down into multiple levels of directories. And, we built in the assupmtion that you want to get straight to the source, even though file metadata is still easily accessible on the same page. Syntax highlight makes your source code easier to read, and our syntax highlighting works without bloating the HTML markup.
+
+Source code is not just about code, it is also about how and why the code has changed over time.  So, the "Changes" subtab gives you a concise list of all revisions to your source code repository, and each revision can display the log message and show diffs.
+
+To browse the source code of any project, just click the "Source" tab, and then the "Browse" subtab. If you have already memorized the instructions for how to check out source code, you might want to change your personal [http://code.google.com/hosting/settings settings] so that the "Browse" subtab is shown by default. Enjoy!
+
+
 = Dec 2007 =
 
 == Replace a project tab with a wiki page ==
