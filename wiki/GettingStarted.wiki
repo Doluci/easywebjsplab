@@ -40,6 +40,8 @@ Projects can be customized via the Administer tab, visible only to project owner
 
 Some notable areas for new projects include the Project Summary tab, where the options set during project creation can be modified, along with setting up email alerts and analytics, and the Project Members tab, where new owners and members can be added to the project.
 
+One customization that you will likely want to make is to set up mailing lists for notifications of commits and issue changes.  If you already have such mailing lists, just enter them on the Administer tab.  If not, you may want to create them using [http://groups.google.com/ Google Groups]. Either way, be sure to add `codesite-noreply@google.com` as an allowed poster to your mailing list.
+
 == Finding Further Help ==
 
 For general questions, check the [FAQ] wiki page. For help creating your own wiki pages, refer to the [WikiSyntax] page. If you have a question still isn't answered, bring it up on the [http://groups.google.com/group/google-code-hosting Google Group].
