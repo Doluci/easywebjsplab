@@ -76,10 +76,10 @@ We rely on the goodwill of open source participants to ensure they are the right
 === How do I create a project? ===
 A good project starts with a good idea: one that addresses a real need, is feasible and well-scoped, and isn't well covered by existing open source projects. (Before you create a new project, we suggest that you try searching for existing projects on this site and elsewhere on the web. You can often get further faster by helping out with an existing project than by starting one from scratch.) 
 
-If you're ready to start your own project, you'll need to write a description of it and give it a good name. Then, sign in using a Gmail account, enter that information into the Create a project page, and you're done. Congrats. You've got a brand-new project on Google Code.
+If you're ready to start your own project, you'll need to write a description of it and give it a good name. Then, sign in using a Google account, enter that information into the Create a project page, and you're done. Congrats. You've got a brand-new project on Google Code.
 
 === How do I join a project? ===
-One of the project owners must use the project administration page to add your Gmail username to the project.
+One of the project owners must use the project administration page to add your Google account email address to the project.
 
 Most projects have mailing lists that the developers use to discuss the project. To become a developer, first participate on the mailing list by showing your interest in the project and your ability to help the project. Then, ask the project owners to make you a member of the project.
 
