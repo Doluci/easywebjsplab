@@ -1,4 +1,4 @@
-#summary A quick guide to getting started with Project Hosting.
+#summary A quick guide to getting started with project hosting on Google Code.
 
 = Getting Started with Project Hosting =
 
