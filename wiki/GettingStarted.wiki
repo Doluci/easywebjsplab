@@ -2,7 +2,7 @@
 
 = Getting Started with Project Hosting =
 
-Project Hosting provides a free collaborative development environment for open source projects. Each project comes with its own member controls, Subversion repository, issue tracker, wiki pages, and downloads section.
+Project hosting on Google Code provides a free collaborative development environment for open source projects. Each project comes with its own member controls, Subversion repository, issue tracker, wiki pages, and downloads section.
 
 This guide provides step-by-step instructions for setting up a new project, working with your source repository, and highlighting some useful customization features.
 
