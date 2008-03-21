@@ -8,7 +8,7 @@ This guide provides step-by-step instructions for setting up a new project, work
 
 == Create a Google Account ==
 
-Project Hosting is open to anyone with a Google Account, including Gmail users. If you don't already have a Google Account, [https://www.google.com/accounts/NewAccount create one now].
+Project hosting is open to anyone with a Google Account, including Gmail users. If you don't already have a Google Account, [https://www.google.com/accounts/NewAccount create one now].
 
 == Create a Project ==
 
