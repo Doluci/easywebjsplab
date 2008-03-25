@@ -11,7 +11,7 @@ To start with the basics, why do we host open source projects in the first place
 
 == Mission Statement ==
 
- To support the open source community by providing a scalable, reliable, and fast collaborative development environment for open source software, docs, and standards that promotes best practices in open source software engineering.
+|| To support the open source community by providing a scalable, reliable, and fast collaborative development environment for open source software, docs, and standards that promotes best practices in open source software engineering. ||
 
 We spent a lot of time on that sentence and really tried to pack it with meaning. So, if you'll indulge us, let's explain why our mission statement is formulated the way that it is:
 
