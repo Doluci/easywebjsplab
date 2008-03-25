@@ -11,13 +11,13 @@ To start with the basics, why do we host open source projects in the first place
 
 == Mission Statement ==
 
-    *To support the open source community by providing a scalable, reliable, and fast collaborative development environment for open source software, docs, and standards that promotes best practices in open source software engineering.*
+*To support the open source community by providing a scalable, reliable, and fast collaborative development environment for open source software, docs, and standards that promotes best practices in open source software engineering.*
 
 We spent a lot of time on that sentence and really tried to pack it with meaning. So, if you'll indulge us, let's explain why our mission statement is formulated the way that it is:
 
 == "To support the open source community" ==
 
-Our primary goal is to do what we think is best for the open source community as a whole.  One way of helping is to provide a lightweight collaborative development environment that's designed to be used as a one-stop project hosting facility or provide à la carte features to meet the needs of an open source project that just needs one part of our system.
+Our primary goal is to do what we think is best for the open source community as a whole.  One way of helping is to provide a lightweight collaborative development environment that's designed to be used as a one-stop project hosting facility or provide a la carte features to meet the needs of an open source project that just needs one part of our system.
 
 Our goal is to provide project hosting features that are generally useful for open source software development.  This means that we most likely will not be adding more arcane features that meet the needs of a very specific subset of open source projects.  Our general guideline on adding features is that if a feature doesn't apply to at least 80% of the existing open source projects, we won't add it.
 
