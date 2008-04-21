@@ -185,7 +185,7 @@ You can also add and edit pages directly through Subversion, since all wiki page
 Most developers only check out the /trunk/ directory. To have /wiki/ in your working copy, you might use a command of the form:
 {{{svn checkout https://PROJECTNAME.googlecode.com/svn/wiki/ PROJECTNAME-wiki --username USERNAME}}}
 
-Each wiki page is stored in a corresponding file in the repositories /wiki directory.  E.g., a page named "UserGuide" would be stored in /wiki/UserGuide.wiki.  You may edit, delete, or add wiki pages by editing, deleting, or adding files that fit that convention.  Other files and directories under /wiki are currently ignored.
+Each wiki page is stored in a corresponding file in the repositories /wiki directory.  E.g., a page named "!UserGuide" would be stored in /wiki/!UserGuide.wiki.  You may edit, delete, or add wiki pages by editing, deleting, or adding files that fit that convention.  Other files and directories under /wiki are currently ignored.
 
 === What types of content is this intended for? ===
 Project roadmaps, how-tos, installation notes, and documentation are great examples of potential wiki pages. Wiki pages are easy for project members to edit quickly and are easier to find than email threads, so use them for documents that your team will refer to and update often.
