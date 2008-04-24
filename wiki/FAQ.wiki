@@ -302,10 +302,6 @@ Your "Settings" page has a button to automatically regenerate your googlecode.co
 You can use a Subversion client to checkout a project's "trunk" code by requesting this URL:
 http://projectname.googlecode.com/svn/trunk
 
-=== How do I check out code anonymously? ===
-You can use a Subversion client to checkout a project's "trunk" code by requesting this URL:
-http://projectname.googlecode.com/svn/trunk
-
 === How do I check code into the repository? ===
 You can use the 'svn import' command, just as you'd do with any typical Subversion repository.
 
