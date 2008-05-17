@@ -1,4 +1,5 @@
 #summary Project Hosting on Google Code FAQ
+#labels Featured
 
 = Project Hosting FAQ =
 
