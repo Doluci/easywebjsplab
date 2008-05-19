@@ -112,6 +112,14 @@ You can use [http://pages.google.com/ Google Page Creator] to create web pages, 
 === Can I use another hosting service for parts of my project? ===
 Yes. If Google Code doesn't have all the tools you need, feel free to start with Google Code and use a combination of tools from this site and others. Use hyperlinks on your project summary page to guide your users to these other resources.
 
+=== Why can't I keep deleting and re-uploading a project download? ==
+
+You can delete files from the download section if you accidentally uploaded the wrong file or the file is corrupted.  You need to notice this problem fairly quickly, before too much time has past or to many people have downloaded the file.
+
+After a file has been released for some time, it becomes part of your project's history and can no longer be deleted.  Offering [http://google-opensource.blogspot.com/2008/05/best-practices-archival-downloads.html archival downloads] means that users can trust that the file will always be available from that URL. At that point, instead of deleting the file, you may only label it as "Deprecated" which removes it from the list of currently supported downloads. 
+
+Deprecated files still count toward your project download space quota.  Rather than deleting content to manage your quota usage, please ask for more quota by following the instructions on the "New Download" page.
+
 === What other limits exist? ===
 There are disk-space quota limits for both issue tracker attachments and total Subversion repository size, along with a limit on how many total projects you are able to create. If you hit these limits, please contact us via our [http://groups.google.com/group/google-code-hosting?lnk=sg Google Group] or email google-code-hosting@googlegroups.com directly to discuss the situation.
 
