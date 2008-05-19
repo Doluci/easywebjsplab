@@ -114,7 +114,7 @@ Yes. If Google Code doesn't have all the tools you need, feel free to start with
 
 === Why can't I keep deleting and re-uploading a project download? ==
 
-You can delete files from the download section if you accidentally uploaded the wrong file or the file is corrupted.  You need to notice this problem fairly quickly, before too much time has past or to many people have downloaded the file.
+You can delete files from the download section if you accidentally uploaded the wrong file or the file is corrupted.  You need to notice this problem fairly quickly, before too much time has passed or to many people have downloaded the file.
 
 After a file has been released for some time, it becomes part of your project's history and can no longer be deleted.  Offering [http://google-opensource.blogspot.com/2008/05/best-practices-archival-downloads.html archival downloads] means that users can trust that the file will always be available from that URL. At that point, instead of deleting the file, you may only label it as "Deprecated" which removes it from the list of currently supported downloads. 
 
