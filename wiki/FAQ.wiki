@@ -331,7 +331,7 @@ If you get a message such as the following:
 
 ...you should check that the "fingerprint" or "SHA1 fingerprint" given for the certificate is:
 
-{{{89:87:5e:ca:0b:03:d2:83:db:7b:3f:20:5d:d0:76:c7:76:6b:cb:b2}}}
+{{{B1:3A:D5:38:56:27:52:9F:BA:6C:70:1E:A9:AB:4A:1A:8B:DA:FF:EC}}}
 
 If it is not, please email us at code-hosting@google.com.
 
