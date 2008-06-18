@@ -274,9 +274,9 @@ To download the history of your Google Code repository, use the svnsync tool tha
   $ svnadmin create localrepos
   $ emacs localrepos/hooks/pre-revprop-change # make it 'exit 0'
   $ chmod +x localrepos/hooks/pre-revprop-change
-  $ svnsync init file:///path/to/localrepos https://myproject.googlecode.com/svn
+  $ svnsync init --username USERNAME file:///path/to/localrepos https://myproject.googlecode.com/svn
   Copied properties for revision 0.
-  $ svnsync sync file:///path/to/localrepos
+  $ svnsync sync --username USERNAME file:///path/to/localrepos
   Committed revision 1.
   Copied properties for revision 1.
   Committed revision 2.
