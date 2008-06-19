@@ -237,6 +237,20 @@ Anonymous checkouts can be done via http://, while developers must use authentic
 === Do you have support for ViewVC or similar repository-browsing tools? ===
 Support for tools such as ViewVC isn't implemented yet, but you we do provide our own web-based source browsing. Source browsing can be accessed under the "Source" tab for each project, under the "Browse" sub-tab.
 
+=== How can I make SVN serve HTML and images with the correct Content-Type? ===
+You need to tell subversion what mime-type to use.  Just use the command:
+{{{
+svn propset svn:mime-type 'text/html' FILENAME
+}}}
+or
+{{{
+svn propset svn:mime-type 'image/jpeg' FILENAME
+}}}
+
+For more info:
+`http://svnbook.red-bean.com/en/1.4/svn.advanced.props.file-portability.html#svn.advanced.props.special.mime-type`
+
+
 === How do I import my existing source code? ===
 Just use the 'svn import' command. Note that this command only loads a single tree of code into your repository.
 
