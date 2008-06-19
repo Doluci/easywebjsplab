@@ -207,16 +207,35 @@ automatically made into links.
 You can also provide some descriptive text. For example, the following
 link points to the [http://www.google.com Google home page].
 
+You can also make the image into a link, by setting the image URL as
+the description of the URL you want to link:
+
+{{{
+[http://code.google.com/ http://code.google.com/images/code_sm.png]
+}}}
+
+[http://code.google.com/ http://code.google.com/images/code_sm.png]
+
+
+=== Links to images ===
+
 If your link points to an image (that is, if it ends in `.png`,
 `.gif`, `.jpg` or `.jpeg`), it will get inserted as an image into the
 page:
 
+{{{
+http://code.google.com/images/code_sm.png
+}}}
+
 http://code.google.com/images/code_sm.png
 
-You can also make the image into a link, by setting the image URL as
-the description of the URL you want to link:
+If the image is produced by a server-side script, you may need to add a nonsense query string parameter to the end so that the URL ends with a supported image filename extension.
 
-[http://code.google.com/ http://code.google.com/images/code_sm.png]
+{{{
+http://chart.apis.google.com/chart?chs=200x125&chd=t:48.14,33.79,19.77|83.18,18.73,12.04&cht=bvg&nonsense=something_that_ends_with.png
+}}}
+
+http://chart.apis.google.com/chart?chs=200x125&chd=t:48.14,33.79,19.77|83.18,18.73,12.04&cht=bvg&nonsense=something_that_ends_with.png
 
 == Tables ==
 
