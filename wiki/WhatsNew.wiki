@@ -2,6 +2,42 @@
 
 Welcome to the What's New page for project hosting on Google Code. Here you'll find descriptions of our latest improvements to our collaborative development environment.
 
+= June 2008 =
+
+== Browse history of files even if they were moved or copied ==
+
+Version control is all about access, changes, and history.  When a source code file is moved or copied from one location to another, subversion tracks the old pathname and the new one. The normal `svn log` command shows you the entire past history of a file, even if it has been moved or copied over time.
+
+Now we present that same information in the web interface for source code browsing.  The revision navigation links now offer links to previous versions of the file, even if those previous versions were at a different previous location.  And, when viewing the list of all changes to a given file, the list is divided into sections for each pathname that the file has had over time.  For example, the Hello.java in GWT 1.5 came [http://code.google.com/p/google-web-toolkit/source/list?path=/releases/1.5/samples/hello/src/com/google/gwt/sample/hello/client/Hello.java&start=2940 straight from trunk], whereas some other files have been [http://code.google.com/p/google-web-toolkit/source/list?path=/trunk/dev/core/src/com/google/gwt/core/ext/LinkerContext.java&start=2242 moved a few times].
+
+
+= May 2008 =
+
+== Atom feeds for issue changes and commits ==
+
+Developers need to stay aware of changes happening in their projects and projects that they depend on.  Usually that means a very full email inbox and lots of automated message filtering.  But, there is a better way.
+
+We now offer atom feeds for the most recent svn commits and issue changes in a project.  When you visit the source code change list page or the issue list page, click the feed icon in your browser location bar to subscribe to the feed.  For example, here is a [http://code.google.com/feeds/p/gears/issueupdates/basic feed of issue changes in the Gears project].
+
+== Downloadable issue list .csv file ==
+
+Do you need to do something with your issue data that our issue tracker just can't do? For example, you might like to produce a bar chart of issues assigned to each developer. Now we help you do that by allowing you to download a comma-separated-value file that has the same information you see in the issue list.  Just click the "CSV" link at the bottom of the issue list.  With most operating systems and browsers, that will take you straight to a spreadsheet application.
+
+== Source browsing file diff now includes SVN Property diffs ==
+
+The title says it all.  If you changed file properties in an svn commit, you will now see the old and new values of those properties on the diff page. 
+
+== Issue bulk editing ==
+
+It's time for spring cleaning of the issues in your project: organize them by milestone, organize them by component, or assign them all to your project members.  Doing that just got a lot easier because we now offer issue bulk editing.
+
+In the issue list, logged-in project members can check the checkboxes for several issues on one page and then use the "Actions..." drop-down menu at the top of the list to select "Bulk edit...". The bulk edit page allows you to enter one comment that will be appended to all the selected issues. You can set the status or owner of all the issues by filling in those fields. And, you can add or remove labels by entering the label name, or the label name proceeded by a minus-sign.
+
+== Autolinking in svn commit log messages ==
+
+Now when you mention issues or other revisions in your subversion commit log messages, the text will automatically be linked to the detail page for those artifacts.  Just as with autolinked references in issues and wiki pages, the syntax is `issue 123` or `issue #123` for issues, and `r123` for revisions.  If the linked issue has been closed, it will appear crossed-out.  In most browsers, hovering your mouse over the issue link displays the one-line summary of the issue.
+
+
 = March 2008 =
 
 == Source code browsing improvements ==
