@@ -397,7 +397,7 @@ the site matures.
 Please send an email to code-hosting@google.com.
 
 === How do I report a DMCA violation? ===
-Please read the Google Code [http://code.google.com/tos.html Terms of Service], then email code-hosting@google.com.
+Please read the Google Code [http://code.google.com/tos.html Terms of Service], then follow the instructions on our [http://www.google.com/dmca.html DMCA page].
 
 === How do I report abuse of Google Code site? ===
 Please send an email to code-hosting@google.com.
