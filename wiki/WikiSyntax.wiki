@@ -258,3 +258,6 @@ cells, including typeface formatting and links.
 || 1920 || -10 || 32 ||
 || 1930 || _N/A_ || _N/A_ ||
 || 1940 || -2 || 40 ||
+
+
+_The content on this page created by Google is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License].  User-generated content is not included in this license._
