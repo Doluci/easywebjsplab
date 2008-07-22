@@ -73,3 +73,5 @@ Submit your commits to Google Code with:
  $ git svn dcommit  # think "svn commit"
 }}}
 This converts each of your Git commits into Subversion commits and uploads them, provided your repository is up-to-date. To keep working, go back to step 2.
+
+_The content on this page created by Google is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License].  User-generated content is not included in this license._
