@@ -401,3 +401,6 @@ Please read the Google Code [http://code.google.com/tos.html Terms of Service], 
 
 === How do I report abuse of Google Code site? ===
 Please send an email to code-hosting@google.com.
+
+
+The content on this page created by Google is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License].  User-generated content is not included in this license
