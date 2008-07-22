@@ -137,7 +137,6 @@ We continue to work hard to improve the quality and reliability of the project h
 Software development is all about putting ideas into working software.  It turns out that the software created has a lot of interconnections, and the process of creating that software requires even more connections, dependencies, and references between all the information produced as part of the project.  Google code hosting has always offered the developers the ability to link web pages in subversion, and wiki pages.  We also encourage the use of Google groups or other mailing list archives that make past messages accessible via a link.  And, every issue has had a clear URL that can be linked to, but only by specifying the full link.
 
 Now, you can easily and automatically link to any issue from another issue comment or from a wiki page.  Just write "issue N" or "issue #N" and it will be linked to the corresponding issue in your project.  If that issue is closed, the link text will be crossed out.  Moving your mouse over the link shows the summary of the issue.
- 
- 
-The content on this page created by Google is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License].  User-generated content is not included in this license.
+
+_The content on this page created by Google is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License].  User-generated content is not included in this license._
  
