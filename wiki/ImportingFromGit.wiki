@@ -57,3 +57,5 @@ Later, export Git repository updates to Google Code as follows:
  $ mv .git/refs/tags/newlast .git/refs/tags/last
 }}}
 For simplicity, we've exported directly to Google Code. It may be faster to first export to a local Subversion repository, and then [http://code.google.com/support/bin/answer.py?answer=56673&topic=10386 mirror it to Google Code via svnsync].
+
+_The content on this page created by Google is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License].  User-generated content is not included in this license._
