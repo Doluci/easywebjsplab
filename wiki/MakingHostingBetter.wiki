@@ -1,4 +1,4 @@
-#summary The general direction and scope of project hosting on Google Code 
+#summary The general direction and scope of project hosting on Google Code
 
 
 = Making Project Hosting on Google Code Better =
@@ -54,3 +54,5 @@ This mission is reflected in many of the features that we've added as well as, m
 == We Want To Hear From You ==
 
 If you have questions or comments, or support requests, please join our mailing list at google-code-hosting@googlegroups.com.  If you'd like to report a bug or file a feature request, first search through the open issues at http://code.google.com/p/support/issues/list to see if there's an existing issue that covers your needs and indicate your interest by starring the issue (Note that you have to be logged into your Google account to star an issue); the more people that star an issue, the higher it will rank on our list of priorities.  If you don't find an issue that matches your request, please file a new issue at http://code.google.com/p/support/issues/entry.
+
+_The content on this page created by Google is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License].  User-generated content is not included in this license._
