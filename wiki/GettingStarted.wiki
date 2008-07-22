@@ -45,3 +45,5 @@ One customization that you will likely want to make is to set up mailing lists f
 == Finding Further Help ==
 
 For general questions, check the [FAQ] wiki page. For help creating your own wiki pages, refer to the [WikiSyntax] page. If you have a question still isn't answered, bring it up on the [http://groups.google.com/group/google-code-hosting Google Group].
+
+_The content on this page created by Google is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License].  User-generated content is not included in this license._
