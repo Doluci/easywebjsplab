@@ -72,8 +72,9 @@ Once you have entered and revised all your line-by-line comments,
 click the "Publish your comments" link to go to the revision details
 page.  There you will see all your draft comments and have the
 opportunity to enter a general comment and to summarize your feelings
-with a score.  Once your comments are published, you can no longer
-edit them, but you can delete or undelete them if needed.
+about the revision with a score.  Once your comments are published,
+you can no longer edit them, but you can delete or undelete them
+if needed.
 
 
 == Stars and notifications ==
@@ -133,4 +134,3 @@ Some things to keep in mind:
    * Code reviews are about the code, not the author. Everyone makes mistakes sometimes.
    * Use a written style guide to resolve matters of source code style.  It's easiest if everyone just follows the style guide.
    * Make a shared checklist of things to look for in all reviews, e.g., memory allocation conventions and input validation.
-
