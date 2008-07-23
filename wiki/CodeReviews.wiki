@@ -85,7 +85,7 @@ revision.  A project owner may also configure the tool to send a
 notification of every review comment to one address, which would
 normally be a mailing list.  Individual users may opt out of these
 notification messages by using the Settings page.
-Users star revisions in three ways:
+Users star a revision in three ways:
    * The author of a each revision automatically stars that revision
    * Users may click the star icon in the source changes list or revision detail page
    * When submitting a comment on a revision that is not already starred, a checkbox offers to star the revision
