@@ -114,9 +114,9 @@ Yes. If Google Code doesn't have all the tools you need, feel free to start with
 
 === Why can't I keep deleting and re-uploading a project download? ==
 
-You can delete files from the download section if you accidentally uploaded the wrong file or the file is corrupted.  You need to notice this problem fairly quickly, before too much time has passed or to many people have downloaded the file.
+You can delete files from the download section if you accidentally uploaded the wrong file or the file is corrupted.  You need to notice this problem fairly quickly, before too much time has passed or too many people have downloaded the file.
 
-After a file has been released for some time, it becomes part of your project's history and can no longer be deleted.  Offering [http://google-opensource.blogspot.com/2008/05/best-practices-archival-downloads.html archival downloads] means that users can trust that the file will always be available from that URL. At that point, instead of deleting the file, you may only label it as "Deprecated" which removes it from the list of currently supported downloads. 
+After a file has been released for some time, it becomes part of your project's history and can no longer be deleted.  Offering [http://google-opensource.blogspot.com/2008/05/best-practices-archival-downloads.html archival downloads] means that users can trust that the file will always be available from that URL. At that point, instead of deleting the file, you may only label it as "Deprecated", which removes it from the list of currently supported downloads. 
 
 Deprecated files still count toward your project download space quota.  Rather than deleting content to manage your quota usage, please ask for more quota by following the instructions on the "New Download" page.
 
@@ -165,12 +165,12 @@ Labels are simply strings that are meaningful to the project members, but that h
 When an issue label has a dash in it, e.g., "Priority-Medium", then that is interpreted as a key-value pair that can be used like a custom field. The prefix before the first dash is the key, and the part after it is the value. You can configure the issue list to show a column for any prefix. And, you can search for values within a specific custom field by using "prefix:value".
 
 === Can I change the set of labels offered in the auto-complete menu? ===
-Project owners can configure the set of labels that are offered to members of a project. To edit the predefined labels, click the "Administer" tab and the "Issue tracker" sub-tab. Use the text fields to configure the set of issue statuses and labels that will be offered. 
+Project owners can configure the set of labels that are offered to members of a project. To edit the predefined labels, click the "Administer" tab and the "Issue tracking" sub-tab. Use the text fields to configure the set of issue statuses and labels that will be offered. 
 
 For example, if your project is building a graphics driver, maybe you would like to label some of your issues with Depth-16bit, Depth-24bit, and/or Depth-32bit.
 
 === What if someone types in a nonsense label or status? ===
-Remember, only project owners and members can edit issue metadata. Usually, if someone in the project uses an unexpected status or label, it is because the issue itself is a special case that does not follow the normal workflow. The issue tracker shows a brief warning whenever an uncommon status or labels is used. If some project member goes out of their way to enter a nonsensical label, you can always see who did it, change it back, and send them an email.
+Remember, only project owners and members can edit issue metadata. Usually, if someone in the project uses an unexpected status or label, it is because the issue itself is a special case that does not follow the normal workflow. The issue tracker shows a brief warning whenever an uncommon status or label is used. If some project member goes out of their way to enter a nonsensical label, you can always see who did it, change it back, and send them an email.
 
 ----
 
@@ -188,7 +188,7 @@ Most of the existing wiki products cannot scale to the size and concurrency that
 We believe that simplicity helps people collaborate, so we have focused on the most commonly used content formatting features. We support layout of headings, paragraphs, bullet lists, numbered lists, block quotes, and blocks of code. Text phrases can be formatted with bold, italic, strikethrough, superscipt, subscript, or code font. WikiWords are automatically linked, and you can also link to URLs and customize the link text. We support very simple tables for display of data. Optional #summary and #labels lines at the top of each file specify metadata about the page. Our wiki does not support sub-pages, attachments, variables, or macros.
 
 === How do I update pages for my project? ===
-Click on the Wiki tab of your project to see a list of all wiki pages. To add a new page, you must be a project owner or member; click on the "New Page" link in the toolbar under the main tabs. This will bring you to the wiki editor where you can add content and assign labels to your wiki page. To edit an existing page, first view the page, then click "Edit this page" in the toolbar. 
+Click on the Wiki tab of your project to see a list of all wiki pages. To add a new page, you must be a project owner or member; click on the "New Page" link in the toolbar under the main tabs. This will bring you to the wiki editor where you can add content and assign labels to your wiki page. To edit an existing page, first view the page, and then click "Edit this page" in the toolbar. 
 
 === How do I edit a wiki page directly through subversion? ===
 You can also add and edit pages directly through Subversion, since all wiki pages are stored in the /wiki/ directory in your project's Subversion repository. 
@@ -235,7 +235,7 @@ We currently use Subversion 1.4.0, made available via WebDAV.
 Anonymous checkouts can be done via http://, while developers must use authenticated https:// to commit changes.
 
 === Do you have support for ViewVC or similar repository-browsing tools? ===
-Support for tools such as ViewVC isn't implemented yet, but you we do provide our own web-based source browsing. Source browsing can be accessed under the "Source" tab for each project, under the "Browse" sub-tab.
+Support for tools such as ViewVC isn't implemented yet, but we do provide our own web-based source browsing. Source browsing can be accessed under the "Source" tab for each project, under the "Browse" sub-tab.
 
 === How can I make SVN serve HTML and images with the correct Content-Type? ===
 You need to tell subversion what mime-type to use.  Just use the command:
@@ -257,7 +257,7 @@ Just use the 'svn import' command. Note that this command only loads a single tr
 === How do I import an existing Subversion repository? ===
 To upload the history of an existing Subversion repository, use the svnsync tool that ships with Subversion 1.4. Run svnsync help to read more about this tool.
 
-Note that your Google Code repository must be reset to revision 0 for this to work. If your project is newly created, it will be at revision 1, and your project's Source tab will display instructions on how to reset the repository yourself.(Note: you must be a project owner to reset your own repository, and also to push code up with svnsync.)
+Note that your Google Code repository must be reset to revision 0 for this to work. If your project is newly created, it will be at revision 1, and your project's Source tab will display instructions on how to reset the repository yourself. (Note: you must be a project owner to reset your own repository, and also to push code up with svnsync.)
 
 If your repository's latest revision is greater than 1, then a site administrator will have to reset the repository for you; email google-code-hosting@googlegroups.com and ask for this, or post directly to the [http://groups.google.com/group/google-code-hosting?lnk=sg Google Group].
 
@@ -276,13 +276,13 @@ Here's a sample transcript that demonstrates how you can push history from an ex
 
 When prompted for your password, use your googlecode.com password, which can be found on your [http://code.google.com/hosting/settings settings page]. 
 
-Running svnsync on a large repository will take a significant amount of time. If you are disconnected during the process, you may see the error message "svnsync: Couldn't get lock on destination repos after 10 attempts". If this happens, you can remove the lock yourself, see the "Locks" section of [http://svn.collab.net/repos/svn/trunk/notes/svnsync.txt svnsync.txt].
+Running svnsync on a large repository will take a significant amount of time. If you are disconnected during the process, you may see the error message "svnsync: Couldn't get lock on destination repos after 10 attempts". If this happens, you can remove the lock yourself; see the "Locks" section of [http://svn.collab.net/repos/svn/trunk/notes/svnsync.txt svnsync.txt].
 
 === How can I import a CVS repository into my project? ===
-The [http://cvs2svn.tigris.org/ cvs2svn] tool is a well-established tool to convert CVS history to Subversion history. Use it to create a Subversion repository, then use the svnsync to push the Subversion history up to your Google Code repository. (See "How do I import existing Subversion history?")
+The [http://cvs2svn.tigris.org/ cvs2svn] tool is a well-established tool to convert CVS history to Subversion history. Use it to create a Subversion repository, and then use the svnsync to push the Subversion history up to your Google Code repository. (See "How do I import existing Subversion history?")
 
 === How do I download my Subversion history? ===
-To download the history of your Google Code repository, use the svnsync tool that ships with Subversion 1.4. Run 'svnsync help' to read more about this tool. Note that you local repository must have an executable 'pre-revprop-change' hook script which allows revprop changes (or at least those of the form '`svnsync*`'.) Here's a sample transcript that demonstrates how you can pull history from your Google Code repository to a local repository: 
+To download the history of your Google Code repository, use the svnsync tool that ships with Subversion 1.4. Run 'svnsync help' to read more about this tool. Note that your local repository must have an executable 'pre-revprop-change' hook script which allows revprop changes (or at least those of the form '`svnsync*`'.) Here's a sample transcript that demonstrates how you can pull history from your Google Code repository to a local repository: 
 
 {{{
   $ svnadmin create localrepos
@@ -322,7 +322,7 @@ If you're an owner or member of a project, just look at your "Settings" page. It
 Your "Settings" page has a button to automatically regenerate your googlecode.com password.
 
 === How do I check out code anonymously? ===
-You can use a Subversion client to checkout a project's "trunk" code by requesting this URL:
+You can use a Subversion client to check out a project's "trunk" code by requesting this URL:
 http://projectname.googlecode.com/svn/trunk
 
 === How do I check code into the repository? ===
@@ -393,7 +393,7 @@ for authentication, and the issue tracker uses Google's search
 technology. Look for more integration with other Google products as
 the site matures.
 
-=== I found a project that's not open source? Who do I notify? ===
+=== I found a project that's not open source. Who do I notify? ===
 Please send an email to code-hosting@google.com.
 
 === How do I report a DMCA violation? ===
