@@ -11,7 +11,7 @@ changes are made.  This is a good practice because it helps catch
 software defects that might be hard to discover through testing and
 debugging.  Code reviews also help the members of the project team
 stay aware of each others' changes and aligned with the goals of the
-project.  And, participating in code reviews can be a great way for
+project.  Also, participating in code reviews can be a great way for
 people to improve their software development skills.
 
 Project hosting on Google Code offers a code review feature that is
@@ -25,7 +25,7 @@ for further improvements.
 
 You must be logged in to enter a code review comment.  By default, the
 owners and members of a project are the only people who may leave
-review comments.  However, a project owner may choose disable all reviews,
+review comments.  However, a project owner may choose to disable all reviews,
 or allow non-members to do reviews as well.
 
 Review comments are made on a source code revision. If you view the
@@ -43,10 +43,10 @@ Review comments have three parts, and each part is optional:
    * A general comment on the entire source code revision
    * A score: positive, neutral, or negative
 
-To leave line-by-line comments, browse any source code file then
+To leave line-by-line comments, browse any source code file and then
 double-click on a source code line.  You will see a text field where
 you can enter your comment on that line.  For example, if you notice a
-while-loop which can become an infinite loop in certain situations,
+while-loop that can become an infinite loop in certain situations,
 you could comment on the line that has the while-loop condition.
 Line-by-line comments are drafts until you publish them. That allows
 you to revise comments as you work through the review.  For example,
@@ -55,7 +55,7 @@ other invariant condition, so you might revise or delete your initial
 draft.
 
 Line-by-line comments can also be entered on the side-by-side diff page.
-You can double click on any line of the old or new file to leave a
+You can double-click on any line of the old or new file to leave a
 comment there.  You will most often want to leave comments on the new
 versions of modified lines on the right-hand side, but you may also
 decide to leave comments on the old version, or on unchanged lines
@@ -86,12 +86,12 @@ notification of every review comment to one address, which would
 normally be a mailing list.  Individual users may opt out of these
 notification messages by using the Settings page.
 Users star a revision in three ways:
-   * The author of a each revision automatically stars that revision
+   * The author of each revision automatically stars that revision
    * Users may click the star icon in the source changes list or revision detail page
    * When submitting a comment on a revision that is not already starred, a checkbox offers to star the revision
 
 If you receive a code review comment notification email, and you want
-to respond, you can visit the web site to leave more comments. Or, you
+to respond, you can visit the web site to leave more comments. Alternatively, you
 can discuss it on your project mailing list.  Replying to the
 notification email itself does not record your response in the code
 review tool.
