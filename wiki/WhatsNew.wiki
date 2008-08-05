@@ -2,6 +2,16 @@
 
 Welcome to the What's New page for project hosting on Google Code. Here you'll find descriptions of our latest improvements to our collaborative development environment.
 
+= July 2008 =
+
+== Source Code Review Tools ==
+
+Code reviews can be a very effective way to improve your code quality, and keep your project members involved in the changes that might affect their work. We now offer a source code review tool that is integrated with Google Code's project hosting.
+
+Reviewing code in your project is simple: browse any source file or diff, double click on a source line to add comments, then publish your comments along with a general comment and score for the revision.
+
+You can see [http://code.google.com/p/support/source/detail?r=70 code reviews in action] on the code.google.com support project. For complete documentation, see the CodeReviews wiki page.
+
 = June 2008 =
 
 == Browse history of files even if they were moved or copied ==
