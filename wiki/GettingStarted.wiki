@@ -33,7 +33,7 @@ A good project starts with a good idea -- one that addresses a real need, is fea
 
 If you've reviewed existing projects and couldn't find one that meets your needs, perform the following to create a new project in Google Code:
 
-  # Project Hosting is open to anyone with a Google Account, including Gmail users. If you don't already have a Google Account, [https://www.google.com/accounts/NewAccount create one now].
+  # Project Hosting is open to anyone with a Google account, including Gmail users. If you don't already have a Google account, [https://www.google.com/accounts/NewAccount create one now].
   # Go to the [http://code.google.com/hosting/createProject Create Project] page. If you haven't already done so, Google Code will prompt you to sign in to your Google account.
   # In the *Project Name* field, the name you enter must consist of a lowercase letter, followed by lowercase letters, digits, and dashes, with no spaces. The project name will be part of your URL, so you won't be able to change it later. For example, if you name your project 'foo,' your project's URL will be http://code.google.com/p/foo/ or http://foo.googlecode.com/ (the latter redirects to the former).
   # In the *Summary* field, Google Code will display this one-line description whenever it shows the project name.
@@ -56,7 +56,7 @@ Each project comes with its own [http://subversion.tigris.org/ Subversion] repos
 
 Perform the following to check code in and out of your source repository:
 
-  # For instructions on how to check out a project's Subversion repository from the command line, go to the *Source* tab. Any user, regardless of whether they have a Google Account, can check out and browse the repository anonymously, while project owners and members are granted full read and write permissions. You can add project owners and members at the [#Customizing_your_Project_on_the_Administer_Tab Administer tab].
+  # For instructions on how to check out a project's Subversion repository from the command line, go to the *Source* tab. Any user, regardless of whether they have a Google account, can check out and browse the repository anonymously, while project owners and members are granted full read and write permissions. You can add project owners and members at the [#Customizing_your_Project_on_the_Administer_Tab Administer tab].
   # If you plan on synching from an existing repository, you *must* click the *Reset This Repository* link at the bottom of the *Source* tab page before making any other changes to your project's repository. *This includes creating any new wiki pages* because resetting the repository results in the loss of wiki content. Do not start a wiki page in your project before you complete this step.
 
 After you've been working with your project for a while, the following subtabs on the *Source* tab will come in handy:
@@ -93,8 +93,8 @@ Perform the following to create a wiki page:
   # Enter the text and syntax for the page in the *Content* field. For more information about the wiki syntax, refer to the [WikiSyntax] page.
   # Click a link in one of the *Labels* fields to see the available list of labels. These labels provide the user with some direction on how relevant the wiki page is to them.
   # Click one of the following buttons:
-    * *Preview* -- See how the wiki page will appear to the user without saving it.
-    * *Save Page* -- Save the wiki page.
+    * *Preview* -- Shows how the wiki page will appear to the user without saving it.
+    * *Save Page* -- Saves the wiki page.
     * *Discard* -- Deletes the wiki page if it is new, or removes the changes that were made to the wiki since it was opened for editing.
 
 == Tracking Project Tasks on the Issues Tab ==
