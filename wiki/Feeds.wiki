@@ -17,7 +17,7 @@ Substitute your project name for *PROJECT-NAME*:
      http://code.google.com/feeds/p/*PROJECT-NAME*/updates/basic
 
 
-The SVN commit feeds also have a "path=" URL parameter that will let you filter changes by path, for example:
+The SVN commit feeds also have a *path=* URL parameter that will let you filter changes by path.  For example:
 
      http://code.google.com/feeds/p/v8/svnchanges/basic?path=/wiki/
 
