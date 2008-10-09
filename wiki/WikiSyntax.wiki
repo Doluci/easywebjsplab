@@ -259,5 +259,22 @@ cells, including typeface formatting and links.
 || 1930 || _N/A_ || _N/A_ ||
 || 1940 || -2 || 40 ||
 
+== Gadgets ==
+
+You can embed [http://www.google.com/webmasters/gadgets/ Gadgets] on your wiki pages with the following syntax:
+
+{{{
+<wiki:gadget url="http://example.com/gadget.xml" height="200" border="0" /> 
+}}}
+
+Valid attributes are:
+ * `url`: the URL of the gadget
+ * `width`: the width of the gadget
+ * `height`: the height of the gadget
+ * `title`: a title to display above the gadget
+ * `border`: "0" or "1", whether to draw a border around the gadget
+ * `up_*`: Gadget user preference parameters
+
+InterestingDeveloperGadgets shows some sample gadgets you may want to include on your project pages.
 
 _The content on this page created by Google is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License].  User-generated content is not included in this license._
