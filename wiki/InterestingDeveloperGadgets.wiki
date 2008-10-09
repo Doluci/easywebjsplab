@@ -18,7 +18,7 @@ support group and we would be happy to showcase them.
 If you want to put one of these gadgets on your wiki page or even your project homepage, use our new `<wiki:gadget...>` syntax.  Each of the example gadgets below has a snippet you can copy-paste to get started.
 
 ==MarkMail==
-[http://markmail.com MarkMail] is a free service for searching mailing list archives. These gadgets are particularly useful if you have a forum for your software project. The following is an example of the google-web-toolkit forum.   
+[http://markmail.org MarkMail] is a free service for searching mailing list archives. These gadgets are particularly useful if you have a forum for your software project. The following is an example of the google-web-toolkit forum.   
 
 *Gadget*
 
