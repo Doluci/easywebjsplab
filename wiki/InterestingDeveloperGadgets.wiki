@@ -11,7 +11,7 @@ These gadgets have the following characteristics:
  #3 They can be scoped to a particular project or project(s).
 
 If you have any gadgets that meet that criteria, let us know in our
-support group and we would be happy to showcase them.
+support group and we would be happy to showcase them. Also see the [http://code.google.com/p/google-code-project-hosting-gadgets/ Project Hosting Gadgets] project for more gadgets you can use.
 
 *How to Use These Gadgets*
 
@@ -49,11 +49,11 @@ Note: All the examples are for [http://code.google.com/p/google-web-toolkit Goog
 
 *Gadget*
 
-<wiki:gadget url="http://www.ohloh.net/projects/gwt/widgets/project_factoids.xml" width="340" height="170" border="1" />
+<wiki:gadget url="http://www.ohloh.net/projects/gwt/widgets/project_factoids.xml" width="340" height="170" border="0" />
 
 *Code*
 
-`<wiki:gadget url="http://www.ohloh.net/projects/gwt/widgets/project_factoids.xml" width="340" height="170" border="1" />`
+`<wiki:gadget url="http://www.ohloh.net/projects/gwt/widgets/project_factoids.xml" width="340" height="170" border="0" />`
 
 ===Project Languages===
 
@@ -69,11 +69,11 @@ Note: All the examples are for [http://code.google.com/p/google-web-toolkit Goog
 
 *Gadget*
 
-<wiki:gadget url="http://www.ohloh.net/projects/gwt/widgets/project_cocomo.xml" height="250" border="1" />
+<wiki:gadget url="http://www.ohloh.net/projects/gwt/widgets/project_cocomo.xml" height="250" border="0" />
 
 *Code*
 
-`<wiki:gadget url="http://www.ohloh.net/projects/gwt/widgets/project_cocomo.xml" height="250" border="1" />`
+`<wiki:gadget url="http://www.ohloh.net/projects/gwt/widgets/project_cocomo.xml" height="250" border="0" />`
 
 ===I Use It===
 
