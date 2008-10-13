@@ -248,8 +248,20 @@ svn propset svn:mime-type 'image/jpeg' FILENAME
 }}}
 
 For more info:
-`http://svnbook.red-bean.com/en/1.4/svn.advanced.props.file-portability.html#svn.advanced.props.special.mime-type`
+[http://svnbook.red-bean.com/en/1.4/svn.advanced.props.file-portability.html#svn.advanced.props.special.mime-type]
 
+It's also possible to configure your Subversion client to automatically set each file's mime-type. For example, by modifying ~/.subversion/config to resemble
+
+{{{
+[miscellany]
+enable-auto-props = yes
+
+[auto-props]
+*.html = svn:mime-type=text/html
+}}}  
+
+For more info:
+[http://svnbook.red-bean.com/en/1.1/ch07.html#svn-ch-7-sect-1.3.2]
 
 === How do I import my existing source code? ===
 Just use the 'svn import' command. Note that this command only loads a single tree of code into your repository.
