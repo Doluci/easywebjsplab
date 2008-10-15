@@ -22,6 +22,10 @@ Reviewing code in your project is simple: browse any source file or diff, double
 
 You can see [http://code.google.com/p/support/source/detail?r=70 code reviews in action] on the code.google.com support project. For complete documentation, see the CodeReviews wiki page.
 
+== Project feeds ==
+
+We now have Atom feed available for you to track issues, downloads, Subversion changes, and Wiki updates.  For a list of all feeds in a given project, click the `Project Feeds` link in the right-hand column of the project home page.
+
 = June 2008 =
 
 == Browse history of files even if they were moved or copied ==
