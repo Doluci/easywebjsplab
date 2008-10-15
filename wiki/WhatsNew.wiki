@@ -2,6 +2,16 @@
 
 Welcome to the What's New page for project hosting on Google Code. Here you'll find descriptions of our latest improvements to our collaborative development environment.
 
+= October 2008 =
+
+== Gadgets In, Gadgets Out ==
+
+You can now place any gadget in a wiki page in your project. That makes it possible to show video, charts, and stats.  And, you can now put gadgets with info about your project onto your iGoogle page (or any other gadget container). See our [http://google-code-updates.blogspot.com/2008/10/gadgets-and-google-code.html blog post] for more details.
+
+== Project Updates ==
+
+The new "Updates" subtab shows a summary of recent project activity, including commits and issue changes. It's a great way to understand how active a project is, and who did what.  See our [http://google-code-updates.blogspot.com/2008/10/project-updates-on-google-code.html blog post] for more information.
+
 = July 2008 =
 
 == Source Code Review Tools ==
