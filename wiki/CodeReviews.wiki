@@ -4,6 +4,8 @@
 
 = How to use Google Code's code review tool =
 
+|| *New!* Assigned reviews.  See below. ||
+
 "Open source" literally means that the source code of each project can
 be accessed by project members and other users.  It is a tradition in
 many open source projects to frequently review the source code as
@@ -28,10 +30,7 @@ owners and members of a project are the only people who may leave
 review comments.  However, a project owner may choose to disable all reviews,
 or allow non-members to do reviews as well.
 
-Review comments are made on a source code revision. If you view the
-list of recent source code changes and drill into one revision's
-detail page, you will see any review comments entered there by other
-users.  If you navigate to a different revision, you will see a
+Review comments are made in the context of a source code revision or an assigned review issue. If you view the list of recent source code changes and drill into the detail page for one revision or assigned review, you will see any review comments entered there by other users.  If you navigate to a different revision, you will see a
 different set of comments, if any have been entered there.  Review
 comments are kept as part of the history of the project:  if a
 problem is found during review of one revision, it might be fixed in a
@@ -76,12 +75,69 @@ about the revision with a score.  Once your comments are published,
 you can no longer edit them, but you can delete or undelete them
 if needed.
 
+== Assigned reviews ==
+
+Assigned reviews are a way for teams do work on a branch and then review everything done on that branch before it is merged. Unlike the open-ended review comments that can be made on any revision at any time, assigned reviews are tied to a code review issue in the issue tracker and they include all changes made to a specified branch. That issue can be assigned to a specific project member as a way of requesting that he/she spend time doing the review, although others are still free to comment on it.  You can request a review by clicking the "Request Code Review" link under the "Source" tab.  All comments made as part of an assigned review are only visible in the context of that review.  Open code review issues are shown in the the issue tracker and also at the top of the source code changes page. When the reviewer is done, he/she can close the issue by setting its status to "Done" or any other closed status value.
+
+For example:
+
+    * A developer creates a new branch with `svn cp trunk branches/hot-new-stuff`.
+    * The developer writes, tests, and commits several changes under that branch.
+    * The developer clicks "Request Code Review" and fills in the username of a teammate, a description of what the reviewer should look for, and the path to the branch.
+    * The reviewer gets a regular issue notification email about the new code review issue.
+    * The reviewer follows a link from the issue to the branch page and sees a summary of all the work that has been done on the branch and can view diffs.
+    * The reviewer enters review comments, publishes them, and continues the discussion with the original developer.
+    * When the reviewer is satisfied, he/she sets the review issue status to "Done" and the issue is closed.
+    * The developer would then merge the work done on the branch into /trunk.
+
+== Commit log syntax ==
+
+Reviews can also be assigned via commit log messages using a simple command syntax. (Project administrators must enable this option via the Administer/Source page.) Commands consist of a line containing only the phrase "new review:", optionally followed by 1 or more option lines and ending with a description. For example:
+
+{{{
+new review:
+owner: mike.j.parent
+labels: Priority-High, MajorFeature
+A large set of changes to the core library.
+}}}
+
+One review request is allowed per log message. The "new review" line must be preceded by a single blank line, or must be the very first line in the message. The description consists of the first non-option line until the end of the log message. Default values from the "Review request" issue template will be used for any unspecified options. Valid review request options are:
+
+    * owner
+    * cc
+    * summary
+    * status
+    * labels
+    * branch
+
+
+Examples:
+
+{{{
+Fixed bug causing File::Open method to return an incorrect value.
+
+new review:
+owner: smckay
+cc: jrobbins, mike.j.parent
+summary: Review proposed library changes
+labels: ReadyForReview, Priority-Medium
+branch: /branches/mikes-changes
+Please review my proposed changes to the File class.
+Pay extra attention to my changes to File::Open.
+}}}
+
+{{{
+Updated Acme library to v1.0
+
+new review
+}}}
+
 
 == Stars and notifications ==
 
 When one user publishes his or her review comments, an email
 notification is sent to all other users who have starred that
-revision.  A project owner may also configure the tool to send a
+revision or assigned review.  A project owner may also configure the tool to send a
 notification of every review comment to one address, which would
 normally be a mailing list.  Individual users may opt out of these
 notification messages by using the Settings page.
