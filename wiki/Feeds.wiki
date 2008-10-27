@@ -8,13 +8,13 @@ Google Code exports [http://en.wikipedia.org/wiki/Atom_(standard) Atom feeds] fo
 
 Substitute your project name for *PROJECT-NAME*:
 
-     `http://code.google.com/feeds/p/*PROJECT-NAME*/issueupdates/basic`
+     `http://code.google.com/feeds/p/PROJECT-NAME/issueupdates/basic`
 
-     `http://code.google.com/feeds/p/*PROJECT-NAME*/svnchanges/basic`
+     `http://code.google.com/feeds/p/PROJECT-NAME/svnchanges/basic`
 
-     `http://code.google.com/feeds/p/*PROJECT-NAME*/downloads/basic`
+     `http://code.google.com/feeds/p/PROJECT-NAME/downloads/basic`
 
-     `http://code.google.com/feeds/p/*PROJECT-NAME*/updates/basic`
+     `http://code.google.com/feeds/p/PROJECT-NAME/updates/basic`
 
 
 The SVN commit feeds also have a *path=* URL parameter that will let you filter changes by path.  For example:
