@@ -4,6 +4,19 @@ Welcome to the What's New page for project hosting on Google Code. Here you'll f
 
 = October 2008 =
 
+== Onward or Upward? ==
+
+Our issue tracker UI was designed with tabbed browsing in mind.  For example, if you want to triage several issues, you can middle-mouse click on links in the issue list to open several issues in separate browser tabs, then step through each of them rapidly.
+
+Now there is another way to rapidly step through issues in your project using just one browser tab.  When you submit an issue, you can now specify whether you would like to go up to the issue list, stay on the same issue, or go to the next issue in the list.
+
+
+== Assigned Code Reviews ==
+
+We love to see developers doing code reviews because it is one of the best ways to improve quality and help everyone on your team stay in-touch with changes as they are made.  Since July we've offered a very easy-to-use code review tool that allows anyone to comment on any line of any revision.  
+
+Now, we are adding assigned reviews: these are issues labeled Type-Review that request that a project member review code that has been committed to a branch. These issues can be created through the Web !UI or through special syntax in a commit log message. The issues are listed in the issue tracker, as well as at the top of the recent changes page.  Each issue links to a branch review page that summarizes all the changes made on that branch.  Once a review is done, its issue can be closed.  See the CodeReviews page for more information.
+
 == Gadgets In, Gadgets Out ==
 
 You can now place any gadget in a wiki page in your project. That makes it possible to show video, charts, and stats.  And, you can now put gadgets with info about your project onto your iGoogle page (or any other gadget container). See our [http://google-code-updates.blogspot.com/2008/10/gadgets-and-google-code.html blog post] for more details.
