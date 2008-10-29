@@ -277,4 +277,15 @@ Valid attributes are:
 
 InterestingDeveloperGadgets shows some sample gadgets you may want to include on your project pages.
 
+== Table of Contents ==
+
+An inline table of contents can be generated from page headers on a wiki page. Add the following syntax to a page in the location the table of contents should be displayed:
+
+{{{
+<wiki:toc max_depth="1" />
+}}}
+
+Valid attributes are:
+ * `max_depth`: the maximum header depth to display in the table of contents
+
 _The content on this page created by Google is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License].  User-generated content is not included in this license._
