@@ -1,6 +1,32 @@
 #summary The reference to the wiki syntax for Google Code projects
 #labels Featured
 
+<wiki:toc />
+
+= Introduction =
+
+Each wiki page is stored in a .wiki file under the /wiki directory in
+a project's repository.  Each file's name is the same as the wiki page
+name.  And, each wiki file consists of optional pragma lines followed
+by the content of the page.
+
+= Pragmas =
+
+Optional pragma lines provide meta data about the page and how it should be
+displayed. These lines are only processed if the appear at the top of
+the file.  Each pragma line begins with a pound-sign (#) and the
+pragma name, followed by a value.
+
+|| *Pragma*   || *Value*  ||
+|| #summary   || One-line summary of the page ||
+|| #labels    || Comma-separated list of labels (filled in automatically via the web UI) ||
+|| #sidenav   || Name of another wiki page to display in left-hand column on this page, or blank for no sidenav ||
+
+A default sidenav page can be specified by project owners on the Wiki
+sub-tab of the Administer tab.
+
+= Wiki-style markup =
+
 == Paragraphs ==
 
 Use one or more blank lines to separate paragraphs. 
@@ -258,6 +284,10 @@ cells, including typeface formatting and links.
 || 1920 || -10 || 32 ||
 || 1930 || _N/A_ || _N/A_ ||
 || 1940 || -2 || 40 ||
+
+
+
+= Wiki plug-ins =
 
 == Gadgets ==
 
