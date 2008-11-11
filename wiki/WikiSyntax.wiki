@@ -1,7 +1,7 @@
 #summary The reference to the wiki syntax for Google Code projects
 #labels Featured
 
-<wiki:toc />
+<wiki:toc max_depth="2" />
 
 = Introduction =
 
@@ -12,8 +12,8 @@ by the content of the page.
 
 = Pragmas =
 
-Optional pragma lines provide meta data about the page and how it should be
-displayed. These lines are only processed if the appear at the top of
+Optional pragma lines provide metadata about the page and how it should be
+displayed. These lines are only processed if they appear at the top of
 the file.  Each pragma line begins with a pound-sign (#) and the
 pragma name, followed by a value.
 
