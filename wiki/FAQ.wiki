@@ -1,9 +1,7 @@
 #summary Project Hosting on Google Code FAQ
 #labels Featured
 
-= Project Hosting FAQ =
-
-<wiki:toc />
+<wiki:toc max_depth="2"/>
 
 ----
 
