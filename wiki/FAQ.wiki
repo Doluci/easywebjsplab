@@ -178,7 +178,7 @@ Sometimes users will file issues that have already been reported. When a duplica
 
 To do this set the status of the duplicate issue to 'Duplicate'. Setting the status as 'Duplicate' will prompt the user to enter the issue id of the original issue. Marking an issue as 'Duplicate' adds the stars and copies cc email addresses to the original issue. This also closes the duplicate issue.
 
-=== How do I track when one issue is blocked on other issues getting fixed first? ===
+=== How do I track when one issue is blocked on other issues? ===
 On occasion, an issue cannot be fixed until another issue is fixed first. The project member or owner can track which issues the current issue is blocked on by adding the issue ids in the 'Blocked on' field. 
 
 ----
