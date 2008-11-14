@@ -173,6 +173,12 @@ For example, if your project is building a graphics driver, maybe you would like
 === What if someone types in a nonsense label or status? ===
 Remember, only project owners and members can edit issue metadata. Usually, if someone in the project uses an unexpected status or label, it is because the issue itself is a special case that does not follow the normal workflow. The issue tracker shows a brief warning whenever an uncommon status or label is used. If some project member goes out of their way to enter a nonsensical label, you can always see who did it, change it back, and send them an email.
 
+=== If there is a duplicate bug, how should the issue be triaged? ===
+
+Sometimes users will file issues that have already been reported. When a duplicate issue is entered into the issue tracker, a project member or owner can mark that issue as a 'Duplicate'.
+
+To do this set the status of the duplicate issue to 'Duplicate'. Setting the status as 'Duplicate' will prompt the user to enter the issue id of the original issue. Marking an issue as 'Duplicate' adds the stars and copies cc email addresses to the original issue. This also closes the duplicate issue.
+
 ----
 
 == Project Wikis ==
