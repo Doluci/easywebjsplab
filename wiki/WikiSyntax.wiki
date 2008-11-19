@@ -20,7 +20,7 @@ pragma name, followed by a value.
 || *Pragma*   || *Value*  ||
 || #summary   || One-line summary of the page ||
 || #labels    || Comma-separated list of labels (filled in automatically via the web UI) ||
-|| #sidenav   || Name of another wiki page to display in left-hand column on this page, or blank for no sidenav ||
+|| #sidenav   || Name of another wiki page to display in left-hand column on this page, or blank for no sidenav. For an example, see [http://code.google.com/p/doctype/wiki/Articles the doctype project]. ||
 
 A default sidenav page can be specified by project owners on the Wiki
 sub-tab of the Administer tab.
