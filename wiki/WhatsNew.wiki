@@ -2,6 +2,55 @@
 
 Welcome to the What's New page for project hosting on Google Code. Here you'll find descriptions of our latest improvements to our collaborative development environment.
 
+= November 2008 =
+
+== More Compact Issue Notification Emails ==
+
+The format of our issue notification emails has changed to now put the
+metadata at the top.  The summary still includes the issue number,
+project name, and issue summary.  Moving the metadata up improves the
+snippets shown in Gmail and other mail clients.
+
+== Artifact Sorting by Username ==
+
+A long-standing problem with sorting issues, downloads, and wiki pages
+has been fixed.  Previously these items did not sort properly by
+usernames, such as the issue "owner" or file "uploadedby" columns.
+Also, new issue list columns are available for the issue reporter and
+Cc list.  To see all the built-in columns, click the "..." table
+header in any list view.
+
+== Issue Blocking and Merging ==
+
+In a small project, only a few people are involved, and they become
+pretty familiar with the issues in their issue tracker.  But, now that
+we are hosting more large projects, we are adding the option to
+formalize more of what small teams know implicitly.
+
+Users always had the ability to document in plan language that one
+issue could not be worked on until another issue was completed, and
+the issue reference in that text becomes a hyperlink to the other
+issue.  Now, issues can be explicitly marked as blocked on other
+issues.  Changing issue A to make it blocked on issue B adds
+hyperlinks in both directions between the two issues, and adds a
+comment to issue B at the same time that issue A is updated.
+
+Users could always close an issue as a duplicate and mention the
+original issue in the comment.  Now, if the status field if set to
+Duplicate, users also have the option to merge the duplicate issue
+with the original issue.  Merging adds all unique stars and Cc values
+to the original issue, and automatically adds a comment to the
+original issue.
+
+== Starred Projects ==
+
+Users can now star projects that you are interested in so that you can
+easily revisit them.  On the summary page of any project, just click
+the star icon in the right-hand column.  The list of projects that you
+have starred is shown on your profile page.
+
+
+
 = October 2008 =
 
 == Onward or Upward? ==

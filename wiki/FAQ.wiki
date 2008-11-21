@@ -181,6 +181,10 @@ To do this set the status of the duplicate issue to 'Duplicate'. Setting the sta
 === How do I track when one issue is blocked on other issues? ===
 On occasion, an issue cannot be fixed until another issue is fixed first. The project member or owner can track which issues the current issue is blocked on by adding the issue ids in the 'Blocked on' field. 
 
+=== How can I learn more about the issue tracker? ===
+
+See the IssueTracker wiki page.
+
 ----
 
 == Project Wikis ==
