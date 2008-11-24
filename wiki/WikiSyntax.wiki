@@ -284,11 +284,53 @@ cells, including typeface formatting and links.
 || 1920 || -10 || 32 ||
 || 1930 || _N/A_ || _N/A_ ||
 || 1940 || -2 || 40 ||
+<br/>
+= HTML support =
+To aid in the presentation of a wiki page there is some support for HTML. HTML syntax can be used in conjunction with wiki syntax. 
 
+Only the following HTML tags and attributes are currently supported:
 
-
+<table border=1>
+<thead><th>HTML tag</th><th>Supported Attributes</th></thead>
+<tbody>
+<tr><td>a</td><td>title dir lang href</td></tr>
+<tr><td>b</td><td>title dir lang</td></tr>
+<tr><td>block</td><td>title dir lang</td></tr>
+<tr><td>code</td><td>title dir lang</td></tr>      <tr><td>dd</td><td>title dir lang</td></tr>
+<tr><td>div</td><td>title dir lang</td></tr>
+<tr><td>dl</td><td>title dir lang</td></tr>      
+<tr><td>dt</td><td>title dir lang</td></tr>      
+<tr><td>em</td><td>title dir lang</td></tr>      
+<tr><td>h1</td><td>title dir lang</td></tr>      
+<tr><td>h2</td><td>title dir lang</td></tr>      
+<tr><td>h3</td><td>title dir lang</td></tr>      
+<tr><td>h4</td><td>title dir lang</td></tr>      
+<tr><td>h5</td><td>title dir lang</td></tr>      
+<tr><td>i</td><td>title dir lang</td></tr>      
+<tr><td>img</td><td>title dir lang src alt border</td></tr>  
+<tr><td>li</td><td>title dir lang</td></tr>      
+<tr><td>ol</td><td>title dir lang type start</td></tr>    
+<tr><td>p</td><td>title dir lang align</td></tr>     
+<tr><td>pre</td><td>title dir lang</td></tr>      
+<tr><td>q</td><td>title dir lang</td></tr>      
+<tr><td>s</td><td>title dir lang</td></tr>      
+<tr><td>span</td><td>title dir lang</td></tr>      <tr><td>strike</td><td>title dir lang</td></tr>      <tr><td>strong</td><td>title dir lang</td></tr>      
+<tr><td>sub</td><td>title dir lang</td></tr>      
+<tr><td>sup</td><td>title dir lang</td></tr>  
+<tr><td>table</td><td>title dir lang align valign cellspacing cellpadding border width height</td></tr>  
+<tr><td>tbody</td><td>title dir lang align valign cellspacing cellpadding border width height</td></tr>  
+<tr><td>td</td><td>title dir lang align valign cellspacing cellpadding border width height</td></tr>  
+<tr><td>tfoot</td><td>title dir lang align valign cellspacing cellpadding border width height</td></tr>  
+<tr><td>th</td><td>title dir lang align valign cellspacing cellpadding border width height</td></tr>  
+<tr><td>thead</td><td>title dir lang align valign cellspacing cellpadding border width height colspan rowspan</td></tr>
+<tr><td>tr</td><td>title dir lang align valign cellspacing cellpadding border width height colspan rowspan</td></tr>
+<tr><td>tt</td><td>title dir lang</td></tr>      
+<tr><td>u</td><td>title dir lang</td></tr>      
+<tr><td>ul</td><td>title dir lang type</td></tr>     
+<tr><td>var</td><td>title dir lang</td></tr>      </tbody>
+</table>
+<br/>
 = Wiki plug-ins =
-
 == Gadgets ==
 
 You can embed [http://www.google.com/webmasters/gadgets/ Gadgets] on your wiki pages with the following syntax:
