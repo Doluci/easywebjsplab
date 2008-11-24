@@ -292,7 +292,7 @@ To aid in the presentation of a wiki page there is some support for HTML. HTML s
 Only the following HTML tags and attributes are currently supported:
 
 <table border=1>
-<thead><th>HTML tag</th><th>Supported Attributes</th></thead>
+<thead><th>HTML Tag</th><th>Supported Attributes</th></thead>
 <tbody>
 <tr><td>a</td><td>title dir lang href</td></tr>
 <tr><td>b</td><td>title dir lang</td></tr>
