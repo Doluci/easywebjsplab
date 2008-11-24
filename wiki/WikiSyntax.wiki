@@ -287,7 +287,7 @@ cells, including typeface formatting and links.
 
 
 = HTML support =
-To aid in the presentation of a wiki page there is some support for HTML. HTML syntax can be used in conjunction with wiki syntax. 
+To aid in the presentation of a wiki page there is some support for HTML. HTML syntax can be used in conjunction with wiki syntax, but it's recommended against doing where possible. Also, avoid blank lines between list items.
 
 Only the following HTML tags and attributes are currently supported:
 
