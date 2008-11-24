@@ -287,9 +287,15 @@ cells, including typeface formatting and links.
 
 
 = HTML support =
-To aid in the presentation of a wiki page there is some support for HTML. There is, however, no support for HTML in the wiki comments.
+To aid in the presentation of a wiki page there is some support for HTML. HTML tags are only supported in wiki pages, not in page comments.
 
-HTML syntax can be used in conjunction with wiki syntax, but it's recommended against doing so where possible. Also, avoid blank lines between list items.
+HTML syntax can be used in conjunction with wiki syntax, but it is recommended against doing so where possible. Also, avoid blank lines between list items.
+
+To insert raw HTML into a page, place it in a code block as follows:
+||     *Markup*     ||     *Result*   ||
+|| {{{`<hr>`}}}     ||     `<hr>`     ||
+|| `{{{<hr>}}}`     ||  {{{<hr>}}}    ||
+
 
 The following HTML tags and attributes are currently supported:
 
