@@ -284,7 +284,7 @@ cells, including typeface formatting and links.
 || 1920 || -10 || 32 ||
 || 1930 || _N/A_ || _N/A_ ||
 || 1940 || -2 || 40 ||
-<br/>
+
 = HTML support =
 To aid in the presentation of a wiki page there is some support for HTML. HTML syntax can be used in conjunction with wiki syntax. 
 
