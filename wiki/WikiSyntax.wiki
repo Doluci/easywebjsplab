@@ -291,7 +291,7 @@ To aid in the presentation of a wiki page there is some support for HTML. There 
 
 HTML syntax can be used in conjunction with wiki syntax, but it's recommended against doing so where possible. Also, avoid blank lines between list items.
 
-Only the following HTML tags and attributes are currently supported:
+The following HTML tags and attributes are currently supported:
 
 <table border=1>
 <thead><th>HTML Tag</th><th>Supported Attributes</th></thead>
