@@ -291,12 +291,6 @@ To aid in the presentation of a wiki page there is some support for HTML. HTML t
 
 HTML syntax can be used in conjunction with wiki syntax, but it is recommended against doing so where possible.<wiki:comment>Also, avoid blank lines between list items.</wiki:comment>
 
-To insert raw HTML into a page, place it in a code block as follows:
-||     *Markup*     ||     *Result*   ||
-|| {{{`<hr>`}}}     ||     `<hr>`     ||
-|| `{{{<hr>}}}`     ||  {{{<hr>}}}    ||
-
-
 The following HTML tags and attributes are currently supported:
 
 <table border=1>
@@ -342,6 +336,22 @@ The following HTML tags and attributes are currently supported:
 <tr><td>var</td><td>title dir lang</td></tr>      </tbody>
 </table>
 <br/>
+
+== Escaping HTML Tags ==
+
+When you want to display html tags directly on your wiki page (as opposed to rendered), you will need to escape each HTML tag. 
+
+HTML tags can be escaped as shown in the table below:
+<table border="1">
+<thead><th>Markup</th><th>Result</th></thead>
+<tbody>
+<tr><td> {{{`<hr>`}}}</td><td>`<hr>`</td></tr>
+<tr><td> `{{{<hr>}}}`</td><td>{{{<hr>}}}</td></tr>
+</tbody>
+</table>
+
+<br/>
+
 = Wiki plug-ins =
 == Gadgets ==
 
