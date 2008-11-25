@@ -85,14 +85,6 @@ def fib(n):
 ====== Level 6 ======
 }}}
 
-= Heading =
-== Subheading ==
-=== Level 3 ===
-==== Level 4 ====
-===== Level 5 =====
-====== Level 6 ======
-
-
 == Dividers ==
 
 Four or more dashes on a line by themselves results in a horizontal rule.
