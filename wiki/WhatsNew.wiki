@@ -4,6 +4,10 @@ Welcome to the What's New page for project hosting on Google Code. Here you'll f
 
 = November 2008 =
 
+== Autolinking of URLs in issue and revision text ==
+
+Now if you mention a URL in the text of an issue comment or a subversion commit log message, that URL is automatically shown as a hyperlink.
+
 == More Compact Issue Notification Emails ==
 
 The format of our issue notification emails has changed to now put the
