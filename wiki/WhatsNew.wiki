@@ -2,7 +2,29 @@
 
 Welcome to the What's New page for project hosting on Google Code. Here you'll find descriptions of our latest improvements to our collaborative development environment.
 
+= December 2008 =
+
+== More Quota ==
+
+We're increasing the maximum file sizes from 20MB to 40MB, Subversion quotas from 100MB to 1GB, and download quotas from 100MB to 2GB.
+
+== New Web Page Header ==
+
+The top of each project hosting web page is now a little cleaner and more consistent with other Google pages.
+
+== -1 on "+1"s ==
+
+An issue tracker is a serious tool for tracking serious work.  When users chime in on a hot issue with a large number of "+1" comments to show their support for the issue, they are actually distracting and annoying the developers who should be working on resolving the issue, as well as other users.  We provide a star icon for users to express their interest in an issue without triggering any notification emails, but some users are still in the bad habit of posting "+1" comments.  Now we make the star widget easier for average users to find right at the point where they might be tempted to add a "+1" comment.  And, we automatically block "+1" comments that don't add other value.
+
 = November 2008 =
+
+== Wiki Improvements ==
+
+We increased the power of our wiki in three ways:
+  # You can use one wiki page as a [http://code.google.com/p/support/wiki/WikiSyntax#Side_navigation sidebar] on your other pages for navigation.
+  # You can create a table-of-contents within a wiki page with ` <wiki:toc max_depth="1" />`
+  # We now support mixing some [http://code.google.com/p/support/wiki/WikiSyntax#HTML_support simple HTML] into the wiki pages so that you can accomplish things that are hard to do with wiki markup alone.
+
 
 == Autolinking of URLs in issue and revision text ==
 
