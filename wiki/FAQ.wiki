@@ -245,7 +245,7 @@ Simply configure your mailing list to accept posts from codesite-noreply@google.
 === What version of Subversion do you use? ===
 We currently use Subversion 1.4.0, made available via WebDAV. 
 
-Anonymous checkouts can be done via http://, while developers must use authenticated https:// to commit changes.
+Anonymous checkouts can be done via `http://`, while developers must use authenticated `https://` to commit changes.
 
 === Do you have support for ViewVC or similar repository-browsing tools? ===
 Support for tools such as ViewVC isn't implemented yet, but we do provide our own web-based source browsing. Source browsing can be accessed under the "Source" tab for each project, under the "Browse" sub-tab.
@@ -286,7 +286,7 @@ Note that your Google Code repository must be reset to revision 0 for this to wo
 
 If your repository's latest revision is greater than 1, then a site administrator will have to reset the repository for you; email google-code-hosting@googlegroups.com and ask for this, or post directly to the [http://groups.google.com/group/google-code-hosting?lnk=sg Google Group].
 
-Here's a sample transcript that demonstrates how you can push history from an existing repository (located at file:///my/repos) to your repository on Google Code:
+Here's a sample transcript that demonstrates how you can push history from an existing repository (located at `file:///my/repos`) to your repository on Google Code:
 
 {{{
   $ svnsync init --username YOURUSERNAME https://YOURPROJECT.googlecode.com/svn file:///path/to/localrepos
