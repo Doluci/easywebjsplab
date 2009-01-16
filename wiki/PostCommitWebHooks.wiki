@@ -1,3 +1,5 @@
+#summary Repository commit notifications
+
 ==Overview==
 Post-Commit Web Hooks allow projects to setup web services that receive project commit notifications from Google Code. Such services could be used to integrate external tools including continuous build systems, bug trackers, project metrics, and social networks.
 
