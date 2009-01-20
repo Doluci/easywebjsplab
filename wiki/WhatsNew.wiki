@@ -10,7 +10,7 @@ Project owners can now trigger an HTTP POST to a URL of their choice after each 
 
 == Issue Filter Rules ==
 
-Much like message filters in an email client, project owners can now set up issue filter rules.  These rules look for certain labels on an issue, and then apply default values for the issue owner or status, or add labels or CC addresses.  Unlike email filter rules, issue filter rules are applied after every issue change, not just when new issues are entered.  And, the field values that are derived in filter rules are always default values: they never overwrite values that are explicitly set on the issue.  For example, default issues owners can be defined based on `Component-*` labels.
+Much like message filter rules in an email client, project owners can now set up issue filter rules.  These rules look for certain labels on an issue, and then apply default values for the issue owner or status, or add labels or CC addresses.  Unlike email filter rules, issue filter rules are applied after every issue change, not just when new issues are entered.  And, the field values that are derived in filter rules are always default values: they never overwrite values that are explicitly set on the issue.  For example, default issue owners can be defined based on `Component-*` labels.
 
 
 
