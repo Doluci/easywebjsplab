@@ -75,9 +75,9 @@ class Listener(webapp.!RequestHandler):
 
 ==Authentication==
 
-Post-Commit Web Hooks use [http://en.wikipedia.org/wiki/HMAC HMAC] to authenticate requests.
-Every project has a unique post-commit 'secret key', visible to project owners in the Administer/Source tab. This key is used to seed the HMAC algorithm.
-Each POST request header contains a HMAC used to authenticate the payload. This value is a 40-character hexadecimal string contained in the 'Google-Code-Project-Hosting-Hook-Hmac' header. 
+Post-Commit Web Hooks use [http://en.wikipedia.org/wiki/HMAC HMAC-MD5] to authenticate requests.
+Every project has a unique post-commit 'secret key', visible to project owners in the Administer/Source tab. This key is used to seed the HMAC-MD5 algorithm.
+Each POST request header contains a HMAC used to authenticate the payload. This value is a 32-character hexadecimal string contained in the 'Google-Code-Project-Hosting-Hook-Hmac' header. 
 By combining your project's secret key and the POST request's HMAC value, you can authenticate the request.
 
 ====Example: Authentication using a Python [http://code.google.com/appengine/ AppEngine] service====
