@@ -380,6 +380,11 @@ You can embed videos with the following syntax:
 <wiki:video url="http://www.youtube.com/watch?v=3LkNlTNHZzE"/>
 }}}
 
+Valid attributes are:
+ * `url`: the URL of the video
+ * `width`: the width of the embedded video
+ * `height`: the height of the embedded video
+
 Right now we support videos from Youtube and Google Video, but other containers can be added to our [http://code.google.com/p/google-code-project-hosting-gadgets/source/browse/#svn/trunk/video open source gadgets project].
 
 = Navigation =
