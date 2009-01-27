@@ -275,6 +275,9 @@ cells, including typeface formatting and links.
 || 1940 || -2 || 40 ||
 
 
+
+
+
 = HTML support =
 To aid in the presentation of a wiki page there is some support for HTML. HTML tags are only supported in wiki pages, not in page comments.
 
@@ -368,6 +371,16 @@ Valid attributes are:
  * `up_*`: Gadget user preference parameters
 
 InterestingDeveloperGadgets shows some sample gadgets you may want to include on your project pages.
+
+= Videos =
+
+You can embed videos with the following syntax:
+
+{{{
+<wiki:video url="http://www.youtube.com/watch?v=3LkNlTNHZzE"/>
+}}}
+
+Right now we support videos from Youtube and Google Video, but other containers can be added to our [http://code.google.com/p/google-code-project-hosting-gadgets/source/browse/#svn/trunk/video open source gadgets project].
 
 = Navigation =
 == Table of Contents ==
