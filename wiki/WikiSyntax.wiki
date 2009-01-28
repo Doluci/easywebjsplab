@@ -278,6 +278,9 @@ cells, including typeface formatting and links.
 
 
 
+
+
+
 = HTML support =
 To aid in the presentation of a wiki page there is some support for HTML. HTML tags are only supported in wiki pages, not in page comments.
 
@@ -292,7 +295,7 @@ The following HTML tags and attributes are currently supported:
 <tr><td>b</td><td>title dir lang</td></tr>
 <tr><td>br</td><td>title dir lang</td></tr>
 <tr><td>block</td><td>title dir lang</td></tr>
-<tr><td>code</td><td>title dir lang</td></tr>      
+<tr><td>code</td><td>title dir lang language `[1]`</td></tr>      
 <tr><td>dd</td><td>title dir lang</td></tr>
 <tr><td>div</td><td>title dir lang</td></tr>
 <tr><td>dl</td><td>title dir lang</td></tr>      
@@ -327,7 +330,8 @@ The following HTML tags and attributes are currently supported:
 <tr><td>ul</td><td>title dir lang type</td></tr>     
 <tr><td>var</td><td>title dir lang</td></tr>      </tbody>
 </table>
-<br/>
+
+`[1]` The language attribute of the code tag is the file extension of the language used in the code block. It is used as a hint for the syntax highlighter.
 
 == Escaping HTML Tags ==
 
