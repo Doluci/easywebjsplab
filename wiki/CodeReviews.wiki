@@ -192,3 +192,33 @@ Some things to keep in mind:
    * Code reviews are about the code, not the author. Everyone makes mistakes sometimes.
    * Use a written style guide to resolve matters of source code style.  It's easiest if everyone just follows the style guide.
    * Make a shared checklist of things to look for in all reviews, e.g., memory allocation conventions and input validation.
+
+== Requesting Reviews ==
+
+=== Ask for 1 to 2 reviewers ===
+
+While it may seem more effective to cast a wide net to find a reviewer by requesting an entire mailing list or large sub-group to review a change, it actually tends to reduce the response rate. The more people included on a review, the more everyone thinks someone else will get to that review before they do. In the end, your review request is more likely to be ignored.
+
+If you must have multiple reviewers, make it clear what the expectations are for each reviewer. Either noting the expectation in the review request, or contacting them through some other channel can be effective.
+
+=== Find a reviewer familiar with the code ===
+
+Finding a good code reviewer can be a little tricky, especially if you are new to a particular project. Two ways to help narrow down good reviewer candidates are to look at the authors that have recently modified a file, using the `svn log` command, and to examine a file to find the last person to change related lines, using the `svn blame` command.
+
+One other common place to look is the AUTHORS or README files within a project. These may not be quite as relevant, but can be useful in finding a point of contact.
+
+=== Consider a reviewers history ===
+
+When selecting a reviewer, consider their past review history. Some reviewers will return a response faster than others, while others may be more thorough, and there may be reviewers which cover both. Finding a reviewer who cares about the particular area of the change is important and will generally lead to faster and more helpful reviews.
+
+=== Warn reviewers about big changes ===
+
+If you will be sending the reviewer a large change to review, warn them ahead of time and set expectations on the amount of time required and when the reviewer will have time to perform the review. Suddenly receiving a large review without notice can be received as not respecting the reviewers time.
+
+=== Factor time into reviews ===
+
+If your reviewer happens to be in a different time zone, be aware of the times they are likely to perform reviews. If the reviewer is multiple time zones away, sending them a review at the end of a coding session can work well since they can complete it before you return the next day. In the same sense, sending it earlier in the day to that same reviewer can result in a longer wait time for the review than someone in the same time zone.
+
+=== Request smaller reviews ===
+
+If a change can be easily broken up into smaller changes, it will make it considerably easier on the reviewer to send multiple small changes than one large one. Don't split up changes if they are one cohesive change even if it is large.
