@@ -8,6 +8,14 @@ Welcome to the What's New page for project hosting on Google Code. Here you'll f
 
 Project owners can now trigger an HTTP POST to a URL of their choice after each commit to version control.  This enables users to write POST handlers that kick off builds, tests, notifications, or anything else that they can imagine.  See PostCommitWebHooks for details.
 
+== New Wiki Features ==
+
+You can now embed videos into wiki pages, including the project homepage. See [http://code.google.com/p/support/wiki/WikiSyntax#Videos WikiSyntax] for details.
+
+== Better Syntax Highlighting ==
+
+We upgraded to the latest version of [http://code.google.com/p/google-code-prettify/ google-code-prettify], improving language detection and adding support in the source browser for highlighting Haskell, LISP, CSS, Visual Basic, and our own wiki syntax.
+
 == Issue Filter Rules ==
 
 Much like message filter rules in an email client, project owners can now set up issue filter rules.  These rules look for certain labels on an issue, and then apply default values for the issue owner or status, or add labels or CC addresses.  Unlike email filter rules, issue filter rules are applied after every issue change, not just when new issues are entered.  And, the field values that are derived in filter rules are always default values: they never overwrite values that are explicitly set on the issue.  For example, default issue owners can be defined based on `Component-*` labels.
@@ -64,6 +72,7 @@ In a small project, only a few people are involved, and they become
 pretty familiar with the issues in their issue tracker.  But, now that
 we are hosting more large projects, we are adding the option to
 formalize more of what small teams know implicitly.
+
 
 Users always had the ability to document in plan language that one
 issue could not be worked on until another issue was completed, and
