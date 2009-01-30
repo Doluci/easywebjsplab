@@ -24,8 +24,8 @@ The POST request payload describes the commit using the [http://webhooks.pbwiki.
       "added": ["/trunk/atlas_main.py"],
       "modified": ["/trunk/Makefile", "/trunk/constants.py"],
       "removed": ["/trunk/atlas.py"],
-    },
-  ],
+    }
+  ]
 }
 </pre>
 
