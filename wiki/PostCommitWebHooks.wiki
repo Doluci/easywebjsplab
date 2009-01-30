@@ -17,6 +17,7 @@ The POST request payload describes the commit using the [http://webhooks.pbwiki.
   "revision_count": 1,
   "revisions": [
     { "revision": 33,
+      "url": "http://atlas-build-tool.googlecode.com/svn-history/r33/",
       "author": "mparent61",
       "timestamp":   1229470699,
       "message": "working on easy_install",
@@ -47,6 +48,7 @@ Each revision contained in the 'revisions' list is a dictionary with the followi
 
 || *Field* || *Type* || *Description* ||
 ||revision|| Number || Repository identifier for this commit.||
+||url||String||URL to browse repository history for this revision.||
 ||author|| String || Username responsible for commit.||
 ||timestamp|| Number ||Repository commit timestamp.||
 ||message||String||Commit log message.||
