@@ -12,18 +12,18 @@ The POST request payload describes the commit using the [http://webhooks.pbwiki.
 
 <pre>
 {
-  project_name:  "atlas-build-tool",
-  repository_path: "http://atlas-build-tool.googlecode.com/svn/",
-  revision_count: 1,
-  revisions: [
-    { revision: 33,
-      author: "mparent61",
-      timestamp:   1229470699,
-      message: "working on easy_install",
-      path_count: 4,
-      added: ["/trunk/atlas_main.py"],
-      modified: ["/trunk/Makefile", "/trunk/constants.py"],
-      removed: ["/trunk/atlas.py"],
+  "project_name": "atlas-build-tool",
+  "repository_path": "http://atlas-build-tool.googlecode.com/svn/",
+  "revision_count": 1,
+  "revisions": [
+    { "revision": 33,
+      "author": "mparent61",
+      "timestamp":   1229470699,
+      "message": "working on easy_install",
+      "path_count": 4,
+      "added": ["/trunk/atlas_main.py"],
+      "modified": ["/trunk/Makefile", "/trunk/constants.py"],
+      "removed": ["/trunk/atlas.py"],
     },
   ],
 }
