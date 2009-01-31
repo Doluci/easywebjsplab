@@ -200,6 +200,8 @@ It's now possible to embed videos directly using our new video gadget, which cur
 <wiki:gadget url="http://code.google.com/p/google-code-project-hosting-gadgets/source/browse/trunk/video/gcVideo.xml" up_video="..." />
 }}}
 
+There is also a short hand wiki tag for embedding videos. For more information, refer to the [http://code.google.com/p/support/wiki/WikiSyntax#Videos WikiSyntax] documentation.
+
 == Google Groups ==
 
 [http://markmail.org/gadgets/builder/ MarkMail's Gadget Builder] provides step-by-step tool for generating gadgets for any Google Group based on simple search term.
