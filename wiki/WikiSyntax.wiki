@@ -374,7 +374,7 @@ Valid attributes are:
  * `border`: "0" or "1", whether to draw a border around the gadget
  * `up_*`: Gadget user preference parameters
 
-WorkingWithGoogleGadgets describes how to create gadgets for Google Code. It also provides  a few helpful suggestions that can make it easier for your gadgets to work across various containers such as iGoogle.
+WorkingWithGoogleGadgets describes how to create gadgets for Google Code. It also provides  a few helpful suggestions that can make it easier to publish gadgets and to integrate with other Google products such as iGoogle.
 
 InterestingDeveloperGadgets shows some sample gadgets you may want to include on your project pages.
 
