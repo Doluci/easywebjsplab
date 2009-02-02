@@ -12,13 +12,13 @@ A number of specialized gadgets have already been created for project hosting, w
 Gadgets can be added to any wiki or project home page using our new `<wiki:gadget...>` syntax. For example, the gadget found at:
 
 {{{
-http://google-code-project-hosting-gadgets.googlecode.com/svn/build/prod/changes/gcChanges.xml
+http://google-code-project-hosting-gadgets.googlecode.com/svn/trunk/examples/issueupdates_example.xml
 }}}
 
 Can be added using the following code:
 
 {{{
-<wiki:gadget url="http://google-code-project-hosting-gadgets.googlecode.com/svn/build/prod/changes/gcChanges.xml" up_projectName="support" />
+<wiki:gadget url="http://google-code-project-hosting-gadgets.googlecode.com/svn/trunk/examples/issueupdates_example.xml" up_projectName="support" />
 }}}
 
 Resulting in the following:
@@ -49,7 +49,7 @@ Taken from the [http://code.google.com/apis/gadgets/docs/gs.html#Hello_World Get
 
 == Embedding a remote URL ==
 
-Another common use for gadgets is simply displaying the contents of a remote page.
+You can also use Gadgets to display the contents of a remote page.
 
 {{{
 <?xml version="1.0" encoding="UTF-8" ?> 
@@ -59,24 +59,23 @@ Another common use for gadgets is simply displaying the contents of a remote pag
 </Module>
 }}}
 
-In the case of remote pages you may also wish to specify dimensions for your gadget in your actual wiki syntax:
+You can also specify dimensions for your gadget in your actual wiki syntax:
 
 {{{
 <wiki:gadget url="..." width="540" height="400" />
 }}}
 
-== Advantages of type=html over type=url ==
+== Advantages of `type=html` over `type=url` ==
 
-type=html gadgets have a few advantages over type=url gadgets:
+`type=html` gadgets have a few advantages over type=url gadgets:
 
-  * They cache very well.  The IFRAME that renders the gadget on the browser is cached by the browser, so subsequent views of the gadget by users who have seen the gadgets do not incur any HTTP costs.
-  * If you use the _IG_Fetch...() proxies, those responses are also cached by the browser.  This means even dynamic gadgets have excellent load performance while still being customizable.
-  * Not all containers support type=url gracefully.  type=url gadgets sometimes require a redirect, so the browser has to make a redundant HTTP call to the Gadget renderer, which increases latency.
-  * They generally are better supported than type=url gadgets.
+  * They cache very well.  The IFRAME that renders the gadget on the browser is cached by the browser, so subsequent views of the gadget by users who have seen the gadgets do not incur any additional HTTP hits.
+  * If you use the `_IG_Fetch...()` or `Gadgets.io` proxies, those responses are also cached by the browser.  This means even dynamic gadgets have excellent load performance while still being customizable.
+  * t`ype=url` gadgets incur a redundant HTTP call to the Gadget renderer, which increases latency.
+  * They generally are better supported by the APIs than type=url gadgets.
 
-type=url gadgets also has some additional downsides: they require that the href= of the type=url gadget contain some dynamically generated script tags, which add complexity and pose a security risk if not done properly.
 
-In some cases, this means that you need to rewrite some of your functionality, but the effort is usually minimal.  Plus, by using APIs to fetch your data rather than just generating HTML, you are creating APIs that other people cna use to create mashups for developers.
+In some cases, this means that you need to rewrite some of your functionality, but the effort is usually minimal.  Plus, by using APIs to fetch your data rather than just generating HTML, you are creating APIs that other people can use to create mashups for developers.
 
 == Gracefully Degrade ==
 Gadgets can render in a variety of containers.  Some of them have different end-user expectations than others:
@@ -87,26 +86,26 @@ Gadgets can render in a variety of containers.  Some of them have different end-
 
 When you code your gadget, code with both use cases in mind.  Your iGoogle users will appreciate the ability to customize the gadget through a familiar interface (the "edit settings" menu).
 
-If you try to call prefs.set() and the gadget is being rendered on the Wiki, you'll get an exception because that is not a supported feature on Google Code.  Therefore, be sure to code your gadget such that it works well in both iGoogle and Google Code.  There is a simple way to determine if your gadget is on iGoogle: write some javascript that searches document.location for "synd=ig".  If that's present, you know it is safe to call prefs.set().
+If you try to call `prefs.set()` and the gadget is being rendered on the Wiki, you'll get an exception because that is not a supported feature on Google Code.  Therefore, be sure to code your gadget such that it works well in both iGoogle and Google Code.  There is a simple way to determine if your gadget is on iGoogle: write some JavaScript that searches document.location for "synd=ig".  If that's present, you know it is safe to call prefs.set().
 
 == Use Standard UserPref Names for Customization ==
 
 Google Code users will use a syntax that looks like this:
 
 {{{
-<wiki:gadget url="..." pref1="val1" pref2="val2"/> 
+<wiki:gadget url="..." up_pref1="val1" up_pref2="val2"/> 
 }}}
 
-To make life as easy as possible on developers who wish to embed your gadget in the wiki, please use a standard user pref name for the project name.  Example:
+To make life easier on users of the Wiki, please use a standard user pref name for the project name.  Example:
 
 {{{
 <UserPref name="projectName" display_name="Project Name" default_value="no_project_selected" />
 }}}
 
-This will let Wiki users embed gadgets more easily:
+If you use something other than `projectName`, users would have to inspect your gadget to figure out what the variable is.  Here's an example:
 
 {{{
-<wiki:gadget url="..." projectName="google-web-toolkit"/> 
+<wiki:gadget url="..." up_projectName="google-web-toolkit"/> 
 }}}
 
 Also, by using a user pref value for specifying gadget customizations, your gadget becomes more portable across the different ways that gadgets can be embedded:
@@ -121,13 +120,13 @@ Also, by using a user pref value for specifying gadget customizations, your gadg
 It's also possible to host your gadgets directly out of your project hosting repository. As in the example above, the file:
 
 {{{
-http://google-code-project-hosting-gadgets.googlecode.com/svn/build/prod/changes/gcChanges.xml
+http://google-code-project-hosting-gadgets.googlecode.com/svn/trunk/examples/issueupdates_example.xml
 }}}
 
 Is just a normal file stored in `google-code-project-hosting-gadgets`'s svn repository, and can be referenced using:
 
 {{{
-<wiki:gadget url="http://google-code-project-hosting-gadgets.googlecode.com/svn/build/prod/changes/gcChanges.xml" />
+<wiki:gadget url="http://google-code-project-hosting-gadgets.googlecode.com/svn/trunk/examples/issueupdates_example.xml" />
 }}}
 
 If you do plan on hosting your gadget and related resources out of your source repository, though, ensure that all of your resource calls go through [http://code.google.com/apis/gadgets/docs/reference/#gadgets.io.getProxyUrl gadget.io.getProxyUrl] or [http://code.google.com/apis/gadgets/docs/reference/#gadgets.io.makeRequest gadget.io.makeRequest]. Gadgets themselves are cached, but direct links to files within your repository can lead to a significant decrease in performance.
