@@ -122,6 +122,12 @@ You can now place any gadget in a wiki page in your project. That makes it possi
 
 The new "Updates" subtab shows a summary of recent project activity, including commits and issue changes. It's a great way to understand how active a project is, and who did what.  See our [http://google-code-updates.blogspot.com/2008/10/project-updates-on-google-code.html blog post] for more information.
 
+= August 2008 =
+
+== Issue Templates ==
+
+Project owners can now define a set of issue templates that users can choose from when entering new issues.  Each template has initial values for the issue summary, description, owner, status, and labels.  For example, the template for a user defect report asks for different information than the template for an enhancement request.
+
 = July 2008 =
 
 == Source Code Review Tools ==
