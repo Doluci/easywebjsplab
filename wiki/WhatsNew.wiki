@@ -3,21 +3,31 @@
 
 Welcome to the What's New page for project hosting on Google Code. Here you'll find descriptions of our latest improvements to our collaborative development environment.
 
+= February 2009 =
+
+== Track updates by project or developer ==
+
+Tracking open source projects and other developers is now as easy as starring a project or a developer profile. All updates from starred projects and developers can be tracked by looking at the "Updates" tab on your profile page. For the details, see our [http://google-code-updates.blogspot.com/2009/02/staying-up-to-date-with-google-code.html blog post].
+
+== Subversion upgraded to 1.5 =
+
+The Subversion component of Google Code Project Hosting has been upgraded to version 1.5. What does this mean to users? If you're using a Subversion 1.5 client, you can now take advantage of Subversion's improved "merge tracking" feature to manage branches. See our [http://google-code-updates.blogspot.com/2009/02/project-hosting-upgraded-to-subversion.html blog post] for more information.
+
 = January 2009 =
 
-== Post Commit Web Hooks ==
+== Post commit web hooks ==
 
 Project owners can now trigger an HTTP POST to a URL of their choice after each commit to version control.  This enables users to write POST handlers that kick off builds, tests, notifications, or anything else that they can imagine.  See PostCommitWebHooks for details.
 
-== New Wiki Features ==
+== New wiki features ==
 
 You can now embed videos into wiki pages, including the project homepage. See [http://code.google.com/p/support/wiki/WikiSyntax#Videos WikiSyntax] for details.
 
-== Better Syntax Highlighting ==
+== Better syntax highlighting ==
 
 We upgraded to the latest version of [http://code.google.com/p/google-code-prettify/ google-code-prettify], improving language detection and adding support in the source browser for highlighting Haskell, LISP, CSS, Visual Basic, and our own wiki syntax.
 
-== Issue Filter Rules ==
+== Issue filter rules ==
 
 Much like message filter rules in an email client, project owners can now set up issue filter rules.  These rules look for certain labels on an issue, and then apply default values for the issue owner or status, or add labels or CC addresses.  Unlike email filter rules, issue filter rules are applied after every issue change, not just when new issues are entered.  And, the field values that are derived in filter rules are always default values: they never overwrite values that are explicitly set on the issue.  For example, default issue owners can be defined based on `Component-*` labels.
 
@@ -25,11 +35,11 @@ Much like message filter rules in an email client, project owners can now set up
 
 = December 2008 =
 
-== More Quota ==
+== More quota ==
 
 We're increasing the maximum file sizes from 20MB to 40MB, Subversion quotas from 100MB to 1GB, and download quotas from 100MB to 2GB.
 
-== New Web Page Header ==
+== New web page header ==
 
 The top of each project hosting web page is now a little cleaner and more consistent with other Google pages.
 
@@ -39,7 +49,7 @@ An issue tracker is a serious tool for tracking serious work.  When users chime 
 
 = November 2008 =
 
-== Wiki Improvements ==
+== Wiki improvements ==
 
 We increased the power of our wiki in three ways:
   # You can use one wiki page as a [http://code.google.com/p/support/wiki/WikiSyntax#Side_navigation sidebar] on your other pages for navigation.
@@ -51,14 +61,14 @@ We increased the power of our wiki in three ways:
 
 Now if you mention a URL in the text of an issue comment or a subversion commit log message, that URL is automatically shown as a hyperlink.
 
-== More Compact Issue Notification Emails ==
+== More compact issue notification emails ==
 
 The format of our issue notification emails has changed to now put the
 metadata at the top.  The summary still includes the issue number,
 project name, and issue summary.  Moving the metadata up improves the
 snippets shown in Gmail and other mail clients.
 
-== Artifact Sorting by Username ==
+== Artifact sorting by username ==
 
 A long-standing problem with sorting issues, downloads, and wiki pages
 has been fixed.  Previously these items did not sort properly by
@@ -67,7 +77,7 @@ Also, new issue list columns are available for the issue reporter and
 Cc list.  To see all the built-in columns, click the "..." table
 header in any list view.
 
-== Issue Blocking and Merging ==
+== Issue blocking and merging ==
 
 In a small project, only a few people are involved, and they become
 pretty familiar with the issues in their issue tracker.  But, now that
@@ -90,7 +100,7 @@ with the original issue.  Merging adds all unique stars and Cc values
 to the original issue, and automatically adds a comment to the
 original issue.
 
-== Starred Projects ==
+== Starred projects ==
 
 Users can now star projects that you are interested in so that you can
 easily revisit them.  On the summary page of any project, just click
@@ -101,36 +111,36 @@ have starred is shown on your profile page.
 
 = October 2008 =
 
-== Onward or Upward? ==
+== Onward or upward? ==
 
 Our issue tracker UI was designed with tabbed browsing in mind.  For example, if you want to triage several issues, you can middle-mouse click on links in the issue list to open several issues in separate browser tabs, then step through each of them rapidly.
 
 Now there is another way to rapidly step through issues in your project using just one browser tab.  When you submit an issue, you can now specify whether you would like to go up to the issue list, stay on the same issue, or go to the next issue in the list.
 
 
-== Assigned Code Reviews ==
+== Assigned code reviews ==
 
 We love to see developers doing code reviews because it is one of the best ways to improve quality and help everyone on your team stay in-touch with changes as they are made.  Since July we've offered a very easy-to-use code review tool that allows anyone to comment on any line of any revision.  
 
 Now, we are adding assigned reviews: these are issues labeled Type-Review that request that a project member review code that has been committed to a branch. These issues can be created through the Web !UI or through special syntax in a commit log message. The issues are listed in the issue tracker, as well as at the top of the recent changes page.  Each issue links to a branch review page that summarizes all the changes made on that branch.  Once a review is done, its issue can be closed.  See the CodeReviews page for more information.
 
-== Gadgets In, Gadgets Out ==
+== Gadgets in, gadgets out ==
 
 You can now place any gadget in a wiki page in your project. That makes it possible to show video, charts, and stats.  And, you can now put gadgets with info about your project onto your iGoogle page (or any other gadget container). See our [http://google-code-updates.blogspot.com/2008/10/gadgets-and-google-code.html blog post] for more details.
 
-== Project Updates ==
+== Project updates ==
 
 The new "Updates" subtab shows a summary of recent project activity, including commits and issue changes. It's a great way to understand how active a project is, and who did what.  See our [http://google-code-updates.blogspot.com/2008/10/project-updates-on-google-code.html blog post] for more information.
 
 = August 2008 =
 
-== Issue Templates ==
+== Issue templates ==
 
 Project owners can now define a set of issue templates that users can choose from when entering new issues.  Each template has initial values for the issue summary, description, owner, status, and labels.  For example, the template for a user defect report asks for different information than the template for an enhancement request.
 
 = July 2008 =
 
-== Source Code Review Tools ==
+== Source code review tools ==
 
 Code reviews can be a very effective way to improve your code quality, and keep your project members involved in the changes that might affect their work. We now offer a source code review tool that is integrated with Google Code's project hosting.
 
