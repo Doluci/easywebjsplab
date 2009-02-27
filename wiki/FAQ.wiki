@@ -133,6 +133,9 @@ If you need more tools, you might choose to run them yourself on your own server
 
 == Issue Tracking ==
 
+=== One of my issues is missing!! ===
+It is not actually missing.  Some projects that we host skipped one issue id value between January 28, 2009 and February 21, 2009.  If it seems like one of your issues is missing, and the next issue was created in that time range, the problem is likely just that the "missing" issue id was never used.
+
 === Why build yet another issue-tracking tool? ===
 An issue tracker is an application that users and developers use to maintain a database of software defects, change requests, technical-support requests, development tasks, and other issues that the project members must work to resolve. Since they're so central to each developer's daily work, many issue tracking systems have already been built. Most existing issue tracker tools force developers to follow a particular software development process by defining a set of fields, possible values, and workflow states for each issue. The result is often a complex tool that's difficult to use because it includes many fields and options that aren't applicable to a given issue. 
 
