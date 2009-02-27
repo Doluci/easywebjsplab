@@ -1,7 +1,7 @@
 #summary The reference to the wiki syntax for Google Code projects
 #labels Featured
 
-<wiki:toc max_depth="2" />
+<wiki:toc max_depth="2" /> 
 
 = Introduction =
 
