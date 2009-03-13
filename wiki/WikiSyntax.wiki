@@ -523,7 +523,7 @@ Note: The wiki accepts a subset of ISO-639 two letter language codes, where a fe
 </tr>
 <tr>
 <td>Hebrew</td>
-<td>iw</td>
+<td>he</td>
 </tr>
 <tr>
 <td>Hungarian</td>
