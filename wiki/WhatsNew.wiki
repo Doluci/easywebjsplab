@@ -13,7 +13,7 @@ The Google-sponsored projects are keeping the "Google Code" logo.  All the other
 
 When you're done with an issue, you should just set it's status to Fixed or some other closed status value. But, sometimes you really want to delete an issue.  For example, if it contains a password that is hard to change.  Now project owners can delete the whole issue. Individual attachments can also be deleted.
 
-== self-serve repository resets ==
+== Self-serve repository resets ==
 
 Version control is all about maintaining history.  If you want to make changes, or even start with a whole new directory structure, you can do that with regular svn commands.  However, sometimes you need to reset your repository history so that you can 'svnsync' content from another svn server.  You can now do that a little more easily without needing to file a support request.
 
