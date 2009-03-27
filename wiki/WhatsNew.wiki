@@ -7,7 +7,7 @@ Welcome to the What's New page for project hosting on Google Code. Here you'll f
 
 == Customizable project logos ==
 
-The Google-sponsored projects are keeping the "Google Code" logo.  All the other projects that we host have a great new default logo with a "g" on a monitor. And, any project can upload a custom project logo to be displayed in that space on every page in the project.
+As announced in our [http://google-code-updates.blogspot.com/2009/03/custom-logos-for-open-source-projects.html blog post], project owners can now upload a custom project logo to be displayed at the top of every page in the project.  The Google-sponsored projects are keeping the "Google Code" logo.  All the other projects that we host have a great new default logo with a "g" on a monitor. 
 
 == Soft-delete issues and issue attachments ==
 
