@@ -76,7 +76,7 @@ class Listener(webapp.!RequestHandler):
     for revision in payload[['revisions']]:
       logging.info('Project %s, revision %s contains %s paths',
                    payload[['project_name']],
-                   revision!['revision']],
+                   revision[['revision']],
                    revision[['path_count']])
 </pre>
 
