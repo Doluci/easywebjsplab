@@ -3,7 +3,26 @@
 
 Welcome to the What's New page for project hosting on Google Code. Here you'll find descriptions of our latest improvements to our collaborative development environment.
 
+= March 2009 =
+
+== Customizable project logos ==
+
+The Google-sponsored projects are keeping the "Google Code" logo.  All the other projects that we host have a great new default logo with a "g" on a monitor. And, any project can upload a custom project logo to be displayed in that space on every page in the project.
+
+== Soft-delete issues and issue attachments ==
+
+When you're done with an issue, you should just set it's status to Fixed or some other closed status value. But, sometimes you really want to delete an issue.  For example, if it contains a password that is hard to change.  Now project owners can delete the whole issue. Individual attachments can also be deleted.
+
+== self-serve repository resets ==
+
+Version control is all about maintaining history.  If you want to make changes, or even start with a whole new directory structure, you can do that with regular svn commands.  However, sometimes you need to reset your repository history so that you can 'svnsync' content from another svn server.  You can now do that a little more easily without needing to file a support request.
+
+
 = February 2009 =
+
+== "My projects" drop-down for quick navigation ==
+
+Now it's easy to navigate to projects that you are a member of, or that you have starred.  Just click on the "My projects" drop-down menu in the far upper right of any project hosting page.
 
 == Track updates by project or developer ==
 
