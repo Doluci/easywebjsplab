@@ -73,11 +73,11 @@ from google.appengine import webapp
 class Listener(webapp.!RequestHandler):
   def post(self):
     payload = simplejson.loads(self.request.body)
-    for revision in payload[['revisions']]:
+    for revision in payload[["revisions"]]:
       logging.info('Project %s, revision %s contains %s paths',
-                   payload[['project_name']],
-                   revision[['revision']],
-                   revision[['path_count']])
+                   payload[["project_name"]],
+                   revision[["revision"]],
+                   revision[["path_count"]])
 </pre>
 
 
@@ -99,7 +99,7 @@ class Listener(webapp.!RequestHandler):
     m = hmac.new(project_secret_key)
     m.update(self.request.body)
     digest = m.hexdigest()
-    if digest == self.request.headers[['Google-Code-Project-Hosting-Hook-Hmac']]:
+    if digest == self.request.headers["Google-Code-Project-Hosting-Hook-Hmac"]:
       print "Authenticated"
     else:
       print "Authentication failed!"
