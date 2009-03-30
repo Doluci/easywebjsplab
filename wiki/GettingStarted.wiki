@@ -49,7 +49,7 @@ If you've reviewed existing projects and couldn't find one that meets your needs
     * [#Working_with_your_Source_Repository_on_the_Source_Tab Source]
     * [#Customizing_your_Project_on_the_Administer_Tab Administer]
 
-*Note:* You have a lifetime creation limit of 10 projects in total. If you need more, please come to the [http://groups.google.com/group/google-code-hosting google-code-hosting Google Group] to get more -- we're glad to raise your limit if you need it!
+*Note:* You have a lifetime creation limit of 25 projects in total. If you need more, please come to the [http://groups.google.com/group/google-code-hosting google-code-hosting Google Group] to get more -- we're glad to raise your limit if you need it!
 
 == Working with your Source Repository on the Source Tab ==
 
