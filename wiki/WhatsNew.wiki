@@ -17,6 +17,9 @@ When you're done with an issue, you should just set it's status to Fixed or some
 
 Version control is all about maintaining history.  If you want to make changes, or even start with a whole new directory structure, you can do that with regular svn commands.  However, sometimes you need to reset your repository history so that you can 'svnsync' content from another svn server.  You can now do that a little more easily without needing to file a support request.
 
+== Project creation limit raised ==
+
+We limit the rate at which users can create projects, and we also have a lifetime limit on the number of projects created by each account.  These limits exist to help us catch abuse and some types of well-intentioned but misguided use.  Most users never reach these limits, but some do.  Now that we have more ways to deal with abuse, we have increased the lifetime project creation limit to 25.  However, please use each project that you create wisely and seriously.  For example, please don't repeatedly create a new project as a way to give a fresh start to an existing project, instead 'svn rm' files and close old issues.
 
 = February 2009 =
 
