@@ -1,0 +1,125 @@
+#summary User guide for Google Code's issue tracker
+
+<wiki:toc max_depth="1" />
+
+= Introduction =
+
+An issue tracker is an application that users and developers use to
+maintain a database of software defects, change requests,
+technical-support requests, development tasks, and other issues that
+the project members must work to resolve. Since they're so central to
+each developer's daily work, many issue tracking systems have already
+been built. Most existing issue tracker tools force developers to
+follow a particular software development process by defining a set of
+fields, possible values, and workflow states for each issue. The
+result is often a complex tool that's difficult to use because it
+includes many fields and options that aren't applicable to a given
+issue.
+
+In contrast, our issue tracker uses only a minimal set of fields, and
+offers users the ability to store the information that they need as
+labels. This approach is possible because it uses Google's free-text
+search technology to search on all issue metadata.  Using labels
+instead of fields makes the issue tracker much simpler to use.
+Specifically, it allows developers to add any unsual information that
+is important for a given issue without having to complicate the entire
+user experience for every other issue.
+
+
+= Quick start =
+
+Here is how you can carry out the most common use cases with our issue tracker:
+
+== How do I view open issues in a project? ==
+   # Click the "Issues" tab in your project.
+
+That page shows all open issues by default.  You can narrow the list by entering search terms or changing the query scope.  Then click the "Search" button in the page toolbar (directly below the main tabs).
+
+== How do I enter an issue? ==
+
+   # Click the "Issues" tab in your project.
+   # Click the "New issue" subtab.
+   # If the default issue template does not fit what you are trying to report, choose a different one.
+   # Fill in the issue summary. In most cases you must edit the issue summary before the "Submit" button is enabled.
+   # Fill in the issue description.  Answer any questions in the description prompt and add an additional information that you think would be helpful.
+   # Optionally, attach screenshots or other files that help describe the issue.
+   # If you are a project member or owner, you can also edit the issue status, owner, CCs, and labels.
+   # Submit the issue
+
+Most issue metadata is not offered to non-members. Instead, project
+non-members are expected to it simply report what they see and what it
+means to them.  It is the the responsibility of the project members to
+triage issues and choose priorities, milestones, and issue owners.
+Issue templates and filter rules can be used to help automate the
+triage process, while still keeping the non-member user experience
+very simple.
+
+== How do I update an issue? ==
+   # View the issue list
+   # Click on the row for the issue, this takes you to the issue detail page.
+   # Click on the large text area at the bottom of the page, or the link "Add a comment and  make changes below"
+   # Enter the text of your comment
+   # If you are a project member, you can also edit the project metadata
+   # Click the "Save changes" button
+
+When entering or updating the issue meta-data, each field or label is
+presented as a plain text field with an auto-complete menu of
+predefined choices.  Since these are text fields, you can always "just
+type" without needing to do a lot of clicking.  Also, when dealing
+with exception issues, project members are free to enter values that
+are not among the predefined choices.
+
+== How do I close an issue? ==
+   # Follow the steps above to update the issue
+   # Edit the status value to be one of the closed values.
+   # Save changes
+
+Only project members can close an issue.  If a non-member reports an
+issue, and then wishes to withdraw it, he/she should simply comment on
+the issue to explain that it can be closed without any work.
+
+The status field is a plain text field, and you can enter uncommon
+values there if it helps you express the state of the issue.  However,
+only the predefined status values listed as "closed" will cause the
+issue to be considered closed, any non-predefined value will be
+considered to be open.  The project owner can define new open and
+closed status values on the issue tracker administration page.
+
+
+== How do I get notified when an issue is changed? ==
+
+The most common way to do this is to star the issue by clicking on a
+star icon on the issue list or issue detail page. On the user settings
+page, you can set a preference for email notifications when an issue
+that you have starred is updated.
+
+The issue owner and any users listed on the CC line will also be
+notified of issue changes.  That notification preference can also be
+set on the user settings page.
+
+Also, all issue changes are emailed to the "All issue activity"
+address, if that is set by the project owner on the issue tracker
+administration page.  Normally, that address would be the address of a
+mailing list that allows anyone to subscribe.
+
+<!--
+= Concepts =
+
+
+= Issue entry =
+
+
+= Issue viewing =
+
+
+= Updating issues =
+
+
+= Issue search =
+
+
+= Issue list and grid =
+
+
+= Customization =
+-->
