@@ -362,6 +362,9 @@ http://projectname.googlecode.com/svn/trunk
 === How do I check code into the repository? ===
 You can use the 'svn import' command, just as you'd do with any typical Subversion repository.
 
+=== How can I reset the repository? ===
+If you're a project owner, you can click on the "reset this repository" link at the bottom of the "Source" tab's page.
+
 === How do I give new developers check-in privileges? ===
 If you're a project owner, just go to the project's "Administer" tab and add people as project members.
 
