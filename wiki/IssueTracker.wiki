@@ -101,25 +101,3 @@ Also, all issue changes are emailed to the "All issue activity"
 address, if that is set by the project owner on the issue tracker
 administration page.  Normally, that address would be the address of a
 mailing list that allows anyone to subscribe.
-
-<!--
-= Concepts =
-
-
-= Issue entry =
-
-
-= Issue viewing =
-
-
-= Updating issues =
-
-
-= Issue search =
-
-
-= Issue list and grid =
-
-
-= Customization =
--->
