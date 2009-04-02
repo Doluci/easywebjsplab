@@ -120,7 +120,7 @@ status.
 The expected issue life-cycle for most projects is something like this:
    # A user reports an issue and it has status `New`.
    # The issue is triaged by a project member, if it was not originally entered and triaged at the same time.  It may be rejected by setting its status to `Invalid`, `WontFix`, or `Duplicate`. Or, it may be `Accepted`. It it is accepted, it is may be labeled with a milestone and a priority within that milestone, and it may also be labeled to identify the part of the product affected or the nature of the cause of the problem.
-   # The project owner may ask for more information and the initial reporter may add comments to provide that info.  The issue owner may set the status to `Started`.
+   # The project owner may ask for more information and the initial reporter may add comments to provide that information.  The issue owner may set the status to `Started`.
    # Other users may provide additional comments that can help resolve the issue, or express their interest in having the issue resolved in a timely milestone.
    # If the original owner cannot work on the issue, or discovers that another project member would be a better person to work on the issue, it can be reassigned to another owner, or to no owner.  Likewise, if work on the issue cannot be fit into a given milestone, the issue can be slipped by labeling it with a later milestone, or the milestone label can be removed altogether.
    # Once the development work has been done to resolve the issue, it's status can be set to `Fixed`. If the team wishes to track which changes have been made but not yet incorporated into a release, they may decide to set the status to something like `FixPending`.
@@ -136,18 +136,18 @@ itself.  For example, an issue could be labeled `Hot` or `Security` or
 that have that same label.
 
 Our issue tracker goes beyond basic labels to support Key-Value
-labels.  These labels contain one or more dashes in the name.  The
+labels.  These labels contain one or more dashes in their name.  The
 part before the first dash is called the "prefix" and is considered to
 be a field name, and the part after that dash is considered to be the
 value.  For example, `Priority-High` means that the priority of that
 issue is high.  
 
 An issue may have a multi-valued field if it has multiple labels that
-start with the same prefix, for example a defect that affects both the
+start with the same prefix. For example, a defect that affects both the
 user interface and the database layer of a program might be labeled
 with `Component-UI` and `Component-DB`.  An issue that has no label
 with a given prefix is considered to have no value for that field.
-Some fields are intended to be only single-valued, for example it
+Some fields are intended to be only single-valued. For example, it
 would be confusing for an issue to have both `Priority-High` and
 `Priority-Low`.  
 
@@ -171,7 +171,7 @@ that issue.  The issue tracker makes use of stars by:
 Whenever an issue changes, an email notification is sent to users who
 have starred it.  An email notification is also sent to the issue
 owner, project members listed on the CC line, and to the
-all-issue-activity email address, if one has been set up.  Also,
+"all issue changes" email address, if one has been set up.  Also,
 filter rules that match the issue may add more email addresses to
 notify of changes.  Users may configure their email notification
 preferences on the user settings page.  The user who reported an issue
@@ -212,6 +212,6 @@ rules are applied after every issue change, not just when new issues
 are entered. And, the field values that are derived in filter rules
 are always default values: they never overwrite values that are
 explicitly set on the issue. For example, default issue owners can be
-defined based on Component-* labels.
+defined based on `Component-*` labels.
 
 
