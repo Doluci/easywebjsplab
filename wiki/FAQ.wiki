@@ -101,6 +101,9 @@ At this time, we offer only the licenses listed.
 === How can I choose two licenses for my dual-licensed project? ===
 At this time, we offer single licenses only.
 
+=== Can place code in the public domain without licensing it? ===
+The concept of "public domain" is actually a lot more complicated than most people realize.  Holding copyright and using a (permissive) licence is almost always the right choice. In general, we do not offer to host projects with source code in the public domain. However, if you can _only_ release your code as public domain, and you are sure that you can legally do so, please [http://code.google.com/p/support/issues/entry enter an issue] for us to review your request and create the project for you.
+
 === Is my data safe? ===
 Yes. Your data is hosted on Google's infrastructure in Google's datacenters, ensuring a high level of reliability and redundancy.
 
