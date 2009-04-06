@@ -442,5 +442,10 @@ Please read the Google Code [http://code.google.com/tos.html Terms of Service], 
 === How do I report abuse of Google Code site? ===
 Please send an email to code-hosting@google.com.
 
+=== Does Google Code host distros (e.g Linux distributions)? ===
+
+Project hosting on Google Code does not support the hosting of distros (ISOs, CD/DVD image files). Instead, we recommend hosting only the specific pieces that you are developing, i.e. import the kernel and panel source in the SVN repository and provide binary builds for those specific packages in our downloads repository.
+
+This is because distros really need a different set of tools from what we offer for software development. It is an area where we do not have good tools and think that developing such tools would be a distraction from our main [http://code.google.com/p/support/wiki/MakingHostingBetter objectives].
 
 _The content on this page created by Google is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License].  User-generated content is not included in this license._
