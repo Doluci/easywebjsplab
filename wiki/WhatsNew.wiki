@@ -11,7 +11,7 @@ As announced in our [http://google-code-updates.blogspot.com/2009/03/custom-logo
 
 == Soft-delete issues and issue attachments ==
 
-When you're done with an issue, you should just set it's status to Fixed or some other closed status value. But, sometimes you really want to delete an issue.  For example, if it contains a password that is hard to change.  Now project owners can delete the whole issue. Individual attachments can also be deleted.
+When you're done with an issue, you should just set its status to Fixed or some other closed status value. But, sometimes you really want to delete an issue.  For example, if it contains a password that is hard to change.  Now project owners can delete the whole issue. Individual attachments can also be deleted.
 
 == Self-serve repository resets ==
 
