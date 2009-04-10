@@ -7,14 +7,12 @@
 An issue tracker is an application that users and developers use to
 maintain a database of software defects, enhancement requests,
 technical-support requests, development tasks, and other issues that
-the project members must work to resolve. Since they're so central to
-each developer's daily work, many issue tracking systems have already
-been built. Most existing issue tracker tools force developers to
-follow a particular software development process by defining a set of
-fields, possible values, and workflow states for each issue. The
-result is often a complex tool that's difficult to use because it
-includes many fields and options that aren't applicable to a given
-issue.
+the project members must work to resolve. Most previous issue tracker
+tools force developers to follow a particular software development
+process by defining a set of fields, possible values, and workflow
+states for each issue. The result is often a complex tool that's
+difficult to use because it includes many fields and options that
+aren't applicable to a given issue.
 
 In contrast, our issue tracker uses only a minimal set of fields, and
 offers users the ability to store the information that they need as
@@ -24,6 +22,13 @@ instead of fields makes the issue tracker much simpler to use.
 Specifically, it allows developers to add any unsual information that
 is important for a given issue without having to complicate the entire
 user experience for every other issue.
+
+Also, throughout our project hosting servics, we have taken into
+account the differences between the developers who work on a project
+and the end-users of the program being built.  In our issue tracker,
+it is the project members who are responsible for all issue fields and
+labels, so end-users can be presented a very simple UI for their most
+common operations.
 
 ----
 
@@ -52,7 +57,7 @@ Here is how you can carry out the most common use cases with our issue tracker:
    # Click on the row for the issue, this takes you to the issue detail page.
    # Click on the large text area at the bottom of the page, or the link "Add a comment and  make changes below".
    # Enter the text of your comment.
-   # If you are a project member, you can also edit the project metadata.
+   # If you are a project member, you can also edit the issue fields.
    # Click the "Save changes" button
 
 
@@ -101,21 +106,21 @@ comments, he/she may also update the issue fields.
 
 The status of an issue is a one-word indication of how far the issue
 has progressed through an expected issue life-cycle. An issue
-life-cycle can be thought of like a state machine.  This exact issue
+life-cycle can be thought of as a state machine.  This exact issue
 life-cycle depends on the software development process followed by the
-project team, and almost all projects will eventually have a few
-exceptional issues that deviate from the expected life-cycle.  Our
-issue tracking tool does not enforce specific transisitons through the
-life-cycle or even limit the statuses to predefined values. Instead,
-we guide users toward choosing the common values, but allow
-exceptional statuses to be entered as well.
+project team, and almost all projects will have a few exceptional
+issues that deviate from the expected life-cycle.  Our issue tracking
+tool does not enforce specific transisitons through the life-cycle or
+even limit the statuses to predefined values. Instead, we guide users
+toward choosing the common values, but allow exceptional statuses to
+be entered when appropriate.
 
 We do make one basic issue life-cycle assumption: some status values
 are considered to be open, while others are considered to be closed.
-Most development activity in a project should deal with open issues,
-so searching within open issues is the default.  But, closed issues
-can still be searched and updated, or even changed back to an open
-status.
+Most day-to-day development activity in a project deals with open
+issues, so searching within open issues is the default.  But, closed
+issues can still be searched and updated, or even changed back to an
+open status.
 
 The expected issue life-cycle for most projects is something like this:
    # A user reports an issue and it has status `New`.
@@ -139,8 +144,7 @@ Our issue tracker goes beyond basic labels to support Key-Value
 labels.  These labels contain one or more dashes in their name.  The
 part before the first dash is called the "prefix" and is considered to
 be a field name, and the part after that dash is considered to be the
-value.  For example, `Priority-High` means that the priority of that
-issue is high.  
+value.  For example, `Priority-High` or `Milestone-2.1-Red-Racoon`.
 
 An issue may have a multi-valued field if it has multiple labels that
 start with the same prefix. For example, a defect that affects both the
@@ -176,7 +180,9 @@ filter rules that match the issue may add more email addresses to
 notify of changes.  Users may configure their email notification
 preferences on the user settings page.  The user who reported an issue
 is normally notified simply because of the fact that they have starred
-the issue, which happens by default when the issue is entered.
+the issue, which happens by default when the issue is entered.  The
+user who made the change is not directly notified, because they already
+know that the change was made.
 
 Our issue tracker also offers a feed of issue changes.  You can
 subscribe to it by clicking the "Project feeds" link on the project
