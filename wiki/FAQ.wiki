@@ -288,9 +288,7 @@ Just use the 'svn import' command. Note that this command only loads a single tr
 === How do I import an existing Subversion repository? ===
 To upload the history of an existing Subversion repository, use the svnsync tool that ships with Subversion 1.4. Run svnsync help to read more about this tool.
 
-Note that your Google Code repository must be reset to revision 0 for this to work. If your project is newly created, it will be at revision 1, and your project's Source tab will display instructions on how to reset the repository yourself. (Note: you must be a project owner to reset your own repository, and also to push code up with svnsync.)
-
-If your repository's latest revision is greater than 1, then a site administrator will have to reset the repository for you; email google-code-hosting@googlegroups.com and ask for this, or post directly to the [http://groups.google.com/group/google-code-hosting?lnk=sg Google Group].
+Note that your Google Code repository must be reset to revision 0 for this to work. Your project's Source tab will display instructions on how to reset the repository yourself. (Note: you must be a project owner to reset your own repository, and also to push code up with svnsync.)
 
 Here's a sample transcript that demonstrates how you can push history from an existing repository (located at `file:///my/repos`) to your repository on Google Code:
 
