@@ -9,7 +9,7 @@ maintain a database of software defects, enhancement requests,
 technical-support requests, development tasks, and other issues that
 the project members must work to resolve. Most previous issue tracker
 tools force developers to follow a particular software development
-process by defining a set of fields, possible values, and workflow
+process by defining a set of fields, possible values, and work-flow
 states for each issue. The result is often a complex tool that's
 difficult to use because it includes many fields and options that
 aren't applicable to a given issue.
@@ -17,17 +17,17 @@ aren't applicable to a given issue.
 In contrast, our issue tracker uses only a minimal set of fields, and
 offers users the ability to store the information that they need as
 labels. This approach is possible because it uses Google's free-text
-search technology to search on all issue metadata.  Using labels
+search technology to search on all issue fields.  Using labels
 instead of fields makes the issue tracker much simpler to use.
-Specifically, it allows developers to add any unsual information that
+Specifically, it allows developers to add any unusual information that
 is important for a given issue without having to complicate the entire
 user experience for every other issue.
 
-Also, throughout our project hosting servics, we have taken into
+Also, throughout our project hosting service, we have taken into
 account the differences between the developers who work on a project
 and the end-users of the program being built.  In our issue tracker,
 it is the project members who are responsible for all issue fields and
-labels, so end-users can be presented a very simple UI for their most
+labels, so end-users can be presented a very simple user interface for their most
 common operations.
 
 <br/>
@@ -44,7 +44,7 @@ Here is how you can carry out the most common use cases with our issue tracker:
 == How do I enter an issue? ==
 
    # Click the "Issues" tab in your project.
-   # Click the "New issue" subtab.
+   # Click the "New issue" sub-tab.
    # Optionally, choose a different issue template.
    # Fill in the issue summary. In most cases you must edit the issue summary before the "Submit" button is enabled.
    # Fill in the issue description.
@@ -112,7 +112,7 @@ life-cycle can be thought of as a state machine.  This exact issue
 life-cycle depends on the software development process followed by the
 project team, and almost all projects will have a few exceptional
 issues that deviate from the expected life-cycle.  Our issue tracking
-tool does not enforce specific transisitons through the life-cycle or
+tool does not enforce specific transitions through the life-cycle or
 even limit the statuses to predefined values. Instead, we guide users
 toward choosing the common values, but allow exceptional statuses to
 be entered when appropriate.
@@ -131,13 +131,13 @@ The expected issue life-cycle for most projects is something like this:
    # Other users may provide additional comments that can help resolve the issue, or express their interest in having the issue resolved in a timely milestone.
    # If the original owner cannot work on the issue, or discovers that another project member would be a better person to work on the issue, it can be reassigned to another owner, or to no owner.  Likewise, if work on the issue cannot be fit into a given milestone, the issue can be slipped by labeling it with a later milestone, or the milestone label can be removed altogether.
    # Once the development work has been done to resolve the issue, it's status can be set to `Fixed`. If the team wishes to track which changes have been made but not yet incorporated into a release, they may decide to set the status to something like `FixPending`.
-   # Teams that are deciplined about quality will ask the issue reporter or another team member to verify that the fix actually fixed the reported problem, and set the status to `Verified` once that has been done.
-   # If verifcation fails, or if the original reporter adds a comment to say that the `Fixed` issue is still a problem, the issue can be set back to an open status.
+   # Teams that are disciplined about quality will ask the issue reporter or another team member to verify that the fix actually fixed the reported problem, and set the status to `Verified` once that has been done.
+   # If verification fails, or if the original reporter adds a comment to say that the `Fixed` issue is still a problem, the issue can be set back to an open status.
 
 == Labels ==
 
 Labels are strings that are meaningful to people who participate in
-the project, but they are not inteperted by the issue tracking tool
+the project, but they are not interpreted by the issue tracking tool
 itself.  For example, an issue could be labeled `Hot` or `Security` or
 `EasyToResolve`.  Clicking on a label will search for all open issues
 that have that same label.
@@ -165,7 +165,7 @@ in the label auto-complete menu, but they do not prevent project
 members from entering exceptional values.
 
 
-== Stars and notifictions ==
+== Stars and notifications ==
 
 Any user can star an issue by clicking a star icon on the issue list
 or issue detail page.  A star means that the user is interested in
@@ -227,7 +227,7 @@ defined based on `Component-*` labels.
 ----
 = Issue entry =
 
-The issue entry page is accessed by clicking the "New issue" subtab
+The issue entry page is accessed by clicking the "New issue" sub-tab
 under the "Issues" tab.  For project members, the issue entry form
 allows a choice of templates and fields for summary, description,
 owner, status, CC list, labels, and blocked-on issues.  For
@@ -294,11 +294,16 @@ query scopes are:
 The search query can use a keyword syntax to select only issues that
 have the requested text in a specific field.  E.g., `summary:leak`
 would find only issues that contain the word 'leak' in the summary
-field. See the "Search tips" subtab for more examples.
+field. Also, searching for an issue ID will navigate directly to that
+issue rather than doing a search.  To search for issues that contain a
+number, enclose the number in quotation marks.  For example, searching
+for `123` navigates to issue 123, while searching for `"123"` displays
+a list of issues that contain the string "123". See the "Search tips"
+sub-tab for more examples.
 
 The list of issues shown can be quickly narrowed by clicking on one of
 the column headings and choosing a value from the "Show only"
-submenu. Choosing a value adds a search term that matches only issues
+sub-menu. Choosing a value adds a search term that matches only issues
 with that value.
 
 The set of columns shown is normally: ID, Type, Status, Milestone,
@@ -361,7 +366,7 @@ work that can be done in each release, you might want to view issues
 with rows for milestones and columns for priorities within those
 milestones.  Along each axis are the unique values that occur for that
 field.  For example, if you choose to use Priority for the rows, then
-the invidual rows might be labeled High, Medium, and Low.  Rows and
+the individual rows might be labeled High, Medium, and Low.  Rows and
 columns that would have no issues are not shown.  For example, there
 would be no row for Critical issues if there are zero issues labeled
 Priority-Critical.  If some issues do not have any value for the field
@@ -397,7 +402,76 @@ certain steps in your software development process:
 ----
 = Issue details and updates =
 
-_To be written_
+The issue detail page can be accessed by clicking anywhere in a row of
+the issue list.  If you view one issue in an issue list, you can flip
+to the next or previous issue in the list by clicking the "Next" and
+"Prev" links.
+
+This page displays all the information about one issue, including the
+issue ID, summary, star count, description, comments, owner, CC list,
+status, and labels.  If you are signed in, a star icon near the issue
+ID indicates whether or not you have starred the issue.
+
+The issue description is shown near the top of the page, and issue
+comments are listed in chronological order under it.  The text of the
+issue description uses bold text for any lines that came from the
+issue template rather than being edited by the user when the issue was
+entered.  These bold lines serve as headers that help to organize the
+issue description.  The issue description and comments are displayed
+as fixed-width text exactly as they were entered.  However, certain
+words or phrases that refer to other parts of your project are
+automatically hyperlinked, see AutoLinking for details.  If a project
+member added a comment and updated the issue fields at the same time,
+the updates are shown just below that comment.  Each individual
+comment has its own anchor with its comment number, so that you may
+make a hyperlink that refers directly to it.  The time that each
+comment was entered is displayed in relative terms (e.g., "3 hours
+ago") for recent comments, but the exact (Pacific timezone) time can
+be seen in a tooltip.
+
+At the bottom of the page is a text area to enter a new comment.
+Clicking on this text area expands it and makes it editable.  Project
+members will also see form elements for editing the issue fields.  The
+form fields for owner and CCs accept only the user names of project
+members. An auto-complete menu helps you enter these values.  The
+issue status and label form fields also allow free text entry but
+auto-complete menus help you choose the values that are defined on the
+issue tracker administration page.  Each status and label value can
+have an explanation of its meaning so that different project members
+can use labels like `Priority-High` consistently.  The label
+auto-complete menu will not display labels that have already been
+added to this issue, or other labels that have the same exclusive
+prefix.  When the new comment is submitted, project members have a
+choice of staying on the same issue, moving on to the next issue in
+the issue list, or returning to the issue list.
+
+To show your interest in seeing a particular issue resolved, you
+should star the issue.  Please do not add comments that say simply
+"+1" or "me too".  The comments of an issue should be helpful to the
+developer who is working to solve the issue, or to other users who may
+need to work around it.  Every comment entered triggers a notification
+email to other users, so low-value comments only serve to annoy and
+distract them.
+
+Normally, when an issue is resolved, its status should be set to a
+closed value.  Even if the issue was due to user-error or mistakenly
+entered, it should simply be closed with status `Invalid`.  However,
+there are sometimes cases where users abuse the system by entering
+spam comments or accidentally enter personal information that cannot
+be easily changed.  Project owners can remove this information from
+view by clicking the "Delete comment" link in the upper-right of each
+comment.  Project owners can soft-delete bad issue attachments via the
+"Delete" button next to each attachment. And, they can soft-delete
+entire issues by using the "Other actions..." menu on the comment
+form.  Please note that in the case where personal information has
+been entered, it will have already been included in notification
+emails, so need to take further steps.
+
+
+
+<br/>
+----
+= Issue bulk editing =
 
 <br/>
 ----
