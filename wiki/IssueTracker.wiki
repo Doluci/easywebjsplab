@@ -282,14 +282,14 @@ The search scope (or "can") is simply a choice of predefined
 ("canned") search terms that are added to your query.  The available
 query scopes are:
 
-||*Query scope* ||*Equivalent query terms* ||
-||All issues || _Nothing added_ ||
-||Open issues ||`is:open` ||
-||Open and owned by me ||`is:open owner:me` ||
-||Open and reported by me ||`is:open reporter:me` ||
-||Open and starred by me ||`is:open is:starred` ||
-||New issues ||`status:new` ||
-||Issues to verify ||`isnot:open status!=verified` ||
+|| *Query scope* || *Equivalent query terms* ||
+|| All issues ||  _Nothing added_ ||
+|| Open issues || `is:open` ||
+|| Open and owned by me || `is:open owner:me` ||
+|| Open and reported by me || `is:open reporter:me` ||
+|| Open and starred by me || `is:open is:starred` ||
+|| New issues || `status:new` ||
+|| Issues to verify || `isnot:open status!=verified` ||
 
 The search query can use a keyword syntax to select only issues that
 have the requested text in a specific field.  E.g., `summary:leak`
@@ -310,19 +310,19 @@ can also type in the names of columns by selecting "Change columns..."
 from the "Actions..." menu.
 
 The following columns are built-in:
-||*Column name* ||*Meaning* ||
-||ID ||Issue ID number ||
-||Reporter ||Name of the user who reported the issue ||
-||Owner ||Name of the issue owner ||
-||Cc ||Names of project members on the issue CC list ||
-||Summary ||Issue summary and also any single-word labels ||
-||Stars ||The number of user who have starred the issue ||
-||Opened ||The date that the issue was opened, or most recently reopened ||
-||Closed ||The date that the issue was most recently closed ||
-||Modified ||The date of the most recent modification to the issue ||
-||!BlockedOn ||A list of issue IDs that this issue is blocked on ||
-||Blocking ||A list of issue IDs that this issue is blocking ||
-||!MergedInfo ||ID of an issue that this issue was merged into, if any ||
+|| *Column name* || *Meaning* ||
+|| ID || Issue ID number ||
+|| Reporter || Name of the user who reported the issue ||
+|| Owner || Name of the issue owner ||
+|| Cc || Names of project members on the issue CC list ||
+|| Summary || Issue summary and also any single-word labels ||
+|| Stars || The number of user who have starred the issue ||
+|| Opened || The date that the issue was opened, or most recently reopened ||
+|| Closed || The date that the issue was most recently closed ||
+|| Modified || The date of the most recent modification to the issue ||
+|| !BlockedOn || A list of issue IDs that this issue is blocked on ||
+|| Blocking || A list of issue IDs that this issue is blocking ||
+|| !MergedInfo || ID of an issue that this issue was merged into, if any ||
 
 Any column name that is not built-in is considered to refer to
 Key-Value labels with the Key matching the name of the column.  For
@@ -349,7 +349,49 @@ contents of the issue list as a comma-separated-value file.
 ----
 = Issue grid =
 
-_To be written_
+The issue grid is a variant of the issue list display.  It is accessed
+by clicking the "Grid" link in the upper-right corner of the search
+results table.  The grid, like the list, shows search results, but the
+grid shows them all on one page rather than using pagination and it
+shows at most 5000 results.
+
+The grid space can be divided into rows and columns by selecting a
+field to define each axis.  For example, when scoping the amount of
+work that can be done in each release, you might want to view issues
+with rows for milestones and columns for priorities within those
+milestones.  Along each axis are the unique values that occur for that
+field.  For example, if you choose to use Priority for the rows, then
+the invidual rows might be labeled High, Medium, and Low.  Rows and
+columns that would have no issues are not shown.  For example, there
+would be no row for Critical issues if there are zero issues labeled
+Priority-Critical.  If some issues do not have any value for the field
+used on an axis, then the value "----" is used.
+
+Within each grid cell are the issues that have the attribute values
+that match that cell's row and column.  Every issue in the result set
+is represented at least once on the grid.  An issue may fall into
+multiple cells if it has multiple labels with the same prefix.  For
+example, one issue might be labeled with both Component-UI and
+Component-DB, so it would occur once in each of the appropriate cells.
+Since one issue can be displayed more than once, the sum of the number
+of issues displayed may be more than the number of issues in the
+search results.
+
+You can choose to display one of these levels of granularity:
+   * Tiles: A small rectangular tile shows the issue ID, summary, and status.
+   * IDs: Just the ID number of each issue is displayed.  Hovering over the ID displays the issue summary.
+   * Counts: Just the number of issues in each cell is displayed, click through to see a list of the issues in that cell.
+
+Here are some example grid organizations that may be useful for
+certain steps in your software development process:
+
+|| *Rows* || *Columns* || *Query* || *Development process step* ||
+|| Milestone || Priority || Open issues || Planning the amount of work that can fit into each upcoming release ||
+|| Owner || Milestone || Open issues || Balancing the workload of each team member ||
+|| Type || Component || Open issues || Understanding the type of work needed on each component ||
+|| Status || Priority || current milestone || Understanding work needed for the next release ||
+|| Stars || Priority || Open issues || Comparing the team's prioritization to end-user prioritization ||
+|| Owner || Component || All issues || Understanding which developers work on each component ||
 
 <br/>
 ----
