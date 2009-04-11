@@ -221,3 +221,139 @@ explicitly set on the issue. For example, default issue owners can be
 defined based on `Component-*` labels.
 
 
+----
+= Issue entry =
+
+The issue entry page is accessed by clicking the "New issue" subtab
+under the "Issues" tab.  For project members, the issue entry form
+allows a choice of templates and fields for summary, description,
+owner, status, CC list, labels, and blocked-on issues.  For
+non-members, only the template choice, summary, and description fields
+are visible.  All fields (whether visible or not) have initial values
+set by the template.
+
+The initial text in the description field serves as a way to prompt
+users to answer questions that are useful when resolving the issue.
+E.g., we ask users for the steps that will to reproduce a problem.
+Users are expected to write text to fill in the blank areas between
+these questions.  Later, when the issue is viewed, the unchanged lines
+from the prompt are shown in bold.  Using semi-structured prompt text
+helps improve issue report quality and allows specific data to be
+captured without the need to define a schema.
+
+The following validation is done:
+  # In most cases, the user must edit the summary before the issue can be submitted.  This helps improve issue report quality.
+  # The issue owner and CC list users must be members of the current project.
+  # Any blocked-on issue id's must exist, and an issue can not be directly blocked on itself.
+  # If unusual labels are used, or if multiple values are provided for an exclusive label prefix, a warning message is shown.
+
+The following fields can be pre-populated with a value supplied in the
+URL.  Using links with these query parameters present allows you to
+guide end-users to enter an issue that is tailored to a specific need.
+Usually defining a template and specifying just a template value is
+better than specifying other values in a URL.  The user must still
+review, edit, and submit the form.
+
+||*Form field* ||*URL query parameter* ||*Values* ||
+||Template ||`template` ||Name of a defined template in this project ||
+||Summary ||`summary` ||Initial summary string ||
+||Description ||`comment` ||Prompt text to show in issue description area ||
+||Status ||`status` ||Initial status value ||
+||Owner ||`owner` ||Username of initial issue owner ||
+||CC ||`cc` ||List of users to CC ||
+||Labels ||`labels` ||Comma-separated list of initial label values ||
+||Branch ||`branch` ||Initial branch path to use for code review requests ||
+
+
+
+----
+= Issue list =
+
+To see a list of all open issues in a project, simply click the
+"Issues" tab.  You can change the list by entering search terms or
+changing the query scope.  Then click the "Search" button in the page
+toolbar (directly below the main tabs).  
+
+The search scope (or "can") is simply a choice of predefined
+("canned") search terms that are added to your query.  The available
+query scopes are:
+
+||*Query scope* ||*Equivalent Query terms* ||
+||All issues || _Nothing added_ ||
+||Open issues ||`is:open` ||
+||Open and owned by me ||`is:open owner:me` ||
+||Open and reported by me ||`is:open reporter:me` ||
+||Open and starred by me ||`is:open is:starred` ||
+||New issues ||`status:new` ||
+||Issues to verify ||`isnot:open status!=verified` ||
+
+The search query can use a keyword syntax to select only issues that
+have the requested text in a specific field.  E.g., `summary:leak`
+would find only issues that contain the word 'leak' in the summary
+field. See the "Search tips" subtab for more examples.
+
+The list of issues shown can be quickly narrowed by clicking on one of
+the column headings and choosing a value from the "Show only"
+submenu. Choosing a value adds a search term that matches only issues
+with that value.
+
+The set of columns shown is normally: ID, Type, Status, Milestone,
+Priority, Owner, and Summary.  The set of columns shown can be changed
+by clicking on the table column headers and selecting "Hide column"
+from one of the existing columns.  Also, the "..." menu at the
+far-right column header can be used to add or remove any column. Users
+can also type in the names of columns by selecting "Change columns..."
+from the "Actions..." menu.
+
+The following columns are built-in:
+||*Column name* ||*Meaning* ||
+||ID ||Issue ID number ||
+||Reporter ||Name of the user who reported the issue ||
+||Owner ||Name of the issue owner ||
+||Cc ||Names of project members on the issue CC list ||
+||Summary ||Issue summary and also any single-word labels ||
+||Stars ||The number of user who have starred the issue ||
+||Opened ||The date that the issue was opened, or most recently reopened ||
+||Closed ||The date that the issue was most recently closed ||
+||Modified ||The date of the most recent modification to the issue ||
+||BlockedOn ||A list of issue IDs that this issue is blocked on ||
+||Blocking ||A list of issue IDs that this issue is blocking ||
+||MergedInfo ||ID of an issue that this issue was merged into, if any ||
+
+Any column name that is not built-in is considered to refer to
+Key-Value labels with the Key matching the name of the column.  For
+example, the Priority column shows label values for any label with
+prefix `Priority`.
+
+Users can sort by any set of columns, each column can be sorted up or
+down. When sorting key-value label columns, the sort order is the
+order in which the labels are defined on the Administer sub-tab, with
+any odd-ball values being listed alphabetically after the defined
+ones.
+
+Derived values are shown in _italics_ in the issue list.
+
+The issue list may be bookmarked, and visiting the bookmarked URL will
+apply the same search query, columns, and sort criteria.  However, the
+results may be personalized to a different user if the query scope or
+query terms contain the value "me".
+
+At the far bottom-right of the issue list is a link to download the
+contents of the issue list as a comma-separated-value file.
+
+----
+= Issue grid =
+
+_To be written_
+
+----
+= Issue details and updates =
+
+_To be written_
+
+----
+= Customization =
+
+_To be written_
+
+
