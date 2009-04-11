@@ -102,14 +102,14 @@ Perform the following to create a wiki page:
 
 The *Issues* tab is a great way to keep track of the ongoing features, tasks, and bugs in your project. It allows multiple project members and owners to see what others are currently doing.
 
-After you click the *New Issues* subtab to create a new issue, please note the *Labels* fields. Labels are strings that are meaningful to the project members. When an issue label contains a dash, such as 'Priority-Medium,' it is interpreted as a key-value pair that you can use like a custom field.
+After you click the *New issue* subtab to create a new issue, please note the *Labels* fields. Labels are strings that are meaningful to the project members. When an issue label contains a dash, such as `Priority-Medium`, it is interpreted as a key-value pair that you can use like a custom field.
 
   * The prefix before the first dash is the key.
   * The part after the first dash is the value.
 
 You can configure the issue list to show a column for any prefix. You can also search for the values within a specific custom field by using 'prefix:value.' 
 
-== Sharing your Code on the Download Tab ==
+== Sharing Releases on the Download Tab ==
 
 When you're ready to release your code, you can use the *Downloads* tab to upload compressed files. Others can then go to this tab on your project to download the code for their own use.
 
