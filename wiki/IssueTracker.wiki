@@ -297,7 +297,7 @@ would find only issues that contain the word 'leak' in the summary
 field. Also, searching for an issue ID will navigate directly to that
 issue rather than doing a search.  To search for issues that contain a
 number, enclose the number in quotation marks.  For example, searching
-for `123` navigates to issue 123, while searching for `"123"` displays
+for `123` navigates to issue number 123, while searching for `"123"` displays
 a list of issues that contain the string "123". See the *Search tips*
 sub-tab for more examples.
 
