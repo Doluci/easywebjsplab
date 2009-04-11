@@ -30,6 +30,7 @@ it is the project members who are responsible for all issue fields and
 labels, so end-users can be presented a very simple UI for their most
 common operations.
 
+<br/>
 ----
 
 = Quick start =
@@ -78,6 +79,7 @@ There are four ways to be notified of issue changes:
    # Subscribe to the issue changes feed
 
 
+<br/>
 ----
 = Concepts =
 
@@ -221,6 +223,7 @@ explicitly set on the issue. For example, default issue owners can be
 defined based on `Component-*` labels.
 
 
+<br/>
 ----
 = Issue entry =
 
@@ -266,6 +269,7 @@ review, edit, and submit the form.
 
 
 
+<br/>
 ----
 = Issue list =
 
@@ -278,7 +282,7 @@ The search scope (or "can") is simply a choice of predefined
 ("canned") search terms that are added to your query.  The available
 query scopes are:
 
-||*Query scope* ||*Equivalent Query terms* ||
+||*Query scope* ||*Equivalent query terms* ||
 ||All issues || _Nothing added_ ||
 ||Open issues ||`is:open` ||
 ||Open and owned by me ||`is:open owner:me` ||
@@ -316,9 +320,9 @@ The following columns are built-in:
 ||Opened ||The date that the issue was opened, or most recently reopened ||
 ||Closed ||The date that the issue was most recently closed ||
 ||Modified ||The date of the most recent modification to the issue ||
-||BlockedOn ||A list of issue IDs that this issue is blocked on ||
+||!BlockedOn ||A list of issue IDs that this issue is blocked on ||
 ||Blocking ||A list of issue IDs that this issue is blocking ||
-||MergedInfo ||ID of an issue that this issue was merged into, if any ||
+||!MergedInfo ||ID of an issue that this issue was merged into, if any ||
 
 Any column name that is not built-in is considered to refer to
 Key-Value labels with the Key matching the name of the column.  For
@@ -341,16 +345,19 @@ query terms contain the value "me".
 At the far bottom-right of the issue list is a link to download the
 contents of the issue list as a comma-separated-value file.
 
+<br/>
 ----
 = Issue grid =
 
 _To be written_
 
+<br/>
 ----
 = Issue details and updates =
 
 _To be written_
 
+<br/>
 ----
 = Customization =
 
