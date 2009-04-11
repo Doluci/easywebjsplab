@@ -38,15 +38,15 @@ common operations.
 Here is how you can carry out the most common use cases with our issue tracker:
 
 == How do I view open issues in a project? ==
-   # Click the "Issues" tab in your project.
+   # Click the *Issues* tab in your project.
 
 
 == How do I enter an issue? ==
 
-   # Click the "Issues" tab in your project.
-   # Click the "New issue" sub-tab.
+   # Click the *Issues* tab in your project.
+   # Click the *New issue* sub-tab.
    # Optionally, choose a different issue template.
-   # Fill in the issue summary. In most cases you must edit the issue summary before the "Submit" button is enabled.
+   # Fill in the issue summary. In most cases you must edit the issue summary before the *Submit* button is enabled.
    # Fill in the issue description.
    # Optionally, attach screenshots or other files that help describe the issue.
    # If you are a project member or owner, you can also edit the issue status, owner, CCs, and labels.
@@ -56,10 +56,10 @@ Here is how you can carry out the most common use cases with our issue tracker:
 == How do I update an issue? ==
    # View the issue list.
    # Click on the row for the issue, this takes you to the issue detail page.
-   # Click on the large text area at the bottom of the page, or the link "Add a comment and  make changes below".
+   # Click on the large text area at the bottom of the page, or the link *Add a comment and  make changes below*.
    # Enter the text of your comment.
    # If you are a project member, you can also edit the issue fields.
-   # Click the "Save changes" button
+   # Click the *Save changes* button
 
 
 == How do I close an issue? ==
@@ -171,13 +171,13 @@ Any user can star an issue by clicking a star icon on the issue list
 or issue detail page.  A star means that the user is interested in
 that issue.  The issue tracker makes use of stars by:
    # Sending an email notification of issue changes to the users who have starred them.
-   # Offering an "Open and starred by me" query scope so that users can see a list of all the issues that they have starred in a project and search within just those issues.
+   # Offering an *Open and starred by me* query scope so that users can see a list of all the issues that they have starred in a project and search within just those issues.
    # Displaying the number of users who have starred each issue so that project members may see which issues have the most interest.
 
 Whenever an issue changes, an email notification is sent to users who
 have starred it.  An email notification is also sent to the issue
 owner, project members listed on the CC line, and to the
-"all issue changes" email address, if one has been set up.  Also,
+*all issue changes* email address, if one has been set up.  Also,
 filter rules that match the issue may add more email addresses to
 notify of changes.  Users may configure their email notification
 preferences on the user settings page.  The user who reported an issue
@@ -187,7 +187,7 @@ user who made the change is not directly notified, because they already
 know that the change was made.
 
 Our issue tracker also offers a feed of issue changes.  You can
-subscribe to it by clicking the "Project feeds" link on the project
+subscribe to it by clicking the *Project feeds* link on the project
 home page.
 
 
@@ -204,7 +204,7 @@ prompt him/her to write a detailed issue.
 
 There is one template that is the default for project members and one
 for non-members.  Users see that default template when they click the
-"New issue" link in the toolbar (immediately under the Issues
+*New issue* link in the toolbar (immediately under the Issues
 tab). However, users can change to any other template that is
 available to them.  Also, the issue entry page can be bookmarked with
 any selected template visible.
@@ -227,8 +227,8 @@ defined based on `Component-*` labels.
 ----
 = Issue entry =
 
-The issue entry page is accessed by clicking the "New issue" sub-tab
-under the "Issues" tab.  For project members, the issue entry form
+The issue entry page is accessed by clicking the *New issue* sub-tab
+under the *Issues* tab.  For project members, the issue entry form
 allows a choice of templates and fields for summary, description,
 owner, status, CC list, labels, and blocked-on issues.  For
 non-members, only the template choice, summary, and description fields
@@ -274,8 +274,8 @@ review, edit, and submit the form.
 = Issue list =
 
 To see a list of all open issues in a project, simply click the
-"Issues" tab.  You can change the list by entering search terms or
-changing the query scope.  Then click the "Search" button in the page
+*Issues* tab.  You can change the list by entering search terms or
+changing the query scope.  Then click the *Search* button in the page
 toolbar (directly below the main tabs).  
 
 The search scope (or "can") is simply a choice of predefined
@@ -298,21 +298,21 @@ field. Also, searching for an issue ID will navigate directly to that
 issue rather than doing a search.  To search for issues that contain a
 number, enclose the number in quotation marks.  For example, searching
 for `123` navigates to issue 123, while searching for `"123"` displays
-a list of issues that contain the string "123". See the "Search tips"
+a list of issues that contain the string "123". See the *Search tips*
 sub-tab for more examples.
 
 The list of issues shown can be quickly narrowed by clicking on one of
-the column headings and choosing a value from the "Show only"
+the column headings and choosing a value from the *Show only*
 sub-menu. Choosing a value adds a search term that matches only issues
 with that value.
 
 The set of columns shown is normally: ID, Type, Status, Milestone,
 Priority, Owner, and Summary.  The set of columns shown can be changed
-by clicking on the table column headers and selecting "Hide column"
+by clicking on the table column headers and selecting *Hide column*
 from one of the existing columns.  Also, the "..." menu at the
 far-right column header can be used to add or remove any column. Users
-can also type in the names of columns by selecting "Change columns..."
-from the "Actions..." menu.
+can also type in the names of columns by selecting *Change columns...*
+from the *Actions...* menu.
 
 The following columns are built-in:
 || *Column name* || *Meaning* ||
@@ -355,7 +355,7 @@ contents of the issue list as a comma-separated-value file.
 = Issue grid =
 
 The issue grid is a variant of the issue list display.  It is accessed
-by clicking the "Grid" link in the upper-right corner of the search
+by clicking the *Grid* link in the upper-right corner of the search
 results table.  The grid, like the list, shows search results, but the
 grid shows them all on one page rather than using pagination and it
 shows at most 5000 results.
@@ -404,8 +404,8 @@ certain steps in your software development process:
 
 The issue detail page can be accessed by clicking anywhere in a row of
 the issue list.  If you view one issue in an issue list, you can flip
-to the next or previous issue in the list by clicking the "Next" and
-"Prev" links.
+to the next or previous issue in the list by clicking the *Next* and
+*Prev* links.
 
 This page displays all the information about one issue, including the
 issue ID, summary, star count, description, comments, owner, CC list,
@@ -459,10 +459,10 @@ entered, it should simply be closed with status `Invalid`.  However,
 there are sometimes cases where users abuse the system by entering
 spam comments or accidentally enter personal information that cannot
 be easily changed.  Project owners can remove this information from
-view by clicking the "Delete comment" link in the upper-right of each
+view by clicking the *Delete comment* link in the upper-right of each
 comment.  Project owners can soft-delete bad issue attachments via the
-"Delete" button next to each attachment. And, they can soft-delete
-entire issues by using the "Other actions..." menu on the comment
+*Delete* button next to each attachment. And, they can soft-delete
+entire issues by using the *Other actions...* menu on the comment
 form.  Please note that in the case where personal information has
 been entered, it will have already been included in notification
 emails, so need to take further steps.
