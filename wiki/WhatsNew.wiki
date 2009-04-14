@@ -3,6 +3,16 @@
 
 Welcome to the What's New page for project hosting on Google Code. Here you'll find descriptions of our latest improvements to our collaborative development environment.
 
+= April 2009 =
+
+== Privacy option for user updates ==
+
+In the world of open source, everyone's contributions are available for everyone else to see.  Our user updates feature makes it easy to see exactly what any other developer has been doing on our site.  However, some users prefer that their contributions be seen only within the context of each project, so we have added a user setting to disable visibility of user updates.  Sign in and see your [http://code.google.com/hosting/settings settings page] for details.
+
+== !WikiWords now auto-linked in all tools ==
+
+If you mention the name of one of your wiki pages using a !WikiWord in any issue, commit log message, or code review, we will automatically link to that wiki page.
+
 = March 2009 =
 
 == Customizable project logos ==
