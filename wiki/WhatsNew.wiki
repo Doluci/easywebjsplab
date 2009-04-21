@@ -5,6 +5,10 @@ Welcome to the What's New page for project hosting on Google Code. Here you'll f
 
 = April 2009 =
 
+== Shift-click to select multiple issues ==
+
+In the issue list, project members and owners can now select a range of issues by clicking one checkbox and then shift-clicking on another checkbox.  All the issues  between the two checkboxes will be selected or unselected.  After that, the "Bulk edit..." item in the "Actions..." menu can be used to edit all those issues at once.
+
 == Privacy option for user updates ==
 
 In the world of open source, everyone's contributions are available for everyone else to see.  Our user updates feature makes it easy to see exactly what any other developer has been doing on our site.  However, some users prefer that their contributions be seen only within the context of each project, so we have added a user setting to disable visibility of user updates.  Sign in and see your [http://code.google.com/hosting/settings settings page] for details.
