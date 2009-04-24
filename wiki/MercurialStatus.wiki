@@ -17,7 +17,7 @@ Mercurial support on Google Code is currently an experimental feature, only avai
 
 == What Doesn't Yet Work ==
 
-  * the wiki still lives in a separate svn repository
+  * the wiki still lives in a separate svn repository - issue 2508
   * source browser doesn't allow viewing alternate heads (or branches/tags)
   * project's "activity stream" doesn't get updated yet
   * webhooks do not yet fire
