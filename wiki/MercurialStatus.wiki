@@ -12,7 +12,7 @@ Mercurial support on Google Code is currently an experimental feature, only avai
   * source browsing
     * viewing individual changesets & diffs
     * visualizing the changeset DAG
-    * code reviews
+    * post-commit code reviews
 
 
 == What Doesn't Yet Work ==
@@ -23,6 +23,7 @@ Mercurial support on Google Code is currently an experimental feature, only avai
   * project's "activity stream" doesn't get updated yet - issue 2511
   * webhooks do not yet fire - issue 2512
   * no auto-starring of commits - issue 2513
+  * no branch reviews - issue 2514
 
 
 == Caveats ==
