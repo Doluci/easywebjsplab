@@ -20,7 +20,7 @@ Mercurial support on Google Code is currently an experimental feature, only avai
   * the wiki still lives in a separate svn repository - issue 2508
   * source browser doesn't allow viewing alternate heads (or branches/tags) - issue 2509
   * projects receiving email notifications will receive one email per commit instead of one email per push - issue 2510
-  * project's "activity stream" doesn't get updated yet
+  * project's "activity stream" doesn't get updated yet - issue 2511
   * webhooks do not yet fire
   * no auto-starring of commits
 
