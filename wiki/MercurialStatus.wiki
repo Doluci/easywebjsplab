@@ -25,6 +25,7 @@ Mercurial support on Google Code is currently an experimental feature, only avai
   * no auto-starring of commits - issue 2513
   * no branch reviews - issue 2514
 
+For the most up-to-date list, see [http://code.google.com/p/support/issues/list?can=2&q=component%3AMercurial the complete list of open Mercurial issues].
 
 == Caveats ==
 
