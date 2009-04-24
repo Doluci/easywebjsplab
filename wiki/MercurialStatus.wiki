@@ -1,0 +1,29 @@
+#summary Tracking the status of the experimental Mercurial feature on Google Code.
+#labels Mercurial
+
+= Mercurial Status = 
+
+Mercurial support on Google Code is currently an experimental feature, only available to invited users.  This document tracks the status of this feature as it evolves.
+
+== What Works ==
+
+  * pushing and pulling code to https://projectname.googlecode.com/hg
+  * commit emails
+  * source browsing
+    * viewing individual changesets & diffs
+    * visualizing the changeset DAG
+    * code reviews
+
+
+== What Doesn't Yet Work ==
+
+  * the wiki still lives in a separate svn repository
+  * source browser doesn't allow viewing alternate heads (or branches/tags)
+  * project's "activity stream" doesn't get updated yet
+  * webhooks do not yet fire
+  * no auto-starring of commits
+
+
+== Caveats ==
+
+During the experimental period, we may need to make schema changes to the underlying Bigtable database.  There may be occasional 2-hour windows of time where Mercurial repositories are taken offline for the data upgrade (we'll email with advance warning.)
