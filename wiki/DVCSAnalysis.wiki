@@ -3,6 +3,8 @@
 
 = Analysis of Git and Mercurial =
 
+_Note: this analysis was done in summer 2008, when we first began scoping work for DVCS support in Google Code._
+
 == Introduction ==
 
 This document summarizes the initial research for adding distributed version control as an option for Google Code. Based on popularity, two distributed version control systems were considered: Git and Mercurial. This document describes the features of the two systems, and provides an overview of the work required to integrate them with Google Code.
