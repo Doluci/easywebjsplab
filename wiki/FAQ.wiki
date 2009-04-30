@@ -127,6 +127,13 @@ Deprecated files still count toward your project download space quota.  Rather t
 === What other limits exist? ===
 There are disk-space quota limits for both issue tracker attachments and total Subversion repository size, along with a limit on how many total projects you are able to create. If you hit these limits, please contact us via our [http://groups.google.com/group/google-code-hosting?lnk=sg Google Group] or email google-code-hosting@googlegroups.com directly to discuss the situation.
 
+=== How can I integrate my project blog? ===
+You can use a gadget.  Click *Administer*, then edit your project description to include:
+{{{
+<wiki:gadget url="http://google-code-feed-gadget.googlecode.com/svn/trunk/gadget.xml" up_feeds="http://google-code-featured.blogspot.com/atom.xml" width="780"  height="340" border="0" up_showaddbutton="0"/>
+}}}
+But, replace the `up_feeds` URL with a the XML feed for your blog.  If you have more than one project blog, you can list multiple URLs, separated by vertical bars (`|`).
+
 === Why aren't you offering my favorite tool? ===
 We want our collaborative development environment to be simple, fast, reliable, and scalable, so we only offer tools that are aligned with those goals. This way, we can manage and support the tools we offer in a scalable manner. 
 
