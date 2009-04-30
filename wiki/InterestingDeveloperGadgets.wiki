@@ -17,7 +17,7 @@ support group and we would be happy to showcase them. Also see the [http://code.
 
 If you want to put one of these gadgets on your wiki page or even your project homepage, use our new `<wiki:gadget...>` syntax.  Each of the example gadgets below has a snippet you can copy-paste to get started.
 
-==GoogleCode==
+==Google Code==
 
 You can use a gadget to display any blog that has an Atom or RSS feed.
 
@@ -25,7 +25,9 @@ You can use a gadget to display any blog that has an Atom or RSS feed.
 <wiki:gadget url="http://google-code-feed-gadget.googlecode.com/svn/trunk/gadget.xml" up_feeds="http://google-code-featured.blogspot.com/atom.xml" width="780"  height="340" border="0" up_showaddbutton="0"/>
 
 *Code*
+
 `<wiki:gadget url="http://google-code-feed-gadget.googlecode.com/svn/trunk/gadget.xml" up_feeds="http://google-code-featured.blogspot.com/atom.xml" width="780"  height="340" border="0" up_showaddbutton="0"/>`
+
 Replace the `up_feeds` URL with a the XML feed for your blog.  If you have more than one project blog, you can list multiple URLs, separated by vertical bars (`|`).
 
 
