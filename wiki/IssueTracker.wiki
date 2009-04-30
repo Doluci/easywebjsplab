@@ -473,10 +473,38 @@ emails, so need to take further steps.
 ----
 = Issue bulk editing =
 
+_To be written_
+
 <br/>
 ----
 = Customization =
 
 _To be written_
+
+<br/>
+----
+= Keyboard shortcuts =
+
+== Issue list page ==
+
+|| `k`/`j` || move cursor up/down ||
+|| `o` or `Enter` || open the current issue ||
+|| `x` || select the current issue ||
+
+== Issue details page ==
+
+|| `k`/`j` || go to previous or next issue in list ||
+|| `u` || up to issue list ||
+|| `p`/`n` || previous or next comment ||
+|| `r` || add comment & make changes ||
+
+== Any issue tracker page ==
+
+|| `/` || focus on issue search box ||
+|| `c` || compose new issue ||
+|| `s` || toggle star on current issue ||
+|| `h` || show keystroke help dialog ||
+
+
 
 
