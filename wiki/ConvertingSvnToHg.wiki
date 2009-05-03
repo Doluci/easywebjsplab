@@ -72,6 +72,10 @@ involved.  You'll need these special tools installed first.
         $ sudo make install-swig-py
 }}}
 
+      If you're on the Hardy version of Ubuntu, you can find version 1.5 of `python-subversion` in `hardy-backports`:
+
+      http://packages.ubuntu.com/hardy-backports/python-subversion
+
 
 === Doing the Conversion ===
 
