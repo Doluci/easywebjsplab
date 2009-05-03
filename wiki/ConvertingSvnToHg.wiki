@@ -76,6 +76,7 @@ involved.  You'll need these special tools installed first.
 
       http://packages.ubuntu.com/hardy-backports/python-subversion
 
+      This may also require installing backports of the `libsvn1`, `subversion`, `mercurial-common`, and `mercurial` packages.
 
 === Doing the Conversion ===
 
