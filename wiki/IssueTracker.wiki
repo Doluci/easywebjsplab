@@ -507,4 +507,119 @@ _To be written_
 
 
 
+<br/>
+----
+= Integration with version control =
 
+If you are a developer on a project, and you are committing a change
+that fixes a known defect, or one the adds a requested enhancemnet,
+you will want to update the issue.  You could do that by first
+committing the change, and then using the web UI to update the issue.
+But, it is also possible to update an issue by putting an issue
+tracker command in your commit-log message.
+
+There are commit-log commands to:
+  * Easily set an issue's status to `Fixed`.
+  * Update any aspect of the issue, and add a comment.
+  * Enter a new issue.
+  * Request a code review.
+
+The issue tracker handles an easy-to-use "short form" syntax to set an
+issue's status to `Fixed`. It would be used when the source code
+change you are committing completely fixes a defect or implements a
+requested enhancement.  The syntax is any one of the following:
+
+  || `(Fixes issue NNN)` || Enclose command in parentheses ||
+  || `Fixes issue NNN.` || Full sentence in your log message description ||
+  || `Fixes issue NNN` || On a line by itself ||
+
+The word `Fixes` can replaced with `Closes` or `Resolves`.  The issue
+number can have a leading pound-sign (#) or not.
+
+The other commit-log commands use a multi-line "long form" syntax that
+is more powerful.  You might want to update an issue that is partly
+resolved or mitigated by your commit. You might want to enter a new
+issue as part of a commit, if you know that you are introducing a
+problem that you want to remember to resolve later.  You might request
+a code review as part of a commit when you believe that you have
+finished work on a branch and you want a teammate to review it before
+you merge it into the trunk.
+
+These commands begin on some line in your commit-log message and
+continue until the end of the message.  The syntax is:
+
+{{{
+Your commit log message descriptive text...
+
+COMMAND-LINE
+ISSUE-FIELD-UPDATE*
+COMMENT-TEXT...
+}}}
+
+
+Where COMMAND-LINE is one of the following:
+  * `Update issue NNN`
+  * `New issue`
+  * `New code review`
+
+There can be any number of ISSUE_FIELD-UPDATE lines.  These lines can be one of the following:
+  * `Summary: NEW-VALUE`
+  * `Status: NEW-VALUE`
+  * `Owner: NEW-VALUE`
+  * `Cc: PLUS-MINUS-LIST`
+  * `Labels: PLUS-MINUS-LIST`
+
+A PLUS-MINUS-LIST is a list of values to add, separated by spaces or
+commas.  You can also remove an existing value by preceeding it with a
+minus-sign.  When updating labels, any new label with an exclusive
+prefix will automatically remove any existing label with the same
+prefix.  For example, adding `Priority-High` will automatically
+replace any `Priority-Low` or `Priority-Medium` labels on that same
+issue.  But, adding `Component-UI` would not remove an existing
+`Component-DB` label, because `Component` is not normally an exclusive
+prefix.
+
+The comment text can be any text that you would like to have added to
+the issue comment or description.  Any field update lines that are
+invalid will be included in the comment text instead of being
+processed.
+
+Here are some examples:
+
+{{{
+Change the validation routines to also accept unicode string (Fixes
+issue 99998). And, speeds up that O(N^2) comparison. Fixes issue 99999.
+}}}
+
+
+{{{
+Change the validation routines to also accept unicode string. And,
+speeds up that O(N^2) comparison.
+
+Fixes issue 99998
+Fixes issue 99999
+}}}
+
+
+{{{
+Change the validation routines to also accept unicode string. And,
+speeds up that O(N^2) comparison.
+
+Update issue 99998
+Labels: Priority-Low Performance -i18n
+The performance and internationalization aspects of this issue have
+been handled.  The remaining part of the issue has a clear work-around
+and only affects a small number of users, so it is less important to fix.
+}}}
+
+
+{{{
+Change the validation routines to also accept unicode string. And,
+speeds up that O(N^2) comparison.
+
+New issue
+Summary: Update and translate end-user docs on validation
+Labels: Component-Documentation
+Now that we accept input in more languages, we should translate the on-line
+help for that part of the application.
+}}}
