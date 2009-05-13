@@ -512,7 +512,7 @@ _To be written_
 = Integration with version control =
 
 If you are a developer on a project, and you are committing a change
-that fixes a known defect, or one the adds a requested enhancemnet,
+that fixes a known defect, or one the adds a requested enhancement,
 you will want to update the issue.  You could do that by first
 committing the change, and then using the web UI to update the issue.
 But, it is also possible to update an issue by putting an issue
@@ -525,13 +525,13 @@ There are commit-log commands to:
   * Request a code review.
 
 The issue tracker handles an easy-to-use "short form" syntax to set an
-issue's status to `Fixed`. It would be used when the source code
+issue's status to `Fixed`. This would be used when the source code
 change you are committing completely fixes a defect or implements a
 requested enhancement.  The syntax is any one of the following:
 
-  || `(Fixes issue NNN)` || Enclose command in parentheses ||
-  || `Fixes issue NNN.` || Full sentence in your log message description ||
-  || `Fixes issue NNN` || On a line by itself ||
+|| `(Fixes issue NNN)` || Enclose command in parentheses ||
+|| `Fixes issue NNN.` || Full sentence in your log message description ||
+|| `Fixes issue NNN` || On a line by itself ||
 
 The word `Fixes` can replaced with `Closes` or `Resolves`.  The issue
 number can have a leading pound-sign (#) or not.
@@ -562,7 +562,7 @@ Where COMMAND-LINE is one of the following:
   * `New issue`
   * `New code review`
 
-There can be any number of ISSUE_FIELD-UPDATE lines.  These lines can be one of the following:
+There can be any number of ISSUE-FIELD-UPDATE lines.  These lines can be one of the following:
   * `Summary: NEW-VALUE`
   * `Status: NEW-VALUE`
   * `Owner: NEW-VALUE`
