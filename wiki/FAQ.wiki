@@ -337,7 +337,7 @@ To download the history of your Google Code repository, use the svnsync tool tha
 After you've done this once, you can continue to run the last 'svnsync sync' command to periodically pull down the latest commits and keep your local mirror up-to-date.
 
 === How much disk space can my repository use? ===
-We're offering plenty of space for storing source code under revision control. We start new projects with a 100MB quota. That's enough to host the vast majority of open source projects. We're also willing to work with projects that need more space.
+We're offering plenty of space for storing source code under revision control. We start new projects with a 1GB quota. That's enough to host the vast majority of open source projects. We're also willing to work with projects that need more space.
 
 === Where do I get a copy of Subversion? ===
 Just visit the downloads page on [http://subversion.tigris.org/].
