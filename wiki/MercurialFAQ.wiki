@@ -1,0 +1,20 @@
+#summary Frequently asked questions about Mercurial.
+
+=== Can I get a Mercurial project? ===
+
+The Mercurial feature is currently open to invited testers on a per-project basis. If you are interested trying it out, please fill out [http://spreadsheets.google.com/viewform?hl=en&formkey=cEJnWHctQjRjV3hyNkRCb3RzbzY4RFE6MA this form] to be put on the waiting list.
+
+=== Why do I get "HTTP Error 405: Method Not Allowed" from the Mercurial client? ===
+
+{{{
+$ hg push
+pushing to http://...
+searching for changes
+abort: HTTP Error 405: Method Not Allowed
+}}}
+
+You must push over *https* rather than *http*, e.g. `hg push https://MYREPO.googlecode.com`.  If you clone via *https* initially, then a plain `hg push` will work.
+
+=== How can I avoid typing my password in for each `hg push`? ===
+
+You can enter a default push URL in your `hgrc` configuration file, and include the username and password in the URL.  The Mercurial FAQ has an [http://www.selenic.com/mercurial/wiki/index.cgi/FAQ#head-c18bae2d569e618badb588ffc5a58709fbe3dde6 entry on this].  If you do this, make sure your `hgrc` isn't readable by others!
