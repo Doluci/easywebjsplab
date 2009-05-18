@@ -1,4 +1,5 @@
 #summary Frequently asked questions about Mercurial.
+#labels Mercurial
 
 === Can I get a Mercurial project? ===
 
