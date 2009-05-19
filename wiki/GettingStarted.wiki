@@ -39,7 +39,7 @@ If you've reviewed existing projects and couldn't find one that meets your needs
   # In the *Project Name* field, the name you enter must consist of a lowercase letter, followed by lowercase letters, digits, and dashes, with no spaces. The project name will be part of your URL, so you won't be able to change it later. For example, if you name your project 'foo,' your project's URL will be http://code.google.com/p/foo/ or http://foo.googlecode.com/ (the latter redirects to the former).
   # In the *Summary* field, Google Code will display this one-line description whenever it shows the project name.
   # In the *Description* field, enter the main content of your project's home page. You can use [WikiSyntax wiki markup].
-  # Select the desired license for your project from the dropdown list in the *License* field. Your choice of license will determine how others can use your work. The available licenses allow you to standardize your projects to the most popular, time-tested licenses. These licenses offer the diversity to meet most developer needs. Go to [http://opensource.org/licenses/category opensource.org] for more information about these licenses.
+  # Select the desired license for your project from the dropdown list in the *Source Code License* field. Your choice of license will determine how others can use your work. The available licenses allow you to standardize your projects to the most popular, time-tested licenses. These licenses offer the diversity to meet most developer needs. Go to [http://opensource.org/licenses/category opensource.org] for more information about these licenses.
   # The project labels that you enter in the *Labels* fields will help others find your project. When someone enters one of your labels in a project search, your project is more likely to appear in the search results. Users can also browse for projects by label by entering `label:` before the label name in a project search. Look at the [http://code.google.com/hosting/ Project Hosting main page] for examples of project labels.
   # Click *Create project*. Your newly created hosting project appears and is ready for use. The project contains the following menu tabs:
     * Project Home
@@ -68,19 +68,20 @@ After you've been working with your project for a while, the following subtabs o
 == Customizing your Project on the Administer Tab ==
 
 You can use the functionality under the *Administer* tab to customize your project. This tab is visible only to project owners. The following subtabs are especially useful when creating new projects:
-  * *Project Summary* subtab -- You can modify some of the options that you set during project creation, as well as set up email alerts, blogs, and analytics. This provides another opportunity to set up project labels, which will help others find your project. You can also elect to use a separate content license for non-code components such as documentation.
+  * *Project Summary* subtab -- You can modify some of the options that you set during project creation, as well as set up blogs, analytics, and a custom project logo. This provides another opportunity to set up project labels, which will help others find your project. You can also elect to use a separate content license for non-code components such as documentation.
   * *Project Members* subtab -- You can add new owners and members to the project.
   * *Source* subtab -- You can elect to have non-project members review your code.
 
-You will likely want to set up mailing lists for notifications of commits and issue changes. The emails allow project members and others to keep track of changes to the source code that might affect them. To set up mailing lists, perform the following:
+You'll also likely want to set up mailing lists for notifications of commits and issue changes. The emails allow project members and others to keep track of changes to the source code that might affect them. To set up mailing lists, perform the following:
   # If you need to create mailing lists, you may want to use [http://groups.google.com/ Google Groups].
   # Add `codesite-noreply@google.com` as an allowed poster to all mailing lists that will receive notifications.
   # In your project, click the *Administer* tab.
-  # Click the *Project Summary* subtab.
-  # In the Activity Notifications area, enter:
-     * Mailing lists that will receive notifications of *All Subversion commits*.
-     * Mailing lists that will receive notifications of *All issue changes*.
+  # Click the *Source* subtab.
+  # In the Activity Notifications area, enter mailing lists that will receive notifications of *All commits*.
   # Click *Save Changes*.
+  # Click the *Issue Tracking* subtab.
+  # In the Activity Notifications area, enter mailing lists that will receive notifications of *All issue changes*.
+  # Click *Save Changes*. 
 
 == Documenting your Project on the Wiki Tab ==
 
