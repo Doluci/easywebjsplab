@@ -91,7 +91,7 @@ Perform the following to create a wiki page:
 
   # In your project, click the *Wiki* tab.
   # Click the *New page* subtab.
-  # Type the name of the new wiki page in the *Page name* field. This value must be alphanumeric with no spaces. You won't be able to change this name later, so be careful.
+  # Type the name of the new wiki page in the *Page Name* field. This value must be alphanumeric with no spaces. You won't be able to change this name later, so be careful.
   # Enter the text and syntax for the page in the *Content* field. For more information about the wiki syntax, refer to the [WikiSyntax] page.
   # Click a link in one of the *Labels* fields to see the available list of labels. These labels provide the user with some direction on how relevant the wiki page is to them.
   # Click one of the following buttons:
