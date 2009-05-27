@@ -5,16 +5,14 @@
 
 Follow the following instructions to switch your project from Subversion to Mercurial: 
 
-  # Go to your project, choose the Administer tab, and then choose the Source sub-tab.
+  # Go to your existing open source project, choose the Administer tab, and then choose the Source sub-tab.
   # Change the repository type to Mercurial
   # Import your code into the Hg code repository as described in the 'How to Convert Subversion History to Mercurial' section below
   # Like you imported your code, import your wiki into the Hg wiki repository. Make sure to use the path of the wiki in your subversion repository (e.g. http://project.googlecode.com/svn/wiki) and the Hg wiki repository (http://wiki.projectname.googlecode.com/hg/)
 
 Your old Subversion project will still be accessible after you switch your project to using Mercurial, so you will not need to backup your repository before switching. 
 
-Your Subverstion repository will be available at:
-  * code - https://project.googlecode.com/svn/trunk/
-  * wiki pages - https://project.googlecode.com/svn/wiki/
+Your Subversion repository will be available at: http://project.googlecode.com/svn/
 
 = How to Convert Subversion History to Mercurial =
 
