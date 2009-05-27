@@ -12,7 +12,7 @@ Follow the following instructions to switch your project from Subversion to Merc
 
 Your old Subversion project will still be accessible after you switch your project to using Mercurial, so you will not need to backup your repository before switching. 
 
-Your Subversion repository will be available at: http://project.googlecode.com/svn/
+Your Subversion repository will be available at: https://project.googlecode.com/svn/
 
 = How to Convert Subversion History to Mercurial =
 
