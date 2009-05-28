@@ -3,7 +3,7 @@
 
 = Mercurial Status = 
 
-Mercurial support on Google Code is currently an experimental feature, only available to invited users.  This document tracks the status of this feature as it evolves.
+Mercurial support on Google Code is currently an experimental feature. This document tracks the status of this feature as it evolves.
 
 == What Works ==
 
@@ -24,6 +24,6 @@ Mercurial support on Google Code is currently an experimental feature, only avai
 
 For the most up-to-date list, see [http://code.google.com/p/support/issues/list?can=2&q=component%3AMercurial the complete list of open Mercurial issues].
 
-== Caveats ==
+== Getting Started ==
 
-During the experimental period, we may need to make schema changes to the underlying Bigtable database.  There may be occasional 2-hour windows of time where Mercurial repositories are taken offline for the data upgrade (we'll email with advance warning.)
+See ConvertingSvnToHg.
