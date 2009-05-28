@@ -18,4 +18,4 @@ You must push over *https* rather than *http*, e.g. `hg push https://MYREPO.goog
 
 === How can I avoid typing my password in for each `hg push`? ===
 
-You can enter a default push URL in your `hgrc` configuration file, and include the username and password in the URL.  The Mercurial FAQ has an [http://www.selenic.com/mercurial/wiki/index.cgi/FAQ#head-c18bae2d569e618badb588ffc5a58709fbe3dde6 entry on this].  If you do this, make sure your `hgrc` isn't readable by others!
+You can enter a default push URL in your `hgrc` configuration file, and include the username and password in the URL.  The Mercurial FAQ has an [http://www.selenic.com/mercurial/wiki/FAQ#FAQ.2BAC8-CommonProblems.How_can_I_store_my_HTTP_login_once_and_for_all_.3F entry on this].  If you do this, make sure your `hgrc` isn't readable by others!
