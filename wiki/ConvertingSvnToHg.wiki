@@ -8,11 +8,9 @@ Follow the following instructions to switch your project from Subversion to Merc
   # Go to your existing open source project, choose the Administer tab, and then choose the Source sub-tab.
   # Change the repository type to Mercurial
   # Import your code into the Hg code repository as described in the 'How to Convert Subversion History to Mercurial' section below
-  # Like you imported your code, import your wiki into the Hg wiki repository. Make sure to use the path of the wiki in your subversion repository (e.g. http://project.googlecode.com/svn/wiki) and the Hg wiki repository (http://wiki.projectname.googlecode.com/hg/)
+  # Like you imported your code, import your wiki into the Hg wiki repository. Make sure to use the path of the wiki in your subversion repository (e.g. http://projectname.googlecode.com/svn/wiki) and the Hg wiki repository (http://wiki.projectname.googlecode.com/hg/)
 
-Your old Subversion project will still be accessible after you switch your project to using Mercurial, so you will not need to backup your repository before switching. 
-
-Your Subversion repository will be available at: https://project.googlecode.com/svn/
+Your old Subversion project will still be accessible after you switch your project to using Mercurial, so you will not need to back up your repository before switching. Your Subversion repository will remain accessible at: https://projectname.googlecode.com/svn/
 
 = How to Convert Subversion History to Mercurial =
 
@@ -24,9 +22,9 @@ Mercurial.  Assuming your googlecode Mercurial repository is empty,
 it's as easy as:
 
 {{{
-  $ hg clone https://project.googlecode.com/hg hg-client
+  $ hg clone https://projectname.googlecode.com/hg hg-client
   $ cd hg-client
-  $ svn export --force http://host/svnrepo/trunk .
+  $ svn export --force http://projectname.googlecode.com/svn/trunk .
   $ hg add .
   $ hg commit -m "Initial import of source."
   $ hg push
@@ -96,7 +94,7 @@ Now we do the conversion -- branches, tags and all:
 
 {{{
   $ mkdir hg-client
-  $ hg convert http://host/svnrepo hg-client
+  $ hg convert http://projectname.googlecode.com/svn hg-client
 }}}
 
 Once the conversion is done, you can push the new history up to your
@@ -105,5 +103,5 @@ repository):
 
 {{{
   $ cd hg-client
-  $ hg push https://project.googlecode.com/hg
+  $ hg push https://projectname.googlecode.com/hg
 }}}
