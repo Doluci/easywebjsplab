@@ -1,10 +1,6 @@
 #summary Frequently asked questions about Mercurial.
 #labels Mercurial
 
-=== Can I get a Mercurial project? ===
-
-The Mercurial feature is currently open to invited testers on a per-project basis. If you are interested trying it out, please fill out [http://spreadsheets.google.com/viewform?hl=en&formkey=cEJnWHctQjRjV3hyNkRCb3RzbzY4RFE6MA this form] to be put on the waiting list.
-
 === Why do I get "HTTP Error 405: Method Not Allowed" from the Mercurial client? ===
 
 {{{
