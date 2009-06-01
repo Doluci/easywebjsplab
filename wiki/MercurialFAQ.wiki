@@ -18,6 +18,6 @@ You can enter a default push URL in your `hgrc` configuration file, and include 
 
 === Why isn't my username/password accepted? ===
 
-The following instructions are relevant to non-gmail users:
-
 If you enter your username as part of the URL, you have to encode the "@" sign as "%40" to avoid confusing Mercurial. If you're on windows, % is an escape character in the command prompt, so you have to encode the "@" sign as "%%40".
+
+The above instructions are only relevant to non-gmail users; gmail users can use the username part of their email address, the part preceding the "@" sign, as their Google Code username.
