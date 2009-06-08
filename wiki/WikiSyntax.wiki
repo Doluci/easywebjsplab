@@ -193,6 +193,18 @@ description, so that people know you're actually linking to a page on
 If you want to mention !WikiSyntax without it being autolinked, use an
 exclamation mark to prevent linking.
 
+=== Links to anchors within a page ===
+
+Each heading defines a HTML anchor with the same name as the heading, but with spaces replaced by underscores. You can
+create a link to a specific heading on a page like this:
+
+{{{
+[WikiSyntax#Wiki-style_markup]
+}}}
+
+And it will render as: [WikiSyntax#Wiki-style_markup].
+
+
 === Links to external pages ===
 
 You can of course link to external pages from your own wiki pages,
