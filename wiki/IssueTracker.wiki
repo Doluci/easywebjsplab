@@ -180,7 +180,7 @@ owner, project members listed on the CC line, and to the
 *all issue changes* email address, if one has been set up.  Also,
 filter rules that match the issue may add more email addresses to
 notify of changes.  Users may configure their email notification
-preferences on the user settings page.  The user who reported an issue
+preferences on the Settings tab of the Profile page.  The user who reported an issue
 is normally notified simply because of the fact that they have starred
 the issue, which happens by default when the issue is entered.  The
 user who made the change is not directly notified, because they already
