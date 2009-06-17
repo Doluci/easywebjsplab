@@ -142,7 +142,7 @@ notification is sent to all other users who have starred that
 revision or assigned review.  A project owner may also configure the tool to send a
 notification of every review comment to one address, which would
 normally be a mailing list.  Individual users may opt out of these
-notification messages by using the Settings page.
+notification messages by using the Settings tab of your Profile page.
 Users star a revision in three ways:
    * The author of each revision automatically stars that revision
    * Users may click the star icon in the source changes list or revision detail page
