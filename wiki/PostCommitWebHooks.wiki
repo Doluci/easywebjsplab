@@ -10,7 +10,7 @@ Post-Commit Web Hooks allow projects to setup web services that receive project 
 
 ==Details==
 
-Project owners may enable this feature by specifying a target URL in the Administer/Source tab. If the URL contains the special patterns "%p" and "%r", those will be automatically replaced for each commit with the project name and revision number, respectively.
+Project owners may enable this feature by specifying a target URL in the Administer/Source tab. If the URL contains the special patterns "%p" and "%r", those will be automatically replaced for each commit with the project name and comma-separated list of revisions, respectively.
 
 The POST request payload describes the commit using the [http://webhooks.pbwiki.com/ Web Hooks] model, and consists of a UTF8-encoded [http://www.json.org/ JSON] dictionary in the following format:
 
@@ -47,13 +47,13 @@ The payload's [http://www.json.org/ JSON] dictionary contains the following item
 || *Field* || *Type* || *Description* ||
 || project_name ||String|| The name of the project. ||
 || repository_path ||String|| The project's repository URL.||
-|| revision_count ||Number|| Number of revisions contained in the 'revisions' list. Currently always set to '1'.||
+|| revision_count ||Number|| Number of revisions contained in the 'revisions' list.||
 || revisions ||List|| A list of dictionaries describing 1 or more repository commits (see table below).||
 
 Each revision contained in the 'revisions' list is a dictionary with the following items:
 
 || *Field* || *Type* || *Description* ||
-||revision|| Number || Repository identifier for this commit.||
+||revision|| Number(SVN) / String(Hg) || Repository identifier for this commit.||
 ||url||String||URL to browse repository history for this revision.||
 ||author|| String || Username responsible for commit.||
 ||timestamp|| Number ||Repository commit timestamp.||
