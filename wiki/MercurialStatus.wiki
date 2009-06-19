@@ -10,6 +10,7 @@ Mercurial support on Google Code is currently an experimental feature. This docu
   * pushing and pulling code to https://projectname.googlecode.com/hg
   * single commit email sent for each 'hg push'
   * wiki lives in a separate hg repository
+  * webhooks - issue 2512
   * source browsing
     * viewing individual changesets & diffs, navigating multiple parents
     * visualizing the changeset DAG
@@ -19,7 +20,6 @@ Mercurial support on Google Code is currently an experimental feature. This docu
 
 == What Doesn't Yet Work ==
 
-  * webhooks do not yet fire - issue 2512
   * no branch reviews - issue 2514
 
 For the most up-to-date list, see [http://code.google.com/p/support/issues/list?can=2&q=component%3AMercurial the complete list of open Mercurial issues].
