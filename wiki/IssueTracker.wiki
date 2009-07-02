@@ -560,7 +560,7 @@ COMMENT-TEXT...
 Where COMMAND-LINE is one of the following:
   * `Update issue NNN`
   * `New issue`
-  * `New code review`
+  * `New review`
 
 There can be any number of ISSUE-FIELD-UPDATE lines.  These lines can be one of the following:
   * `Summary: NEW-VALUE`
