@@ -89,9 +89,6 @@ Most projects have mailing lists that the developers use to discuss the project.
 
 == Hosted Tools ==
 
-=== Which web browsers are compatible with Google Code? ===
-At this time, we've tested compatibility with Mozilla Firefox 1.0.4 and 1.5, Safari, and Microsoft Internet Explorer 6.0 and 7.0 beta 3.
-
 === Why do you only offer a small set of licenses? ===
 The open source community has been flooded with lots of nearly identical licenses. We'd like to see projects standardize on the most popular, time-tested ones. The selected licenses offer diversity to meet most developer needs.
 
