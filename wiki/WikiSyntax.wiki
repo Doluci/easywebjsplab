@@ -157,14 +157,14 @@ recognizes either a !WikiWord or an URL.
 
 Internal links within a wiki are created using the syntax below. If
 you add a wiki link to a page that does not exist, the link will
-appear with a !LittleLink[WikiSyntax ?] to all project members and
+appear with a !LittleLink[WikiSyntax ?] to project committers and
 owners. Clicking that link will take you to the page creation form
 where you can enter content for that page.
 
 If you are not logged in, wiki links that point to non-existent pages
 will appear as plain text, without the link to the page creation
-form. When you create the target page as a project member or owner,
-the link will switch to being an actual hyperlink for all viewers of
+form. When you create the target page,
+the link will become a normal hyperlink for all viewers of
 the page.
 
 {{{

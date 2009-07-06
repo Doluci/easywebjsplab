@@ -11,7 +11,7 @@ Mercurial support is now available for general use.  You can [http://code.google
 
 == Shift-click to select multiple issues ==
 
-In the issue list, project members and owners can now select a range of issues by clicking one checkbox and then shift-clicking on another checkbox.  All the issues  between the two checkboxes will be selected or unselected.  After that, the "Bulk edit..." item in the "Actions..." menu can be used to edit all those issues at once.
+In the issue list, project owners and committers can now select a range of issues by clicking one checkbox and then shift-clicking on another checkbox.  All the issues  between the two checkboxes will be selected or unselected.  After that, the "Bulk edit..." item in the "Actions..." menu can be used to edit all those issues at once.
 
 == Privacy option for user updates ==
 
@@ -221,7 +221,7 @@ The title says it all.  If you changed file properties in an svn commit, you wil
 
 It's time for spring cleaning of the issues in your project: organize them by milestone, organize them by component, or assign them all to your project members.  Doing that just got a lot easier because we now offer issue bulk editing.
 
-In the issue list, logged-in project members can check the checkboxes for several issues on one page and then use the "Actions..." drop-down menu at the top of the list to select "Bulk edit...". The bulk edit page allows you to enter one comment that will be appended to all the selected issues. You can set the status or owner of all the issues by filling in those fields. And, you can add or remove labels by entering the label name, or the label name proceeded by a minus-sign.
+In the issue list, signed-in project owners and committers can check the checkboxes for several issues on one page and then use the "Actions..." drop-down menu at the top of the list to select "Bulk edit...". The bulk edit page allows you to enter one comment that will be appended to all the selected issues. You can set the status or owner of all the issues by filling in those fields. And, you can add or remove labels by entering the label name, or the label name proceeded by a minus-sign.
 
 == Autolinking in svn commit log messages ==
 
@@ -260,9 +260,9 @@ Now project owners can write a simple wiki page giving end-users instructions on
 
 == Use any Google Account, not just Gmail accounts ==
 
-Previously, we required that all project owners and members use [http://www.gmail.com/ Gmail] accounts.  That restriction helped us manage certain types of spam, but it inconvenienced many legitimate users as well. We've made improvements to the way that we manage the site, and can now pass on the convenience to users.  
+Previously, we required that all project members use [http://www.gmail.com/ Gmail] accounts.  That restriction helped us manage certain types of spam, but it inconvenienced many legitimate users as well. We've made improvements to the way that we manage the site, and can now pass on the convenience to users.  
 
-Project owners and members can now be specified with the full email address of any Google Account. 
+Project members can now be specified with the full email address of any Google Account. 
 
 = July 2007 =
 
@@ -299,13 +299,13 @@ We have clarified the email notification aspect of stars by adding tool-tips to 
 
 Sometimes a user leaves a comment on an issue that is irrelevant or which contains information like a password that should not be displayed to other users.  It can happen to any of us if we accidentally comment on the wrong issue or paste in a big chunk of text.  
 
-Now, those unwanted comments can be deleted or undeleted by the user who entered them or any project member.
+Now, those unwanted comments can be deleted or undeleted by the user who entered them, or by the project owner.
 
 == Wiki page comments ==
 
 Wiki's are community-owned knowledge-bases: they should allow contributions from anyone who notices a problem or wants to add valuable information, but they can also lose some of their value if they are vandalized, if they become disorganized, or if incorrect information is added.
 
-The project wiki feature that we offer now strikes a balance between these trade-offs by allowing any logged in use to append a comment to the wiki pages.  Project members may then review the comments and choose to:
+The project wiki feature that we offer now strikes a balance between these trade-offs by allowing any logged in user to append a comment to the wiki pages.  Project members may then review the comments and choose to:
   * Leave them as useful comments
   * Incorporate them into the page, and delete the comment since it would be redundant
   * Delete any valueless comments
