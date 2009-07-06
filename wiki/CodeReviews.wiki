@@ -27,7 +27,7 @@ for further improvements.
 == Review comments ==
 
 You must be logged in to enter a code review comment.  By default, the
-owners and members of a project are the only people who may leave
+members of a project are the only people who may leave
 review comments.  However, a project owner may choose to disable all reviews,
 or allow non-members to do reviews as well.
 

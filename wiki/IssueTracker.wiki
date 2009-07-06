@@ -49,7 +49,7 @@ Here is how you can carry out the most common use cases with our issue tracker:
    # Fill in the issue summary. In most cases you must edit the issue summary before the *Submit* button is enabled.
    # Fill in the issue description.
    # Optionally, attach screenshots or other files that help describe the issue.
-   # If you are a project member or owner, you can also edit the issue status, owner, CCs, and labels.
+   # If you are a project owner or committer, you can also edit the issue status, owner, CCs, and labels.
    # Submit the issue
 
 
@@ -58,7 +58,7 @@ Here is how you can carry out the most common use cases with our issue tracker:
    # Click on the row for the issue, this takes you to the issue detail page.
    # Click on the large text area at the bottom of the page, or the link *Add a comment and  make changes below*.
    # Enter the text of your comment.
-   # If you are a project member, you can also edit the issue fields.
+   # If you are a project owner or committer, you can also edit the issue fields.
    # Click the *Save changes* button
 
 
@@ -67,7 +67,7 @@ Here is how you can carry out the most common use cases with our issue tracker:
    # Edit the status value to be one of the closed values.
    # Save changes
 
-Only project members can close an issue.
+Only project owners and committers can close an issue.
 
 
 == How do I get notified when an issue is changed? ==
@@ -100,7 +100,7 @@ other project members on the CC line.  Each issue has an optional
 status and may have some labels, these are discussed below.
 
 Users can add comments to an issue to provide additional information
-that could be useful in resolving it. When a project member adds a
+that could be useful in resolving it. When a project owner or commtter adds a
 comments, he/she may also update the issue fields.
 
 
@@ -228,7 +228,7 @@ defined based on `Component-*` labels.
 = Issue entry =
 
 The issue entry page is accessed by clicking the *New issue* sub-tab
-under the *Issues* tab.  For project members, the issue entry form
+under the *Issues* tab.  For project owners and committers, the issue entry form
 allows a choice of templates and fields for summary, description,
 owner, status, CC list, labels, and blocked-on issues.  For
 non-members, only the template choice, summary, and description fields
@@ -431,7 +431,7 @@ be seen in a tooltip.
 
 At the bottom of the page is a text area to enter a new comment.
 Clicking on this text area expands it and makes it editable.  Project
-members will also see form elements for editing the issue fields.  The
+owners and committers also see form elements for editing the issue fields.  The
 form fields for owner and CCs accept only the user names of project
 members. An auto-complete menu helps you enter these values.  The
 issue status and label form fields also allow free text entry but

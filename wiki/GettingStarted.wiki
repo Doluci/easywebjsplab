@@ -50,7 +50,7 @@ If you've reviewed existing projects and couldn't find one that meets your needs
 
 You can use the functionality under the *Administer* tab to customize your project. This tab is visible only to project owners. The following subtabs are especially useful when creating new projects:
   * *Project Summary* subtab -- You can modify some of the options that you set during project creation, as well as set up blogs, analytics, and a custom project logo. This also provides another opportunity to set up project labels, which will help others find your project.
-  * *Project Members* subtab -- You can add new owners and members to the project.
+  * *Project Members* subtab -- You can add new owners or committers to the project.
   * *Source* subtab -- You can elect to have non-project members review your code.
 
 You'll also likely want to set up mailing lists for notifications of commits and issue changes. The emails allow project members and others to keep track of changes to the source code that might affect them. To set up mailing lists, perform the following:
@@ -70,7 +70,7 @@ Each project has its own [http://subversion.tigris.org/ Subversion] or [http://w
 
 Perform the following to check code in and out of your source repository:
 
-  # For instructions on how to check out a project's repository from the command line, go to the *Source* tab. Any user, regardless of whether they have a Google account, can check out and browse the repository anonymously, while project owners and members are granted full read and write permissions. You can add project owners and members at the [#Customizing_your_Project_on_the_Administer_Tab Administer tab].
+  # For instructions on how to check out a project's repository from the command line, go to the *Source* tab. Any user, regardless of whether they have a Google account, can check out and browse the repository anonymously, while project owners and committers are granted full read and write permissions. You can add project owners and committers at the [#Customizing_your_Project_on_the_Administer_Tab Administer tab].
   # If you plan on synching from an existing repository, you *must* click the *Reset This Repository* link at the bottom of the *Source* tab page before making any other changes to your project's repository. *This includes creating any new wiki pages* because resetting the repository results in the loss of wiki content. Do not start a wiki page in your project before you complete this step.
 
 After you've been working with your project for a while, the following subtabs on the *Source* tab will come in handy:
@@ -93,7 +93,7 @@ Perform the following to create a wiki page:
 
 == Tracking Project Tasks on the Issues Tab ==
 
-The *Issues* tab is a great way to keep track of the ongoing features, tasks, and bugs in your project. It allows multiple project members and owners to see what others are currently doing.
+The *Issues* tab is a great way to keep track of the ongoing features, tasks, and bugs in your project. It allows multiple project members to see what others are currently doing.
 
 After you click the *New issue* subtab to create a new issue, please note the *Labels* fields. Labels are strings that are meaningful to the project members. When an issue label contains a dash, such as `Priority-Medium`, it is interpreted as a key-value pair that you can use like a custom field.
 
