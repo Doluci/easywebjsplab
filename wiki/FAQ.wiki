@@ -108,7 +108,7 @@ Yes. Your data is hosted on Google's infrastructure in Google's datacenters, ens
 At this time, there aren't any import or export features. But look for them as the service matures.
 
 === How do I create web pages for my project? ===
-You can use [http://pages.google.com/ Google Page Creator] to create web pages, and then create a link to them from your project's front page. [http://www.writely.com/ Google's Writely] is another great way to collaboratively create documents and publish them on the web. Or, link from your project to any existing web pages.
+You can use [http://sites.google.com/ Google Sites] to create web pages, and then create a link to them from your project's front page. [http://docs.google.com/ Google Docs] is another great way to collaboratively create documents and publish them on the web. Or, link from your project to any existing web pages.
 
 === Can I use another hosting service for parts of my project? ===
 Yes. If Google Code doesn't have all the tools you need, feel free to start with Google Code and use a combination of tools from this site and others. Use hyperlinks on your project summary page to guide your users to these other resources.
