@@ -234,10 +234,10 @@ unlocked with the matching key.  The additional needed permissions can
 be any standard or custom permission.
 
 || *User's permissions* || *Needed permissions* ||  *Result* ||
-|| http://support.googlecode.com/svn/wiki/key.png !EditIssue <br/> http://support.googlecode.com/svn/wiki/key.png  Commit || http://support.googlecode.com/svn/wiki/lock.png !EditIssue <br/> http://support.googlecode.com/svn/wiki/lock.png Comit ||   Request granted ||
-|| http://support.googlecode.com/svn/wiki/key.png Commit || http://support.googlecode.com/svn/wiki/lock.png !EditIssue <br/> http://support.googlecode.com/svn/wiki/lock.png Comit ||   Request denied ||
-|| http://support.googlecode.com/svn/wiki/key.png !EditIssue || http://support.googlecode.com/svn/wiki/lock.png !EditIssue <br/> http://support.googlecode.com/svn/wiki/lock.png Comit ||   Request denied ||
-|| None || http://support.googlecode.com/svn/wiki/lock.png !EditIssue <br/> http://support.googlecode.com/svn/wiki/lock.png Comit ||   Request denied ||
+|| http://support.googlecode.com/svn/wiki/key.png !EditIssue <br/> http://support.googlecode.com/svn/wiki/key.png  Commit || http://support.googlecode.com/svn/wiki/lock.png !EditIssue <br/> http://support.googlecode.com/svn/wiki/lock.png Commit ||   Request granted ||
+|| http://support.googlecode.com/svn/wiki/key.png Commit || http://support.googlecode.com/svn/wiki/lock.png !EditIssue <br/> http://support.googlecode.com/svn/wiki/lock.png Commit ||   Request denied ||
+|| http://support.googlecode.com/svn/wiki/key.png !EditIssue || http://support.googlecode.com/svn/wiki/lock.png !EditIssue <br/> http://support.googlecode.com/svn/wiki/lock.png Commit ||   Request denied ||
+|| None || http://support.googlecode.com/svn/wiki/lock.png !EditIssue <br/> http://support.googlecode.com/svn/wiki/lock.png Commit ||   Request denied ||
 
 
 Restrictions are specified using restriction labels that begin with
@@ -284,8 +284,6 @@ write a rule that adds a restriction label.  For example:
 || *If the item has all these labels*  ||  *Then, add the following labels* ||
 || Component-!PasswordManager Type-Defect || Restrict-View-!CoreTeam ||
 || Security || Restrict-View-!CoreTeam ||
-
-
 
 
 
