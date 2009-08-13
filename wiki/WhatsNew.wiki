@@ -9,11 +9,11 @@ Commit notification emails can now include diff output or not.  Project owners c
 
 Google Code's subversion server has been upgraded from version 1.5 to 1.6.
 
-The new "People" subtab on each project home page allows project owners and members to easily document what each project member's duties are.  A new "contributor" role and the ability to grant permissions gives project owners a lot more flexibility when they need it.  [Permissions learn more]
+The new "People" subtab on each project home page allows project owners and members to easily document what each project member's duties are.  A new "contributor" role and the ability to grant permissions gives project owners a lot more flexibility when they need it.  [Permissions Learn more].
 
 = May 2009 =
 
-It is now possible to update an issue via a commit log message.  For example, you can commit a code change that fixes a defect, and write "(fixes issue 12)" and the status value of that issue will be set to "Fixed".  [http://code.google.com/p/support/wiki/IssueTracker#Integration_with_version_control learn more]
+It is now possible to update an issue via a commit log message.  For example, you can commit a code change that fixes a defect, and write "(fixes issue 123456)" and the status value of that issue will be set to "Fixed".  [http://code.google.com/p/support/wiki/IssueTracker#Integration_with_version_control Learn more].
 
 Keyboard shortcuts are now available in the issue tracker.  Type "?" to see a list of the shortcuts.
 
