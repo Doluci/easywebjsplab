@@ -5,17 +5,29 @@ Welcome to the What's New page for project hosting on Google Code. Here you'll f
 
 = July 2009 =
 
+== Commit emails with or without diffs ==
+
 Commit notification emails can now include diff output or not.  Project owners can control that via a checkbox on the Source subtab of the Administer tab.
 
+== Subversion upgraded ==
+
 Google Code's subversion server has been upgraded from version 1.5 to 1.6.
+
+== People subtab and configurable permissions ==
 
 The new "People" subtab on each project home page allows project owners and members to easily document what each project member's duties are.  A new "contributor" role and the ability to grant permissions gives project owners a lot more flexibility when they need it.  [Permissions Learn more].
 
 = May 2009 =
 
+== Commit log commands ==
+
 It is now possible to update an issue via a commit log message.  For example, you can commit a code change that fixes a defect, and write "(fixes issue 123456)" and the status value of that issue will be set to "Fixed".  [http://code.google.com/p/support/wiki/IssueTracker#Integration_with_version_control Learn more].
 
+== Keyboard shortcuts ==
+
 Keyboard shortcuts are now available in the issue tracker.  Type "?" to see a list of the shortcuts.
+
+== Mercurial version control system ==
 
 Mercurial support is now available for general use.  You can [http://code.google.com/p/support/wiki/GettingStarted#Creating_a_Project create a project] using Mercurial, or [ConvertingSvnToHg convert an existing SVN repository].  Our MercurialStatus page has a list of known issues. 
 
