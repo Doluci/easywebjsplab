@@ -1,26 +1,25 @@
-  * WhatsNew
-  * MakingHostingBetter
+  * [WhatsNew WhatsNew]
+  * [MakingHostingBetter MakingHostingBetter]
   * [HowToJoinAProject HowToJoinAProject]
 
-----
   * [FAQ FAQ]
   * Wiki
-    * WikiSyntax
-    * WorkingWithGoogleGadgets
-      * InterestingDeveloperGadgets
-  * IssueTracker
+    * [WikiSyntax WikiSyntax]
+    * [WorkingWithGoogleGadgets WorkingWithGoogleGadgets]
+      * [InterestingDeveloperGadgets InterestingDeveloperGadgets]
+  * [IssueTracker IssueTracker]
   * Downloads
-    * ScriptedUploads
+    * [ScriptedUploads ScriptedUploads]
   * Source
-    * CodeReviews
+    * [CodeReviews CodeReviews]
     * [ChoosingAVersionControlSystem ChoosingAVersionControlSystem]
-    * PostCommitWebHooks
+    * [PostCommitWebHooks PostCommitWebHooks]
     * Mercurial
       * [MercurialFAQ MercurialFAQ]
-      * ConvertingSvnToHg
+      * [ConvertingSvnToHg ConvertingSvnToHg]
     * Git
-      * ExportingToGit
-      * ImportingFromGit
+      * [ExportingToGit ExportingToGit]
+      * [ImportingFromGit ImportingFromGit]
   * Advanced
     * [DVCSAnalysis DVCSAnalysis]
     * [Permissions Permissions]
