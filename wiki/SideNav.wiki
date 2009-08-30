@@ -1,6 +1,9 @@
-WhatsNew 
+WhatsNew
+
 MakingHostingBetter 
+
 HowToJoinAProject 
+
 ----
 FAQ
 Wiki
