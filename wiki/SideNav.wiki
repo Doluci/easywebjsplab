@@ -1,7 +1,5 @@
 WhatsNew
-
 MakingHostingBetter 
-
 [HowToJoinAProject HowToJoinAProject]
 
 ----
