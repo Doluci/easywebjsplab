@@ -25,5 +25,5 @@ Source
     * ExportingToGit
     * ImportingFromGit
 Advanced
-  * DVCSAnalysis
-  * Permissions
+  * [DVCSAnalysis DVCSAnalysis]
+  * [Permissions Permissions]
