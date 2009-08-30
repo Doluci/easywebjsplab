@@ -1,6 +1,6 @@
-= WhatsNew =
-= MakingHostingBetter =
-= [HowToJoinAProject HowToJoinAProject] =
+* WhatsNew
+* MakingHostingBetter
+* [HowToJoinAProject HowToJoinAProject]
 
 ----
 FAQ
