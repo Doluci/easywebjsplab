@@ -16,7 +16,7 @@ Source
   * [ChoosingAVersionControlSystem ChoosingAVersionControlSystem]
   * PostCommitWebHooks
   * Mercurial
-    * MercurialFAQ
+    * [MercurialFAQ MercurialFAQ]
     * ConvertingSvnToHg
   * Git
     * ExportingToGit
