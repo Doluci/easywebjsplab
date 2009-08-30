@@ -9,8 +9,6 @@ Wiki
     * InterestingDeveloperGadgets
 Issue Tracker
   * IssueTracker
-  * IssueTrackerAPI
-  * IssueTrackerAPIReference
 Downloads
   * ScriptedUploads
 Source
