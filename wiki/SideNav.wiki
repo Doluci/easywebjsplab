@@ -2,7 +2,7 @@ WhatsNew
 
 MakingHostingBetter 
 
-HowToJoinAProject 
+[HowToJoinAProject HowToJoinAProject]
 
 ----
 FAQ
