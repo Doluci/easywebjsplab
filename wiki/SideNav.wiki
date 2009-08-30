@@ -1,0 +1,28 @@
+WhatsNew 
+MakingHostingBetter 
+HowToJoinAProject 
+----
+FAQ
+Wiki
+  * WikiSyntax
+  * WorkingWithGoogleGadgets
+    * InterestingDeveloperGadgets
+Issue Tracker
+  * IssueTracker
+  * IssueTrackerAPI
+  * IssueTrackerAPIReference
+Downloads
+  * ScriptedUploads
+Source
+  * CodeReviews
+  * ChoosingAVersionControlSystem
+  * PostCommitWebHooks
+  * Mercurial
+    * MercurialFAQ
+    * ConvertingSvnToHg
+  * Git
+    * ExportingToGit
+    * ImportingFromGit
+Advanced
+  * DVCSAnalysis
+  * Permissions
