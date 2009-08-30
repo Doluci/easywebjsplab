@@ -13,7 +13,7 @@ Downloads
   * ScriptedUploads
 Source
   * CodeReviews
-  * ChoosingAVersionControlSystem
+  * [ChoosingAVersionControlSystem ChoosingAVersionControlSystem]
   * PostCommitWebHooks
   * Mercurial
     * MercurialFAQ
