@@ -3,25 +3,24 @@
   * [HowToJoinAProject HowToJoinAProject]
 
 ----
-FAQ
-Wiki
-  * WikiSyntax
-  * WorkingWithGoogleGadgets
-    * InterestingDeveloperGadgets
-Issue Tracker
+  * FAQ
+  * Wiki
+    * WikiSyntax
+    * WorkingWithGoogleGadgets
+      * InterestingDeveloperGadgets
   * IssueTracker
-Downloads
-  * ScriptedUploads
-Source
-  * CodeReviews
-  * [ChoosingAVersionControlSystem ChoosingAVersionControlSystem]
-  * PostCommitWebHooks
-  * Mercurial
-    * [MercurialFAQ MercurialFAQ]
-    * ConvertingSvnToHg
-  * Git
-    * ExportingToGit
-    * ImportingFromGit
-Advanced
-  * [DVCSAnalysis DVCSAnalysis]
-  * [Permissions Permissions]
+  * Downloads
+    * ScriptedUploads
+  * Source
+    * CodeReviews
+    * [ChoosingAVersionControlSystem ChoosingAVersionControlSystem]
+    * PostCommitWebHooks
+    * Mercurial
+      * [MercurialFAQ MercurialFAQ]
+      * ConvertingSvnToHg
+    * Git
+      * ExportingToGit
+      * ImportingFromGit
+  * Advanced
+    * [DVCSAnalysis DVCSAnalysis]
+    * [Permissions Permissions]
