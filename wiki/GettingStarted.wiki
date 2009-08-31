@@ -44,7 +44,9 @@ You'll also likely want to set up mailing lists for notifications of commits and
   # Click the *Issue Tracking* subtab.
   # In the Activity Notifications area, enter mailing lists that will receive notifications of *All issue changes* and click *Save Changes*.
 
-== Working with your Source Repository on the Source Tab ==
+== Getting started on your project ==
+
+=== Working with your Source Repository on the Source Tab ===
 
 Each project has its own [http://subversion.tigris.org/ Subversion] or [http://www.selenic.com/mercurial/ Mercurial] repository.
   * [http://svnbook.red-bean.com/ Learn more] about using Subversion.
@@ -60,7 +62,7 @@ After you've been working with your project for a while, the following subtabs o
   * *Browse* subtab -- Allows you to browse the files and directories in your project as they existed at a point in time.
   * *Changes* subtab -- Lists changes made to the repository. You can also use this subtab to start a code review of any change.
 
-== Documenting your Project on the Wiki Tab ==
+=== Documenting your Project on the Wiki Tab ===
 
 You can use the functionality under the *Wiki* tab to create wiki pages for your project. Our wiki syntax is inspired by the !MoinMoin wiki syntax, and is more or less a subset of it. We've found that !MoinMoin is one of the most popular open source wikis and provides a clean syntax for users. 
 
@@ -73,7 +75,7 @@ Perform the following to create a wiki page:
   # Click a link in one of the *Labels* fields to see the available list of labels. Labels help the user determine how relevant the wiki page is to them.
   # Click *Preview*, *Save page*, or *Discard*.
 
-== Tracking Project Tasks on the Issues Tab ==
+=== Tracking Project Tasks on the Issues Tab ===
 
 The *Issues* tab is a great way to keep track of the ongoing features, tasks, and bugs in your project. It allows multiple project members to see what others are currently doing.
 
@@ -84,7 +86,7 @@ After you click the *New issue* subtab to create a new issue, please note the *L
 
 You can configure the issue list to show a column for any prefix. You can also search for the values within a specific custom field by using `prefix:value`. 
 
-== Sharing Releases on the Download Tab ==
+=== Sharing Releases on the Download Tab ===
 
 When you're ready to release your code, you can use the *Downloads* tab to upload compressed files. Others can then go to this tab on your project to download the code for their own use.
 
@@ -92,7 +94,7 @@ Be sure to choose the file names carefully before you upload them. The file name
 
 You can delete files from this tab. However, we recommend that you mark old releases as `deprecated`.
 
-== Finding Further Help ==
+=== Finding Further Help ===
 
 For general questions, check the [FAQ] wiki page. If you have a question that still isn't answered, bring it up on the [http://groups.google.com/group/google-code-hosting Google Group].
 
