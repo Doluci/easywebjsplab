@@ -6,7 +6,7 @@
     * [WikiSyntax Wiki Syntax]
     * [WorkingWithGoogleGadgets Google Gadgets]
       * [InterestingDeveloperGadgets Interesting Gadgets]
-  * [IssueTracker Issue Tracker]
+  * [IssueTracker Issues]
   * Downloads
     * [ScriptedUploads Scripted Uploads]
   * Source
