@@ -1,24 +1,24 @@
-  * [WhatsNew WhatsNew]
-  * [MakingHostingBetter MakingHostingBetter]
-  * [HowToJoinAProject HowToJoinAProject]
-  * [FAQ FAQ]
+  * [WhatsNew Whats New?]
+  * [MakingHostingBetter Making Hosting Better]
+  * [HowToJoinAProject Join a Project]
+  * [FAQ Project Hosting FAQ]
   * Wiki
-    * [WikiSyntax WikiSyntax]
-    * [WorkingWithGoogleGadgets WorkingWithGoogleGadgets]
-      * [InterestingDeveloperGadgets InterestingDeveloperGadgets]
-  * [IssueTracker IssueTracker]
+    * [WikiSyntax Wiki Syntax]
+    * [WorkingWithGoogleGadgets Google Gadgets]
+      * [InterestingDeveloperGadgets Interesting Gadgets]
+  * [IssueTracker Issue Tracker]
   * Downloads
-    * [ScriptedUploads ScriptedUploads]
+    * [ScriptedUploads Scripted Uploads]
   * Source
     * [CodeReviews CodeReviews]
-    * [ChoosingAVersionControlSystem ChoosingAVersionControlSystem]
+    * [ChoosingAVersionControlSystem Choosing a VCS]
     * [PostCommitWebHooks PostCommitWebHooks]
     * Mercurial
       * [MercurialFAQ MercurialFAQ]
-      * [ConvertingSvnToHg ConvertingSvnToHg]
+      * [ConvertingSvnToHg Converting Svn]
     * Git
-      * [ExportingToGit ExportingToGit]
-      * [ImportingFromGit ImportingFromGit]
+      * [ExportingToGit Exporting to Git]
+      * [ImportingFromGit Importing fromGit]
   * Advanced
-    * [DVCSAnalysis DVCSAnalysis]
+    * [DVCSAnalysis DVCS Analysis]
     * [Permissions Permissions]
