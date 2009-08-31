@@ -1,7 +1,6 @@
   * [WhatsNew WhatsNew]
   * [MakingHostingBetter MakingHostingBetter]
   * [HowToJoinAProject HowToJoinAProject]
-
   * [FAQ FAQ]
   * Wiki
     * [WikiSyntax WikiSyntax]
