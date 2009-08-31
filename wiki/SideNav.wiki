@@ -14,11 +14,11 @@
     * [ChoosingAVersionControlSystem Choosing a VCS]
     * [PostCommitWebHooks PostCommitWebHooks]
     * Mercurial
-      * [MercurialFAQ MercurialFAQ]
-      * [ConvertingSvnToHg Converting Svn]
+      * [MercurialFAQ Mercurial FAQ]
+      * [ConvertingSvnToHg SVN Conversion]
     * Git
       * [ExportingToGit Exporting to Git]
-      * [ImportingFromGit Importing fromGit]
+      * [ImportingFromGit Importing from Git]
   * Advanced
     * [DVCSAnalysis DVCS Analysis]
     * [Permissions Permissions]
