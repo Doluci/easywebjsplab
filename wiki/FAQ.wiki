@@ -253,7 +253,7 @@ Simply configure your mailing list to accept posts from codesite-noreply@google.
 == Subversion ==
 
 === What version of Subversion do you use? ===
-We currently use Subversion 1.5.4, made available via WebDAV. 
+We currently use Subversion 1.6, made available via WebDAV. 
 
 Anonymous checkouts can be done via `http://`, while developers must use authenticated `https://` to commit changes.
 
