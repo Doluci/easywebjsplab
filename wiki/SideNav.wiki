@@ -1,5 +1,5 @@
   * [WhatsNew Whats New?]
-  * [MakingHostingBetter Making Hosting Better]
+  * [MakingHostingBetter Making hosting better]
   * [HowToJoinAProject Join a Project]
   * [FAQ Project Hosting FAQ]
   * Wiki
