@@ -1,31 +1,19 @@
 #summary A quick guide to getting started with project hosting on Google Code.
 #labels Featured
 
-
 = Getting Started with Project Hosting =
 
 Project Hosting on Google Code provides a free collaborative development environment for open source projects. Each project comes with its own member controls, Subversion/Mercurial repository, issue tracker, wiki pages, and downloads section. Our project hosting service is simple, fast, reliable, and scalable, so that you can focus on your own open source development.
 
 This guide provides instructions for working on existing projects, setting up a new project, working with  your source repository, and applying some useful customization features. It includes information on:
 
-  * [#Collaborating_on_an_Existing_Project Collaborating on an Existing Project]
-  * [#Creating_a_Project Creating a Project]
-  * [#Customizing_your_Project_on_the_Administer_Tab Customizing your Project on the Administer Tab]
-  * [#Working_with_your_Source_Repository_on_the_Source_Tab Working with your Source Repository on the Source Tab]
-  * [#Documenting_your_Project_on_the_Wiki_Tab Documenting your Project on the Wiki Tab]
-  * [#Tracking_Project_Tasks_on_the_Issues_Tab Tracking Project Tasks on the Issues Tab]
-  * [#Sharing_Releases_on_the_Download_Tab Sharing Releases on the Download Tab]
-  * [#Finding_Further_Help Finding Further Help]
+<wiki:toc max_depth="1" />
 
 == Collaborating on an Existing Project ==
 
-A good project starts with a good idea -- one that addresses a real need, is feasible and well-scoped, and isn't well covered by existing open source projects. Before you create a new project, we suggest that you try searching for existing projects on this site and elsewhere on the Web. You can often get further faster by helping out with an existing project than by starting one from scratch. Keep the following in mind when browsing through projects:
+Before you create a new project, we suggest that you try searching for existing projects on this site and elsewhere on the Web. You can often get further faster by helping out with an existing project than by starting one from scratch. 
 
   * Go to the [http://code.google.com/hosting/ Project Hosting main page] and search for existing projects.
-  * Open a project and read the information on the *Project Home* tab.
-  * Click the *Wiki* tab and review the project documentation.
-  * Click the *Downloads* tab and download a release of the project.
-  * If you find any issues after running the downloaded programs, click the *Issues* tab and create a new issue.
   * If the project interests you, most projects have mailing lists that the developers use to discuss the project. To become a project member, first participate in the mailing list by showing your interest in the project and your ability to help. You can then ask one of the project owners to make you a member of the project.
 
 == Creating a Project ==
@@ -38,17 +26,11 @@ If you've reviewed existing projects and couldn't find one that meets your needs
   # Select Subversion or Mercurial as the *Version Control System* for your project. [ChoosingAVersionControlSystem Learn more].
   # Select the desired *Source Code License* for your project. The available licenses allow you to standardize your projects to the most popular, time-tested licenses. Go to [http://opensource.org/licenses/category opensource.org] for more information about these licenses. You can also choose to *Use a Separate Content License* for non-code components such as documentation.
   # The *Labels* that you enter will help others find your project. Users can browse for projects by label by entering `label:` before the label name in a project search. Look at the [http://code.google.com/hosting/ Project Hosting main page] for examples of project labels.
-  # Click *Create project*. Your newly created hosting project appears and is ready for use. The project contains the following menu tabs:
-    * Project Home
-    * [#Sharing_Releases_on_the_Download_Tab Downloads]
-    * [#Documenting_your_Project_on_the_Wiki_Tab Wiki]
-    * [#Tracking_Project_Tasks_on_the_Issues_Tab Issues]
-    * [#Working_with_your_Source_Repository_on_the_Source_Tab Source]
-    * [#Customizing_your_Project_on_the_Administer_Tab Administer]
+  # Click *Create project*. Your newly created hosting project appears and is ready for use. 
 
 == Customizing your Project on the Administer Tab ==
 
-You can use the functionality under the *Administer* tab to customize your project. This tab is visible only to project owners. The following subtabs are especially useful when creating new projects:
+You can use the functionality under the *Administer* tab to customize your project. This tab is visible only to project owners. The following subtabs are useful when creating new projects:
   * *Project Summary* subtab -- You can modify some of the options that you set during project creation, as well as set up blogs, analytics, and a custom project logo. This also provides another opportunity to set up project labels, which will help others find your project.
   * *Project Members* subtab -- You can add new owners or committers to the project.
   * *Source* subtab -- You can elect to have non-project members review your code.
