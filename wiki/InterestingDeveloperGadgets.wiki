@@ -1,5 +1,4 @@
 #summary Interesting developer gadgets that we liked
-#labels Featured
 
 =Interesting Developer Gadgets for Google Code=
 
