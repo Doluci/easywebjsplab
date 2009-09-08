@@ -1,5 +1,4 @@
 #summary How to use Google Code's code review tool
-#labels Featured
 
 
 
