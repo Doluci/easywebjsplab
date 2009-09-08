@@ -1,5 +1,4 @@
 #summary The reference to the wiki syntax for Google Code projects
-#labels Wiki
 
 <wiki:toc max_depth="2" /> 
 
