@@ -2,6 +2,12 @@
 
 Welcome to the What's New page for project hosting on Google Code. Here you'll find descriptions of our latest improvements to our collaborative development environment.
 
+= August 2009 =
+
+== Multiple Repository Support for Mercurial ==
+
+Mercurial Projects can now have multiple repositories. These new repositories can be added through the Source sub-tab under Administer. These repositories can be clones of the original default repository.
+
 = July 2009 =
 
 == Commit emails with or without diffs ==
