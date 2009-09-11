@@ -6,7 +6,7 @@ Welcome to the What's New page for project hosting on Google Code. Here you'll f
 
 == Multiple Repository Support for Mercurial ==
 
-Mercurial Projects can now have multiple repositories. These new repositories can be added through the Source sub-tab under Administer. These repositories can be clones of the original default repository.
+Mercurial Projects can now have multiple repositories. These new project repositories can be added through the Source sub-tab under the Administer tabs. Project repositories can be clones of the original default repository.
 
 = July 2009 =
 
