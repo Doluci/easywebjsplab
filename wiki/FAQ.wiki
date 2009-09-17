@@ -9,13 +9,13 @@ Other FAQs:
   * [MercurialFAQ]
 
 Sections:
-<wiki:toc max_depth="2"/>
+<wiki:toc max_depth="1"/>
 
 ----
 
-== Getting Started ==
+= Getting Started =
 
-=== What's the new project-hosting service on Google Code? ===
+== What's the new project-hosting service on Google Code? ==
 Our new hosting service offers a collaborative development environment that includes: 
   * Project workspaces with simple membership controls 
   * Version control via Subversion
@@ -25,184 +25,184 @@ Our new hosting service offers a collaborative development environment that incl
   * Downloads
   * Mailing lists at groups.google.com
 
-=== Who's the service for? ===
+== Who's the service for? ==
 All open source developers. If you plan to start an open source project, we encourage you to create a project on Google Code.
 
-=== Why is Google offering to host open source projects? ===
+== Why is Google offering to host open source projects? ==
 One of our goals is to encourage healthy, productive open source communities. Developers can always benefit from more choices in project hosting.
 
-=== Is hosting on Google Code available internationally? ===
+== Is hosting on Google Code available internationally? ==
 For now, project hosting is available only in English. Open source projects can be created by developers from all countries, with a few small exceptions.
 
-=== Will Google Code be localized into my language? ===
+== Will Google Code be localized into my language? ==
 We plan to localize Google Code as it matures.
 
-=== Is Google Code's implementation itself open source? ===
+== Is Google Code's implementation itself open source? ==
 As with most project-hosting sites, our underlying technology is a mixture of open source and proprietary code. For example, the issue tracker is entirely written by Google, but the version-control service is based on Subversion, a popular open source tool.
 
-=== Where's the documentation for the project-hosting service? ===
+== Where's the documentation for the project-hosting service? ==
 Much of it's right here in this FAQ. Also, most project and issue tracker pages contain self-documenting fields that describe the purpose of the page. For documentation on how to use a [http://subversion.tigris.org/ Subversion] client, just visit the Subversion project.
 
-=== How is this project-hosting service related to Summer of Code? ===
+== How is this project-hosting service related to Summer of Code? ==
 Both are part of our larger initiative to support and encourage the development of open source software. Google Summer of Code projects may also be hosted on Google Code, should the student or mentor so wish.
 
 ----
 
-== Hosting Your Open Source Project on Google Code ==
+= Hosting Your Open Source Project on Google Code =
 
-=== Why would I want to host my open source project on Google Code? ===
+== Why would I want to host my open source project on Google Code? ==
 Our project-hosting service is simple, fast, reliable, and scalable, so that you can focus on your own open source development.
 
-=== Why would I not want to host my open source project on Google Code? ===
+== Why would I not want to host my open source project on Google Code? ==
 Google Code will have lots of key features at launch, but we may not have all features you want or need for your project. Rather than try to offer every possible feature, we have focused on doing the most important things really well. More features will be added over time, but only when they are ready. However, we will not offer the following any time soon: shell accounts, build farm, private projects, nested projects, or multiple alternatives for each type of hosted tool.
 
-=== Are there any restrictions on who can use the site? ===
+== Are there any restrictions on who can use the site? ==
 Just a couple. You'll need to be in a country where Google is able to conduct business, and your project needs to be open source.
 
-=== Do I need to have a Gmail account to start a project? ===
+== Do I need to have a Gmail account to start a project? ==
 No, a Gmail account is no longer required to create a project, though you will need a Google Account. If you don't have a Google Account already, you can [http://www.google.com/accounts/NewAccount?continue=http://code.google.com/hosting/faq.html create one now].
 
-=== Do I need to have a Gmail account to participate in a project? ===
+== Do I need to have a Gmail account to participate in a project? ==
 No authentication is required to browse project pages or issues, or to check out source code. To create or comment on an issue, though, you'll need to be logged in to your Google Account. To manage issue metadata or commit to a project's Subversion repository, you'll need to be logged in to your Google Account and have either an owner or a committer role.
 
-=== Are you going to put ads on my project page? ===
+== Are you going to put ads on my project page? ==
 No. Ads aren't part of Google Code at this time.
 
-=== Can I put ads on my project's pages? ===
+== Can I put ads on my project's pages? ==
 This may be an option in the future, but, no, not for now.
 
-=== How long does it take for my project to be approved for hosting? ===
+== How long does it take for my project to be approved for hosting? ==
 As soon as you create a project, it's available for use.
 
-=== Can I use Google Code to host projects that aren't open source? ===
+== Can I use Google Code to host projects that aren't open source? ==
 Nope. Open source projects only.
 
-=== Why open source projects only? ===
+== Why open source projects only? ==
 Most proprietary software projects have funding, and can therefore afford to pay for commercially offered development tools and environments. The goal of hosting on Google Code is to promote healthy open source development by offering hosted tools that most open source projects can't afford.
 
-=== What should I do if somebody took my project's name? ===
+== What should I do if somebody took my project's name? ==
 We rely on the goodwill of open source participants to ensure they are the rightful owner or creator of a project name. If you feel that someone has intentionally created a project that uses your existing project's name, please email us at code-hosting@google.com.
 
-=== How do I create a project? ===
+== How do I create a project? ==
 A good project starts with a good idea: one that addresses a real need, is feasible and well-scoped, and isn't well covered by existing open source projects. (Before you create a new project, we suggest that you try searching for existing projects on this site and elsewhere on the web. You can often get further faster by helping out with an existing project than by starting one from scratch.) 
 
 If you're ready to start your own project, you'll need to write a description of it and give it a good name. The project name will have to have more than 2 characters and must be lower case. Then, sign in using a Google account, enter that information into the Create a project page, and you're done. Congrats. You've got a brand-new project on Google Code.
 
-=== How do I join a project? ===
+== How do I join a project? ==
 One of the project owners must use the project administration page to add your Google account email address to the project.
 
 Most projects have mailing lists that the developers use to discuss the project. To become a developer, first participate on the mailing list by showing your interest in the project and your ability to help the project. Then, ask the project owners to make you a member of the project.
 
 ----
 
-== Hosted Tools ==
+= Hosted Tools =
 
-=== Why do you only offer a small set of licenses? ===
+== Why do you only offer a small set of licenses? ==
 The open source community has been flooded with lots of nearly identical licenses. We'd like to see projects standardize on the most popular, time-tested ones. The selected licenses offer diversity to meet most developer needs.
 
-=== How can I select a license other than the ones provided? ===
+== How can I select a license other than the ones provided? ==
 At this time, we offer only the licenses listed.
 
-=== How can I choose two licenses for my dual-licensed project? ===
+== How can I choose two licenses for my dual-licensed project? ==
 At this time, we offer single licenses only.
 
-=== Can I host code that I have placed in the public domain? ===
+== Can I host code that I have placed in the public domain? ==
 The concept of "public domain" is actually a lot more complicated than most people realize.  Holding copyright and using a (permissive) licence is almost always the right choice. In general, we do not offer to host projects with source code in the public domain. However, if you can _only_ release your code as public domain, and you are sure that you can legally do so, please [http://code.google.com/p/support/issues/entry enter an issue] for us to review your request and create the project for you.
 
-=== Is my data safe? ===
+== Is my data safe? ==
 Yes. Your data is hosted on Google's infrastructure in Google's datacenters, ensuring a high level of reliability and redundancy.
 
-=== How do I get a copy of my data? ===
+== How do I get a copy of my data? ==
 At this time, there aren't any import or export features. But look for them as the service matures.
 
-=== How do I create web pages for my project? ===
+== How do I create web pages for my project? ==
 You can use [http://sites.google.com/ Google Sites] to create web pages, and then create a link to them from your project's front page. [http://docs.google.com/ Google Docs] is another great way to collaboratively create documents and publish them on the web. Or, link from your project to any existing web pages.
 
-=== Can I use another hosting service for parts of my project? ===
+== Can I use another hosting service for parts of my project? ==
 Yes. If Google Code doesn't have all the tools you need, feel free to start with Google Code and use a combination of tools from this site and others. Use hyperlinks on your project summary page to guide your users to these other resources.
 
-=== What other limits exist? ===
+== What other limits exist? ==
 There are disk-space quota limits for both issue tracker attachments and total Subversion repository size, along with a limit on how many total projects you are able to create. If you hit these limits, please contact us via our [http://groups.google.com/group/google-code-hosting?lnk=sg Google Group] or email google-code-hosting@googlegroups.com directly to discuss the situation.
 
-=== How can I integrate my project blog? ===
+== How can I integrate my project blog? ==
 You can use a gadget.  Click *Administer*, then edit your project description to include:
 {{{
 <wiki:gadget url="http://google-code-feed-gadget.googlecode.com/svn/trunk/gadget.xml" up_feeds="http://google-code-featured.blogspot.com/atom.xml" width="780"  height="340" border="0" up_showaddbutton="0"/>
 }}}
 But, replace the `up_feeds` URL with a the XML feed for your blog.  If you have more than one project blog, you can list multiple URLs, separated by vertical bars (`|`).
 
-=== Why aren't you offering my favorite tool? ===
+== Why aren't you offering my favorite tool? ==
 We want our collaborative development environment to be simple, fast, reliable, and scalable, so we only offer tools that are aligned with those goals. This way, we can manage and support the tools we offer in a scalable manner. 
 
 If you need more tools, you might choose to run them yourself on your own servers, or you might make use of individual tools that are offered by other project-hosting sites. You can loosely integrate with other tools and websites by linking to them from your project-summary page.
 
 ----
 
-== Google Groups ==
+= Google Groups =
 
-=== What is a Google Group? ===
+== What is a Google Group? ==
 A Google Group is a mailing list hosted at groups.google.com. Each Google Group has an extensive web interface, but you are also perfectly welcome to use it as a plain-old mailing list.
 
-=== Does creating a new project on Google Code automatically create a Google Group for me? ===
+== Does creating a new project on Google Code automatically create a Google Group for me? ==
 No. Google Code offers the ability to send issue tracker and Subversion commit emails to mailing lists of your choice, but it doesn't create those mailing lists for you.
 
-=== How do I create a mailing list for my project? ===
+== How do I create a mailing list for my project? ==
 You can visit [http://groups.google.com/ Google Groups] and create as many mailing lists as your project needs. We recommend that you create at least two lists: one for developer discussions and one to receive Subversion commit emails.
 
-=== Can I use an existing mailing list with my project? ===
+== Can I use an existing mailing list with my project? ==
 Sure. Just link to its existing web interface using a regular project link. If you have an existing mailing list for automated commit messages, enter its address in the form that is under the "Administer" tab.
 
-=== How do I make my mailing list accept Subversion commit emails? ===
+== How do I make my mailing list accept Subversion commit emails? ==
 Simply configure your mailing list to accept posts from codesite-noreply@google.com. You can do this by adding the address to the "allowed posters" list, or by making that address a member of the list with no delivery.
 
 ----
 
-== Other Questions ==
+= Other Questions =
 
-=== Will my project appear in Google Web Search? ===
+== Will my project appear in Google Web Search? ==
 At the moment, no. It will only appear in the search results of the search box at [http://code.google.com]. In the future, however, your project is likely to appear in Google's main index.
 
-=== Will hosting my project here improve its PageRank? ===
+== Will hosting my project here improve its PageRank? ==
 No. Your PageRank will only improve if other websites think your project is important and link to it.
 
-=== How do I import my project from SourceForge, Tigris, or another site? ===
+== How do I import my project from SourceForge, Tigris, or another site? ==
 We have no import feature at this time.
 
-=== What technology does the site use for its operation? ===
+== What technology does the site use for its operation? ==
 Like most Google products, the site is built on scalable Google infrastructure and uses AJAX for the user interface. The issue tracker is written in Python, and uses Google's free-text search technology. The Subversion server is based on the standard open source product, with changes to run on Google's infrastructure.
 
-=== If I find a problem with the hosting on Google Code, how do I file a bug? ===
+== If I find a problem with the hosting on Google Code, how do I file a bug? ==
 Visit the user support [http://code.google.com/p/support/issues/list issue tracker]. Check whether an appropriate issue has already been created, and if not, create one yourself.
 
-=== How do I file a feature request for Google Code? ===
+== How do I file a feature request for Google Code? ==
 Visit the user support [http://code.google.com/p/support/issues/list issue tracker]. Check whether an appropriate issue has already been created, and if not, create one yourself.
 
-=== What information does Google Code collect about users? ===
+== What information does Google Code collect about users? ==
 Check the Google Code [http://code.google.com/tos.html Terms of Service] for more information, with specific reference to our privacy policy.
 
-=== What measures is Google Code taking to protect the privacy and security of people's information? ===
+== What measures is Google Code taking to protect the privacy and security of people's information? ==
 Privacy and security are extremely important to us. 
 
 Google Code uses your Google or Gmail account for authentication. For Subversion authentication, a secondary generated password is used. Logs of your activities are not released to any third parties. 
 
 For more info, please check out our [http://code.google.com/tos.html Terms of Service].
 
-=== I'm new to open source... how do I run an open source project? ===
+== I'm new to open source... how do I run an open source project? ==
 If you are new, you should plan to participate in existing open source projects to learn how they work. You might also want to check out Karl Fogel's book, [http://producingoss.com/ Producing Open Source Software].
 
-=== Is Google Code going to integrate with other Google products? ===
+== Is Google Code going to integrate with other Google products? ==
 To some extent it already does. For example, it uses Google Accounts
 for authentication, and the issue tracker uses Google's search
 technology. Look for more integration with other Google products as
 the site matures.
 
-=== I found a project that's not open source. Who do I notify? ===
+== I found a project that's not open source. Who do I notify? ==
 Please send an email to code-hosting@google.com.
 
-=== How do I report a DMCA violation? ===
+== How do I report a DMCA violation? ==
 Please read the Google Code [http://code.google.com/tos.html Terms of Service], then follow the instructions on our [http://www.google.com/dmca.html DMCA page].
 
-=== How do I report abuse of Google Code site? ===
+== How do I report abuse of Google Code site? ==
 Please send an email to code-hosting@google.com.
 
 _The content on this page created by Google is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License].  User-generated content is not included in this license._
