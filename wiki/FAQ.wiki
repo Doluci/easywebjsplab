@@ -3,12 +3,12 @@
 
 <wiki:toc max_depth="2"/>
 
-Please refer the following FAQs for questions about a specific component: 
+Other FAQ: 
   * [WikiFAQ]
   * [IssueTrackerFAQ]
   * [DownloadsFAQ]
   * [SubversionFAQ]
-  * [MercurialFAQ].
+  * [MercurialFAQ]
 
 ----
 
