@@ -1,7 +1,5 @@
 #summary Downloads FAQ
 
-= Project Downloads =
-
 <wiki:toc max_depth="2" />
 
 == Why shouldn't I keep deleting and re-uploading a project download? =
