@@ -18,7 +18,6 @@ Before you create a new project, we suggest that you try searching for existing 
 
 If you've reviewed existing projects and couldn't find one that meets your needs, perform the following to create a new project in Google Code:
 
-  # Project hosting is open to anyone with a Google account, including Gmail users. If you don't already have a Google account, [https://www.google.com/accounts/NewAccount create one now].
   # Go to the [http://code.google.com/hosting/createProject Create Project] page.
   # Enter a *Project Name*, *Summary*, and *Description*.
   # Select Subversion or Mercurial as the *Version Control System* for your project. [ChoosingAVersionControlSystem Learn more].
