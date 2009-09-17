@@ -1,14 +1,15 @@
 #summary Project Hosting on Google Code FAQ
 #labels Featured
 
-<wiki:toc max_depth="2"/>
-
 Other FAQs: 
   * [WikiFAQ]
   * [IssueTrackerFAQ]
   * [DownloadsFAQ]
   * [SubversionFAQ]
   * [MercurialFAQ]
+
+Sections:
+<wiki:toc max_depth="2"/>
 
 ----
 
