@@ -3,7 +3,12 @@
 
 <wiki:toc max_depth="2"/>
 
-Please refer the following FAQ for questions about a specific component: WikiFAQ, IssueTrackerFAQ, DownloadsFAQ, and SourceFAQ.
+Please refer the following FAQs for questions about a specific component: 
+  * [WikiFAQ]
+  * [IssueTrackerFAQ]
+  * [DownloadsFAQ]
+  * [SubversionFAQ]
+  * [MercurialFAQ].
 
 ----
 
