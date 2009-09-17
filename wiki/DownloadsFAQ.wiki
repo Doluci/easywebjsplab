@@ -2,6 +2,8 @@
 
 = Project Downloads =
 
+<wiki:toc max_depth="2" />
+
 == Why shouldn't I keep deleting and re-uploading a project download? =
 
 You can delete files from the download section if you accidentally uploaded the wrong file or the file is corrupted.  You need to notice this problem fairly quickly, before too much time has passed or too many people have downloaded the file.
