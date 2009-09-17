@@ -3,7 +3,7 @@
 
 <wiki:toc max_depth="2"/>
 
-Other FAQ: 
+Other FAQs: 
   * [WikiFAQ]
   * [IssueTrackerFAQ]
   * [DownloadsFAQ]
