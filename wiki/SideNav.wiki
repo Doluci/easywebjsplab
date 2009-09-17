@@ -23,6 +23,8 @@
     * Git
       * [ExportingToGit Exporting to Git]
       * [ImportingFromGit Importing from Git]
+    * Subversion
+      * [SubversionFAQ Subversion FAQ]
   * Advanced
     * [DVCSAnalysis DVCS Analysis]
     * [Permissions Permissions]
