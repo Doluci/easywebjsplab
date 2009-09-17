@@ -1,6 +1,6 @@
 #summary Issue Tracker FAQ
 
-= Issue Tracker FAQ =
+<wiki:toc max_depth="2" />
 
 == One of my issues is missing!! ==
 It is not actually missing.  Some projects that we host skipped one issue id value between January 28, 2009 and February 21, 2009.  If it seems like one of your issues is missing, and the next issue was created in that time range, the problem is likely just that the "missing" issue id was never used.
