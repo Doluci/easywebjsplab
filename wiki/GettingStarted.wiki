@@ -7,17 +7,11 @@ This guide provides information on:
 
 <wiki:toc max_depth="3" />
 
-== Collaborating on an Existing Project ==
+== Contributing Open Source Code ==
 
 Before you create a new project, please search for existing projects on this site and elsewhere on the Web. It is better to help out with an existing project than to start one from scratch.
 
-  * Go to the [http://code.google.com/hosting/ Project Hosting main page] and search for existing projects.
-    * [http://code.google.com/p/support/wiki/HowToJoinAProject How to join a project].
-
-== Creating a Project ==
-
-If you could not find an existing project that meets your needs, create a new project:
-
+  * Go to the [http://code.google.com/hosting/ Project Hosting main page] and search for existing projects ([http://code.google.com/p/support/wiki/HowToJoinAProject How to join a project])
   * Go to the [http://code.google.com/hosting/createProject Create Project] page and fill out the form. Remember, pick good labels (see [http://code.google.com/hosting/ Project Hosting main page] for examples).
     * [http://opensource.org/licenses/category How to choose a license].
     * [ChoosingAVersionControlSystem How to choose a version control system].
