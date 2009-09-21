@@ -1,4 +1,4 @@
-#summary User guide for Google Code's issue tracker
+#summary User guide for Project Hosting issue tracker
 
 <wiki:toc max_depth="1" />
 
