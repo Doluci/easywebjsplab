@@ -9,7 +9,7 @@ This guide provides information on:
 
 == Collaborating on an Existing Project ==
 
-Before you create a new project, please search for existing projects on this site and elsewhere on the Web. It is better to help out with an existing project than by starting one from scratch. 
+Before you create a new project, please search for existing projects on this site and elsewhere on the Web. It is better to help out with an existing project than to start one from scratch.
 
   * Go to the [http://code.google.com/hosting/ Project Hosting main page] and search for existing projects.
     * [http://code.google.com/p/support/wiki/HowToJoinAProject How to join a project]
