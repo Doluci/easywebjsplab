@@ -9,22 +9,18 @@ This guide provides information on:
 
 == Collaborating on an Existing Project ==
 
-Before you create a new project, we suggest that you try searching for existing projects on this site and elsewhere on the Web. You can often get further faster by helping out with an existing project than by starting one from scratch. 
+Before you create a new project, please search for existing projects on this site and elsewhere on the Web. It is better to help out with an existing project than by starting one from scratch. 
 
-  * Go to the [http://code.google.com/hosting/ Project Hosting main page] and search for existing projects.
-  * If the project interests you, most projects have mailing lists that the developers use to discuss the project. To become a project member, first participate in the mailing list by showing your interest in the project and your ability to help. You can then ask one of the project owners to make you a member of the project.
+  # Go to the [http://code.google.com/hosting/ Project Hosting main page] and search for existing projects.
+    # [http://code.google.com/p/support/wiki/HowToJoinAProject How to join a project]
 
 == Creating a Project ==
 
-If you've reviewed existing projects and couldn't find one that meets your needs, perform the following to create a new project in Google Code:
+If you could not find an existing project that meets your needs, create a new project:
 
-  # Go to the [http://code.google.com/hosting/createProject Create Project] page.
-  # Enter a *Project Name*, *Summary*, and *Description*.
-  # Select Subversion or Mercurial as the *Version Control System* for your project. [ChoosingAVersionControlSystem Learn more].
-  # Select the desired *Source Code License* for your project. The available licenses allow you to standardize your projects to the most popular, time-tested licenses. Go to [http://opensource.org/licenses/category opensource.org] for more information about these licenses. You can also choose to *Use a Separate Content License* for non-code components such as documentation.
-  # The *Labels* that you enter will help others find your project. Users can browse for projects by label by entering `label:` before the label name in a project search. Look at the [http://code.google.com/hosting/ Project Hosting main page] for examples of project labels.
-  # Click *Create project*. Your newly created hosting project appears and is ready for use. 
-
+  # Go to the [http://code.google.com/hosting/createProject Create Project] page and fill out the form. Remember, pick good labels so that your project can be found easily (see [http://code.google.com/hosting/ Project Hosting main page] for examples).
+    # [http://opensource.org/licenses/category How to choose a license]
+    # [ChoosingAVersionControlSystem How to choose a version control system]
 
 == Working with your Project ==
 
