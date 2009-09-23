@@ -80,7 +80,7 @@ When you're ready to release your code, you can use the *Downloads* tab to uploa
 
 Be sure to choose the file names carefully before you upload them. The file name will become part of your URL, and you cannot change it later. Include a release number in the name of any file that may change in a later release.
 
-You can delete files from this tab. However, we recommend that you mark old releases as `deprecated`.
+While we recommend that you mark old releases as `deprecated`, you *can* delete files from the *Downloads* tab: click on the row for the file name (not the file link) to get to the download details page, then click the 'Delete' link. 
 
 == Finding Further Help ==
 
