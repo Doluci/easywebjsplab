@@ -9,7 +9,7 @@ This guide provides information on:
 
 == Contributing Open Source Code ==
 
-Before you create a new project, please search for existing projects on this site and elsewhere on the Web. It is better to help out with an existing project than to start one from scratch.
+Before you create a new project, please [http://code.google.com/hosting/ search] for existing projects on this site and elsewhere on the web. It is better to help out with an existing project than to start one from scratch.
 
   * Go to the [http://code.google.com/hosting/ Project Hosting main page] and search for existing projects ([http://code.google.com/p/support/wiki/HowToJoinAProject How to join a project])
   * Go to the [http://code.google.com/hosting/createProject Create Project] page and fill out the form. Remember, pick good labels (see [http://code.google.com/hosting/ Project Hosting main page] for examples).
