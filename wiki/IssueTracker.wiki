@@ -222,6 +222,7 @@ are always default values: they never overwrite values that are
 explicitly set on the issue. For example, default issue owners can be
 defined based on `Component-*` labels.
 
+Derived values are shown in _italics_ in the issue list and issue detail pages.
 
 <br/>
 ----
@@ -409,7 +410,7 @@ to the next or previous issue in the list by clicking the *Next* and
 
 This page displays all the information about one issue, including the
 issue ID, summary, star count, description, comments, owner, CC list,
-status, and labels.  If you are signed in, a star icon near the issue
+status, and labels.  Any values that were derived by filter rules are shown in _italics_. If you are signed in, a star icon near the issue
 ID indicates whether or not you have starred the issue.
 
 The issue description is shown near the top of the page, and issue
