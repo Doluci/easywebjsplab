@@ -1,5 +1,5 @@
 #summary A quick guide to getting started with project hosting on Google Code.
-#labels Featured
+#labels Featured,Restrict-AddWikiComment-Commit
 
 Project Hosting on Google Code provides a free collaborative development environment for open source projects. Each project comes with its own member controls, Subversion/Mercurial repository, issue tracker, wiki pages, and downloads section. Our project hosting service is simple, fast, reliable, and scalable, so that you can focus on your own open source development.
 
