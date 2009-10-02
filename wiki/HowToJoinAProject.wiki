@@ -1,4 +1,5 @@
 #summary Instructions on how to join a project
+#labels Restrict-AddWikiComment-Commit
 
 = How do I join a project? =
 
