@@ -30,4 +30,6 @@ Project roadmaps, how-tos, installation notes, and documentation are great examp
 Only project owners and committers can add and edit wiki pages for a particular project.
 
 == Where is the wiki content stored? ==
-All wiki pages are stored in the /wiki/ directory of your project's Subversion repository, as files ending in .wiki (other files and subdirectories will be ignored). That means you can use a Subversion client and your favorite text editor to add and edit wiki pages.
+If Subversion is used, all wiki pages are stored in the /wiki/ directory of your project's Subversion repository, as files ending in .wiki (other files and subdirectories will be ignored). That means you can use a Subversion client and your favorite text editor to add and edit wiki pages.
+
+If Mercurial is used,the wiki content is stored `http://wiki.[projectname].googlecode.com/hg/` where [projectname] is the name of the specific project.
