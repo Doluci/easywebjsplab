@@ -385,6 +385,7 @@ Valid attributes are:
  * `title`: a title to display above the gadget
  * `border`: "0" or "1", whether to draw a border around the gadget
  * `up_*`: Gadget user preference parameters
+ * `caja`: "0" or "1", whether to use Caja to render the gadget.  [http://code.google.com/p/google-caja Caja] helps protect users from malicious or accidental errors in third party gadgets.
 
 WorkingWithGoogleGadgets describes how to create gadgets for Google Code. It also provides  a few helpful suggestions that can make it easier to publish gadgets and to integrate with other Google products such as iGoogle.
 
