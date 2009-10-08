@@ -139,7 +139,7 @@ If you get a message such as the following:
 
 {{{B1:3A:D5:38:56:27:52:9F:BA:6C:70:1E:A9:AB:4A:1A:8B:DA:FF:EC}}}
 
-If it is not, please email us at code-hosting@google.com.
+If it is not, please contact us via our [http://groups.google.com/group/google-code-hosting?lnk=sg Google Group] or email google-code-hosting@googlegroups.com directly to discuss the situation.
 
 == Does Google own the code that I check into Subversion? ==
 Hosting your code on Google Code doesn't change ownership of the code in any way.
