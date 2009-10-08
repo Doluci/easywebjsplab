@@ -81,7 +81,7 @@ Nope. Open source projects only.
 Most proprietary software projects have funding, and can therefore afford to pay for commercially offered development tools and environments. The goal of hosting on Google Code is to promote healthy open source development by offering hosted tools that most open source projects can't afford.
 
 == What should I do if somebody took my project's name? ==
-We rely on the goodwill of open source participants to ensure they are the rightful owner or creator of a project name. If you feel that someone has intentionally created a project that uses your existing project's name, please email us at code-hosting@google.com.
+We rely on the goodwill of open source participants to ensure they are the rightful owner or creator of a project name. If you feel that someone has intentionally created a project that uses your existing project's name, please contact us via our [http://groups.google.com/group/google-code-hosting?lnk=sg Google Group] or email google-code-hosting@googlegroups.com directly to discuss the situation.
 
 == How do I create a project? ==
 A good project starts with a good idea: one that addresses a real need, is feasible and well-scoped, and isn't well covered by existing open source projects. (Before you create a new project, we suggest that you try searching for existing projects on this site and elsewhere on the web. You can often get further faster by helping out with an existing project than by starting one from scratch.) 
@@ -197,12 +197,12 @@ technology. Look for more integration with other Google products as
 the site matures.
 
 == I found a project that's not open source. Who do I notify? ==
-Please send an email to code-hosting@google.com.
+please contact us via our [http://groups.google.com/group/google-code-hosting?lnk=sg Google Group] or email google-code-hosting@googlegroups.com directly to discuss the situation.
 
 == How do I report a DMCA violation? ==
 Please read the Google Code [http://code.google.com/tos.html Terms of Service], then follow the instructions on our [http://www.google.com/dmca.html DMCA page].
 
 == How do I report abuse of Google Code site? ==
-Please send an email to code-hosting@google.com.
+please contact us via our [http://groups.google.com/group/google-code-hosting?lnk=sg Google Group] or email google-code-hosting@googlegroups.com directly to discuss the situation.
 
 _The content on this page created by Google is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License].  User-generated content is not included in this license._
