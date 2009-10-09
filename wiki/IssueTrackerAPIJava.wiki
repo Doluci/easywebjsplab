@@ -66,14 +66,14 @@ String authSubLogin = AuthSubUtil.getRequestUrl(next, scope, secure, session);
 The *getRequestUrl* method takes the following parameters (corresponding to the query parameter used by the `AuthSubRequest` handler):
 
 ||next||The URL of the page that Google should redirect the user to after authentication. ||
-||scope||Indicates that the application is requesting a token to access Issue feeds. The scope string to use is http://demetrius.corp.google.com/feeds/issues (URL-encoded, of course).||
+||scope||Indicates that the application is requesting a token to access Issue feeds. The scope string to use is http://code.google.com/feeds/issues (URL-encoded, of course).||
 ||secure||Indicates whether the client is requesting a secure token.||
 ||session||Indicates whether the token returned can be exchanged for a multi-use (session) token.||
 
 The above example shows a call that doesn't request a secure token (the value of *secure* is *false*). The resulting request URL might look like this:
 
 {{{
-https://www.google.com/accounts/AuthSubRequest?scope=http%3A%2F%2Fdemetrius.corp.google.com%2Ffeeds%2Fissues%2F&amp;session=1&amp;secure=0&amp;
+https://www.google.com/accounts/AuthSubRequest?scope=http%3A%2F%2Fcode.google.com%2Ffeeds%2Fissues%2F&amp;session=1&amp;secure=0&amp;
 }}}
 
 The user follows the link to Google's site and authenticates to their Google Account.
