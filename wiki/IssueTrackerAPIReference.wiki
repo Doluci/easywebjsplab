@@ -18,13 +18,13 @@ Issue Tracker Data API provides a variety of representations of issue data. The 
 The Issues feed allows you to get a list of issues that match a certain criteria. To get all the issue for in an issue tracker, replace the PROJECT_NAME  with your project's name in the url below:
 
 {{{
-http://demetrius.corp.google.com/feeds/issues/p/PROJECT_NAME/issues/full
+http://code.google.com/feeds/issues/p/PROJECT_NAME/issues/full
 }}}
 
 The !IssueComments feed allows you to get the issue comments for a specified issue. To get the issue comments for an issue, replace PROJECT_NAME with your project name and ISSUE_ID with a valid issue id number in the url below.
 
 {{{
-http://demetrius.corp.google.com/feeds/issues/p/PROJECT_NAME/issues/ISSUE_ID/comments/full
+http://code.google.com/feeds/issues/p/PROJECT_NAME/issues/ISSUE_ID/comments/full
 }}}
 
 <h2 id="Parameters">Project Hosting on Google Code query parameters reference</h2>
