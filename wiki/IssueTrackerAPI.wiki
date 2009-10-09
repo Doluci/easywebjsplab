@@ -28,13 +28,13 @@ When a user first visits your application, they have not yet been authenticated.
 The following query parameters are included in the `AuthSubRequest` URL:
 
 ||next||The URL of the page that Google should redirect the user to after authentication. ||
-||scope||Indicates that the application is requesting a token to access Project Hosting on Google Code feeds. The scope string to use is http://demetrius.corp.google.com/feeds/issues (URL-encoded, of course).||
+||scope||Indicates that the application is requesting a token to access Project Hosting on Google Code feeds. The scope string to use is http://code.google.com/feeds/issues (URL-encoded, of course).||
 ||secure||Indicates whether the client is requesting a secure token.||
 ||session||Indicates whether the token returned can be exchanged for a multi-use (session) token.||
 
 The `AuthSubRequest` URL might look like this:
 
-<code>https://www.google.com/accounts/AuthSubRequest?scope=http%3A%2F%2Fdemetrius.corp.google.com%2Ffeeds%2Fissues%2F&amp;session=1&amp;secure=0&amp;
+<code>https://www.google.com/accounts/AuthSubRequest?scope=http%3A%2F%2Fcode.google.com%2Ffeeds%2Fissues%2F&amp;session=1&amp;secure=0&amp;
 </code>
 
 The user follows the link to Google's site and authenticates to their Google Account.
@@ -66,7 +66,7 @@ GET /feeds/issues/p/PROJECT_NAME/issues/full HTTP/1.1
 Content-Type: application/x-www-form-urlencoded
 Authorization: AuthSub token="yourSessionToken"
 User-Agent: Java/1.5.0_06
-Host: demetrius.corp.google.com
+Host: code.google.com
 Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
 Connection: keep-alive
 }}}
@@ -106,18 +106,18 @@ For more information about `ClientLogin` authentication, including sample reques
 The Issue Tracker Data API provides a feed that lists the issues for a particular project.
 
 To access this feed and retrieve a list of issues send an HTTP <b>GET</b> to the following URL (be sure to replace PROJECT_NAME with the name of the project that you would like to get issues for):
-<code>http://demetrius.corp.google.com/feeds/issues/p/PROJECT_NAME/issues/full</code>
+<code>http://code.google.com/feeds/issues/p/PROJECT_NAME/issues/full</code>
 
 An entry in the issues might look like this:
 
 {{{
 <entry>
-  <id>http://demetrius.corp.google.com/feeds/issues/p/PROJECT_NAME/issues/full/3</id>
+  <id>http://code.google.com/feeds/issues/p/PROJECT_NAME/issues/full/3</id>
   <updated>2009-09-09T20:34:35.365Z</updated>
   <title>This is updated issue summary</title>
   <content type='html'>This is issue description</content>
-  <link rel='self' type='application/atom+xml' href='http://demetrius.corp.google.com/feeds/issues/p/PROJECT_NAME/issues/full/3'/>
-  <link rel='edit' type='application/atom+xml' href='http://demetrius.corp.google.com/feeds/issues/p/PROJECT_NAME/issues/full/3'/>
+  <link rel='self' type='application/atom+xml' href='http://code.google.com/feeds/issues/p/PROJECT_NAME/issues/full/3'/>
+  <link rel='edit' type='application/atom+xml' href='http://code.google.com/feeds/issues/p/PROJECT_NAME/issues/full/3'/>
   <author>
     <name>elizabeth.bennet</name>
     <uri>/u/elizabeth.bennet/</uri>
@@ -151,7 +151,7 @@ If your request fails for some reason, Issue Tracker Data API may return a diffe
 The Issue Tracker Data API lets you request a set of issues that match specified criteria, such as requesting issues created or updated in a given date range.
 
 For example to send a date-range query:
-  # First, add the <b>updated-min</b> and <b>updated-max</b> parameters to the request URL. To get all the issue entries updated from March 16, 2008 to March 24, 2008, send an HTTP request to the issue's feed URL: <b>`GET http://demetrius.corp.google.com/feeds/issues/p/PROJECT_NAME/issues/full?updated-min=2008-03-16T00:00:00&amp;updated-max=2009-03-24T23:59:59`</b>
+  # First, add the <b>updated-min</b> and <b>updated-max</b> parameters to the request URL. To get all the issue entries updated from March 16, 2008 to March 24, 2008, send an HTTP request to the issue's feed URL: <b>`GET http://code.google.com/feeds/issues/p/PROJECT_NAME/issues/full?updated-min=2008-03-16T00:00:00&amp;updated-max=2009-03-24T23:59:59`</b>
   # After you send the <b>GET</b> request, Issue Tracker Data API may return a redirect, depending on various factors. If so, send another <b>GET</b> request to the redirect URL.
   # When you send that <b>GET</b> request, Issue Tracker Data API returns an HTTP <b>200 OK</b> status code and a feed containing any *items* that were created or updated in the date range you specified.
 
@@ -180,17 +180,17 @@ For more information about query parameters, see the [IssueTrackerAPIReference I
 For an issue, the Issue Tracker Data API provides a feed that lists the comments for that particular issue.
 
 To access this feed and retrieve the list of issue comments send an HTTP <b>GET</b> to the following URL (be sure to replace PROJECT_NAME with the name of the project and replace ISSUE_ID with the issue id for the issue that you want to get issue comments for):
-<code>http://demetrius.corp.google.com/feeds/issues/p/PROJECT_NAME/issues/3/comments/full</code>
+<code>http://code.google.com/feeds/issues/p/PROJECT_NAME/issues/3/comments/full</code>
 
 An entry in the issue comments might look like this:
 
 {{{
 <entry>
-  <id>http://demetrius.corp.google.com/feeds/issues/p/PROJECT_NAME/issues/13/comments/full/1</id>
+  <id>http://code.google.com/feeds/issues/p/PROJECT_NAME/issues/13/comments/full/1</id>
   <updated>2009-09-09T20:30:17.836Z</updated>
   <content type='html'>ISSUE CONTENT</content>
-  <link rel='self' type='application/atom+xml' href='http://demetrius.corp.google.com/feeds/issues/p/PROJECT_NAME/issues/3/comments/full/1'/>
-  <link rel='edit' type='application/atom+xml' href='http://demetrius.corp.google.com/feeds/issues/p/PROJECT_NAME/issues/3/comments/full/1'/>
+  <link rel='self' type='application/atom+xml' href='http://code.google.com/feeds/issues/p/PROJECT_NAME/issues/3/comments/full/1'/>
+  <link rel='edit' type='application/atom+xml' href='http://code.google.com/feeds/issues/p/PROJECT_NAME/issues/3/comments/full/1'/>
   <author>
     <name>elizabeth.bennet</name>
     <uri>/u/elizabeth.bennet/</uri>
@@ -246,7 +246,7 @@ First, create an XML representation of the issue to publish. This XML needs to b
 To publish this entry, send it to the Issue Tracker's post URL as follows: 
 
   # First, place your Atom <b>`<entry>`</b> element in the body of a new <b>POST</b> request, using the <b>application/atom+xml</b> content type. 
-  # Then find the Issue Tracker's post URL in the Issues feed by locating the <b>`<link>`</b> element where the <b>rel</b> attribute ends with <b>#post</b>. The Issue Tracker's post URL is given as the <b>href</b> attribute of this element, which is in this format: <b>`http://demetrius.corp.google.com/feeds/issues/p/PROJECT_NAME/issues/full`</b>
+  # Then find the Issue Tracker's post URL in the Issues feed by locating the <b>`<link>`</b> element where the <b>rel</b> attribute ends with <b>#post</b>. The Issue Tracker's post URL is given as the <b>href</b> attribute of this element, which is in this format: <b>`http://code.google.com/feeds/issues/p/PROJECT_NAME/issues/full`</b>
   # Project Hosting on Google Code creates an issue using the entry you sent, then returns an HTTP <b>201 CREATED</b> status code, along with a copy of the new issue in the form of an <b>`<entry>`</b> element. The entry returned is the same one you sent, but it also contains various elements added by the Issue Tracker Data API, such as an <b>`<id>`</b> element. This operation WILL FAIL unless you change owner/cc fields to those added as owner/members for the specified project. Required elements: title, content, author.
   # If your request fails for some reason, the Issue Tracker Data API may return a different status code. For information about the status codes, see the <a href="http://code.google.com/apis/gdata/reference.html">Google Data API protocol reference document</a>.
 
@@ -279,7 +279,7 @@ First, create an XML representation of the issue comment to publish. This XML ne
 
 To publish this entry, send it to the Issue Tracker's post URL as follows: 
   # First, place your Atom <b>`<entry>`</b> element in the body of a new <b>POST</b> request, using the <b>application/atom+xml</b> content type. 
-  # Then find the Issue Tracker's post URL in the metafeed by locating the <b>`<link>`</b> element where the <b>rel</b> attribute ends with <b>#post</b>. The issue's post URL is given as the <b>href</b> attribute of this element, which is in this format <b>`http://demetrius.corp.google.com/feeds/issues/p/PROJECT_NAME/issues/ISSUE_ID/comments/full`</b>
+  # Then find the Issue Tracker's post URL in the metafeed by locating the <b>`<link>`</b> element where the <b>rel</b> attribute ends with <b>#post</b>. The issue's post URL is given as the <b>href</b> attribute of this element, which is in this format <b>`http://code.google.com/feeds/issues/p/PROJECT_NAME/issues/ISSUE_ID/comments/full`</b>
   # Project Hosting on Google Code creates a issue using the entry you sent, then returns an HTTP <b>201 CREATED</b> status code, along with a copy of the new issue in the form of an <b>`<entry>`</b> element. The entry returned is the same one you sent, but it also contains various elements added by the Issue Tracker Data API, such as an <b>`<id>`</b> element. Required elements: author.
   # If your request fails for some reason, the Issue Tracker Data API may return a different status code. For information about the status codes, see the <a href="http://code.google.com/apis/gdata/reference.html">Google Data API protocol reference document</a>.
 
