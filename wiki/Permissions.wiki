@@ -258,6 +258,8 @@ that normal labels can be used.  You can search for items that have
 specific restrictions, and display restrictions in a column on a list
 page.
 
+Although View restriction labels can be applied to wiki pages and downloads, those restrictions are not enforced completely.  The items are still shown in the list views.  The files can be downloaded by anyone.  Changes to them are included in the project updates page.  And, users can see the source of any wiki page in the source browsing tool. In fact, the only part that is enforced for wiki pages and downloads is access to the details page.  We chose to not enforce restrictions on these types of items because code.google.com is only aimed at hosting public open source projects, not private projects.
+
 Restriction labels do not apply to project owners.  That makes it
 impossible for project owners to accidentally lock themselves (and
 everyone else) out of performing some action.
@@ -283,5 +285,3 @@ write a rule that adds a restriction label.  For example:
 || *If the item has all these labels*  ||  *Then, add the following labels* ||
 || Component-!PasswordManager Type-Defect || Restrict-View-!CoreTeam ||
 || Security || Restrict-View-!CoreTeam ||
-
-
