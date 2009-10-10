@@ -1,5 +1,5 @@
 #summary Issue Tracker Data API Reference Guide
-#labels Restrict-View-Commit
+#labels Restrict-View-TrustedTester
 
 This document provides detailed reference documentation for the raw protocol (XML and HTTP) for the Issue Tracker Data API.
 
