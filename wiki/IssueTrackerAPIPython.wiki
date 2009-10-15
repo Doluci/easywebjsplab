@@ -15,7 +15,7 @@ For general Issue Tracker reference information, see the [IssueTrackerAPIReferen
 
 = Getting started =
 
-For help setting up the client library, see the [http://code.google.com/support/bin/answer.py?answer=78455 Getting Started Guide].
+For help setting up the client library, see the [http://code.google.com/apis/gdata/articles/python_client_lib.html Getting Started Guide].
 
 The Python client library requires Python 2.2 or higher. After [http://code.google.com/p/gdata-python-client/downloads/list downloading the client library], you'll find the classes you need to get started in *TODO* file.
 
@@ -43,25 +43,25 @@ import atom.core
 
 = Authenticating to the Issue Tracker Data API =
 
-You can access both public and private feeds using the Issue Tracker Data API. Public feeds don't require any authentication, but they are read-only. If you want to create an issue or issue comment, then your cient needs to authenticate before requesting private feeds. It can authenticate using either of two approaches: !AuthSub proxy authentication or !ClientLogin username/password authentication.
+You can access both public and private feeds using the Issue Tracker Data API. Public feeds don't require any authentication, but they are read-only. If you want to create an issue or issue comment, then your client needs to authenticate before requesting private feeds. It can authenticate using either of two approaches: !AuthSub proxy authentication or !ClientLogin username/password authentication.
 
 For more information about authentication with Google Data APIs in general, see the [http://code.google.com/apis/gdata/auth.html authentication documentation].
 
-Most of the samples in subsequent sections of this document assume that you have an authenticated !ProjectHostingService object.
+Most of the samples in subsequent sections of this document assume that you have an authenticated !gdata.projecthosting.client object.
 
 == Authenticating `ClientLogin` username/password ==
 
 Use `ClientLogin` authentication if your client is a standalone, single-user "installed" client (such as a desktop application). Just call the *`client_login`* method on your !gdata.projecthosting.client object and all subsequent interactions with the issue tracker will be authentiated:
 
 {{{
-def test_doc_examples(self):
+   def test_doc_examples(self):
      if not conf.options.get_value('runlive') == 'true':
        return
      issues_client = gdata.projecthosting.client.ProjectHostingClient()
 
      self.authenticating_client(issues_client, self.owner, self.password)
 
-def authenticating_client(self, client, username, password):
+   def authenticating_client(self, client, username, password):
      return client.client_login(
          username,
          password,
@@ -91,12 +91,12 @@ To retrieve all the issues in a project call the get_issues method and provide t
 
 The Issue Tracker Data API lets you request a set of issues that match specified criteria, such as requesting issues created or updated in a given date range, or published by a particular author. To do this, you create a *Query* object and pass it to the *!get_issues* method.
 
-For example, to send a date-range query, use the *label* and *max_results* methods of the *Query* object. The following code snippet prints the title of each issue that matches the query parameters:
+For example, to send a label restricted query, use the *label* and *max_results* methods of the *Query* object. The following code snippet prints the title of each issue that matches the query's label and max_results parameters:
 
 {{{
    def retrieving_issues_using_query_parameters(self, client, project_name):
      """Retrieve a set of issues in a project."""
-     query = gdata.projecthosting.client.Query(label='label0', max_results=1000)
+     query = gdata.projecthosting.client.Query(label='label0')
      feed = client.get_issues(project_name, query=query)
      for issue in feed.entry:
        print issue.title.text
@@ -106,72 +106,44 @@ For example, to send a date-range query, use the *label* and *max_results* metho
 Notice that the Query object is constructed using the same issue feed URL used to retrieve issues.
 
 The Issue Tracker Data API supports the following query parameters:
-||setAuthor||Return issues based on who reported the issue. For Gmail users, this will be the part of the email preceding the '@' sign.||
-||setCan||Return issues based on a canned query identifier such as <ul><li>'All issues' <b>all</b></li><li>'Open issues' <b>open</b></li><li>'Open and owned by me' <b>owned</b></li><li>'Open and reported by me' <b>reported</b></li><li>'Open and starred by me'<b>starred</b></li><li>'New issues' <b>new</b></li><li>'Issues to verify' <b>to-verify</b></li></ul>||
-||setId||The issue to return based on the issue id.||
-||setLabel||The type of issues to return based on the label set on the issue.||
-||setMaxResults||Set the maximum number of entries to return. If you want to receive all of the Issues, Issue Comments, rather than only the default maximum, you can specify a very large number for this property.||
-||owner||Return issues based on the owner of the issue. For Gmail users, this will be the part of the email preceding the '@' sign.||
-||published_min, setPublishedMax||The bounds on entry publication dates.||
-||setStartIndex||The 1-based index of the first result to be retrieved (for paging).||
-||setStatus||Return issues based on the status of the issue.||
-||setUpdatedMin, setUpdatedMax||The bounds on entry update dates.||
-||~~setOrderby~~||~~The order in which to return entries based on the column name, such as <b>modified</b>, <b>stars</b>, issue <b>id</b> (the default), <b>status</b>, etc.~~||
-||~~setSortorder~~||~~Sorting order direction. Can be either <b>ascending</b> or <b>descending</b>.~~||
+||issue_id||int or str|| The issue to return based on the issue id.||
+||label||str||The type of issues to return based on the label set on the issue.||
+||canned_query||str||Return issues based on a canned query identifier||
+||owner||str||Return issues based on the owner of the issue. For Gmail users, this will be the part of the email preceding the '@' sign.||
+||status||str||Return issues based on the status of the issue.||
 
 For more information about query parameters, see the [IssueTrackerAPIReference Issue Tracker Data API Reference Guide] and the <a href="http://code.google.com/apis/gdata/reference.html#Queries">Google Data APIs Reference Guide</a>.
 
 = Retrieving issues comments for an issue=
 
-To retrieve all the issue comments for an issue call the getFeed method and send the Issue URL:
+To retrieve all the issue comments for an issue call the get_comments method and Issue id:
 
 {{{
-public static void printAllIssueComments(ProjectHostingService myService, String IssueId)
-    throws ServiceException, IOException {
-  // Request the feed
-  URL feedUrl = new URL("[feed URL for the given service object]");
-  IssueCommentsFeed resultFeed = myService.getFeed(feedUrl, IssueCommentsFeed.class);
-
-  // Print the results
-  for (int i = 0; i < resultFeed.getEntries().size(); i++) {
-    IssueCommentsEntry entry = resultFeed.getEntries().get(i);
-    TextContent textContent = (TextContent) entry.getContent();
-    if (textContent != null && textContent.getContent() != null) {
-      HtmlTextConstruct htmlConstruct = (HtmlTextConstruct) textContent.getContent();
-      System.out.println("\t" + htmlConstruct.getHtml());
-    }
-  }
-  System.out.println();
-}
+   def retrieving_issues_comments_for_an_issue(self, client, project_name,
+                                               issue_id):
+     """Retrieve all issue comments for an issue."""
+     comments_feed = client.get_comments(project_name, issue_id)
+     for comment in comments_feed.entry:
+       print comment.content
+     return comments_feed
 }}}
 
 = Creating issues =
 
-You can use the Java client library to publish new issue entries.
-
-First, create a *!IssuesEntry* object to represent the issue. Then you can set the summary, content and other attributes of the issue. Finally, use the * !ProjectHostingService* object to create the issue. Here's an example of how to create an issue:
+You can use the Python client library to publish new issue entries. To accomplish this, simply use the *add_issue* function to create the issue with the following parameters: project name, issue title, issue description, owner, and labels.
 
 {{{
-public static IssuesEntry createIssue(
-    ProjectHostingService myService, String IssueID, String summary,
-    String content, String authorName, String userName)
-    throws ServiceException, IOException {
-  // Create the entry to insert
-  IssuesEntry = new IssuesEntry();
-  myEntry.setSummary(new PlainTextConstruct(summary));
-  myEntry.setContent(new HtmlTextConstruct(content));
-  Person author = new Person();
-  autho.setName(userName);
-
-  myEntry.getAuthors().add(author);
-
-  // Ask the service to insert the new entry
-  URL postUrl = new URL("[service-appropriate post URL, possibly constructed using the service object's ID]");
-  return myService.insert(postUrl, myEntry);
-}
+   def creating_issues(self, client, project_name, owner):
+     """Create an issue."""
+     return client.add_issue(
+         project_name,
+         'my title',
+         'my summary',
+         owner,
+         labels=['label0'])
 }}}
 
-The *insert* method takes the service's post URL as a parameter. Then the method returns the entry as it was stored by the issue tracker. The entry returned is the same one you sent, but it also contains various elements added by Project Hosting on Google Code, such as a issue ID.
+The *add_insert* returns the issue entry as it was stored by the issue tracker. The entry returned is the same one you sent, but it also contains various elements added by Project Hosting on Google Code, such as an issue id.
 
 For information about the status codes, see the <a href="http://code.google.com/apis/gdata/reference.html">Google Data API protocol reference document</a>.
 
@@ -179,27 +151,25 @@ For information about the status codes, see the <a href="http://code.google.com/
 
 After authenticating, you can modify an issue by creating new issue comments. 
 
-First, create a *!IssueCommentsEntry* object to represent the issue comment. Then you can set the summary, content and other attributes of the issue comment. Finally, use the * !ProjectHostingService* object to insert the issue comment. Here's an example of how to create an issue comment:
+To modify an issue, use the *update_issue* method. Using the *update_issue* method you can set the summary, content and other attributes of the issue comment. Here's an example of how to create an issue comment:
 
 {{{
-public static IssueCommentsEntry createIssueComment(
-    ProjectHostingService myService, String IssueID, String summary,
-    String content, String authorName)
-    throws ServiceException, IOException {
-  // Create the entry to insert
-  IssueCommentsEntry = new IssueCommentsEntry();
-  myEntry.setContent(new HtmlTextConstruct(content));
-  Person author = new Person();
-  autho.setName(authorName);
-  myEntry.getAuthors().add(author);
-
-  // Ask the service to insert the new entry
-  URL postUrl = new URL("[service-appropriate post URL, possibly constructed using the service object's ID]");
-  return myService.insert(postUrl, myEntry);
-}
+   def modifying_an_issue_or_creating_issue_comments(self, client, project_name,
+                                                     issue_id, owner, assignee):
+     """Add a comment and update metadata in an issue."""
+     return client.update_issue(
+         project_name,
+         issue_id,
+         owner,
+         comment='My comment here.',
+         summary='New Summary',
+         status='Accepted',
+         owner=assignee,
+         labels=['-label0', 'label1'],
+         ccs=[owner])
 }}}
 
-The *insert* method takes the service's post URL as a parameter. Then the method returns the entry as it was stored by the issue tracker. The entry returned is the same one you sent, but it also contains various elements added by Project Hosting on Google Code, such as a issue comment ID.
+The *update_insert* method returns the issue as it was stored by the issue tracker. The entry returned is the same one you sent, but it also contains various elements added by Project Hosting on Google Code, such as a issue comment ID.
 
 For information about the status codes, see the <a href="http://code.google.com/apis/gdata/reference.html">Google Data API protocol reference document</a>.
 
