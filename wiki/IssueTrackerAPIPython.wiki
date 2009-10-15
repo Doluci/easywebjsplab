@@ -111,6 +111,17 @@ The Issue Tracker Data API supports the following query parameters:
 ||canned_query||str||Return issues based on a canned query identifier||
 ||owner||str||Return issues based on the owner of the issue. For Gmail users, this will be the part of the email preceding the '@' sign.||
 ||status||str||Return issues based on the status of the issue.||
+||text_query||str (optional)||Full text search||
+||author||str (optional)||The service returns entries where the author name and/or email address match your query string.||
+||alt||str (optional)||The Alternative representation type you'd like the feed in. If you don't specify an alt parameter, the service returns an Atom feed. This is equivalent to alt='atom'. alt='rss' returns an RSS 2.0 result feed. alt='json' returns a JSON representation of the feed. alt='json-in-script' Requests a response that wraps JSON in a script tag. alt='atom-in-script' Requests an Atom response that wraps an XML string in a script tag. alt='rss-in-script' Requests an RSS response that wraps an XML string in a script tag.||
+||updated_min||str (optional)||RFC 3339 timestamp format, lower  bounds. For example: 2005-08-09T10:57:00-08:00||
+||updated_max||str (optional)||updated time must be earlier than timestamp.||
+||pretty_print||boolean (optional)||If True the server's XML response will be indented to make it more human readable. Defaults to False.||
+||published_min||str (optional)||Similar to updated_min but for published time.||
+||published_max||str (optional)||Similar to updated_max but for published time.||
+||start_index||int or str (optional) 1-based index of the first result to be retrieved. Note that this isn't a general cursoring mechanism. If you first send a query with ?start-index=1&max-results=10 and then send another query with ?start-index=11&max-results=10, the service cannot guarantee that the results are equivalent to ?start-index=1&max-results=20, because insertions and deletions could have taken place in between the two queries.||
+||max_results||int or str (optional)||Maximum number of results to be retrieved. Each service has a default max (usually 25) which can vary from service to service. There is also a service-specific limit to the max_results you can fetch in a request.||
+||strict||boolean (optional)||If True, the server will return an error if the server does not recognize any of the parameters in the request URL. Defaults to False.||
 
 For more information about query parameters, see the [IssueTrackerAPIReference Issue Tracker Data API Reference Guide] and the <a href="http://code.google.com/apis/gdata/reference.html#Queries">Google Data APIs Reference Guide</a>.
 
