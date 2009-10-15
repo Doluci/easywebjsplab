@@ -121,7 +121,7 @@ In addition to the custom query parameters, the following standard Data API quer
 ||pretty_print||boolean||If True the server's XML response will be indented to make it more human readable. Defaults to False.||
 ||published_min||str||Similar to updated_min but for published time.||
 ||published_max||str||Similar to updated_max but for published time.||
-||start_index||int or str 1-based index of the first result to be retrieved. Note that this isn't a general cursoring mechanism. If you first send a query with ?start-index=1&max-results=10 and then send another query with ?start-index=11&max-results=10, the service cannot guarantee that the results are equivalent to ?start-index=1&max-results=20, because insertions and deletions could have taken place in between the two queries.||
+||start_index||int or str||1-based index of the first result to be retrieved. Note that this isn't a general cursoring mechanism. If you first send a query with ?start-index=1&max-results=10 and then send another query with ?start-index=11&max-results=10, the service cannot guarantee that the results are equivalent to ?start-index=1&max-results=20, because insertions and deletions could have taken place in between the two queries.||
 ||max_results||int or str||Maximum number of results to be retrieved. Each service has a default max (usually 25) which can vary from service to service. There is also a service-specific limit to the max_results you can fetch in a request.||
 ||strict||boolean||If True, the server will return an error if the server does not recognize any of the parameters in the request URL. Defaults to False.||
 
