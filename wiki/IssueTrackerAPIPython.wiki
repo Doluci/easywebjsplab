@@ -112,7 +112,7 @@ The Issue Tracker Data API supports the following custom query parameters:
 ||owner||str||Return issues based on the owner of the issue. For Gmail users, this will be the part of the email preceding the '@' sign.||
 ||status||str||Return issues based on the status of the issue.||
 
-In addition to the custom query parameters, the following standard Data API query parameters are also supported:
+The following standard query parameters are also supported:
 ||text_query||str||Full text search||
 ||author||str||The service returns entries where the author name and/or email address match your query string.||
 ||alt||str||The Alternative representation type you'd like the feed in. If you don't specify an alt parameter, the service returns an Atom feed. This is equivalent to alt='atom'. alt='rss' returns an RSS 2.0 result feed. alt='json' returns a JSON representation of the feed. alt='json-in-script' Requests a response that wraps JSON in a script tag. alt='atom-in-script' Requests an Atom response that wraps an XML string in a script tag. alt='rss-in-script' Requests an RSS response that wraps an XML string in a script tag.||
