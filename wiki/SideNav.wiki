@@ -11,6 +11,12 @@
   * Issues 
     * [IssueTrackerFAQ Issue Tracker FAQ]
     * [IssueTracker Issue Tracker]
+    * Issue Tracker Data API
+      * [IssueTrackerAPI Issue Tracker API]
+      * [IssueTrackerAPIJava Issue Tracker API Java]
+      * [IssueTrackerAPIPython Issue Tracker API Python]
+      * [IssueTrackerAPIReference Issue Tracker API Reference]
+      * [IssueTrackerAPITerms Issue Tracker Data API Terms]
   * Downloads
     * [DownloadsFAQ Downloads FAQ]
     * [ScriptedUploads Scripted Uploads]
