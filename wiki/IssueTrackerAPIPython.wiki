@@ -47,14 +47,6 @@ For more information about authentication with Google Data APIs in general, see 
 
 Most of the samples in subsequent sections of this document assume that you have an authenticated !gdata.projecthosting.client object.
 
-= Authenticating to the Issue Tracker Data API =
-
-You can access both public and private feeds using the Issue Tracker Data API. Public feeds don't require any authentication, but they are read-only. If you want to create an issue or issue comment, then your cient needs to authenticate before requesting private feeds. It can authenticate using either of two approaches: !AuthSub proxy authentication or !ClientLogin username/password authentication.
-
-For more information about authentication with Google Data APIs in general, see the [http://code.google.com/apis/gdata/auth.html authentication documentation].
-
-Most of the samples in subsequent sections of this document assume that you have an authenticated !ProjectHostingService object.
-
 == Authenticating `AuthSub` proxy ==
 
 `AuthSub` proxy authentication is used by web applications that need to authenticate their users to Google Accounts. The website operator and the client code don't have access to the username and password for the Project Hosting user. Instead, the client obtains special `AuthSub` tokens that allow the client to act on a particular user's behalf. For more detailed information, see the <a href="http://code.google.com/apis/accounts/AuthForWebApps.html">`AuthSub` documentation</a>.
