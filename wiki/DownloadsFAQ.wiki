@@ -38,6 +38,8 @@ If you are hosting a Google gadget, *please proxy all your content* so that it i
 
 == Does Google Code host distros (e.g Linux distributions)? ==
 
-Project hosting on Google Code does not support the hosting of distros (ISOs, CD/DVD image files). Instead, we recommend hosting only the specific pieces that you are developing, i.e. import the kernel and panel source in the SVN repository and provide binary builds for those specific packages in our downloads repository.
+Project Hosting on Google Code does not support the hosting of distros (ISOs, CD/DVD image files). Instead, we recommend hosting only the specific pieces that you are developing, i.e. import the kernel and panel source in the SVN repository and provide binary builds for those specific packages in our downloads repository.
 
 This is because distros really need a different set of tools from what we offer for software development. It is an area where we do not have good tools and think that developing such tools would be a distraction from our main [http://code.google.com/p/support/wiki/MakingHostingBetter objectives].
+
+If you would like to see the Project Hosting team focus on improving support for hosting distros, please star Issue 3148.
