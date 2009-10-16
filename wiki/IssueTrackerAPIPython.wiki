@@ -17,7 +17,7 @@ For general Issue Tracker reference information, see the [IssueTrackerAPIReferen
 
 For help setting up the client library, see the [http://code.google.com/apis/gdata/articles/python_client_lib.html Getting Started Guide].
 
-The Python client library requires Python 2.2 or higher. After [http://code.google.com/p/gdata-python-client/downloads/list downloading the client library], you'll find the classes you need to get started in gdata-client-library/tests/gdata_tests/projecthosting/live_client_test.py file.
+The Python client library is available for <a href="http://code.google.com/p/gdata-python-client/downloads/list">download from the project page</a> or from the <a href="http://code.google.com/p/gdata-python-client/source">Subversion repository</a>. Also note that to use the Python client library, you must be running Python 2.2 or newer.
 
 == Creating Google account ==
 
@@ -25,11 +25,9 @@ Project Hosting on Google Code uses Google Accounts, so if you already have a [h
 
 == Running the sample code ==
 
-A full working sample client, containing all the sample code shown in this document, is available in the Python client library distribution, under the directory *TODO*. Build and execution instructions are included in the same directory in the README.txt file.
+A full working copy of this sample is available in the live_client_test.py file, under the directory /tests/gdata_tests/projecthosting/. 
 
-The sample client performs several operations on the default issue tracker to demonstrate the use of the Issue Tracker Data API.
-
-To compile the examples in this document into your own code, you'll need the following import statements:
+The sample client performs several operations on the default issue tracker to demonstrate the use of the Issue Tracker Data API. To compile the examples in this document into your own code, you'll need the following import statements:
 
 {{{
 import gdata.projecthosting.client
@@ -48,6 +46,62 @@ You can access both public and private feeds using the Issue Tracker Data API. P
 For more information about authentication with Google Data APIs in general, see the [http://code.google.com/apis/gdata/auth.html authentication documentation].
 
 Most of the samples in subsequent sections of this document assume that you have an authenticated !gdata.projecthosting.client object.
+
+= Authenticating to the Issue Tracker Data API =
+
+You can access both public and private feeds using the Issue Tracker Data API. Public feeds don't require any authentication, but they are read-only. If you want to create an issue or issue comment, then your cient needs to authenticate before requesting private feeds. It can authenticate using either of two approaches: !AuthSub proxy authentication or !ClientLogin username/password authentication.
+
+For more information about authentication with Google Data APIs in general, see the [http://code.google.com/apis/gdata/auth.html authentication documentation].
+
+Most of the samples in subsequent sections of this document assume that you have an authenticated !ProjectHostingService object.
+
+== Authenticating `AuthSub` proxy ==
+
+`AuthSub` proxy authentication is used by web applications that need to authenticate their users to Google Accounts. The website operator and the client code don't have access to the username and password for the Project Hosting user. Instead, the client obtains special `AuthSub` tokens that allow the client to act on a particular user's behalf. For more detailed information, see the <a href="http://code.google.com/apis/accounts/AuthForWebApps.html">`AuthSub` documentation</a>.
+
+When a user first visits your application, they have not yet been authenticated. In this case, you need to display some information indicating to the user that they are not authenticated and a link directing the user to a Google page to authenticate your request for access to their Issue Tracker. The Java client library provides a function to generate the Google page's URL. The code below retrieves the URL of the `AuthSubRequest` page:
+
+{{{
+def GetAuthSubUrl():
+  next = 'http://www.coolissuetrackingsite.com/welcome.pyc'
+  scope = 'http://code.google.com/feeds/issues'
+  secure = False
+  session = True
+  return gdata.gauth.generate_auth_sub_url.GenerateAuthSubURL(next, scope, secure, session);
+
+authSubUrl = GetAuthSubUrl();
+print '<a href="%s">Login to your Google account</a>' % authSubUrl
+}}}
+
+Notice the parameters sent to the GenerateAuthSubUrl method:
+||next||The URL of the page that Google should redirect the user to after authentication. ||
+||scope||Indicates that the application is requesting a token to access Issue feeds. The scope string to use is http://code.google.com/feeds/issues (URL-encoded, of course).||
+||secure||Indicates whether the client is requesting a secure token.||
+||session||Indicates whether the token returned can be exchanged for a multi-use (session) token.||
+
+The above example shows a call that doesn't request a secure token (the value of *secure* is *false*). The resulting request URL might look like this:
+
+{{{
+https://www.google.com/accounts/AuthSubRequest?scope=http%3A%2F%2Fcode.google.com%2Ffeeds%2Fissues%2F&amp;session=1&amp;secure=0&amp;
+}}}
+
+The user follows the link to Google's site and authenticates to their Google Account.
+
+After the user authenticates, the `AuthSub` system redirects them to the URL you specified in the *next* query parameter of the `AuthSubRequest` URL. The `AuthSub` system appends an authentication token to that URL, as the value of the *token* query parameter. For example:
+
+<code>http://www.coolissuetrackingsite.com/welcome.pyc?token=yourAuthToken</code>
+
+This token value represents a single-use `AuthSub` token. In this example, because <b>session = true</b> was specified, this token can be exchanged for an `AuthSub` session token :
+
+{{{
+token, scopes = gdata.gauth.auth_sub_string_from_url(redirect_url)
+client.auth_token = client.upgrade_token(gdata.gauth.AuthSubToken(token, scopes))
+}}}
+
+That is, you pass your one-time-use token to the *`exchangeForSessionToken`* method, along with either *null* (for unregistered mode) or a private key (for registered mode), and the `AuthSub` interface returns a session token. For more information about registered applications and private keys, see the "[http://code.google.com/apis/accounts/AuthForWebApps.html#signingrequests Signing requests]" section of the `AuthSub` documentation.
+
+Your application can then use the session token value in subsequent interactions with Project Hosting on Google Code. The client library automatically sends the token along with requests.
+
 
 == Authenticating `ClientLogin` username/password ==
 
