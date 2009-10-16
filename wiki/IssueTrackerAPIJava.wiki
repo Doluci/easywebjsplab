@@ -25,7 +25,7 @@ Project Hosting on Google Code uses Google Accounts, so if you already have a [h
 
 == Running the sample code ==
 
-A full working sample client, containing all the sample code shown in this document, is available in the Java client library distribution, under the directory *TODO*. Build and execution instructions are included in the same directory in the README.txt file.
+A full working sample client, containing all the sample code shown in this document, is available in the Java client library distribution, under the directory {{{gdata/java/sample/projecthosting}}}. Build and execution instructions are included in the same directory in the README.txt file.
 
 The sample client performs several operations on the default issue tracker to demonstrate the use of the Issue Tracker Data API.
 
@@ -57,7 +57,7 @@ When a user first visits your application, they have not yet been authenticated.
 
 {{{
 String next = "http://www.example.com/welcome.html";
-String scope = "TODOAUTHSUB";
+String scope = "http://code.google.com/feeds/issues";
 boolean secure = false;
 boolean session = true;
 String authSubLogin = AuthSubUtil.getRequestUrl(next, scope, secure, session);
@@ -119,10 +119,10 @@ You can query a Issue Tracker public feed without authentication. Therefore, you
 To retrieve all the issues in a project call the getFeed method and send the Issue URL:
 
 {{{
-public static void printAllIssues(ProjectHostingService myService, String IssueId)
+public static void printAllIssues(ProjectHostingService myService, String project)
     throws ServiceException, IOException {
   // Request the feed
-  URL feedUrl = new URL("[feed URL for the given service object]");
+  URL feedUrl = new URL("http://code.google.com/feeds/issues/p/" + project + "/issues/full");
   IssuesFeed resultFeed = myService.getFeed(feedUrl, IssuesFeed.class);
 
   // Print the results
@@ -142,15 +142,15 @@ For example, to send a date-range query, use the *setUpdatedMin* and *setUpdated
 
 {{{
 public static void printDateRangeQueryResults(
-    ProjectHostingService myService, String IssueId,
+    ProjectHostingService myService, String project,
     DateTime updatedMin, DateTime updatedMax)
     throws ServiceException, IOException {
   // Create query and submit a request
-  URL feedUrl = new URL("[feed URL]");
-  Query myQuery = new Query(feedUrl);
+  URL feedUrl = new URL("http://code.google.com/feeds/issues/p/" + project + "/issues/full");
+  IssuesQuery myQuery = new IssuesQuery(feedUrl);
   myQuery.setUpdatedMin(updatedMin);
   myQuery.setUpdatedMax(updatedMax);
-  IssuesFeed = myService.query(myQuery, IssuesFeed.class);
+  IssuesFeed resultFeed = myService.query(myQuery, IssuesFeed.class);
 
   // Print the results
   System.out.println(resultFeed.getTitle().getPlainText() +
@@ -177,8 +177,6 @@ The Issue Tracker Data API supports the following query parameters:
 ||setStartIndex||The 1-based index of the first result to be retrieved (for paging).||
 ||setStatus||Return issues based on the status of the issue.||
 ||setUpdatedMin, setUpdatedMax||The bounds on entry update dates.||
-||~~setOrderby~~||~~The order in which to return entries based on the column name, such as <b>modified</b>, <b>stars</b>, issue <b>id</b> (the default), <b>status</b>, etc.~~||
-||~~setSortorder~~||~~Sorting order direction. Can be either <b>ascending</b> or <b>descending</b>.~~||
 
 For more information about query parameters, see the [IssueTrackerAPIReference Issue Tracker Data API Reference Guide] and the <a href="http://code.google.com/apis/gdata/reference.html#Queries">Google Data APIs Reference Guide</a>.
 
@@ -187,10 +185,10 @@ For more information about query parameters, see the [IssueTrackerAPIReference I
 To retrieve all the issue comments for an issue call the getFeed method and send the Issue URL:
 
 {{{
-public static void printAllIssueComments(ProjectHostingService myService, String IssueId)
+public static void printAllIssueComments(ProjectHostingService myService, String project, String IssueId)
     throws ServiceException, IOException {
   // Request the feed
-  URL feedUrl = new URL("[feed URL for the given service object]");
+  URL feedUrl = new URL("http://code.google.com/feeds/issues/p/" + project + "/issues/" + issueId + "/comments/full");
   IssueCommentsFeed resultFeed = myService.getFeed(feedUrl, IssueCommentsFeed.class);
 
   // Print the results
@@ -214,20 +212,20 @@ First, create a *!IssuesEntry* object to represent the issue. Then you can set t
 
 {{{
 public static IssuesEntry createIssue(
-    ProjectHostingService myService, String IssueID, String summary,
-    String content, String authorName, String userName)
+    ProjectHostingService myService,
+    String project, String summary, String content, String userName)
     throws ServiceException, IOException {
   // Create the entry to insert
-  IssuesEntry = new IssuesEntry();
+  IssuesEntry myEntry = new IssuesEntry();
   myEntry.setSummary(new PlainTextConstruct(summary));
   myEntry.setContent(new HtmlTextConstruct(content));
-  Person author = new Person();
-  autho.setName(userName);
 
+  Person author = new Person();
+  author.setName(userName);
   myEntry.getAuthors().add(author);
 
   // Ask the service to insert the new entry
-  URL postUrl = new URL("[service-appropriate post URL, possibly constructed using the service object's ID]");
+  URL postUrl = new URL("http://code.google.com/feeds/issues/p/" + project + "/issues/full");
   return myService.insert(postUrl, myEntry);
 }
 }}}
@@ -244,18 +242,20 @@ First, create a *!IssueCommentsEntry* object to represent the issue comment. The
 
 {{{
 public static IssueCommentsEntry createIssueComment(
-    ProjectHostingService myService, String IssueID, String summary,
+    ProjectHostingService myService,
+    String project, String issueId,
     String content, String authorName)
     throws ServiceException, IOException {
   // Create the entry to insert
-  IssueCommentsEntry = new IssueCommentsEntry();
+  IssueCommentsEntry myEntry = new IssueCommentsEntry();
   myEntry.setContent(new HtmlTextConstruct(content));
+
   Person author = new Person();
-  autho.setName(authorName);
+  author.setName(authorName);
   myEntry.getAuthors().add(author);
 
   // Ask the service to insert the new entry
-  URL postUrl = new URL("[service-appropriate post URL, possibly constructed using the service object's ID]");
+  URL postUrl = new URL("http://code.google.com/feeds/issues/p/" + project + "/issues/" + issueId + "/comments/full");
   return myService.insert(postUrl, myEntry);
 }
 }}}
