@@ -113,11 +113,11 @@ An entry in the issues might look like this:
 {{{
 <entry>
   <id>http://code.google.com/feeds/issues/p/PROJECT_NAME/issues/full/3</id>
+  <published>2009-09-08T21:04:31.232Z</published>
   <updated>2009-09-09T20:34:35.365Z</updated>
   <title>This is updated issue summary</title>
   <content type='html'>This is issue description</content>
   <link rel='self' type='application/atom+xml' href='http://code.google.com/feeds/issues/p/PROJECT_NAME/issues/full/3'/>
-  <link rel='edit' type='application/atom+xml' href='http://code.google.com/feeds/issues/p/PROJECT_NAME/issues/full/3'/>
   <author>
     <name>elizabeth.bennet</name>
     <uri>/u/elizabeth.bennet/</uri>
@@ -163,11 +163,9 @@ The Issue Tracker Data API supports the following query parameters:
 ||id||The issue to return based on the issue id.||
 ||label||The type of issues to return based on the label set on the issue.||
 ||max-results||The maximum number of entries to return. If you want to receive all of the *items*, rather than only the default maximum, you can specify a very large number for <b>max-results</b>.||
-||~~orderby~~||~~The order in which to return entries based on the column name, such as <b>modified</b>, <b>stars</b>, issue <b>id</b> (the default), <b>status</b>, etc.~~||
 ||owner||Return issues based on the owner of the issue. For Gmail users, this will be the part of the email preceding the '@' sign.||
 ||published-min, published-max||The bounds on entry publication dates.||
 ||q||Return issues based on a full text search.||
-||~~sortorder~~||~~Sorting order direction. Can be either <b>ascending</b> or <b>descending</b>.~~||
 ||status||Return issues based on the status of the issue.||
 ||start-index||The 1-based index of the first result to be retrieved (for paging).||
 ||status||Return issues based on the status of the issue.||
@@ -187,10 +185,11 @@ An entry in the issue comments might look like this:
 {{{
 <entry>
   <id>http://code.google.com/feeds/issues/p/PROJECT_NAME/issues/13/comments/full/1</id>
+  <published>2009-09-09T20:30:17.836Z</published>
   <updated>2009-09-09T20:30:17.836Z</updated>
+  <title>Comment 1 by elizabeth.bennet</title>
   <content type='html'>ISSUE CONTENT</content>
   <link rel='self' type='application/atom+xml' href='http://code.google.com/feeds/issues/p/PROJECT_NAME/issues/3/comments/full/1'/>
-  <link rel='edit' type='application/atom+xml' href='http://code.google.com/feeds/issues/p/PROJECT_NAME/issues/3/comments/full/1'/>
   <author>
     <name>elizabeth.bennet</name>
     <uri>/u/elizabeth.bennet/</uri>
