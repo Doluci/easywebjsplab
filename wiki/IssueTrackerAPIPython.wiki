@@ -17,7 +17,7 @@ For general Issue Tracker reference information, see the [IssueTrackerAPIReferen
 
 For help setting up the client library, see the [http://code.google.com/apis/gdata/articles/python_client_lib.html Getting Started Guide].
 
-The Python client library requires Python 2.2 or higher. After [http://code.google.com/p/gdata-python-client/downloads/list downloading the client library], you'll find the classes you need to get started in *TODO* file.
+The Python client library requires Python 2.2 or higher. After [http://code.google.com/p/gdata-python-client/downloads/list downloading the client library], you'll find the classes you need to get started in gdata-client-library/tests/gdata_tests/projecthosting/live_client_test.py file.
 
 == Creating Google account ==
 
