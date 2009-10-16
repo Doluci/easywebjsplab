@@ -11,7 +11,7 @@ If you're interested in understanding more about the underlying protocol that th
 
 = Audience =
 
-This document is intended for programmers who want to write Python client applications that can interact with the Issue Tracker Data API. This document assumes that you understand the general ideas behind the [http://code.google.com/apis/gdata/basics.html Google Data APIs protocol], and that you're familiar with the Issue Tracker GUI.
+This document is intended for programmers who want to write Python client applications that can interact with the Issue Tracker Data API. This document assumes that you understand the general ideas behind the [http://code.google.com/apis/gdata/basics.html Google Data APIs protocol] and that you're familiar with the Issue Tracker GUI.
 
 For general Issue Tracker reference information, see the [IssueTrackerAPIReference Protocol reference guide].
 
