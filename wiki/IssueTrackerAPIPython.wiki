@@ -53,7 +53,7 @@ Most of the samples in subsequent sections of this document assume that you have
 
 `AuthSub` proxy authentication is used by web applications that need to authenticate their users to Google Accounts. The website operator and the client code don't have access to the username and password for the Project Hosting user. Instead, the client obtains special `AuthSub` tokens that allow the client to act on a particular user's behalf. For more detailed information, see the <a href="http://code.google.com/apis/accounts/AuthForWebApps.html">`AuthSub` documentation</a>.
 
-When a user first visits your application, they have not yet been authenticated. In this case, you need to display some information indicating to the user that they are not authenticated and a link directing the user to a Google page to authenticate your request for access to their Issue Tracker. The Java client library provides a function to generate the Google page's URL. The code below retrieves the URL of the `AuthSubRequest` page:
+When a user first visits your application, they have not yet been authenticated. In this case, you need to display some information indicating to the user that they are not authenticated and a link directing the user to a Google page to authenticate your request for access to their Issue Tracker. The following code snippet provides a function to generate the Google page's URL. The code below retrieves the URL of the `AuthSubRequest` page:
 
 {{{
 def GetAuthSubUrl():
