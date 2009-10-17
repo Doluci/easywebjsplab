@@ -123,7 +123,7 @@ An entry in the issues might look like this:
   </author>
   <issues:cc>
     <issues:uri>/u/@UBhTQl1UARRAVga7/</issues:uri>
-    <issues:username>mar...@domain.com</issues:username>
+    <issues:username>mar...@example.com</issues:username>
   </issues:cc>
   <issues:cc>
     <issues:uri>/u/fitzwilliam.darcy/</issues:uri>
@@ -195,7 +195,7 @@ An entry in the issue comments might look like this:
   </author>
   <issues:updates>
     <issues:ccUpdate>-fitzwilliam.darcy</issues:ccUpdate>
-    <issues:ccUpdate>mar...@domain.com</issues:ccUpdate>
+    <issues:ccUpdate>mar...@example.com</issues:ccUpdate>
     <issues:label>-Type-Defect</issues:label>
     <issues:label>-Milestone-2009</issues:label>
     <issues:label>-Priority-Medium</issues:label>
@@ -236,7 +236,7 @@ First, create an XML representation of the issue to publish. This XML needs to b
     <issues:username>fitzwilliam.darcy</issues:username>
   </issues:cc>
   <issues:cc>
-    <issues:username>georgiana.darcy@domain.com</issues:username>
+    <issues:username>georgiana.darcy@example.com</issues:username>
   </issues:cc>
 </entry>
 }}}
@@ -270,7 +270,7 @@ First, create an XML representation of the issue comment to publish. This XML ne
     <issues:label>-Priority-Medium</issues:label>
     <issues:label>Priority-Low</issues:label>
     <issues:ccUpdate>-fitzwilliam.darcy</issues:ccUpdate>
-    <issues:ccUpdate>marialucas@domain.com</issues:ccUpdate>
+    <issues:ccUpdate>marialucas@example.com</issues:ccUpdate>
   </issues:updates>
 </entry>
 }}}
