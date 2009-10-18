@@ -4,7 +4,7 @@ Welcome to the What's New page for project hosting on Google Code. Here you'll f
 
 = September 2009 =
 
-== Server-side Clones ==
+== User Clones ==
 
 Any user can visit any Mercurial repository and create a server-side user clone of that repository, without asking permission from the project owner. These personal user clones can be easily shared with other developers -- who also can make a clone of that clone. [http://googlecode.blogspot.com/2009/10/mercurial-server-side-clone-support-for.html Learn More].
 
