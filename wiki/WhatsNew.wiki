@@ -2,6 +2,16 @@
 
 Welcome to the What's New page for project hosting on Google Code. Here you'll find descriptions of our latest improvements to our collaborative development environment.
 
+= September 2009 =
+
+== Server-side Clones ==
+
+Any user can visit any Mercurial repository and create a server-side user clone of that repository, without asking permission from the project owner. These personal user clones can be easily shared with other developers -- who also can make a clone of that clone. [http://googlecode.blogspot.com/2009/10/mercurial-server-side-clone-support-for.html Learn More].
+
+== Issue Tracker Data API ==
+
+The Issue Tracker Data API is a Google Data API that you can use to programmatically add new issues, make changes to existing issues, or simply access issues for your open source project. [http://code.google.com/p/support/wiki/IssueTrackerAPI Learn More].
+
 = August 2009 =
 
 == Multiple Repository Support for Mercurial ==
