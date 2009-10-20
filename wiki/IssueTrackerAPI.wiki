@@ -76,7 +76,7 @@ Use `ClientLogin` authentication if your client is a standalone, single-user "in
 
 The <b>POST</b> body should contain a set of query parameters that look like parameters passed by an HTML form, using the <b>application/x-www-form-urlencoded</b> content type. These parameters are:
 
-||accountType||Type of account to be authenticated. The default is <b>GOOGLE</b>, and you must use that.||
+||accountType||Type of account to be authenticated. You must set this to <b>GOOGLE</b>.||
 ||Email||The user's email address.||
 ||Passwd||The user's password.||
 ||service||Project Hosting on Google Code's service name is <b>code</b>. (For other service names, see the <a href="http://code.google.com/support/bin/answer.py?answer=62712&amp;topic=10433">service name list</a>.)||
