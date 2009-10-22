@@ -1,5 +1,5 @@
 #summary Wiki FAQ
-#labels Restrict-AddWikiComment-Commit
+#labels Restrict-AddWikiComment-Commit,Test-1
 
 <wiki:toc max_depth="2" />
 
