@@ -21,7 +21,7 @@ If you want to put one of these gadgets on your wiki page or even your project h
 You can use a gadget to display any blog that has an Atom or RSS feed.
 
 *Gadget*
-<wiki:gadget url="http://google-code-feed-gadget.googlecode.com/svn/build/prod/feedgadget/feedgadget.xml" up_feeds="http://googlecode.blogspot.com/search/label/google code project hosting" up_gadgetTitle="Featured Projects" width="500px" height="340px" border="0"/>
+<wiki:gadget url="http://google-code-feed-gadget.googlecode.com/svn/build/prod/feedgadget/feedgadget.xml" up_feeds="http://googlecode.blogspot.com/atom.xml" up_gadgetTitle="Featured Projects" width="500px" height="340px" border="0"/>
 
 *Code*
 
