@@ -1,5 +1,5 @@
-#summary The reference to the wiki syntax for Google Code projects
 #labels Restrict-AddWikiComment-Commit
+summary The reference to the wiki syntax for Google Code projects
 
 <wiki:toc max_depth="2" /> 
 
@@ -468,7 +468,7 @@ wiki/
    StyleGuide.wiki
 }}}
 
-Once the files been be submitted to the project's subversion repository, they can now be edited through the wiki's web editor. 
+Once the files been be submitted to the project's subversion repository, they can now be edited through the wiki's web editor. The process for Mercurial repositories is the same, except that the wiki lives in the root directory (not wiki/) of `https://wiki.`<b>yourproject</b>`.googlecode.com/hg/`.
 
 Note: The wiki accepts a subset of ISO-639 two letter language codes, where a few of the codes (such as zh_CN) contain locale-specific codes. Such locale-specific codes should use a hyphen (zh-CN) separator. A few example language codes have been specified in the table below.
 
