@@ -21,3 +21,7 @@ You can enter a default push URL in your `hgrc` configuration file, and include 
 If you enter your username as part of the URL, you have to encode the "@" sign as "%40" to avoid confusing Mercurial. If you're on windows, % is an escape character in the command prompt, so you have to encode the "@" sign as "%%40".
 
 The above instructions are only relevant to non-gmail users; gmail users can use the username part of their email address, the part preceding the "@" sign, as their Google Code username.
+
+=== How do I reset my repository? ===
+
+Project owners can click the "reset" link at the bottom of the checkout page. This is useful if you accidentally committed sensitive information to the repository or if you want to push from an unrelated repository.
