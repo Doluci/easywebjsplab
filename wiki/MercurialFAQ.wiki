@@ -25,3 +25,12 @@ The above instructions are only relevant to non-gmail users; gmail users can use
 === How do I reset my repository? ===
 
 Project owners can click the "reset" link at the bottom of the checkout page. This is useful if you accidentally committed sensitive information to the repository or if you want to push from an unrelated repository.
+
+=== Help! I accidentally committed sensitive information to my repository! ===
+
+There is no way to change the contents of a revision without changing the identifier of that revision. So you can't silently change history; the best you can do is convince other project participants to forget about the old revisions and accept your replacement revisions.
+
+With those caveats stated, the basic process is to prepare a new repository locally, reset the repository on Google Code, and push your new repository. The following external pages give some pointers on how to prepare a local repository that eliminates a given sensitive revision or file:
+  * http://mercurial.selenic.com/guide/#removing_history (basic procedure)
+  * http://mercurial.selenic.com/wiki/EditingHistory (advanced procedure using the "mq" extension)
+  * http://mercurial.selenic.com/wiki/TransplantExtension (alternative procedure using the "transplant" command)
