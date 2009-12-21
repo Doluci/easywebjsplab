@@ -4,6 +4,8 @@ Welcome to the What's New page for project hosting on Google Code. Here you'll f
 
 = December 2009 =
 
+== Issue attachment previews for images ==
+
 The Issue Tracker lets you directly view image attachments in the browser without having to download the image. All image attachments also have a thumbnail, making it easy to find the right screenshot within an issue.
 
 = October 2009 =
