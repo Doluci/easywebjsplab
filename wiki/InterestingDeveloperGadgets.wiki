@@ -16,6 +16,15 @@ support group and we would be happy to showcase them. Also see the [http://code.
 
 If you want to put one of these gadgets on your wiki page or even your project homepage, use our new `<wiki:gadget...>` syntax.  Each of the example gadgets below has a snippet you can copy-paste to get started.
 
+== Math ML == 
+You can use a gadget to display a mathematical formula.
+
+*Gadget*
+<wiki:gadget url="http://mathml-gadget.googlecode.com/svn/trunk/mathml-gadget.xml" border="0" up_content="root3x + x^phi + x_1"/>
+
+*Code*
+`<wiki:gadget url="http://mathml-gadget.googlecode.com/svn/trunk/mathml-gadget.xml" border="0" up_content="root3x + x^phi + x_1"/>`
+
 ==Google Code==
 
 You can use a gadget to display any blog that has an Atom or RSS feed.
