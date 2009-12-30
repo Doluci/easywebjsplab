@@ -10,19 +10,39 @@ The Issue Tracker lets you directly view image attachments in the browser withou
 
 = October 2009 =
 
+== New From: address for notification emails ==
+
+Newly created projects will now send notifications from `PROJECTNAME@googlecode.com`.  Existing projects can opt into using the new From: address after updating mailing list configurations.
+
+== Blocked-on can be specified for new issues ==
+
+Project owners and committers can now enter new issues and set the "Blocked on" field in the same step.  This makes it easier to quickly enter work items for yourself and your team when you know that there is a dependency among the tasks.
+
+== Improved notification email threading ==
+
+The notification emails for changes to a given issue, comments on a given wiki page, or code review comments on a given revision, should now thread together in most email clients.
+
 == Issue Tracker Data API ==
 
 The Issue Tracker Data API is a Google Data API that you can use to programmatically add new issues, make changes to existing issues, or simply access issues for your open source project. [http://code.google.com/p/support/wiki/IssueTrackerAPI Learn More].
 
-== User Clones ==
+== User clones ==
 
 Any user can visit any Mercurial repository and create a server-side user clone of that repository, without asking permission from the project owner. These personal user clones can be easily shared with other developers -- who also can make a clone of that clone. [http://googlecode.blogspot.com/2009/10/mercurial-server-side-clone-support-for.html Learn More].
 
 = August 2009 =
 
-== Multiple Repository Support for Mercurial ==
+== Issue label and status value tool-tips ===
 
-Mercurial Projects can now have multiple repositories. These new project repositories can be added through the Source sub-tab under the Administer tabs. Project repositories can be clones of the original default repository.
+When viewing an issue, hovering the mouse over the issue status and labels in the left-hand column now shows a tool-tip with the doc-string set for them under the "Administer" tab.
+
+== Issue list position retained ==
+
+Now when you drill into an issue list to view an issue in detail, and then pop back up to the issue list, you will see the most recently viewed issue highlighted in the list.  This makes it easier to quickly navigate among issues using the `j`, `k`, `Enter`, and `u` keystrokes.
+
+== Multiple repository support for Mercurial ==
+
+Mercurial projects can now have multiple repositories. These new project repositories can be added through the Source sub-tab under the Administer tabs. Project repositories can be clones of the original default repository.
 
 = July 2009 =
 
