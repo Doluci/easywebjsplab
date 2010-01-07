@@ -458,10 +458,10 @@ wiki/
    ja/
       ProjectHistory.wiki
       StyleGuide.wiki
-   zh-CN/
+   zh-Hans/
       ProjectHistory.wiki
       StyleGuide.wiki
-   zh-TW/
+   zh-Hant/
       ProjectHistory.wiki
       StyleGuide.wiki
    ProjectHistory.wiki
@@ -470,7 +470,7 @@ wiki/
 
 Once the files been be submitted to the project's subversion repository, they can now be edited through the wiki's web editor. The process for Mercurial repositories is the same, except that the wiki lives in the root directory (not wiki/) of `https://wiki.`<b>yourproject</b>`.googlecode.com/hg/`.
 
-Note: The wiki accepts a subset of ISO-639 two letter language codes, where a few of the codes (such as zh_CN) contain locale-specific codes. Such locale-specific codes should use a hyphen (zh-CN) separator. A few example language codes have been specified in the table below.
+Note: The wiki accepts a subset of ISO-639 two letter language codes, where a few of the codes (such as zh_Hans) contain locale-specific codes. Such locale-specific codes should use a hyphen (zh-Hans) separator. A few example language codes have been specified in the table below.
 
 <table border=1>
 <tbody><tr>
