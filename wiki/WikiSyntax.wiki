@@ -488,11 +488,11 @@ Note: The wiki accepts a subset of ISO-639 two letter language codes, where a fe
 </tr>
 <tr>
 <td>Chinese (China)</td>
-<td>zh-CN</td>
+<td>zh-Hans</td>
 </tr>
 <tr>
 <td>Chinese (Taiwan)</td>
-<td>zh-TW</td>
+<td>zh-Hant</td>
 </tr>
 <tr>
 <td>Croatian</td>
