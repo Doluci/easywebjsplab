@@ -83,6 +83,9 @@ Most proprietary software projects have funding, and can therefore afford to pay
 == What should I do if somebody took my project's name? ==
 We rely on the goodwill of open source participants to ensure they are the rightful owner or creator of a project name. If you feel that someone has intentionally created a project that uses your existing project's name, first contact the owners of the project and discuss the matter directly with them. If after engaging the owners of the project you are not able to come to a resolution, please contact us via our [http://groups.google.com/group/google-code-hosting?lnk=sg Google Group] or email google-code-hosting@googlegroups.com directly to discuss the situation.
 
+== How do I contact the owners of an existing project? ==
+First, look for a project mailing list on the project's home page, and if one exists, use that. If the project does not have a mailing list, then try contacting the project owners (also listed on the project's home page) directly. If their full usernames are shown, you can email them at USERNAME@gmail.com. Usernames of the form "usern..." can be revealed by solving a CAPTCHA.
+
 == How do I create a project? ==
 A good project starts with a good idea: one that addresses a real need, is feasible and well-scoped, and isn't well covered by existing open source projects. (Before you create a new project, we suggest that you try searching for existing projects on this site and elsewhere on the web. You can often get further faster by helping out with an existing project than by starting one from scratch.) 
 
