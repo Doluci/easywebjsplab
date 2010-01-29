@@ -34,3 +34,11 @@ With those caveats stated, the basic process is to prepare a new repository loca
   * http://mercurial.selenic.com/guide/#removing_history (basic procedure)
   * http://mercurial.selenic.com/wiki/EditingHistory (advanced procedure using the "mq" extension)
   * http://mercurial.selenic.com/wiki/TransplantExtension (alternative procedure using the "transplant" command)
+
+=== Why should I create a server-side clone? ===
+
+Personal user clones are a copy of a project's repository and can be created by anyone that wants to contribute to a project. They are particularly useful because they do not require the project owner's permission, but confer the same abilities that owners have over the project's repository (e.g. commit, push, etc.).
+
+Personal user clones are also useful for publishing changes to a public location and sharing them with other developers, before they are committed to the main project's repository. Once changes in a user clone have been reviewed, they are usually merged back into the mainline project with the aid of the canonical project's contributors.
+
+User clones aren't forks, in the traditional sense, where a fork has little intention to contribute back to the original project. Rather, the entire purpose of a user clone is to allow users to contribute to projects without requiring official commit access permissions. Because mercurial is a distributed (peer-to-peer) version control system, it excels at branching and merging. If the project maintainers like the new code, they just "pull" the changesets from the clone and merge them into an official project repository. It's all much more elegant than emailing patches back and forth, anonymous contributors get to use the same tools as core developers.
