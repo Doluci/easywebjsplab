@@ -1,6 +1,8 @@
 #summary Frequently asked questions about Mercurial.
 #labels Mercurial
 
+<wiki:toc max_depth="1"/>
+
 === Why do I get "HTTP Error 405: Method Not Allowed" from the Mercurial client? ===
 
 {{{
