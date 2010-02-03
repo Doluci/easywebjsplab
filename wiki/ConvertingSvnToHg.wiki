@@ -30,7 +30,7 @@ it's as easy as:
   $ hg push
 }}}
 
-To convert the wiki:
+To convert your wiki:
 {{{
   $ hg clone https://wiki.projectname.googlecode.com/hg hg-client-wiki
   $ cd hg-client-wiki
