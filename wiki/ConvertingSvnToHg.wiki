@@ -30,6 +30,15 @@ it's as easy as:
   $ hg push
 }}}
 
+To convert the wiki:
+{{{
+  $ hg clone https://wiki.projectname.googlecode.com/hg hg-client-wiki
+  $ cd hg-client-wiki
+  $ svn export --force http://projectname.googlecode.com/svn/wiki .
+  $ hg add .
+  $ hg commit -m "Initial import of wiki."
+  $ hg push
+}}}
 
 == Option 2:  Full History Conversion ==
 
