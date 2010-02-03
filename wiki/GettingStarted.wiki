@@ -27,7 +27,7 @@ You can use the functionality under the *Administer* tab to customize your proje
 
 You'll also likely want to set up mailing lists for notifications of commits and issue changes. The emails allow project members and others to keep track of changes to the source code that might affect them. To set up mailing lists, perform the following:
   # If you need to create mailing lists, you may want to use [http://groups.google.com/ Google Groups].
-  # Add `codesite-noreply@google.com` as an allowed poster to all mailing lists that will receive notifications.
+  # Add `(your-project-name)@googlecode.com` as an allowed poster to all mailing lists that will receive notifications.
   # In your project, click the *Administer* tab.
   # Click the *Source* subtab.
   # In the Activity Notifications area, enter mailing lists that will receive notifications of *All commits* and click *Save Changes*.
