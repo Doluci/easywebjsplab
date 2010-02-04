@@ -27,6 +27,16 @@ Each wiki page is stored in a corresponding file in the repository's /wiki direc
 == What types of content is this intended for? ==
 Project roadmaps, how-tos, installation notes, and documentation are great examples of potential wiki pages. Wiki pages are easy for project members to edit quickly and are easier to find than email threads, so use them for documents that your team will refer to and update often.
 
+== Can I download wiki content as HTML? ==
+
+For each page, you can select just part of the page content to view by adding a "show=" parameter to the URL.  For example:
+  * http://code.google.com/p/support/wiki/WikiFAQ?show=content
+  * http://code.google.com/p/support/wiki/WikiFAQ?show=content,nav
+  * http://code.google.com/p/support/wiki/WikiFAQ?show=content,comments
+  * http://code.google.com/p/support/wiki/WikiFAQ?show=nav,content,sidebar
+
+You might also try using this tool: [http://code.google.com/p/google-code-wiki-to-html google-code-wiki-to-html].
+
 == Who can add and edit pages to my wiki? ==
 Only project owners and committers can add and edit wiki pages for a particular project.
 
