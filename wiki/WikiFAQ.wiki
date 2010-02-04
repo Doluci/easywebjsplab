@@ -30,10 +30,10 @@ Project roadmaps, how-tos, installation notes, and documentation are great examp
 == Can I download wiki content as HTML? ==
 
 For each page, you can select just part of the page content to view by adding a "show=" parameter to the URL.  For example:
-  * http://code.google.com/p/support/wiki/WikiFAQ?show=content
-  * http://code.google.com/p/support/wiki/WikiFAQ?show=content,nav
-  * http://code.google.com/p/support/wiki/WikiFAQ?show=content,comments
-  * http://code.google.com/p/support/wiki/WikiFAQ?show=nav,content,sidebar
+  * http://code.google.com/p/support/wiki/Feeds?show=content
+  * http://code.google.com/p/support/wiki/Feeds?show=content,nav
+  * http://code.google.com/p/support/wiki/Feeds?show=content,comments
+  * http://code.google.com/p/support/wiki/Feeds?show=nav,content,sidebar
 
 You might also try using this tool: [http://code.google.com/p/google-code-wiki-to-html google-code-wiki-to-html].
 
