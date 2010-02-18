@@ -213,7 +213,7 @@ please contact us via our [http://groups.google.com/group/google-code-hosting?ln
 
 == I received an email telling me that my project contains malware, what should I do? ==
 
-When we find malware in a project hosted on Google Code, we take down the project and notify you. To have your project republished, you need to remove the malware, then email us at the address given in the email.
+When we find malware in a project hosted on Google Code, we take down the project and notify you. To have your project republished, you need to remove the malware.
 
 Unfortunately, it is very likely that one or more of the machines used by the project developers are infected, and that the malware spread itself to a file in the project's source code repository and/or downloadable files. Therefore, before scrubbing your project, we strongly recommend that you install reputable anti-virus and anti-malware software, and use that to ensure that your machines are all free of malware.
 
