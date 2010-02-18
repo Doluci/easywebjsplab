@@ -211,4 +211,14 @@ Please read the Google Code [http://code.google.com/tos.html Terms of Service], 
 == How do I report abuse of Google Code site? ==
 please contact us via our [http://groups.google.com/group/google-code-hosting?lnk=sg Google Group] or email google-code-hosting@googlegroups.com directly to discuss the situation.
 
+== I received an email telling me that my project contains malware, what should I do? ==
+
+When we find malware in a project hosted on Google Code, we take down the project and notify you. To have your project republished, you need to remove the malware, then email us at the address given in the email.
+
+Unfortunately, it is very likely that one or more of the machines used by the project developers are infected, and that the malware spread itself to a file in the project's source code repository and/or downloadable files. Therefore, before scrubbing your project, we strongly recommend that you install reputable anti-virus and anti-malware software, and use that to ensure that your machines are all free of malware.
+
+Once you have insured that your machines are malware-free and protected, you should do a scan of the files in your source code repository and download area, and delete/clean any files that contain malware. This will ensure both that your project is free of malware, and that you do not risk reinfecting your project at a later date.
+
+When you have cleaned the project, contact us at the address listed in the notification email, and we will republish your project after checking that it is once again free of malware.
+
 _The content on this page created by Google is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License].  User-generated content is not included in this license._
