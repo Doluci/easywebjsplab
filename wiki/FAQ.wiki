@@ -83,6 +83,18 @@ Most proprietary software projects have funding, and can therefore afford to pay
 == What should I do if somebody took my project's name? ==
 We rely on the goodwill of open source participants to ensure they are the rightful owner or creator of a project name. If you feel that someone has intentionally created a project that uses your existing project's name, first contact the owners of the project and discuss the matter directly with them. If after engaging the owners of the project you are not able to come to a resolution, please contact us via our [http://groups.google.com/group/google-code-hosting?lnk=sg Google Group] or email google-code-hosting@googlegroups.com directly to discuss the situation.
 
+== What should I do if I wish to take over a project that appears abandoned by its owners? ==
+In these cases we take a look at the project and ask ourselves some questions:
+  # How long has the project lay fallow? If less than 6 months, don't be optimistic about being assigned ownership of the project. 
+  # Is there something "fishy" about the circumstances of the request? People squat project names much as they do DNS names. 
+  # Is there code in that project? If so, it is much less likely that we will reassign ownership of that project to you except for the purpose of continuing development of that code.
+  # Is the project scheduled for deletion? If so, we'll likely just give it to you.
+  # Is the project you wish to take over a spam trap or hosting malware or simply not open source? 
+  # Have you made an effort in good faith to contact the current owners? What, if anything, did they have to say in reply?
+  # Has one of the original developers died or otherwise dropped off the grid in some fashion that you can describe to us?
+  # Have you hosted malware, spam or non-open source content on Project Hosting before? If so, don't be optimistic that we'll cooperate. 
+Once you have considered these items and if you still wish to attempt to take ownership of a project or its name, please email us at google-code-hosting@googlegroups.com and let us know about it (include a description of how and when you attempted to contact the project's current owners). We usually bring these issues to resolution in a couple days. 
+
 == How do I contact the owners of an existing project? ==
 First, look for a project mailing list on the project's home page, and if one exists, use that. If the project does not have a mailing list, then try contacting the project owners (also listed on the project's home page) directly. If their full usernames are shown, you can email them at USERNAME@gmail.com. Usernames of the form "usern..." can be revealed by solving a CAPTCHA.
 
