@@ -16,4 +16,4 @@ Mercurial, like Git and Bazaar, is a DVCS that enables developers to work offlin
   * Mercurial makes it easier for outside contributors to contribute to projects, as cloning and merging of remote repositories is very easy.
   * Large projects with multiple developers and external contributors benefit the most from Mercurial because of the ease of branching and tagging. Smaller projects typically only experience the benefit of being able to work offline.
 
-For more information about Mercurial and why Joel Spolsky thinks you should use it, take a look at [http://hginit.com].
+For a great (and fun) tutorial on Mercurial, take a look at [http://hginit.com].
