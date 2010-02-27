@@ -15,3 +15,5 @@ Subversion is a well-known centralized VCS and, arguably, the most commonly used
 Mercurial, like Git and Bazaar, is a DVCS that enables developers to work offline and define more complex workflows such as peer-to-peer pushing/pulling of code.
   * Mercurial makes it easier for outside contributors to contribute to projects, as cloning and merging of remote repositories is very easy.
   * Large projects with multiple developers and external contributors benefit the most from Mercurial because of the ease of branching and tagging. Smaller projects typically only experience the benefit of being able to work offline.
+
+For more information about Mercurial and why Joel Spolsky thinks you should use it, take a look at hginit.com.
