@@ -137,7 +137,7 @@ If you get a message such as the following:
 
 ...you should check that the "fingerprint" or "SHA1 fingerprint" given for the certificate is:
 
-{{{da:8f:c8:9f:3d:a9:e5:ab:c3:f5:f0:20:36:7c:df:b9:52:cc:bf:b3}}}
+{{{d0:6a:9c:61:00:b6:ea:a7:72:5d:c3:42:d8:f4:8b:9c:06:fe:bd:58}}}
 
 If it is not, please contact us via our [http://groups.google.com/group/google-code-hosting?lnk=sg Google Group] or email google-code-hosting@googlegroups.com directly to discuss the situation.
 
