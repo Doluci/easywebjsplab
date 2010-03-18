@@ -147,6 +147,6 @@ Hosting your code on Google Code doesn't change ownership of the code in any way
 == How do I set the cache headers for Subversion? ==
 
 Cache headers for a page hosted in Subversion can be controlled by setting the google-cache-control:max-age [http://svnbook.red-bean.com/nightly/en/svn-book.html#svn.ref.properties property]. Simply set the value of google-cache-control to the number of seconds that the item should be cached. The default
-is 60s. To disable caching, set the property to 0.
+is 60 seconds. To disable caching, set the property to 0.
 
 For gadgets, we still recommend using the [http://code.google.com/p/support/wiki/WorkingWithGoogleGadgets#Hosting_gadgets_on_Google_Code Gadget cache].
