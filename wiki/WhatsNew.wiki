@@ -3,6 +3,18 @@
 
 Welcome to the What's New page for project hosting on Google Code. Here you'll find descriptions of our latest improvements to our collaborative development environment.
 
+= April 2010 =
+
+== UI updates ==
+
+The project search page now looks consistent with other Google search properties and the project creation link is easier to find. Project homepages were also updated to make all the metadata 'bubbles' consistent. There is now an activity indicator that makes it possible to quickly see how active a project is. 
+
+= March 2010 =
+
+== New Subversion service ==
+
+http://googlecode.blogspot.com/2010/03/faster-subversion-hosting.html
+
 = December 2009 =
 
 == Issue attachment previews for images ==
