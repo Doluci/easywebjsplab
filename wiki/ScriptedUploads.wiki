@@ -18,13 +18,16 @@ If you are working behind a proxy, you may have to setup your environment before
 
 UNIX
 
+<pre>
 export http_proxy=http://proxy_host:proxy_port
 export https_proxy=http://proxy_host:proxy_port
+</pre>
 
 Windows
 
+<pre>
 set http_proxy=http://proxy_host:proxy_port
 set https_proxy=http://proxy_host:proxy_port
-
+</pre>
 
 _The content on this page created by Google is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License].  User-generated content is not included in this license._
