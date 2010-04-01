@@ -151,6 +151,6 @@ is 60 seconds. To disable caching, set the property to 0.
 
 For gadgets, we still recommend using the [http://code.google.com/p/support/wiki/WorkingWithGoogleGadgets#Hosting_gadgets_on_Google_Code Gadget cache].
 
-== How do I use Subversion when behind a proxy == 
+== How do I use Subversion when behind a proxy? == 
 
 http://subversion.apache.org/faq.html#proxy
