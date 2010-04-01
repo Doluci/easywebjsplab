@@ -12,4 +12,19 @@ We've dropped a handy script called [http://support.googlecode.com/svn/trunk/scr
 
 Google Code user Jonathan Fuerth has graciously written an ant task to script uploads to your project at Google Code.  You can get it from (where else?) the [http://code.google.com/p/ant-googlecode/ ant-googlecode] project on Google Code.  The ant task is available from here: http://ant-googlecode.googlecode.com/svn/trunk/
 
+== Working behind a proxy? ==
+
+If you are working behind a proxy, you may have to setup your environment before you can use upload.py. For example:
+
+UNIX
+
+export http_proxy=http://proxy_host:proxy_port
+export https_proxy=http://proxy_host:proxy_port
+
+Windows
+
+set http_proxy=http://proxy_host:proxy_port
+set https_proxy=http://proxy_host:proxy_port
+
+
 _The content on this page created by Google is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License].  User-generated content is not included in this license._
