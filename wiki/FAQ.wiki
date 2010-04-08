@@ -217,7 +217,7 @@ the site matures.
 == I found a project that's not open source. Who do I notify? ==
 please contact us via our [http://groups.google.com/group/google-code-hosting?lnk=sg Google Group] or email google-code-hosting@googlegroups.com directly to discuss the situation.
 
-== How do I report a DMCA violation? ==
+== How do I report a copyright or intellectual property violation? ==
 Please read the Google Code [http://code.google.com/tos.html Terms of Service], then follow the instructions on our [http://www.google.com/dmca.html DMCA page].
 
 == How do I report abuse of Google Code site? ==
