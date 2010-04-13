@@ -29,7 +29,7 @@ Mercurial now rejects pushes of corrupted bundles. This protects your hosted rep
 = Jan 2010 =
 
 == Mercurial upgraded to 1.4 ==
-Mercurial is now now compatible with wire protocol changes with 1.3. Consequently, Project Hosting on Google Code now supports Mercurial 1.4.
+Project Hosting on Google Code now supports Mercurial v1.4.
 
 = December 2009 =
 
