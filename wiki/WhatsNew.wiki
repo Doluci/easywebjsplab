@@ -9,9 +9,9 @@ Welcome to the What's New page for project hosting on Google Code. Here you'll f
 
 Updated the algorithm for ranking projects in project search. Made the UI for project search look consistent with other Google properties. Updated the project search results page to show the project logo and last updated information. Fixed an issue where we were showing wiki markup in project search results.
 
-== UI updates and Activity indicator ==
+== Activity Indicator ==
 
-The project search page now looks consistent with other Google search properties and the project creation link is easier to find. Project homepages were also updated to make all the metadata 'bubbles' consistent. There is now an activity indicator that makes it possible to quickly see how active a project is. 
+Project homepages were updated to make all the metadata 'bubbles' look consistent. There is now an activity indicator that makes it possible to quickly see how active a project is. 
 
 = March 2010 =
 
