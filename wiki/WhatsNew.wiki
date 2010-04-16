@@ -7,7 +7,7 @@ Welcome to the What's New page for project hosting on Google Code. Here you'll f
 
 == Updated Project Search ==
 
-Updated the algorithm for ranking projects in project search. Made the UI for project search look consistent with other Google properties. Updated the project search results page to show the project logo and last updated information. Fixed an issue where we were showing wiki markup in search results.
+Updated the algorithm for ranking projects in project search. Made the UI for project search look consistent with other Google properties. Updated the project search results page to show the project logo and last updated information. Fixed an issue where we were showing wiki markup in project search results.
 
 == UI updates and Activity indicator ==
 
