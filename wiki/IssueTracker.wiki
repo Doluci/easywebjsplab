@@ -100,7 +100,7 @@ other project members on the CC line.  Each issue has an optional
 status and may have some labels, these are discussed below.
 
 Users can add comments to an issue to provide additional information
-that could be useful in resolving it. When a project owner or commtter adds a
+that could be useful in resolving it. When a project owner or committer adds a
 comments, he/she may also update the issue fields.
 
 
