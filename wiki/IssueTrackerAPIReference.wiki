@@ -30,8 +30,6 @@ http://code.google.com/feeds/issues/p/PROJECT_NAME/issues/ISSUE_ID/comments/full
 
 The Issue Tracker Data API supports the following standard <a href="http://code.google.com/apis/gdata/reference.html#Queries">Google Data API query parameters for the Issue feed</a>:
 
-*If the info here is very simple/straightforward, then delete the table and just describe the parameter support in text.* 
-
 <table border=1 cellspacing=0>
   <thead>
     <tr>
