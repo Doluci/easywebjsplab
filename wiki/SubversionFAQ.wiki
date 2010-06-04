@@ -7,9 +7,6 @@ We currently use Subversion 1.6, made available via WebDAV.
 
 Anonymous checkouts can be done via `http://`, while developers must use authenticated `https://` to commit changes.
 
-== Do you have support for ViewVC or similar repository-browsing tools? ==
-Support for tools such as ViewVC isn't implemented yet, but we do provide our own web-based source browsing. Source browsing can be accessed under the "Source" tab for each project, under the "Browse" sub-tab.
-
 == How can I make SVN serve HTML and images with the correct Content-Type? ==
 You need to tell subversion what mime-type to use.  Just use the command:
 {{{
@@ -61,9 +58,6 @@ When prompted for your password, use your googlecode.com password, which can be 
 
 Running svnsync on a large repository will take a significant amount of time. If you are disconnected during the process, you may see the error message "svnsync: Couldn't get lock on destination repos after 10 attempts". If this happens, you can remove the lock yourself; see the "Locks" section of [http://svn.collab.net/repos/svn/trunk/notes/svnsync.txt svnsync.txt].
 
-== How can I import a CVS repository into my project? ==
-The [http://cvs2svn.tigris.org/ cvs2svn] tool is a well-established tool to convert CVS history to Subversion history. Use it to create a Subversion repository, and then use the svnsync to push the Subversion history up to your Google Code repository. (See "How do I import existing Subversion history?")
-
 == How do I download my Subversion history? ==
 To download the history of your Google Code repository, use the svnsync tool that ships with Subversion 1.4 or later. Run 'svnsync help' to read more about this tool. Note that your local repository must have an executable 'pre-revprop-change' hook script which allows revprop changes (or at least those of the form '`svnsync*`'.) Here's a sample transcript that demonstrates how you can pull history from your Google Code repository to a local repository: 
 
@@ -84,13 +78,17 @@ To download the history of your Google Code repository, use the svnsync tool tha
 After you've done this once, you can continue to run the last 'svnsync sync' command to periodically pull down the latest commits and keep your local mirror up-to-date.
 
 == How much disk space can my repository use? ==
-We're offering plenty of space for storing source code under revision control. We start new projects with a 1GB quota. That's enough to host the vast majority of open source projects. We're also willing to work with projects that need more space.
+We're offering plenty of space for storing source code under revision control. We start new projects with a 2GB quota. That's enough to host the vast majority of open source projects. We're also willing to work with projects that need more space.
 
 == Where do I get a copy of Subversion? ==
 Just visit the [http://subversion.apache.org/packages.html packages] page on [http://subversion.apache.org/].
 
 == Where can I get more info about using Subversion? ==
 You might want to read the [http://svnbook.red-bean.com/ Subversion Book].
+
+Forums/Community:
+  * http://subversion.wandisco.com/
+  * http://www.svnforum.org/
 
 == Can I use Microsoft Visual Studio with Google Code? ==
 Yes. There are a number of Windows clients for Subversion: you can use the command-line client, though TortoiseSVN is a very popular client that integrates Subversion functionality directly into Windows Explorer. Another possibility is to use [http://ankhsvn.tigris.org/ AnkhSVN], which is a Visual Studio plug-in that offers Subversion access within the IDE.
