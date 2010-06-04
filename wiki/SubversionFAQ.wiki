@@ -87,7 +87,11 @@ After you've done this once, you can continue to run the last 'svnsync sync' com
 We're offering plenty of space for storing source code under revision control. We start new projects with a 1GB quota. That's enough to host the vast majority of open source projects. We're also willing to work with projects that need more space.
 
 == Where do I get a copy of Subversion? ==
-Just visit the downloads page on [http://subversion.tigris.org/].
+Just visit the downloads page on [http://subversion.apache.org/].
+
+Subversion packages:
+  * http://wandisco.com/subversion/os/downloads
+  * http://www.open.collab.net/downloads/subversion/
 
 == Where can I get more info about using Subversion? ==
 You might want to read the [http://svnbook.red-bean.com/ Subversion Book].
