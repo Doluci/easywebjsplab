@@ -29,6 +29,16 @@ You can now star wiki pages and downloads, and later search among just the ones 
 
 Now the autocomplete menu shows a scrollbar if there are a large number of autocomplete options.  Previously, it just rendered a huge menu on the page which was likely to require the user to scroll down the whole page.
 
+= May 2010 =
+
+== Issue Notification reasons ==
+
+In issue notification email messages, the footer now includes a line that explains specifically why the message was delivered to you.  E.g., because you are the issue owner, because you were explicitly CC'd on the issue, or because you starred the issue.  If no reason is given, the message was sent to the project's all-issue-changes address, which is usually a mailing list.
+
+== Comment pagination on wiki and issue pages ==
+
+Some issues and wiki pages have a huge number of comments.  We now paginate the comments so that only the 500 most-recent comments are shown initially.
+
 = April 2010 =
 
 == Updated Project Search ==
