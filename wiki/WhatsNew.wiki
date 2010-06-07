@@ -3,6 +3,32 @@
 
 Welcome to the What's New page for project hosting on Google Code. Here you'll find descriptions of our latest improvements to our collaborative development environment.
 
+= June 2010 =
+
+== Revised issue and source code word-wrapping ==
+
+Now, if you enter long-lines in an issue description or comment, they will be rendered as long lines in the user's browser, but still retain indentation and other spacing.  Likewise, long source code lines are now word-wrapped to the browser window width rather than causing the page to have a horizontal scrollbar.  (Note: IE users will see something close to the old behavior.)
+
+== Source code review icon ==
+
+Users have always been able to double-click to add a review comment to any line of source code.  Now that functionality is more obvious because there is also a small "add a comment" icon at the far left-hand of the source code line under the mouse.
+
+== Gray for closed issues and deprecated downloads ==
+
+To give a more clear visual indication that an issue is closed or a download is deprecated, we now use a gray heading background color on those pages rather than the usual light blue.
+
+== Wiki section header links ==
+
+Now when you roll your mouse over wiki section headings, you will see a small paragraph marker symbol appear.  That symbol is linked to that specific anchor point on the page.  So, copying the link or bookmarking it will bring you directly back to that section of the page.
+
+== Stars on wiki pages and downloads ==
+
+You can now star wiki pages and downloads, and later search among just the ones that you have starred.  Starring also helps you notice items that you care about in the list views.
+
+== Better support for projects with a lot of labels ==
+
+Now the autocomplete menu shows a scrollbar if there are a large number of autocomplete options.  Previously, it just rendered a huge menu on the page which was likely to require the user to scroll down the whole page.
+
 = April 2010 =
 
 == Updated Project Search ==
