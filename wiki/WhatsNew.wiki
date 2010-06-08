@@ -37,6 +37,10 @@ Now the autocomplete menu shows a scrollbar if there are a large number of autoc
 
 You can now see how much quota is allocated to your project in one location. This can be found under the Administer -> Advanced sub-tab.
 
+== Use your Google password for Mercurial, instead of your Google Code password ==
+
+You can now choose to use your Google password for Mercurial clients. This setting can be set on your settings page at: https://code.google.com/hosting/settings
+
 = May 2010 =
 
 == Issue Notification reasons ==
