@@ -33,7 +33,7 @@ You can now star wiki pages and downloads, and later search among just the ones 
 
 Now the autocomplete menu shows a scrollbar if there are a large number of autocomplete options.  Previously, it just rendered a huge menu on the page which was likely to require the user to scroll down the whole page.
 
-== Consolidated Quota ==
+== View project quota in one location (e.g. Issue Attachments, Downloads, VCS) ==
 
 You can now see how much quota is allocated to your project in one location. This can be found under the Administer -> Advanced sub-tab.
 
