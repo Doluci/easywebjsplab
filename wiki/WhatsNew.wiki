@@ -39,7 +39,7 @@ You can now see how much quota is allocated to your project in one location. Thi
 
 == Use your Google password for Mercurial, instead of your Google Code password ==
 
-You can now choose to use your Google password for Mercurial clients. This setting can be set on your settings page at: https://code.google.com/hosting/settings
+You can now choose to use your Google password for Mercurial clients. This setting can be set on your [https://code.google.com/hosting/settings settings] page under User Preferences -> Security.
 
 = May 2010 =
 
