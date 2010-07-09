@@ -124,8 +124,8 @@ Note: All the examples are for [http://code.google.com/p/google-web-toolkit Goog
 
 *Gadget*
 
-<wiki:gadget url="http://www.google.com/moderator/static/moderator-embed-gadget.xml" height="800" width="900" up_url="http://www.google.com/moderator/#15/e=6a0&t=6a0.40&f=6a0.8cca" up_sort="HOT" up_hl="en" /> 
+<wiki:gadget url="http://www.google.com/moderator/static/moderator-embed-gadget.xml" height="400" width="900" up_url="http://www.google.com/moderator/#15/e=1c1a0&t=1c1a0.40" up_sort="HOT" up_hl="en" /> 
 
 *Code*
 
-`<wiki:gadget url="http://www.google.com/moderator/static/moderator-embed-gadget.xml" height="800" width="900" up_url="http://www.google.com/moderator/#15/e=6a0&t=6a0.40&f=6a0.8cca" up_sort="HOT" up_hl="en" />`
+`<wiki:gadget url="http://www.google.com/moderator/static/moderator-embed-gadget.xml" height="400" width="900" up_url="http://www.google.com/moderator/#15/e=1c1a0&t=1c1a0.40" up_sort="HOT" up_hl="en" />`
