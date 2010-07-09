@@ -227,5 +227,6 @@ There is also a short hand wiki tag for embedding videos. For more information, 
 [http://www.google.com/moderator Google Moderator] allows users to submit feedback and vote on feedback from others.  You can use it as a way of collecting basic input beyond the issue tracker.  [http://www.google.com/moderator/#13 Create a series] for your project first, and then put the URL of that series in the gadget code:
 
 {{{
-<wiki:gadget url="http://www.google.com/moderator/static/moderator-embed-gadget.xml" height="800" width="900" up_url="http://www.google.com/moderator/#15/e=6a0&t=6a0.40&f=6a0.8cca" up_sort="HOT" up_hl="en" /> 
+<wiki:gadget url="http://www.google.com/moderator/static/moderator-embed-gadget.xml" 
+height="800" width="900" up_url="http://www.google.com/moderator/#15/e=6a0&t=6a0.40&f=6a0.8cca" up_sort="HOT" up_hl="en" /> 
 }}}
