@@ -118,3 +118,14 @@ Note: All the examples are for [http://code.google.com/p/google-web-toolkit Goog
 *Code*
 
 `<wiki:gadget url="http://www.ohloh.net/p/gwt/widgets/project_partner_badge.xml" height="55" border="0" />`
+
+===Google Moderator===
+[http://www.google.com/moderator Google Moderator] allows users to submit feedback and vote on feedback from others.  You can use it as a way of collecting basic input beyond the issue tracker.  [http://www.google.com/moderator/#13 Create a series] for your project first, and then put the URL of that series in the gadget code:
+
+*Gadget*
+
+<wiki:gadget url="http://www.google.com/moderator/static/moderator-embed-gadget.xml" height="800" width="900" up_url="http://www.google.com/moderator/#15/e=6a0&t=6a0.40&f=6a0.8cca" up_sort="HOT" up_hl="en" /> 
+
+*Code*
+
+`<wiki:gadget url="http://www.google.com/moderator/static/moderator-embed-gadget.xml" height="800" width="900" up_url="http://www.google.com/moderator/#15/e=6a0&t=6a0.40&f=6a0.8cca" up_sort="HOT" up_hl="en" />`
