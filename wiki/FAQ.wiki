@@ -177,9 +177,6 @@ Simply configure your mailing list to accept posts from PROJECTNAME@googlecode.c
 
 = Other Questions =
 
-== Will my project appear in Google Web Search? ==
-At the moment, no. It will only appear in the search results of the search box at [http://code.google.com]. In the future, however, your project is likely to appear in Google's main index.
-
 == Will hosting my project here improve its PageRank? ==
 No. Your PageRank will only improve if other websites think your project is important and link to it.
 
