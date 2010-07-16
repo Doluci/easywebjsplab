@@ -3,6 +3,21 @@
 
 Welcome to the What's New page for project hosting on Google Code. Here you'll find descriptions of our latest improvements to our collaborative development environment.
 
+= July 2010 =
+
+== Live wiki preview ==
+
+Create or edit a wiki page,  press the "Preview" button, keep on editing.  Notice anything awesome happening?  Yep, the preview now updates every couple of seconds as you type.
+
+== Suggestions for search terms ==
+
+Now when you search issues, downloads, or wiki pages, there is an auto-complete menu that helps you enter special search terms.  For example, type "med" and you will see an auto-complete option for "Priority=Medium".
+
+== Auto-complete for project labels ==
+
+When creating a project or editing the labels of an existing product, we now show auto-complete options for some of our most commonly used labels.  This helps save you keystrokes, but more importantly it helps everyone use the exact same label spelling for things like programming language names or the widely used libraries.
+
+
 = June 2010 =
 
 == View link for textual issue attachments ==
