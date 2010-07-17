@@ -17,6 +17,9 @@ Now when you search issues, downloads, or wiki pages, there is an auto-complete 
 
 When creating a project or editing the labels of an existing product, we now show auto-complete options for some of our most commonly used labels.  This helps save you keystrokes, but more importantly it helps everyone use the exact same label spelling for things like programming language names or widely used libraries.
 
+== Google Analytics integration with downloads ==
+
+Whenever a user now clicks to download a file through the web UI, a Google Analytics event is triggered. This will help project owners keep track of how many times the download was clicked to start downloading. For more information see the [http://code.google.com/p/support/wiki/DownloadsFAQ?ts=1279329591&updated=DownloadsFAQ#Can_Google_Analytics_be_used_to_track_downloads? Download FAQ]
 
 = June 2010 =
 
