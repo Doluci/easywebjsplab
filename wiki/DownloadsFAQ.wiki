@@ -43,3 +43,13 @@ Project Hosting on Google Code does not support the hosting of distros (ISOs, CD
 This is because distros really need a different set of tools from what we offer for software development. It is an area where we do not have good tools and think that developing such tools would be a distraction from our main [http://code.google.com/p/support/wiki/MakingHostingBetter objectives].
 
 If you would like to see the Project Hosting team focus on improving support for hosting distros, please star Issue 3148.
+
+== Can Google Analytics be used to track downloads? ==
+
+Yes. Once you have set your Google Analytics account in the Administer -> Project Metadata tab, Google Analytics events will be generated every time the download is clicked on the web interface. As Google Analytics is only meant to track events on a web page, other means of downloading the file will not generate an event. The event generated for tracking is as follows.
+
+  * *Category:* 'Download - Downloaded'
+  * *Action:* Url
+  * *Label:* Labels
+
+For more information on event tracking, see the Google Analytics page on [http://code.google.com/apis/analytics/docs/tracking/asyncTracking.html Event Tracking].
