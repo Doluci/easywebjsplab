@@ -46,7 +46,7 @@ If you would like to see the Project Hosting team focus on improving support for
 
 == Can Google Analytics be used to track downloads? ==
 
-Yes. Once you have set your Google Analytics account in the Administer -> Project Metadata tab, Google Analytics events will be generated every time the download is clicked on the web interface. As Google Analytics is only meant to track events on a web page, other means of downloading the file will not generate an event. The event generated for tracking is as follows.
+Yes. Once you have set your Google Analytics account in the Administer -> Project Metadata tab, Google Analytics events will be generated every time a download is clicked on the web interface. As Google Analytics is only meant to track events on a web page, other means of downloading the file will not generate an event. The event generated for tracking is as follows.
 
   * *Category:* 'Download - Downloaded'
   * *Action:* Url
