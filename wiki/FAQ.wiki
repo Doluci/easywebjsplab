@@ -59,12 +59,6 @@ Google Code will have lots of key features at launch, but we may not have all fe
 == Are there any restrictions on who can use the site? ==
 Just a couple. You'll need to be in a country where Google is able to conduct business, and your project needs to be open source.
 
-== Do I need to have a Gmail account to start a project? ==
-No, a Gmail account is no longer required to create a project, though you will need a Google Account. If you don't have a Google Account already, you can [http://www.google.com/accounts/NewAccount?continue=http://code.google.com/hosting/faq.html create one now].
-
-== Do I need to have a Gmail account to participate in a project? ==
-No authentication is required to browse project pages or issues, or to check out source code. To create or comment on an issue, though, you'll need to be logged in to your Google Account. To manage issue metadata or commit to a project's Subversion repository, you'll need to be logged in to your Google Account and have either an owner or a committer role.
-
 == Are you going to put ads on my project page? ==
 No. Ads aren't part of Google Code at this time.
 
@@ -107,6 +101,55 @@ If you're ready to start your own project, you'll need to write a description of
 One of the project owners must use the project administration page to add your Google account email address to the project.
 
 Most projects have mailing lists that the developers use to discuss the project. To become a developer, first participate on the mailing list by showing your interest in the project and your ability to help the project. Then, ask the project owners to make you a member of the project.
+
+----
+
+= Accounts =
+
+== Do I need to have a Gmail account to start a project? ==
+No, a Gmail account is no longer required to create a project, though you will need a Google Account. If you don't have a Google Account already, you can [http://www.google.com/accounts/NewAccount?continue=http://code.google.com/hosting/faq.html create one now].
+
+== Do I need to have a Gmail account to participate in a project? ==
+No authentication is required to browse project pages or issues, or to check out source code. To create or comment on an issue, though, you'll need to be logged in to your Google Account. To manage issue metadata or commit to a project's Subversion repository, you'll need to be logged in to your Google Account and have either an owner or a committer role.
+
+== Multiple sign-in ==
+
+Many users have multiple Google Accounts.  It has always been possible
+to switch between accounts by signing out of one account and then signing in
+to another.  Now there is an easier way to switch between your
+accounts called "mulitple sign-in."
+[http://www.google.com/support/accounts/bin/topic.py?hl=en&topic=28776 Learn more].
+
+First, you must enable multiple sign-in for each account. Then, when
+you are signed in, you will see a small triangle after your email
+address in the top-right corner of the web page. Clicking that opens a
+menu that lists your signed-in accounts, allows you to make any
+signed-in account the active account, and allows you to sign in to another
+account.  The "Sign out" link signs you out of all accounts.
+
+Your choice of active account on code.google.com is
+distinct from any other Google service.  For example, if you signed in
+with accounts A, B, and C, and you made B the active account on
+code.google.com, that does not affect which account is active in
+Gmail.
+
+Your choice of active account affects all tabs that you have open in
+that browser on code.google.com, not just the tab where you made the
+choice.  This behavior is similar to that of Google Sites, but different from Gmail, Google Calendar, and Google Docs.
+
+There are currently two known problems with multiple sign-in on
+code.google.com:
+
+1. Our downloads server does not yet handle multiple sign-in.  It will
+always treat an uploaded file as coming from the first account that
+you signed in to.  If you signed into another account and then find
+that your upload is denied, try signing out of all accounts and
+signing in to only the one account that you want to use to do the
+upload.
+
+2. Some projects may include gadgets on their project home page or
+wiki pages. Gadgets will only consider the first account that you
+signed into.
 
 ----
 
