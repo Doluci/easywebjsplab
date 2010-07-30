@@ -117,7 +117,7 @@ No authentication is required to browse project pages or issues, or to check out
 Many users have multiple Google Accounts.  It has always been possible
 to switch between accounts by signing out of one account and then signing in
 to another.  Now there is an easier way to switch between your
-accounts called "mulitple sign-in."
+accounts called "multiple sign-in."
 [http://www.google.com/support/accounts/bin/topic.py?hl=en&topic=28776 Learn more].
 
 First, you must enable multiple sign-in for each account. Then, when
