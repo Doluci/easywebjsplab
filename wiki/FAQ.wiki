@@ -155,8 +155,8 @@ signed into.
 
 = Hosted Tools =
 
-== Why do you only offer a small set of licenses? ==
-The open source community has been flooded with lots of nearly identical licenses. We'd like to see projects standardize on the most popular, time-tested ones. The selected licenses offer diversity to meet most developer needs.
+== Which licenses can be used? ==
+The open source community has been flooded with lots of nearly identical licenses. We'd like to see projects standardize on the most popular, time-tested ones. For that reason, we are only offering to host projects that use one of the licenses listed on our project creation page.  The offered licenses offer enough diversity to meet most developer needs, while minimizing license proliferation.  
 
 == How can I select a license other than the ones provided? ==
 At this time, we offer only the licenses listed.
