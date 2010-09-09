@@ -165,7 +165,31 @@ At this time, we offer only the licenses listed.
 At this time, we offer single licenses only.
 
 == Can I host code that I have placed in the public domain? ==
-The concept of "public domain" is actually a lot more complicated than most people realize.  Holding copyright and using a (permissive) licence is almost always the right choice. In general, we do not offer to host projects with source code in the public domain. However, if you can _only_ release your code as public domain, and you are sure that you can legally do so, please [http://code.google.com/p/support/issues/entry enter an issue] for us to review your request and create the project for you.
+
+Many people are attracted to the idea of releasing code in the
+"public domain" -- that is, they seek to denounce their personal
+copyright on the code and donate their work to the world at large.
+
+Unfortunately, the concept of public domain is actually a lot more
+complicated than most people realize.  First of all, some countries
+simply don't recognize the renunciation of copyright (such as France).
+Such countries will still consider you the author and copyright holder
+no matter what you do.  Furthermore, it's somewhat risky to release
+code without explicitly disclaiming liability or warranty; you're
+potentially opening yourself to lawsuits from accidental damage that
+may result from somebody using your software.
+
+Instead of releasing into public domain, it's almost always a better
+choice to retain your copyright and release under a minimalist,
+permissive open source license such as the MIT License.  The MIT
+license allows people to do absolutely anything they want with your
+software, while still disclaiming liability and warranty.
+
+There are certain situations, however, where a public domain license
+is an absolute requirement.  For example, some government institutions
+require (by law) that all code be released into the public domain.  If
+you fall into this class, please [http://code.google.com/p/support/issues/entry enter an issue] in our public
+issue-tracker so we can review your request.
 
 == Is my data safe? ==
 Yes. Your data is hosted on Google's infrastructure in Google's datacenters, ensuring a high level of reliability and redundancy.
