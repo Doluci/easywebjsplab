@@ -1,7 +1,19 @@
 #summary Announcements of the latest project hosting features
 #labels Restrict-AddWikiComment-Commit,Featured
 
-Welcome to the What's New page for project hosting on Google Code. Here you'll find descriptions of our latest improvements to our collaborative development environment.
+Welcome to the What's New page for Google Project Hosting. Here you'll find descriptions of our latest improvements to our collaborative development environment.
+
+= September 2010 =
+
+=== Comments by project members highlighted ===
+
+Now when you view issues, wiki pages, or code reviews, comments made by project members will have the words "project member" in front of the user name.  This helps to identify the more authoritative comments and responses in what can sometimes be very long lists of comments.
+
+=== New links to reset repos ===
+
+Users have always been able to reset their repos via the "Checkout" page, but now they can also do it via the "Administer" > "Source" subtab.
+
+
 
 = July 2010 =
 
