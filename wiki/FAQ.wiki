@@ -156,10 +156,11 @@ signed into.
 = Hosted Tools =
 
 == Which licenses can be used? ==
-The open source community has been flooded with lots of nearly identical licenses. We'd like to see projects standardize on the most popular, time-tested ones. For that reason, we are only offering to host projects that use one of the licenses listed on our project creation page.  The offered licenses offer enough diversity to meet most developer needs, while minimizing license proliferation.  
+The open source community has been flooded with lots of nearly identical licenses. We'd like to see projects standardize on the most popular, time-tested ones. For that reason, we encourage projects that we host to use one of the licenses listed on our project creation page.  The offered licenses offer enough diversity to meet most developer needs, while minimizing license proliferation.
 
 == How can I select a license other than the ones provided? ==
-At this time, we offer only the licenses listed.
+If for some reason, your project cannot use one of the ones listed, 
+there is an option in the license selector to allow the use other OSI approved licenses.  Simply select “Other Open Source” and indicate in your LICENSING, COPYING or similar file which license you are using.
 
 == How can I choose two licenses for my dual-licensed project? ==
 At this time, we offer single licenses only.
