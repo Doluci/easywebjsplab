@@ -75,8 +75,28 @@ Nope. Open source projects only.
 Most proprietary software projects have funding, and can therefore afford to pay for commercially offered development tools and environments. The goal of hosting on Google Code is to promote healthy open source development by offering hosted tools that most open source projects can't afford.
 
 == What should I do if somebody took my project's name? ==
-We rely on the goodwill of open source participants to ensure they are the rightful owner or creator of a project name. If you feel that someone has intentionally created a project that uses your existing project's name, first contact the owners of the project and discuss the matter directly with them. If after engaging the owners of the project you are not able to come to a resolution, you're welcome to contact us via our public [http://groups.google.com/group/google-code-hosting?lnk=sg Google Group] support list to discuss the situation.  Note, however, that as a matter of policy, Google is not in the business of adjudicating who has the right to a name;  you're best off finding a lawyer who can talk to you about trademark issues.  Google will only take down projects in response to legal action, or if the project is clearly in violation of our terms of service (not open source, malware, etc.) 
 
+Project names are assigned as projects are created on a
+first-come-first-served basis.
+
+If you feel that someone has created a project that uses your
+preferred project name, first please consider using a more specific
+project name that includes more information about your project. Short
+names can seem to be the most desirable to project owners, but they
+are often jargon or acronyms that actually provide the no useful
+information to potential users and contributors.  If you are stuck
+with a contentious name, please contact  the owners of the project and
+discuss the matter directly with them. We rely on the spirit of
+cooperation of open source participants to work out cases where two
+groups want the same project name.
+
+If after engaging the owners of the project you are not able to come
+to a resolution, you're welcome to contact us via our public Google
+Group support list to discuss the situation. However, please
+understand that Google is not in a position to decide who has the
+right to a name.  In general, Google will not take down projects due
+to naming conflicts, unless doing so is legally required, or if the
+project is clearly in violation of our terms of service.
 
 == What should I do if I wish to take over a project that appears abandoned by its owners? ==
 In these cases we take a look at the project and ask ourselves some questions:
