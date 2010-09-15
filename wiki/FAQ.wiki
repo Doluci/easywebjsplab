@@ -219,7 +219,7 @@ Yes. Your data is hosted on Google's infrastructure in Google's datacenters, ens
 == How do I get a copy of my data? ==
 At this time, there aren't any import or export features. But look for them as the service matures.
 
-For issues, users can use the Google Data API to import / export issues from other issue trackers. They would, however, have to write the code to do this themselves.
+For issues, users can use the [http://code.google.com/p/support/wiki/IssueTrackerAPI Google Data API] to import / export issues from other issue trackers. They would, however, have to write the code to do this themselves.
 
 For code, there are ways to import/ export data. For example, Subversion has svnsync and in Mercurial you simply hg clone/push.
 
