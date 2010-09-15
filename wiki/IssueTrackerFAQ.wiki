@@ -11,7 +11,7 @@ Immediately under the "Issues" tab, there is a search box that can be used for s
 == Can I file an issue anonymously? ==
 No. To prevent abuse and improve report quality, Google Code requires a Google Account to post new issues and comments. Anyone who does not have a Google account may [http://www.google.com/accounts/NewAccount?continue=http://code.google.com/hosting/faq.html sign up] for one at no cost. After an issue report has been entered, it is viewable by anyone without the need to sign in.
 
-== How do I edit the issue metadata? ==
+== How do I edit the issue labels/metadata? ==
 Only project owners and committers can edit issue metadata. These users see additional fields when entering a new issue or adding a comment. The drop-down auto-complete menu for each field will help you enter commonly used values. However, for the labels, you are free to enter new or uncommon labels simply by typing them.
 
 == What are issue labels? Why Priority-Medium? ==
@@ -20,12 +20,12 @@ Labels are simply strings that are meaningful to the project members, but that h
 When an issue label has a dash in it, e.g., "Priority-Medium", then that is interpreted as a key-value pair that can be used like a custom field. The prefix before the first dash is the key, and the part after it is the value. You can configure the issue list to show a column for any prefix. And, you can search for values within a specific custom field by using "prefix:value".
 
 == Can I change the set of labels offered in the auto-complete menu? ==
-Project owners can configure the set of labels that are offered to members of a project. To edit the predefined labels, click the "Administer" tab and the "Issue tracking" sub-tab. Use the text fields to configure the set of issue statuses and labels that will be offered. 
+Yes, to edit the predefined labels click the "Administer" tab and the "Issue tracking" sub-tab. Use the text fields to configure the set of issue statuses and labels that will be offered. 
 
 For example, if your project is building a graphics driver, maybe you would like to label some of your issues with Depth-16bit, Depth-24bit, and/or Depth-32bit.
 
 == What if someone types in a nonsense label or status? ==
-Remember, only project owners and committers can edit issue metadata. Usually, if someone in the project uses an unexpected status or label, it is because the issue itself is a special case that does not follow the normal workflow. The issue tracker shows a brief warning whenever an uncommon status or label is used. If some project member goes out of their way to enter a nonsensical label, you can always see who did it, change it back, and send them an email.
+Only project owners and committers can edit issue metadata. Usually, if someone in the project uses an unexpected status or label, it is because the issue itself is a special case that does not follow the normal workflow. The issue tracker shows a brief warning whenever an uncommon status or label is used. If some project member goes out of their way to enter a nonsensical label, you can always see who did it, change it back, and send them an email.
 
 == If there is a duplicate issue, how should the issue be triaged? ==
 Sometimes users will file issues that have already been reported. When a duplicate issue is entered into the issue tracker, a project owner or committer can mark that issue as a 'Duplicate'.
@@ -33,7 +33,21 @@ Sometimes users will file issues that have already been reported. When a duplica
 To do this set the status of the duplicate issue to 'Duplicate'. Setting the status as 'Duplicate' will prompt the user to enter the issue id of the original issue. Marking an issue as 'Duplicate' adds the stars and copies cc email addresses to the original issue. This also closes the duplicate issue.
 
 == How do I track when one issue is blocked on other issues? ==
-On occasion, an issue cannot be fixed until another issue is fixed first. Project members can track which issues the current issue is blocked on by adding the issue ids in the 'Blocked on' field. 
+On occasion, an issue cannot be fixed until another issue is fixed first. Project members can track which issues the current issue is blocked on by adding the issue ids in the 'Blocked on' field.
+
+== How do I get users to create useful issues and avoid spam? ==
+Projects can provide guidance to a users, prior to filing a new issue, by using an interstitial wiki page. Interstitial wiki pages can be added through Tab option in Administer settings. 
+
+For example, the following is a project that uses an interstitial page:
+http://code.google.com/p/rdv/wiki/Support?tm=3
+
+== How can I create custom issue queries for my team to use? ==
+Custom queries are simply urls that have been constructed with the appropriate search parameters. 
+
+For example, the following is a query of high priority issues:
+http://code.google.com/p/support/issues/list?can=2&q=Priority%3DHigh
+
+Projects can provide custom queries on a wiki page, project homepage, or even an interstitial page for the issue tracker for their users convenience.
 
 == How can I learn more about the issue tracker? ==
 
