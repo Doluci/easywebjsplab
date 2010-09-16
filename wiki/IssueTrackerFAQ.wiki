@@ -46,7 +46,10 @@ Custom queries are simply urls that have been constructed with the appropriate s
 For example, the following is a query of high priority issues:
 http://code.google.com/p/support/issues/list?can=2&q=Priority%3DHigh
 
-Projects can provide custom queries on a wiki page, project homepage, or even an interstitial page for the issue tracker for their users convenience.
+Projects can provide custom queries on a wiki page, project homepage, or even an interstitial page for the issue tracker for their users convenience by simply linking to the appropriate url.
+
+Fore example:
+[http://code.google.com/p/support/issues/list?can=2&q=Priority%3DHigh+Component%3DWiki Wiki High Priority] | [http://code.google.com/p/support/issues/list?can=2&q=owner:jrobbins%40google.com Assigned to Jason]
 
 == Learn more about the issue tracker ==
 
