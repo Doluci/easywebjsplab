@@ -51,6 +51,12 @@ Projects can provide custom queries on a wiki page, project homepage, or even an
 Fore example:
 [http://code.google.com/p/support/issues/list?can=2&q=Priority%3DHigh+Component%3DWiki Wiki High Priority] | [http://code.google.com/p/support/issues/list?can=2&q=owner:jrobbins%40google.com Assigned to Jason]
 
+== Manage workflow ==
+Large projects typically need to manage their workflow. For example, if the issue is marked with the Security label it should automatically be hidden, made Priority-High, and assigned to the team lead. Managing this type of workflow is possible through filter rules. 
+
+For more information: 
+http://code.google.com/p/support/wiki/IssueTracker#Filter_rules
+
 == Learn more about the issue tracker ==
 
 See the IssueTracker wiki page.
