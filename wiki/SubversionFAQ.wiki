@@ -133,11 +133,19 @@ If you get a message such as the following:
      fingerprint to validate the certificate manually!
 }}}
 
-...you should check that the "fingerprint" or "SHA1 fingerprint" given for the certificate is:
+Google updates its server SSL certificates for 'googlecode.com'  fairly regularly, if only to renew the expiration dates.  This causes most Subversion clients (the openssl library, actually) to notice a new fingerprint and complain.  When you see the fingerprint "flip flopping", it means you're hitting different servers -- some which have the newer certificate, and some which haven't yet received it yet (and still have the old one.)  
 
-{{{4B:3A:10:4F:B1:C4:2C:24:B8:F3:AB:80:15:87:D7:E7:9F:DB:48:48}}}
+The proper long-term solution here isn't to trust a specific certificate, but rather trust the _certifying authority_ (CA) which signed the certificate, just like web browsers do.  This process is explained in detail over in [http://svnbook.red-bean.com/en/1.5/svn.serverconfig.httpd.html#svn.serverconfig.httpd.authn.sslcerts the Subversion book].  In a nutshell:
 
-If it is not, please contact us via our [http://groups.google.com/group/google-code-hosting?lnk=sg Google Group] or email google-code-hosting@googlegroups.com directly to discuss the situation.
+  * Try setting "ssl-trust-default-ca=true" in your client's "servers" file (in the "[global]" section).
+  * If that doesn't work (many systems simply don't have a default set of CAs to trust), then you can tell your client to just trust Google's CA anyway, by pointing it to a .pem file that you've downloaded:
+    * Download [http://www.geotrust.com/resources/extended-validation-ssl/certs/Equifax%20Secure%20Certificate%20Authority.crt this file] to local disk and call it 'google.pem'
+    * In the client's "servers" file in the "[global]" section, set "ssl-authority-files=google.pem"
+
+Once this is done, it doesn't matter how many different googlecode.com certificates your client sees -- as long as they're signed by the same trusted CA, the Subversion client will no longer complain.
+
+
+
 
 == Does Google own the code that I check into Subversion? ==
 Hosting your code on Google Code doesn't change ownership of the code in any way.
