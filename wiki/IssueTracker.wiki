@@ -164,6 +164,7 @@ exclusive (not multi-valued).  These choices affect the labels offered
 in the label auto-complete menu, but they do not prevent project
 members from entering exceptional values.
 
+The following label prefixes should not be used because they conflict with predefined fields in the issue: `Project-*`, `Status-*`, `Summary-*`,  `Comment-*`, `Opened-*`, `Modified-*`, `Closed-*`, `Owner-*`, `Cc-*`, `Reporter-*`, `CommentBy-*`, `Stars-*`, `Blocked-*`, `Blocking-*`, `BlockedOn-*`.
 
 == Stars and notifications ==
 
