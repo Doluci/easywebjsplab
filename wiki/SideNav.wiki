@@ -32,6 +32,6 @@
     * Subversion
       * [SubversionFAQ Subversion FAQ]
   * Administer
+    * [InboundEmail Inbound Email]
     * [UserGroups User Groups]
     * [Permissions Permissions]
-    * [InboundEmail Inbound Email]
