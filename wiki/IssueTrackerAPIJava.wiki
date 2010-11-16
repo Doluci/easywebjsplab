@@ -55,8 +55,8 @@ Most of the samples in subsequent sections of this document assume that you have
 When a user first visits your application, they have not yet been authenticated. In this case, you need to display some information indicating to the user that they are not authenticated and a link directing the user to a Google page to authenticate your request for access to their Issue Tracker. The Java client library provides a function to generate the Google page's URL. The code below retrieves the URL of the `AuthSubRequest` page:
 
 {{{
-String next = "http://www.example.com/welcome.html";
-String scope = "http://code.google.com/feeds/issues";
+String next = "https://www.example.com/welcome.html";
+String scope = "https://code.google.com/feeds/issues";
 boolean secure = false;
 boolean session = true;
 String authSubLogin = AuthSubUtil.getRequestUrl(next, scope, secure, session);
@@ -65,7 +65,7 @@ String authSubLogin = AuthSubUtil.getRequestUrl(next, scope, secure, session);
 The *getRequestUrl* method takes the following parameters (corresponding to the query parameter used by the `AuthSubRequest` handler):
 
 ||next||The URL of the page that Google should redirect the user to after authentication. ||
-||scope||Indicates that the application is requesting a token to access Issue feeds. The scope string to use is http://code.google.com/feeds/issues (URL-encoded, of course).||
+||scope||Indicates that the application is requesting a token to access Issue feeds. The scope string to use is https://code.google.com/feeds/issues (URL-encoded, of course).||
 ||secure||Indicates whether the client is requesting a secure token.||
 ||session||Indicates whether the token returned can be exchanged for a multi-use (session) token.||
 
@@ -79,7 +79,7 @@ The user follows the link to Google's site and authenticates to their Google Acc
 
 After the user authenticates, the `AuthSub` system redirects them to the URL you specified in the *next* query parameter of the `AuthSubRequest` URL. The `AuthSub` system appends an authentication token to that URL, as the value of the *token* query parameter. For example:
 
-<code>http://www.example.com/welcome.html?token=yourAuthToken</code>
+<code>https://www.example.com/welcome.html?token=yourAuthToken</code>
 
 This token value represents a single-use `AuthSub` token. In this example, because <b>session = true</b> was specified, this token can be exchanged for an `AuthSub` session token by calling the <a href="/apis/accounts/AuthForWebApps.html#AuthSubSessionToken"><b>`AuthSubSessionToken`</b></a> service, as follows, where *urlFromAuthSub* is the URL that `AuthSub` appended the token to:
 
@@ -121,7 +121,7 @@ To retrieve all the issues in a project call the getFeed method and send the Iss
 public static void printAllIssues(ProjectHostingService myService, String project)
     throws ServiceException, IOException {
   // Request the feed
-  URL feedUrl = new URL("http://code.google.com/feeds/issues/p/" + project + "/issues/full");
+  URL feedUrl = new URL("https://code.google.com/feeds/issues/p/" + project + "/issues/full");
   IssuesFeed resultFeed = myService.getFeed(feedUrl, IssuesFeed.class);
 
   // Print the results
@@ -145,7 +145,7 @@ public static void printDateRangeQueryResults(
     DateTime updatedMin, DateTime updatedMax)
     throws ServiceException, IOException {
   // Create query and submit a request
-  URL feedUrl = new URL("http://code.google.com/feeds/issues/p/" + project + "/issues/full");
+  URL feedUrl = new URL("https://code.google.com/feeds/issues/p/" + project + "/issues/full");
   IssuesQuery myQuery = new IssuesQuery(feedUrl);
   myQuery.setUpdatedMin(updatedMin);
   myQuery.setUpdatedMax(updatedMax);
@@ -187,7 +187,7 @@ To retrieve all the issue comments for an issue call the getFeed method and send
 public static void printAllIssueComments(ProjectHostingService myService, String project, String IssueId)
     throws ServiceException, IOException {
   // Request the feed
-  URL feedUrl = new URL("http://code.google.com/feeds/issues/p/" + project + "/issues/" + issueId + "/comments/full");
+  URL feedUrl = new URL("https://code.google.com/feeds/issues/p/" + project + "/issues/" + issueId + "/comments/full");
   IssueCommentsFeed resultFeed = myService.getFeed(feedUrl, IssueCommentsFeed.class);
 
   // Print the results
@@ -224,7 +224,7 @@ public static IssuesEntry createIssue(
   myEntry.getAuthors().add(author);
 
   // Ask the service to insert the new entry
-  URL postUrl = new URL("http://code.google.com/feeds/issues/p/" + project + "/issues/full");
+  URL postUrl = new URL("https://code.google.com/feeds/issues/p/" + project + "/issues/full");
   return myService.insert(postUrl, myEntry);
 }
 }}}
@@ -254,7 +254,7 @@ public static IssueCommentsEntry createIssueComment(
   myEntry.getAuthors().add(author);
 
   // Ask the service to insert the new entry
-  URL postUrl = new URL("http://code.google.com/feeds/issues/p/" + project + "/issues/" + issueId + "/comments/full");
+  URL postUrl = new URL("https://code.google.com/feeds/issues/p/" + project + "/issues/" + issueId + "/comments/full");
   return myService.insert(postUrl, myEntry);
 }
 }}}

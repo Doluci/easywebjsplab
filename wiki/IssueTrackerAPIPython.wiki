@@ -56,8 +56,8 @@ When a user first visits your application, they have not yet been authenticated.
 
 {{{
 def GetAuthSubUrl():
-  next = 'http://www.coolissuetrackingsite.com/welcome.pyc'
-  scope = 'http://code.google.com/feeds/issues'
+  next = 'https://www.coolissuetrackingsite.com/welcome.pyc'
+  scope = 'https://code.google.com/feeds/issues'
   secure = False
   session = True
   return gdata.gauth.generate_auth_sub_url.GenerateAuthSubURL(next, scope, secure, session);
@@ -68,21 +68,21 @@ print '<a href="%s">Login to your Google account</a>' % authSubUrl
 
 Notice the parameters sent to the GenerateAuthSubUrl method:
 ||next||The URL of the page that Google should redirect the user to after authentication. ||
-||scope||Indicates that the application is requesting a token to access Issue feeds. The scope string to use is http://code.google.com/feeds/issues (URL-encoded, of course).||
+||scope||Indicates that the application is requesting a token to access Issue feeds. The scope string to use is https://code.google.com/feeds/issues (URL-encoded, of course).||
 ||secure||Indicates whether the client is requesting a secure token.||
 ||session||Indicates whether the token returned can be exchanged for a multi-use (session) token.||
 
 The above example shows a call that doesn't request a secure token (the value of *secure* is *false*). The resulting request URL might look like this:
 
 {{{
-https://www.google.com/accounts/AuthSubRequest?scope=http%3A%2F%2Fcode.google.com%2Ffeeds%2Fissues%2F&amp;session=1&amp;secure=0&amp;
+https://www.google.com/accounts/AuthSubRequest?scope=https%3A%2F%2Fcode.google.com%2Ffeeds%2Fissues%2F&amp;session=1&amp;secure=0&amp;
 }}}
 
 The user follows the link to Google's site and authenticates to their Google Account.
 
 After the user authenticates, the `AuthSub` system redirects them to the URL you specified in the *next* query parameter of the `AuthSubRequest` URL. The `AuthSub` system appends an authentication token to that URL, as the value of the *token* query parameter. For example:
 
-<code>http://www.coolissuetrackingsite.com/welcome.pyc?token=yourAuthToken</code>
+<code>https://www.coolissuetrackingsite.com/welcome.pyc?token=yourAuthToken</code>
 
 This token value represents a single-use `AuthSub` token. In this example, because <b>session = true</b> was specified, this token can be exchanged for an `AuthSub` session token :
 
