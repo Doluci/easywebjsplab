@@ -36,7 +36,7 @@ You'll also likely want to set up mailing lists for notifications of commits and
 
 === Working with your Source Repository ===
 
-Each project has its own [http://subversion.tigris.org/ Subversion] or [http://www.selenic.com/mercurial/ Mercurial] repository.
+Each project has its own [http://subversion.apache.org/ Subversion] or [http://www.selenic.com/mercurial/ Mercurial] repository.
   * [http://svnbook.red-bean.com/ Learn more] about using Subversion.
   * [http://hgbook.red-bean.com/ Learn more] about using Mercurial.
 
