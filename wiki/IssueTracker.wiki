@@ -492,6 +492,7 @@ _To be written_
 || `k`/`j` || move cursor up/down ||
 || `o` or `Enter` || open the current issue ||
 || `x` || select the current issue ||
+|| `h` || preview the current issue ||
 
 == Issue details page ==
 
@@ -505,7 +506,7 @@ _To be written_
 || `/` || focus on issue search box ||
 || `c` || compose new issue ||
 || `s` || toggle star on current issue ||
-|| `h` || show keystroke help dialog ||
+|| `?` || show keystroke help dialog ||
 
 
 
