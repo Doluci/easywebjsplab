@@ -555,7 +555,7 @@ continue until the end of the message.  The syntax is:
 Your commit log message descriptive text...
 
 COMMAND-LINE
-ISSUE-FIELD-UPDATE*
+ISSUE-FIELD-UPDATE+
 COMMENT-TEXT...
 }}}
 
