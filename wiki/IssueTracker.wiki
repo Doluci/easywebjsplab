@@ -565,7 +565,7 @@ Where COMMAND-LINE is one of the following:
   * `New issue`
   * `New review`
 
-There can be any number of ISSUE-FIELD-UPDATE lines.  These lines can be one of the following:
+There can be one or more ISSUE-FIELD-UPDATE lines.  These lines can be one of the following:
   * `Summary: NEW-VALUE`
   * `Status: NEW-VALUE`
   * `Owner: NEW-VALUE`
