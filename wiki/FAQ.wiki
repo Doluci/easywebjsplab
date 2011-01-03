@@ -15,16 +15,6 @@ Sections:
 
 = Getting Started =
 
-== What's the new project-hosting service on Google Code? ==
-Our new hosting service offers a collaborative development environment that includes: 
-  * Project workspaces with simple membership controls 
-  * Version control via Subversion
-  * Source code browsing and reviews
-  * Issue tracking 
-  * Wiki pages
-  * Downloads
-  * Mailing lists at groups.google.com
-
 == Who's the service for? ==
 All open source developers. If you plan to start an open source project, we encourage you to create a project on Google Code.
 
@@ -42,9 +32,6 @@ As with most project-hosting sites, our underlying technology is a mixture of op
 
 == Where's the documentation for the project-hosting service? ==
 Much of it's right here in this FAQ. Also, most project and issue tracker pages contain self-documenting fields that describe the purpose of the page. For documentation on how to use a [http://subversion.tigris.org/ Subversion] client, just visit the Subversion project.
-
-== How is this project-hosting service related to Summer of Code? ==
-Both are part of our larger initiative to support and encourage the development of open source software. Google Summer of Code projects may also be hosted on Google Code, should the student or mentor so wish.
 
 ----
 
