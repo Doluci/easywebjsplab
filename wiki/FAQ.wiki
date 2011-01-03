@@ -21,6 +21,21 @@ All open source developers. If you plan to start an open source project, we enco
 == Why is Google offering to host open source projects? ==
 One of our goals is to encourage healthy, productive open source communities. Developers can always benefit from more choices in project hosting.
 
+== How do I search for an existing project? ==
+You can search for existing open source projects at: 
+  * Google Code - http://code.google.com/hosting
+  * Eclipse Labs - http://eclipselabs.org/
+  * Apache Extras - http://apacheextras.org
+
+In addition to searching for free text anywhere in a project, you can also apply the following filters:
+  * name:  - words that occur specifically in the project name. (e.g. name:google)
+  * summary:  - words that occur specifically in the project summary. (e.g. summary:html5)
+  * description: - words that occur specifically in the project description (e.g. description:html5)
+  * label: - specific project label
+  * owner: committer: contributor: - projects with a user in a particular role (e.g. owner:sussman)
+  * member: - projects with a user
+  * group: link: blog: - projects with text that appears in those project fields (e.g. blog:googlecode)
+
 == Is hosting on Google Code available internationally? ==
 For now, project hosting is available only in English. Open source projects can be created by developers from all countries, with a few small exceptions.
 
