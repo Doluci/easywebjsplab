@@ -45,9 +45,6 @@ We plan to localize Google Code as it matures.
 == Is Google Code's implementation itself open source? ==
 As with most project-hosting sites, our underlying technology is a mixture of open source and proprietary code. For example, the issue tracker is entirely written by Google, but the version-control service is based on Subversion, a popular open source tool.
 
-== Where's the documentation for the project-hosting service? ==
-Much of it's right here in this FAQ. Also, most project and issue tracker pages contain self-documenting fields that describe the purpose of the page. For documentation on how to use a [http://subversion.tigris.org/ Subversion] client, just visit the Subversion project.
-
 ----
 
 = Hosting Your Open Source Project on Google Code =
@@ -55,17 +52,11 @@ Much of it's right here in this FAQ. Also, most project and issue tracker pages 
 == Why would I want to host my open source project on Google Code? ==
 Our project-hosting service is simple, fast, reliable, and scalable, so that you can focus on your own open source development.
 
-== Why would I not want to host my open source project on Google Code? ==
-Google Code will have lots of key features at launch, but we may not have all features you want or need for your project. Rather than try to offer every possible feature, we have focused on doing the most important things really well. More features will be added over time, but only when they are ready. However, we will not offer the following any time soon: shell accounts, build farm, private projects, nested projects, or multiple alternatives for each type of hosted tool.
-
 == Are there any restrictions on who can use the site? ==
 Just a couple. You'll need to be in a country where Google is able to conduct business, and your project needs to be open source.
 
 == Are you going to put ads on my project page? ==
 No. Ads aren't part of Google Code at this time.
-
-== Can I put ads on my project's pages? ==
-This may be an option in the future, but, no, not for now.
 
 == How long does it take for my project to be approved for hosting? ==
 As soon as you create a project, it's available for use.
@@ -92,13 +83,7 @@ discuss the matter directly with them. We rely on the spirit of
 cooperation of open source participants to work out cases where two
 groups want the same project name.
 
-If after engaging the owners of the project you are not able to come
-to a resolution, you're welcome to contact us via our public Google
-Group support list to discuss the situation. However, please
-understand that Google is not in a position to decide who has the
-right to a name.  In general, Google will not take down projects due
-to naming conflicts, unless doing so is legally required, or if the
-project is clearly in violation of our terms of service.
+Google will not take down projects due to naming conflicts, unless doing so is legally required, or if the project is clearly in violation of our terms of service.
 
 == What should I do if I wish to take over a project that appears abandoned by its owners? ==
 In these cases we take a look at the project and ask ourselves some questions:
@@ -114,11 +99,6 @@ Once you have considered these items and if you still wish to attempt to take ow
 
 == How do I contact the owners of an existing project? ==
 First, look for a project mailing list on the project's home page, and if one exists, use that. If the project does not have a mailing list, then try contacting the project owners (also listed on the project's home page) directly. If their full usernames are shown, you can email them at USERNAME@gmail.com. Usernames of the form "usern..." can be revealed by solving a CAPTCHA.
-
-== How do I create a project? ==
-A good project starts with a good idea: one that addresses a real need, is feasible and well-scoped, and isn't well covered by existing open source projects. (Before you create a new project, we suggest that you try searching for existing projects on this site and elsewhere on the web. You can often get further faster by helping out with an existing project than by starting one from scratch.) 
-
-If you're ready to start your own project, you'll need to write a description of it and give it a good name. The project name will have to have more than 2 characters and must be lower case. Then, sign in using a Google account, enter that information into the Create a project page, and you're done. Congrats. You've got a brand-new project on Google Code.
 
 == How do I join a project? ==
 One of the project owners must use the project administration page to add your Google account email address to the project.
@@ -182,8 +162,7 @@ signed into.
 The open source community has been flooded with lots of nearly identical licenses. We'd like to see projects standardize on the most popular, time-tested ones. For that reason, we encourage projects that we host to use one of the licenses listed on our project creation page.  The offered licenses offer enough diversity to meet most developer needs, while minimizing license proliferation.
 
 == How can I select a license other than the ones provided? ==
-If for some reason, your project cannot use one of the ones listed, 
-there is an option in the license selector to allow the use other OSI approved licenses.  Simply select “Other Open Source” and indicate in your LICENSING, COPYING or similar file which license you are using.
+If for some reason, your project cannot use one of the ones listed, there is an option in the license selector to allow the use other OSI approved licenses.  Simply select “Other Open Source” and indicate in your LICENSING, COPYING or similar file which license you are using.
 
 == How can I choose two licenses for my dual-licensed project? ==
 At this time, we offer single licenses only.
@@ -215,12 +194,7 @@ require (by law) that all code be released into the public domain.  If
 you fall into this class, please [http://code.google.com/p/support/issues/entry enter an issue] in our public
 issue-tracker so we can review your request.
 
-== Is my data safe? ==
-Yes. Your data is hosted on Google's infrastructure in Google's datacenters, ensuring a high level of reliability and redundancy.
-
 == How do I get a copy of my data? ==
-At this time, there aren't any import or export features. But look for them as the service matures.
-
 For issues, users can use the [http://code.google.com/p/support/wiki/IssueTrackerAPI Google Data API] to import / export issues from other issue trackers. They would, however, have to write the code to do this themselves.
 
 For code, there are ways to import/ export data. For example, Subversion has svnsync and in Mercurial you simply hg clone/push.
