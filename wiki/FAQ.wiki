@@ -32,8 +32,6 @@ In addition to searching for free text anywhere in a project, you can also apply
   * summary:  - words that occur specifically in the project summary. (e.g. summary:html5)
   * description: - words that occur specifically in the project description (e.g. description:html5)
   * label: - specific project label
-  * owner: committer: contributor: - projects with a user in a particular role (e.g. owner:sussman)
-  * member: - projects with a user
   * group: link: blog: - projects with text that appears in those project fields (e.g. blog:googlecode)
 
 == Is hosting on Google Code available internationally? ==
