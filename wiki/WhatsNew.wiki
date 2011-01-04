@@ -7,7 +7,7 @@ Welcome to the What's New page for Google Project Hosting. Here you'll find desc
 
 === Refreshed the UI across the site ===
 
-Updated the style for the website.
+Updated the style for the website. See [http://googlecode.blogspot.com/2010/12/fresh-look-for-google-project-hosting.html blog] for more detail.
 
 === Apache Extras ===
 
