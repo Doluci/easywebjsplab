@@ -172,8 +172,8 @@ Many people are attracted to the idea of releasing code in the
 copyright on the code and donate their work to the world at large.
 
 Unfortunately, the concept of public domain is actually a lot more
-complicated than most people realize.  First of all, some countries
-simply don't recognize the renunciation of copyright (such as France).
+complicated than most people realize.  First of all, some countries (such as France)
+simply don't recognize the renunciation of copyright.
 Such countries will still consider you the author and copyright holder
 no matter what you do.  Furthermore, it's somewhat risky to release
 code without explicitly disclaiming liability or warranty; you're
