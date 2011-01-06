@@ -297,4 +297,10 @@ Once you have insured that your machines are malware-free and protected, you sho
 
 When you have cleaned the project, contact us at the address listed in the notification email, and we will republish your project after checking that it is once again free of malware.
 
+== What should I do if I've been banned from Project Hosting and wish to regain access? ==
+
+If you feel that the ban was erroneous, please write to us (at google-code-hosting-account-resolutions@googlegroups.com) explaining why.
+
+If the ban was justified by your behavior on the site, we recommend that you find other ways to participate in open source and after a period of some months contact us (at google-code-hosting-account-resolutions@googlegroups.com) pointing out your new behavior and asking for reconsideration.
+
 _The content on this page created by Google is licensed under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License].  User-generated content is not included in this license._
