@@ -521,6 +521,8 @@ committing the change, and then using the web UI to update the issue.
 But, it is also possible to update an issue by putting an issue
 tracker command in your commit-log message.
 
+Commit-log command processing is enabled by default, but it can be disabled on the *Source* sub-tab of the *Administer* tab.
+
 There are commit-log commands to:
   * Easily set an issue's status to `Fixed`.
   * Update any aspect of the issue, and add a comment.
