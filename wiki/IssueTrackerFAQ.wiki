@@ -48,7 +48,7 @@ http://code.google.com/p/support/issues/list?can=2&q=Priority%3DHigh
 
 Projects can provide custom queries on a wiki page, project homepage, or even an interstitial page for the issue tracker for their users convenience by simply linking to the appropriate url.
 
-Fore example:
+For example:
 [http://code.google.com/p/support/issues/list?can=2&q=Priority%3DHigh+Component%3DWiki Wiki High Priority] | [http://code.google.com/p/support/issues/list?can=2&q=owner:jrobbins%40google.com Assigned to Jason]
 
 == Manage issue workflow ==
