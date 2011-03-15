@@ -1,5 +1,7 @@
 #summary How to configure permisions in your project (Advanced topic)
 
+= Permissions =
+
 || *Important:*  Google Code only hosts open source projects. <br> The permissions customizations described here are not sufficient for hosting proprietary software development projects. ||
 
 
