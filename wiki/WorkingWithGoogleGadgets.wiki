@@ -1,5 +1,8 @@
 #summary A guide to using and authoring basic gadgets for use on Google Code
 #labels Gadgets
+
+= Working with Google Gadgets =
+
 <wiki:toc max_depth="2" />
 
 = Introduction =
