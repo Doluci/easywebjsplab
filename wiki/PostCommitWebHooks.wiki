@@ -1,5 +1,7 @@
 #summary How to use Post-Commit Web Hooks for your project.
 
+=Post-Commit Web Hooks=
+
 <wiki:toc max_depth="2"/>
 
 ----
