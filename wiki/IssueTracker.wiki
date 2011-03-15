@@ -1,5 +1,7 @@
 #summary User guide for Project Hosting issue tracker
 
+= Issue Tracker =
+
 <wiki:toc max_depth="1" />
 
 = Introduction =
