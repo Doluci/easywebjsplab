@@ -7,7 +7,7 @@ Welcome to the What's New page for Google Project Hosting. Here you'll find desc
 
 === Update Wiki Page style ===
 
-Updated the CSS style for wiki pages for readability. See WikiSytax for the style changes.
+Updated the CSS style for wiki pages for readability. See WikiSyntax for the style changes.
 
 = Jan 2011 =
 
