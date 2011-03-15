@@ -1,5 +1,7 @@
 #summary Issue Tracker FAQ
 
+=Issue Tracker FAQ=
+
 The Google Project Hosting issue tracker uses only a minimal set of fields, and offers users the ability to store the information that they need as labels. This approach is possible because it uses Google's free-text search technology to search on all issue metadata.
 
 <wiki:toc max_depth="2" />
