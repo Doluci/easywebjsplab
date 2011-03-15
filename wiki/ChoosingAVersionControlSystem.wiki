@@ -1,5 +1,7 @@
 #summary Deciding between Subversion and Mercurial when creating a project.
 
+=Deciding between Subversion and Mercurial when creating a project.=
+
 When creating a new project on Google Code, you need to choose between Subversion and Mercurial as a version control system (VCS). There is no right answer to picking a VCS. Subversion and Mercurial are both easy to use, have a large community behind them, and are used by popular projects. They have demonstrated themselves fit for their purpose. It is therefore likely that your project will be productive regardless of your choice. Typically, most projects pick a VCS based on their team members' preference and the team's perceived workflow.
 
 == Subversion ==
