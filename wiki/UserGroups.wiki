@@ -1,5 +1,7 @@
 #summary How to manage project memberships using user groups.
 
+= User Groups =
+
 Google Project Hosting offers project owners the ability to grant project membership to an entire group of users by adding the user group to the project.  User groups make it easier to manage large projects that have many members, and to manage related projects that share a common group of users. User groups can also make it easier to Cc multiple users on an issue, or to assign group issue ownership rather than individual user issue ownership.
 
 <wiki:toc max_depth="2" />
