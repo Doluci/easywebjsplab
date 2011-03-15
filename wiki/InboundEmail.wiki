@@ -1,5 +1,5 @@
 #summary How to add comments by email.
-=Inbound Emai =
+=Inbound Email =
 
 Google Project Hosting allows you to add comments to an issue, wiki page, or code review by replying to one of the notification emails that we send out.  This feature allows you to respond to other developers more quickly and easily because you don't need to leave your email client.
 
