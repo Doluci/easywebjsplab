@@ -1,6 +1,6 @@
 #summary The reference to the wiki syntax for Google Code projects
 #labels Restrict-AddWikiComment-Commit
-
+= Wiki Syntax =
 <wiki:toc max_depth="2" /> 
 
 = Introduction =
