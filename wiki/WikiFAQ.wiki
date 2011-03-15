@@ -1,6 +1,6 @@
 #summary Wiki FAQ
 #labels Restrict-AddWikiComment-Commit
-
+= Wiki FAQ =
 <wiki:toc max_depth="2" />
 
 == What syntax are you using in the wiki? ==
