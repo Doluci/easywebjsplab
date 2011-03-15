@@ -24,7 +24,9 @@ You can use a gadget to display a mathematical formula.
 
 *Code*
 
-{{{<wiki:gadget url="http://mathml-gadget.googlecode.com/svn/trunk/mathml-gadget.xml" border="0" up_content="root3x + x^phi + x_1" height="15"/>}}}
+{{{
+<wiki:gadget url="http://mathml-gadget.googlecode.com/svn/trunk/mathml-gadget.xml" border="0" up_content="root3x + x^phi + x_1" height="15"/>
+}}}
 
 ==Google Code==
 
@@ -35,7 +37,9 @@ You can use a gadget to display any blog that has an Atom or RSS feed.
 
 *Code*
 
-{{{<wiki:gadget url="http://google-code-feed-gadget.googlecode.com/svn/trunk/gadget.xml" up_feeds="http://google-code-featured.blogspot.com/atom.xml"  width="500" height="340" border="0"/>}}}
+{{{
+<wiki:gadget url="http://google-code-feed-gadget.googlecode.com/svn/trunk/gadget.xml" up_feeds="http://google-code-featured.blogspot.com/atom.xml"  width="500" height="340" border="0"/>
+}}}
 
 Replace the `up_feeds` URL with a the XML feed for your blog.  If you have more than one project blog, you can list multiple URLs, separated by vertical bars (`|`).
 
@@ -50,7 +54,9 @@ Replace the `up_feeds` URL with a the XML feed for your blog.  If you have more 
 
 *Code*
 
-{{{<wiki:gadget url="http://markmail.org/gadgets/markmailmini.xqy?l=google-web-toolkit"/>}}}
+{{{
+<wiki:gadget url="http://markmail.org/gadgets/markmailmini.xqy?l=google-web-toolkit"/>
+}}}
 
 You can customize the gadget by changing the parameters in the URL, or you can use the [http://markmail.org/gadgets/builder/ MarkMail Gadget Builder]. For information on search syntax, refer to the [http://markmail.org/docs/faq.xqy#searchsyntax MarkMail FAQ].
 
@@ -67,7 +73,9 @@ Note: All the examples are for [http://code.google.com/p/google-web-toolkit Goog
 
 *Code*
 
-{{{<wiki:gadget url="http://www.ohloh.net/p/gwt/widgets/project_basic_stats.xml" height="220" border="1" />}}}
+{{{
+<wiki:gadget url="http://www.ohloh.net/p/gwt/widgets/project_basic_stats.xml" height="220" border="1" />
+}}}
 
 ===Factoids===
 
@@ -77,7 +85,9 @@ Note: All the examples are for [http://code.google.com/p/google-web-toolkit Goog
 
 *Code*
 
-{{{<wiki:gadget url="http://www.ohloh.net/p/gwt/widgets/project_factoids.xml" width="340" height="170" border="0" />}}}
+{{{
+<wiki:gadget url="http://www.ohloh.net/p/gwt/widgets/project_factoids.xml" width="340" height="170" border="0" />
+}}}
 
 ===Project Languages===
 
@@ -87,7 +97,9 @@ Note: All the examples are for [http://code.google.com/p/google-web-toolkit Goog
 
 *Code*
 
-{{{<wiki:gadget url="http://www.ohloh.net/p/gwt/widgets/project_languages.xml" width="340" height="200" border="1" />}}}
+{{{
+<wiki:gadget url="http://www.ohloh.net/p/gwt/widgets/project_languages.xml" width="340" height="200" border="1" />
+}}}
 
 ===Project Cost===
 
@@ -97,7 +109,9 @@ Note: All the examples are for [http://code.google.com/p/google-web-toolkit Goog
 
 *Code*
 
-{{{<wiki:gadget url="http://www.ohloh.net/p/gwt/widgets/project_cocomo.xml" height="250" border="0" />}}}
+{{{
+<wiki:gadget url="http://www.ohloh.net/p/gwt/widgets/project_cocomo.xml" height="250" border="0" />
+}}}
 
 ===I Use It===
 
@@ -107,7 +121,9 @@ Note: All the examples are for [http://code.google.com/p/google-web-toolkit Goog
 
 *Code*
 
-{{{<wiki:gadget url="http://www.ohloh.net/p/gwt/widgets/project_users.xml" height="100" border="0" />}}}
+{{{
+<wiki:gadget url="http://www.ohloh.net/p/gwt/widgets/project_users.xml" height="100" border="0" />
+}}}
 
 ===Partner Badge===
 
@@ -117,7 +133,9 @@ Note: All the examples are for [http://code.google.com/p/google-web-toolkit Goog
 
 *Code*
 
-{{{<wiki:gadget url="http://www.ohloh.net/p/gwt/widgets/project_partner_badge.xml" height="55" border="0" />}}}
+{{{
+<wiki:gadget url="http://www.ohloh.net/p/gwt/widgets/project_partner_badge.xml" height="55" border="0" />
+}}}
 
 ===Google Moderator===
 [http://www.google.com/moderator Google Moderator] allows users to submit feedback and vote on feedback from others.  You can use it as a way of collecting basic input beyond the issue tracker.  [http://www.google.com/moderator/#13 Create a series] for your project first, and then put the URL of that series in the gadget code:
@@ -128,4 +146,6 @@ Note: All the examples are for [http://code.google.com/p/google-web-toolkit Goog
 
 *Code*
 
-{{{<wiki:gadget url="http://www.google.com/moderator/static/moderator-embed-gadget.xml" height="400" width="900" up_url="http://www.google.com/moderator/#15/e=1c1a0&t=1c1a0.40" up_sort="HOT" up_hl="en" />}}}
+{{{
+<wiki:gadget url="http://www.google.com/moderator/static/moderator-embed-gadget.xml" height="400" width="900" up_url="http://www.google.com/moderator/#15/e=1c1a0&t=1c1a0.40" up_sort="HOT" up_hl="en" />
+}}}
