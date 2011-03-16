@@ -25,7 +25,7 @@ Updated the CSS style for wiki pages for readability. See WikiSyntax for the sty
 
 = January 2011 =
 
-=== Edit Botton for Source Files ===
+=== Edit Button for Source Files ===
 Added the ability to edit source code files directly in the browser. Just look for the “edit file” link on source browsing file pages.   As you edit the file, you can preview the diff of your changes so you know exactly what you are committing. If you don’t have commit privileges to the project, instead of committing your changes, you can file your changes as a patch in the project’s issue tracker. See [http://googlecode.blogspot.com/2011/01/make-quick-fixes-quicker-on-google.html blog] for more detail.
 
 = December 2010 =
