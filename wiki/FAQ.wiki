@@ -94,7 +94,8 @@ In these cases we take a look at the project and ask ourselves some questions:
   # Is the project you wish to take over a spam trap or hosting malware or simply not open source? 
   # Have you made an effort in good faith to contact the current owners? What, if anything, did they have to say in reply?
   # Has one of the original developers died or otherwise dropped off the grid in some fashion that you can describe to us?
-  # Have you hosted malware, spam or non-open source content on Project Hosting before? If so, don't be optimistic that we'll cooperate. 
+  # Have you hosted malware, spam or non-open source content on Project Hosting before? If so, don't be optimistic that we'll cooperate.
+
 Once you have considered these items and if you still wish to attempt to take ownership of a project or its name, please email us at google-code-hosting@googlegroups.com and let us know about it (include a description of how and when you attempted to contact the project's current owners). We usually bring these issues to resolution in a couple days. 
 
 == How do I contact the owners of an existing project? ==
