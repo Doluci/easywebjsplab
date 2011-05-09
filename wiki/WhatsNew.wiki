@@ -5,7 +5,27 @@
 
 Welcome to the What's New page for Google Project Hosting. Here you'll find descriptions of our latest improvements to our collaborative development environment.
 
+= May 2011 =
+
+=== Option to send an issue change notification email or not ===
+
+The main point of an issue tracking system is to coordinate the action of multiple people, so usually you will want to notify interested users whenever an issue comment is made.  However, some changes are really just house-keeping or notes to yourself.  So, it is now possible for project members to suppress the normal issue change notification email by unchecking the "Send email" box when posting an issue comment.
+
+=== Better Switch Accounts page ===
+
+When you use Multiple Sign-In, sometimes you are signed in to one account that has permission to view a restricted issue, but your active account does not.  We now show the *Switch Accounts* interstitial page in more cases, and the page itself has an easier-to-see link to sign in to another account.
+
+= April 2011 =
+
+=== More details in issue change notifications and update bubbles ===
+
+Previously, we always showed "..." in user names in issue change notifications.  Now, when you edit an issue owner or the issue CC list, you will see the unobscured name of that user, if you have permission to see it.
+
 = March 2011 =
+
+=== More labels and more filter rules ===
+
+Yep, some projects categorize issues using more than 15 labels per issue, so now that limit has been raised to 24.  Also, some projects were nearing the limit of 100 filter rules, so that limit has been increased to 200.
 
 === New Member Editing UI ===
 
