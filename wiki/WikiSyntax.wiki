@@ -204,6 +204,24 @@ create a link to a specific heading on a page like this:
 
 And it will render as: [WikiSyntax#Wiki-style_markup].
 
+=== Links to issues and revisions ===
+
+You can easily link to issues and revisions using the following syntax.
+
+  * `issue 123` will be autolinked to issue number 123 in the current project.  You can include a `#` or not.  If the issue has been closed, the link will appear as a cross-out rather than an underline.  Hovering your mouse over such a link shows the issue summary.
+
+  * `issue PROJECTNAME:122` will be autolinked to that issue number in the specified project.  This is useful when your project depends on work being done in related projects.
+
+  * `r123` will be autolinked to the revision detail page for that revision in the current project.
+
+There is currently no way to disable this type of autolinking. See issue 996.
+
+{{{
+For example: Please add a comment on issue 123 rather than adding more review comments to r456. 
+}}}
+
+Renders as: Please add a comment on issue 123 rather than adding more review comments to r456.
+
 
 === Links to external pages ===
 
