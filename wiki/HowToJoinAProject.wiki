@@ -3,7 +3,7 @@
 
 = How do I join a project? =
 
-One of the project owners must use the project administration page to add your Google account email address to the project.
+One of the project owners must use the project "People" page to add your Google account email address to the project.
 
 Most projects have mailing lists that the developers use to discuss the project. To become a developer, first participate on the mailing list by showing your interest in the project and your ability to help the project. Then, ask the project owners to make you a member of the project. 
 
