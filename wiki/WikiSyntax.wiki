@@ -74,6 +74,16 @@ def fib(n):
     return fib(n-1) + fib(n-2)
 }}}
 
+For more control over the syntax higlighting, the `<code>` tag allows you to specify a file extension:
+
+{{{
+<code language="xml">
+<hello target="world"/>
+</code>
+}}}
+
+To disable highlighting entirely, use the `<pre>` tag.
+
 == Headings ==
 
 {{{
