@@ -5,6 +5,10 @@
 
 Welcome to the What's New page for Google Project Hosting. Here you'll find descriptions of our latest improvements to our collaborative development environment.
 
+= June 2011 =
+
+You can now add the [http://www.google.com/+1/button/ +1 button] to wiki pages and to project home pages, using the `<g:plusone/>` tag. See WikiSyntax for details. <g:plusone href="http://code.google.com/p/support" size="medium"/>
+
 = May 2011 =
 
 === Option to send an issue change notification email or not ===
