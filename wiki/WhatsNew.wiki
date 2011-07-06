@@ -7,7 +7,7 @@ Welcome to the What's New page for Google Project Hosting. Here you'll find desc
 
 = July 2011 =
 
-=== Issue quick-edit and preview-on-hover user preference ===
+=== Issue quick-edit commands, and preview-on-hover user preference ===
 
 Now there's a faster, more command-like and keyboard-oriented way to triage issues.  Read all about it in the [http://googlecode.blogspot.com/2011/07/taking-command-of-issue-triage.html code blog post].
 
@@ -27,7 +27,7 @@ You can now add the [http://www.google.com/+1/button/ +1 button] to wiki pages a
 
 The main point of an issue tracking system is to coordinate the action of multiple people, so usually you will want to notify interested users whenever an issue comment is made.  However, some changes are really just house-keeping or notes to yourself.  So, it is now possible for project members to suppress the normal issue change notification email by unchecking the "Send email" box when posting an issue comment.
 
-=== Better Switch Accounts page ===
+=== Better "Switch Accounts" page ===
 
 When you use Multiple Sign-In, sometimes you are signed in to one account that has permission to view a restricted issue, but your active account does not.  We now show the *Switch Accounts* interstitial page in more cases, and the page itself has an easier-to-see link to sign in to another account.
 
@@ -43,25 +43,25 @@ Previously, we always showed "..." in user names in issue change notifications. 
 
 Yep, some projects categorize issues using more than 15 labels per issue, so now that limit has been raised to 24.  Also, some projects were nearing the limit of 100 filter rules, so that limit has been increased to 200.
 
-=== New Member Editing UI ===
+=== New member editing UI ===
 
 Project owners can now add and remove project members on the "People" subtab of the "Project Home" tab. Project owners can change a member's role on the People detail page for that user.
 
 Individual project committers and contributors can now remove themselves from a project by visiting the "People" subtab, clicking through to their own detail page, and clicking "Remove member".
 
-=== File Creation and Upload ===
+=== File creation and upload ===
 
 Project committers and owners can now create new files under version control via their web browser.  Just click the "Create" or "Upload" link in the source browsing directory contents pane.
 
 = February 2011 =
 
-=== Update Wiki Page style ===
+=== Updated wiki page style ===
 
 Updated the CSS style for wiki pages for readability. See WikiSyntax for the style changes.
 
 = January 2011 =
 
-=== Edit Button for Source Files ===
+=== Edit button for source files ===
 Added the ability to edit source code files directly in the browser. Just look for the “edit file” link on source browsing file pages.   As you edit the file, you can preview the diff of your changes so you know exactly what you are committing. If you don’t have commit privileges to the project, instead of committing your changes, you can file your changes as a patch in the project’s issue tracker. See [http://googlecode.blogspot.com/2011/01/make-quick-fixes-quicker-on-google.html blog] for more detail.
 
 = December 2010 =
@@ -88,227 +88,227 @@ Users have always been able to reset their repos via the "Checkout" page, but no
 
 = July 2010 =
 
-== Live wiki preview ==
+=== Live wiki preview ===
 
 Create or edit a wiki page,  press the "Preview" button, and keep on editing.  Notice anything awesome happening?  Yep, the preview now updates every couple of seconds as you type.
 
-== Suggestions for search terms ==
+=== Suggestions for search terms ===
 
 Now when you search issues, downloads, or wiki pages, there is an auto-complete menu that helps you enter special search terms.  For example, type "med" and you will see an auto-complete option for "Priority=Medium".
 
-== Auto-complete for project labels ==
+=== Auto-complete for project labels ===
 
 When creating a project or editing the labels of an existing product, we now show auto-complete options for some of our most commonly used labels.  This helps save you keystrokes, but more importantly it helps everyone use the exact same label spelling for things like programming language names or widely used libraries.
 
-== Google Analytics integration with downloads ==
+=== Google Analytics integration with downloads ===
 
 Whenever a user now clicks to download a file through the web UI, a Google Analytics event is triggered. This will help project owners keep track of how many times the download was clicked to start downloading. For more information see the [http://code.google.com/p/support/wiki/DownloadsFAQ?ts=1279329591&updated=DownloadsFAQ#Can_Google_Analytics_be_used_to_track_downloads? Download FAQ].
 
 = June 2010 =
 
-== View link for textual issue attachments ==
+=== View link for textual issue attachments ===
 
 If someone files an issue or adds an issue comment and attaches a text file to it, you can now view that file in the web-browser.  The file is presented in the same way that we view source files, with line numbers and syntax highlighting for many languages.
 
-== Revised issue and source code word-wrapping ==
+=== Revised issue and source code word-wrapping ===
 
 Now, if you enter long-lines in an issue description or comment, they will be rendered as long lines in the user's browser, but still retain indentation and other spacing.  Likewise, long source code lines are now word-wrapped to the browser window width rather than causing the page to have a horizontal scrollbar.  (Note: IE users will see something close to the old behavior.)
 
-== Source code review icon ==
+=== Source code review icon ===
 
 Users have always been able to double-click to add a review comment to any line of source code.  Now that functionality is more obvious because there is also a small "add a comment" icon at the far left-hand of the source code line under the mouse.
 
-== Gray for closed issues and deprecated downloads ==
+=== Gray for closed issues and deprecated downloads ===
 
 To give a more clear visual indication that an issue is closed or a download is deprecated, we now use a gray heading background color on those pages rather than the usual light blue.
 
-== Wiki section header links ==
+=== Wiki section header links ===
 
 Now when you roll your mouse over wiki section headings, you will see a small paragraph marker symbol appear.  That symbol is linked to that specific anchor point on the page.  So, copying the link or bookmarking it will bring you directly back to that section of the page.
 
-== Stars on wiki pages and downloads ==
+=== Stars on wiki pages and downloads ===
 
 You can now star wiki pages and downloads, and later search among just the ones that you have starred.  Starring also helps you notice items that you care about in the list views.
 
-== Better support for projects with a lot of labels ==
+=== Better support for projects with a lot of labels ===
 
 Now the autocomplete menu shows a scrollbar if there are a large number of autocomplete options.  Previously, it just rendered a huge menu on the page which was likely to require the user to scroll down the whole page.
 
-== View project quota in one location (e.g. Issue Attachments, Downloads, VCS) ==
+=== View project quota in one location (e.g. Issue Attachments, Downloads, VCS) ===
 
 You can now see how much quota is allocated to your project in one location. This can be found under the Administer -> Advanced sub-tab.
 
-== Use your Google password for Mercurial, instead of your Google Code password ==
+=== Use your Google password for Mercurial, instead of your Google Code password ===
 
 You can now choose to use your Google password for Mercurial clients. This setting can be set on your [https://code.google.com/hosting/settings settings] page under User Preferences -> Security.
 
 = May 2010 =
 
-== Issue Notification reasons ==
+=== Issue Notification reasons ===
 
 In issue notification email messages, the footer now includes a line that explains specifically why the message was delivered to you.  E.g., because you are the issue owner, because you were explicitly CC'd on the issue, or because you starred the issue.  If no reason is given, the message was sent to the project's all-issue-changes address, which is usually a mailing list.
 
-== Comment pagination on wiki and issue pages ==
+=== Comment pagination on wiki and issue pages ===
 
 Some issues and wiki pages have a huge number of comments.  We now paginate the comments so that only the 500 most-recent comments are shown initially.
 
 = April 2010 =
 
-== Updated Project Search ==
+=== Updated Project Search ===
 
 Updated the algorithm for ranking projects in project search. Made the UI for project search look consistent with other Google properties. Updated the project search results page to show the project logo and last updated information. Fixed an issue where we were showing wiki markup in project search results.
 
-== Activity Indicator ==
+=== Activity Indicator ===
 
 Project homepages were updated to make all the metadata 'bubbles' look consistent. There is now an activity indicator that makes it possible to quickly see how active a project is. 
 
 = March 2010 =
 
-== New Subversion service ==
+=== New Subversion service ===
 
 http://googlecode.blogspot.com/2010/03/faster-subversion-hosting.html
 
 = Feb 2010 =
 
-== Notable Mercurial fixes == 
+=== Notable Mercurial fixes === 
 Mercurial now rejects pushes of corrupted bundles. This protects your hosted repository in case your local repository gets into a bad state.
 
 = Jan 2010 =
 
-== Mercurial upgraded to 1.4 ==
+=== Mercurial upgraded to 1.4 ===
 Project Hosting on Google Code now supports Mercurial v1.4.
 
 = December 2009 =
 
-== Issue attachment previews for images ==
+=== Issue attachment previews for images ===
 
 The Issue Tracker lets you directly view image attachments in the browser without having to download the image. All image attachments also have a thumbnail, making it easy to find the right screenshot within an issue.
 
 = October 2009 =
 
-== New From: address for notification emails ==
+=== New From: address for notification emails ===
 
 Newly created projects will now send notifications from `PROJECTNAME@googlecode.com`.  Existing projects can opt into using the new From: address after updating mailing list configurations.
 
-== Blocked-on can be specified for new issues ==
+=== Blocked-on can be specified for new issues ===
 
 Project owners and committers can now enter new issues and set the "Blocked on" field in the same step.  This makes it easier to quickly enter work items for yourself and your team when you know that there is a dependency among the tasks.
 
-== Improved notification email threading ==
+=== Improved notification email threading ===
 
 The notification emails for changes to a given issue, comments on a given wiki page, or code review comments on a given revision, should now thread together in most email clients.
 
-== Issue Tracker Data API ==
+=== Issue Tracker Data API ===
 
 The Issue Tracker Data API is a Google Data API that you can use to programmatically add new issues, make changes to existing issues, or simply access issues for your open source project. [http://code.google.com/p/support/wiki/IssueTrackerAPI Learn More].
 
-== User clones ==
+=== User clones ===
 
 Any user can visit any Mercurial repository and create a server-side user clone of that repository, without asking permission from the project owner. These personal user clones can be easily shared with other developers -- who also can make a clone of that clone. [http://googlecode.blogspot.com/2009/10/mercurial-server-side-clone-support-for.html Learn More].
 
 = August 2009 =
 
-== Issue label and status value tool-tips ===
+=== Issue label and status value tool-tips ===
 
 When viewing an issue, hovering the mouse over the issue status and labels in the left-hand column now shows a tool-tip with the doc-string set for them under the "Administer" tab.
 
-== Issue list position retained ==
+=== Issue list position retained ===
 
 Now when you drill into an issue list to view an issue in detail, and then pop back up to the issue list, you will see the most recently viewed issue highlighted in the list.  This makes it easier to quickly navigate among issues using the `j`, `k`, `Enter`, and `u` keystrokes.
 
-== Multiple repository support for Mercurial ==
+=== Multiple repository support for Mercurial ===
 
 Mercurial projects can now have multiple repositories. These new project repositories can be added through the Source sub-tab under the Administer tabs. Project repositories can be clones of the original default repository.
 
 = July 2009 =
 
-== Commit emails with or without diffs ==
+=== Commit emails with or without diffs ===
 
 Commit notification emails can now include diff output or not.  Project owners can control that via a checkbox on the Source subtab of the Administer tab.
 
-== Subversion upgraded ==
+=== Subversion upgraded ===
 
 Google Code's subversion server has been upgraded from version 1.5 to 1.6.
 
-== People subtab and configurable permissions ==
+=== People subtab and configurable permissions ===
 
 The new "People" subtab on each project home page allows project owners and members to easily document what each project member's duties are.  A new "contributor" role and the ability to grant permissions gives project owners a lot more flexibility when they need it.  [Permissions Learn more].
 
 = May 2009 =
 
-== Commit log commands ==
+=== Commit log commands ===
 
 It is now possible to update an issue via a commit log message.  For example, you can commit a code change that fixes a defect, and write "(fixes issue 123456)" and the status value of that issue will be set to "Fixed".  [http://code.google.com/p/support/wiki/IssueTracker#Integration_with_version_control Learn more].
 
-== Keyboard shortcuts ==
+=== Keyboard shortcuts ===
 
 Keyboard shortcuts are now available in the issue tracker.  Type "?" to see a list of the shortcuts.
 
-== Mercurial version control system ==
+=== Mercurial version control system ===
 
 Mercurial support is now available for general use.  You can [http://code.google.com/p/support/wiki/GettingStarted#Creating_a_Project create a project] using Mercurial, or [ConvertingSvnToHg convert an existing SVN repository].  Our MercurialStatus page has a list of known issues. 
 
 = April 2009 =
 
-== Shift-click to select multiple issues ==
+=== Shift-click to select multiple issues ===
 
 In the issue list, project owners and committers can now select a range of issues by clicking one checkbox and then shift-clicking on another checkbox.  All the issues  between the two checkboxes will be selected or unselected.  After that, the "Bulk edit..." item in the "Actions..." menu can be used to edit all those issues at once.
 
-== Privacy option for user updates ==
+=== Privacy option for user updates ===
 
 In the world of open source, everyone's contributions are available for everyone else to see.  Our user updates feature makes it easy to see exactly what any other developer has been doing on our site.  However, some users prefer that their contributions be seen only within the context of each project, so we have added a user setting to disable visibility of user updates.  Sign in and see your [http://code.google.com/hosting/settings settings page] for details.
 
-== !WikiWords now auto-linked in all tools ==
+=== !WikiWords now auto-linked in all tools ===
 
 If you mention the name of one of your wiki pages using a !WikiWord in any issue, commit log message, or code review, we will automatically link to that wiki page.
 
 = March 2009 =
 
-== Customizable project logos ==
+=== Customizable project logos ===
 
 As announced in our [http://google-code-updates.blogspot.com/2009/03/custom-logos-for-open-source-projects.html blog post], project owners can now upload a custom project logo to be displayed at the top of every page in the project.  The Google-sponsored projects are keeping the "Google Code" logo.  All the other projects that we host have a great new default logo with a "g" on a monitor. 
 
-== Soft-delete issues and issue attachments ==
+=== Soft-delete issues and issue attachments ===
 
 When you're done with an issue, you should just set its status to Fixed or some other closed status value. But, sometimes you really want to delete an issue.  For example, if it contains a password that is hard to change.  Now project owners can delete the whole issue via the "More actions..." menu on the issue comment form. Individual attachments can also be deleted.
 
-== Self-serve repository resets ==
+=== Self-serve repository resets ===
 
 Version control is all about maintaining history.  If you want to make changes, or even start with a whole new directory structure, you can do that with regular svn commands.  However, sometimes you need to reset your repository history so that you can 'svnsync' content from another svn server.  You can now do that a little more easily without needing to file a support request.
 
-== Project creation limit raised ==
+=== Project creation limit raised ===
 
 We limit the rate at which users can create projects, and we also have a lifetime limit on the number of projects created by each account.  These limits exist to help us catch abuse and some types of well-intentioned but misguided use.  Most users never reach these limits, but some do.  Now that we have more ways to deal with abuse, we have increased the lifetime project creation limit to 25.  However, please use each project that you create wisely and seriously.  For example, please don't repeatedly create a new project as a way to give a fresh start to an existing project, instead 'svn rm' files and close old issues.
 
 = February 2009 =
 
-== "My projects" drop-down for quick navigation ==
+=== "My projects" drop-down for quick navigation ===
 
 Now it's easy to navigate to projects that you are a member of, or that you have starred.  Just click on the "My projects" drop-down menu in the far upper right of any project hosting page.
 
-== Track updates by project or developer ==
+=== Track updates by project or developer ===
 
 Tracking open source projects and other developers is now as easy as starring a project or a developer profile. All updates from starred projects and developers can be tracked by looking at the "Updates" tab on your profile page. For the details, see our [http://google-code-updates.blogspot.com/2009/02/staying-up-to-date-with-google-code.html blog post].
 
-== Subversion upgraded to 1.5 =
+=== Subversion upgraded to 1.5 ===
 
 The Subversion component of Google Code Project Hosting has been upgraded to version 1.5. What does this mean to users? If you're using a Subversion 1.5 client, you can now take advantage of Subversion's improved "merge tracking" feature to manage branches. See our [http://google-code-updates.blogspot.com/2009/02/project-hosting-upgraded-to-subversion.html blog post] for more information.
 
 = January 2009 =
 
-== Post commit web hooks ==
+=== Post commit web hooks ===
 
 Project owners can now trigger an HTTP POST to a URL of their choice after each commit to version control.  This enables users to write POST handlers that kick off builds, tests, notifications, or anything else that they can imagine.  See PostCommitWebHooks for details.
 
-== New wiki features ==
+=== New wiki features ===
 
 You can now embed videos into wiki pages, including the project homepage. See [http://code.google.com/p/support/wiki/WikiSyntax#Videos WikiSyntax] for details.
 
-== Better syntax highlighting ==
+=== Better syntax highlighting ===
 
 We upgraded to the latest version of [http://code.google.com/p/google-code-prettify/ google-code-prettify], improving language detection and adding support in the source browser for highlighting Haskell, LISP, CSS, Visual Basic, and our own wiki syntax.
 
-== Issue filter rules ==
+=== Issue filter rules ===
 
 Much like message filter rules in an email client, project owners can now set up issue filter rules.  These rules look for certain labels on an issue, and then apply default values for the issue owner or status, or add labels or CC addresses.  Unlike email filter rules, issue filter rules are applied after every issue change, not just when new issues are entered.  And, the field values that are derived in filter rules are always default values: they never overwrite values that are explicitly set on the issue.  For example, default issue owners can be defined based on `Component-*` labels.
 
@@ -316,21 +316,21 @@ Much like message filter rules in an email client, project owners can now set up
 
 = December 2008 =
 
-== More quota ==
+=== More quota ===
 
 We're increasing the maximum file sizes from 20MB to 40MB, Subversion quotas from 100MB to 1GB, and download quotas from 100MB to 2GB.
 
-== New web page header ==
+=== New web page header ===
 
 The top of each project hosting web page is now a little cleaner and more consistent with other Google pages.
 
-== -1 on "+1"s ==
+=== -1 on "+1"s ===
 
 An issue tracker is a serious tool for tracking serious work.  When users chime in on a hot issue with a large number of "+1" comments to show their support for the issue, they are actually distracting and annoying the developers who should be working on resolving the issue, as well as other users.  We provide a star icon for users to express their interest in an issue without triggering any notification emails, but some users are still in the bad habit of posting "+1" comments.  Now we make the star widget easier for average users to find right at the point where they might be tempted to add a "+1" comment.  And, we automatically block "+1" comments that don't add other value.
 
 = November 2008 =
 
-== Wiki improvements ==
+=== Wiki improvements ===
 
 We increased the power of our wiki in three ways:
   # You can use one wiki page as a [http://code.google.com/p/support/wiki/WikiSyntax#Side_navigation sidebar] on your other pages for navigation.
@@ -338,18 +338,18 @@ We increased the power of our wiki in three ways:
   # We now support mixing some [http://code.google.com/p/support/wiki/WikiSyntax#HTML_support simple HTML] into the wiki pages so that you can accomplish things that are hard to do with wiki markup alone.
 
 
-== Autolinking of URLs in issue and revision text ==
+=== Autolinking of URLs in issue and revision text ===
 
 Now if you mention a URL in the text of an issue comment or a subversion commit log message, that URL is automatically shown as a hyperlink.
 
-== More compact issue notification emails ==
+=== More compact issue notification emails ===
 
 The format of our issue notification emails has changed to now put the
 metadata at the top.  The summary still includes the issue number,
 project name, and issue summary.  Moving the metadata up improves the
 snippets shown in Gmail and other mail clients.
 
-== Artifact sorting by username ==
+=== Artifact sorting by username ===
 
 A long-standing problem with sorting issues, downloads, and wiki pages
 has been fixed.  Previously these items did not sort properly by
@@ -358,7 +358,7 @@ Also, new issue list columns are available for the issue reporter and
 Cc list.  To see all the built-in columns, click the "..." table
 header in any list view.
 
-== Issue blocking and merging ==
+=== Issue blocking and merging ===
 
 In a small project, only a few people are involved, and they become
 pretty familiar with the issues in their issue tracker.  But, now that
@@ -381,7 +381,7 @@ with the original issue.  Merging adds all unique stars and Cc values
 to the original issue, and automatically adds a comment to the
 original issue.
 
-== Starred projects ==
+=== Starred projects ===
 
 Users can now star projects that you are interested in so that you can
 easily revisit them.  On the summary page of any project, just click
@@ -392,36 +392,36 @@ have starred is shown on your profile page.
 
 = October 2008 =
 
-== Onward or upward? ==
+=== Onward or upward? ===
 
 Our issue tracker UI was designed with tabbed browsing in mind.  For example, if you want to triage several issues, you can middle-mouse click on links in the issue list to open several issues in separate browser tabs, then step through each of them rapidly.
 
 Now there is another way to rapidly step through issues in your project using just one browser tab.  When you submit an issue, you can now specify whether you would like to go up to the issue list, stay on the same issue, or go to the next issue in the list.
 
 
-== Assigned code reviews ==
+=== Assigned code reviews ===
 
 We love to see developers doing code reviews because it is one of the best ways to improve quality and help everyone on your team stay in-touch with changes as they are made.  Since July we've offered a very easy-to-use code review tool that allows anyone to comment on any line of any revision.  
 
 Now, we are adding assigned reviews: these are issues labeled Type-Review that request that a project member review code that has been committed to a branch. These issues can be created through the Web !UI or through special syntax in a commit log message. The issues are listed in the issue tracker, as well as at the top of the recent changes page.  Each issue links to a branch review page that summarizes all the changes made on that branch.  Once a review is done, its issue can be closed.  See the CodeReviews page for more information.
 
-== Gadgets in, gadgets out ==
+=== Gadgets in, gadgets out ===
 
 You can now place any gadget in a wiki page in your project. That makes it possible to show video, charts, and stats.  And, you can now put gadgets with info about your project onto your iGoogle page (or any other gadget container). See our [http://google-code-updates.blogspot.com/2008/10/gadgets-and-google-code.html blog post] for more details.
 
-== Project updates ==
+=== Project updates ===
 
 The new "Updates" subtab shows a summary of recent project activity, including commits and issue changes. It's a great way to understand how active a project is, and who did what.  See our [http://google-code-updates.blogspot.com/2008/10/project-updates-on-google-code.html blog post] for more information.
 
 = August 2008 =
 
-== Issue templates ==
+=== Issue templates ===
 
 Project owners can now define a set of issue templates that users can choose from when entering new issues.  Each template has initial values for the issue summary, description, owner, status, and labels.  For example, the template for a user defect report asks for different information than the template for an enhancement request.
 
 = July 2008 =
 
-== Source code review tools ==
+=== Source code review tools ===
 
 Code reviews can be a very effective way to improve your code quality, and keep your project members involved in the changes that might affect their work. We now offer a source code review tool that is integrated with Google Code's project hosting.
 
@@ -429,13 +429,13 @@ Reviewing code in your project is simple: browse any source file or diff, double
 
 You can see [http://code.google.com/p/support/source/detail?r=70 code reviews in action] on the code.google.com support project. For complete documentation, see the CodeReviews wiki page.
 
-== Project feeds ==
+=== Project feeds ===
 
 We now have Atom feed available for you to track issues, downloads, Subversion changes, and Wiki updates.  For a list of all feeds in a given project, click the `Project Feeds` link in the right-hand column of the project home page.
 
 = June 2008 =
 
-== Browse history of files even if they were moved or copied ==
+=== Browse history of files even if they were moved or copied ===
 
 Version control is all about access, changes, and history.  When a source code file is moved or copied from one location to another, subversion tracks the old pathname and the new one. The normal `svn log` command shows you the entire past history of a file, even if it has been moved or copied over time.
 
@@ -444,40 +444,40 @@ Now we present that same information in the web interface for source code browsi
 
 = May 2008 =
 
-== Atom feeds for issue changes and commits ==
+=== Atom feeds for issue changes and commits ===
 
 Developers need to stay aware of changes happening in their projects and projects that they depend on.  Usually that means a very full email inbox and lots of automated message filtering.  But, there is a better way.
 
 We now offer atom feeds for the most recent svn commits and issue changes in a project.  When you visit the source code change list page or the issue list page, click the feed icon in your browser location bar to subscribe to the feed.  For example, here is a [http://code.google.com/feeds/p/gears/issueupdates/basic feed of issue changes in the Gears project].
 
-== Downloadable issue list .csv file ==
+=== Downloadable issue list .csv file ===
 
 Do you need to do something with your issue data that our issue tracker just can't do? For example, you might like to produce a bar chart of issues assigned to each developer. Now we help you do that by allowing you to download a comma-separated-value file that has the same information you see in the issue list.  Just click the "CSV" link at the bottom of the issue list.  With most operating systems and browsers, that will take you straight to a spreadsheet application.
 
-== Source browsing file diff now includes SVN Property diffs ==
+=== Source browsing file diff now includes SVN Property diffs ===
 
 The title says it all.  If you changed file properties in an svn commit, you will now see the old and new values of those properties on the diff page. 
 
-== Issue bulk editing ==
+=== Issue bulk editing ===
 
 It's time for spring cleaning of the issues in your project: organize them by milestone, organize them by component, or assign them all to your project members.  Doing that just got a lot easier because we now offer issue bulk editing.
 
 In the issue list, signed-in project owners and committers can check the checkboxes for several issues on one page and then use the "Actions..." drop-down menu at the top of the list to select "Bulk edit...". The bulk edit page allows you to enter one comment that will be appended to all the selected issues. You can set the status or owner of all the issues by filling in those fields. And, you can add or remove labels by entering the label name, or the label name proceeded by a minus-sign.
 
-== Autolinking in svn commit log messages ==
+=== Autolinking in svn commit log messages ===
 
 Now when you mention issues or other revisions in your subversion commit log messages, the text will automatically be linked to the detail page for those artifacts.  Just as with autolinked references in issues and wiki pages, the syntax is `issue 123` or `issue #123` for issues, and `r123` for revisions.  If the linked issue has been closed, it will appear crossed-out.  In most browsers, hovering your mouse over the issue link displays the one-line summary of the issue.
 
 
 = March 2008 =
 
-== Source code browsing improvements ==
+=== Source code browsing improvements ===
 
 We've been working on improving the source code browsing tool.  Intra-line diffs now make it much easier to notice exactly which characters changed on each line. We've also improved the speed of the tool and made it more robust for projects that have large source trees.
 
 = Jan 2008 =
 
-== Source code browsing tool ==
+=== Source code browsing tool ===
 
 The great thing about open source is that anyone can see the source code. Well, that just got a lot easier on Google Code.  
 
@@ -490,7 +490,7 @@ To browse the source code of any project, just click the "Source" tab, and then 
 
 = Dec 2007 =
 
-== Replace a project tab with a wiki page ==
+=== Replace a project tab with a wiki page ===
 
 To keep our project hosting service simple and easy to use, we only offer one version control system, one wiki, one download system, and one issue tracker.  These tools are designed to be flexible to fit the needs and best practices of most small- to medium-sized open source projects. However, we know that one size does not fit all: some projects have existing tools hosted elsewhere, or simply prefer to use other google products or tools hosted on another site.
 
@@ -499,7 +499,7 @@ Now project owners can write a simple wiki page giving end-users instructions on
 
 = Sept 2007 =
 
-== Use any Google Account, not just Gmail accounts ==
+=== Use any Google Account, not just Gmail accounts ===
 
 Previously, we required that all project members use [http://www.gmail.com/ Gmail] accounts.  That restriction helped us manage certain types of spam, but it inconvenienced many legitimate users as well. We've made improvements to the way that we manage the site, and can now pass on the convenience to users.  
 
@@ -507,19 +507,19 @@ Project members can now be specified with the full email address of any Google A
 
 = July 2007 =
 
-== Easier way to get to project home pages ==
+=== Easier way to get to project home pages ===
 
 Shorter, simpler URLs look better and are easier to remember. When developers put their heart into a project they want it to make the best first impression, which is often in the form of a URL in an email or on another web page.
 
 We've always valued clean URLs for project home pages, and have used `http://code.google.com/p/PROJECTNAME` since we started offering project hosting.  Now, projects can also be reached via an even cleaner URL: `http://PROJECTNAME.googlecode.com`.
 
-== Grid view of issues ==
+=== Grid view of issues ===
 
 When projects start, they have a few defect reports and requests for enhancements.  A simple list of issues is good enough: a developer picks some issue, solves it, and closes it.  But, as projects grow in scope, the number of open issues can grow and it can be hard to know which issues to work on first.  Sorting and filtering the list can help developers understand the set of open issues, but now there is an easier way.
 
 The grid view of issues uses rows and columns to lay out issues according to any two attributes.  For example, [http://code.google.com/p/support/issues/list?can=2&q=milestone&sort=&mode=grid&y=Milestone&x=Priority&cells=tiles&nobtn=Update support issues by milestone and priority]. The grid view can also easily show the number of open issues associated with each component, or the number of issues owned by each project member.
 
-== Improvements to list views ==
+=== Improvements to list views ===
 
 Project artifacts in your project workspace have a variety of built-in attributes, and can be labeled with Key-Value pairs as user-defined attributes.  These attributes can be used as column headings in any list view as a way to bring out and organize information according to the structure that makes the most sense for that project.
 
@@ -530,19 +530,19 @@ Several improvements were made to the list views to help project owners use the 
    * The number of items displayed per page has been increased to 100
    * We now display the entire summary of artifacts, even it it would be so long that it word-wraps
 
-== Clarification of the purpose of stars ==
+=== Clarification of the purpose of stars ===
 
 When a user clicks the star icon on an issue, he or she is indicating an interest in that issue.  We make it easy for users to search the issues that they have starred.  Also, users will receive email notification of changes to issues that they have starred.  And, everyone who visits the project can see the number of users who have starred each issue.
 
 We have clarified the email notification aspect of stars by adding tool-tips to the stars and a reminder that starring causes notification of changes to the issue detail page.
 
-== Issue tracker comments ==
+=== Issue tracker comments ===
 
 Sometimes a user leaves a comment on an issue that is irrelevant or which contains information like a password that should not be displayed to other users.  It can happen to any of us if we accidentally comment on the wrong issue or paste in a big chunk of text.  
 
 Now, those unwanted comments can be deleted or undeleted by the user who entered them, or by the project owner.
 
-== Wiki page comments ==
+=== Wiki page comments ===
 
 Wiki's are community-owned knowledge-bases: they should allow contributions from anyone who notices a problem or wants to add valuable information, but they can also lose some of their value if they are vandalized, if they become disorganized, or if incorrect information is added.
 
@@ -557,13 +557,13 @@ Open source projects are all about collaboration between project members and the
 
 Now all those questions can be answered.  Project owners may simply sign up for [http://www.google.com/analytics Google Analytics] and enter an analytics profile number into the project admin page.  Tracking data can be viewed on the Google Analytics site about 24 hours later.
 
-== Bug fixes ==
+=== Bug fixes ===
 
 We continue to work hard to improve the quality and reliability of the project hosting service by finding and fixing defects.  Please check our current [http://code.google.com/p/support/issues/list support issues], star the issues that are most important to you, and report and new defects that you find.
 
 = April 2007 =
 
-== Autolinking of issues ==
+=== Autolinking of issues ===
 
 Software development is all about putting ideas into working software.  It turns out that the software created has a lot of interconnections, and the process of creating that software requires even more connections, dependencies, and references between all the information produced as part of the project.  Google code hosting has always offered the developers the ability to link web pages in subversion, and wiki pages.  We also encourage the use of Google groups or other mailing list archives that make past messages accessible via a link.  And, every issue has had a clear URL that can be linked to, but only by specifying the full link.
 
