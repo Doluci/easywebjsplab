@@ -5,7 +5,19 @@
 
 Welcome to the What's New page for Google Project Hosting. Here you'll find descriptions of our latest improvements to our collaborative development environment.
 
+= July 2011 =
+
+=== Issue quick-edit and preview-on-hover user preference ===
+
+Now there's a faster, more command-like and keyboard-oriented way to triage issues.  Read all about it in the [http://googlecode.blogspot.com/2011/07/taking-command-of-issue-triage.html code blog post].
+
 = June 2011 =
+
+=== Issue summary prefixes ===
+
+Our issue tracker now retains prefixes in the summary of an issue template.  E.g.,  if you define an issue template with the summary `"[REGRESSION] something that used to work"`, then when a user enters an issue using that template, they will still see `"[REGRESSION]"` in the summary field after they click to edit it.
+
+=== +1 Button ===
 
 You can now add the [http://www.google.com/+1/button/ +1 button] to wiki pages and to project home pages, using the `<g:plusone/>` tag. See WikiSyntax for details. <g:plusone href="http://code.google.com/p/support" size="medium"/>
 
