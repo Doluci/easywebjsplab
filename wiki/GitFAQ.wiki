@@ -1,0 +1,11 @@
+#summary Frequently asked questions about Git.
+#labels Git
+
+=Git FAQ=
+
+== How do I reset my repository? ==
+
+Project owners can click the "reset" link at the bottom of the checkout page. This is useful if you accidentally committed sensitive information to the repository or if you want to push from an unrelated repository.
+
+== Is there a size limit on git repositories? ==
+For all source control systems, there is a 4GiB repository size limit. For git, we are starting with a push size limit of 500 MiB. If you try to push a pack over 500 MiB, your push will fail. We hope to lift this limit.
