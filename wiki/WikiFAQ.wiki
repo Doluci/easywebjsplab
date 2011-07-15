@@ -43,7 +43,7 @@ Only project owners and committers can add and edit wiki pages for a particular 
 == Where is the wiki content stored? ==
 If Subversion is used, all wiki pages are stored in the /wiki/ directory of your project's Subversion repository, as files ending in .wiki (other files and subdirectories will be ignored). That means you can use a Subversion client and your favorite text editor to add and edit wiki pages.
 
-If Mercurial is used,the wiki content is stored `http://wiki.[projectname].googlecode.com/hg/` where `[projectname]` is the name of the specific project.
+If Mercurial is used,the wiki content is stored `http://wiki.[projectname].googlecode.com/hg/` where `[projectname]` is the name of the specific project. For Git, `http://wiki.[projectname].googlecode.com/git`.
 
 == Where can I find defects for the wiki? ==
 Here is our list of current issues with the wiki. Our top issue right now is that the wiki cache is not updated when a wiki page gets removed from the repository (e.g. when the repository is reset). 
