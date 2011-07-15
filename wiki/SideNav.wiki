@@ -27,6 +27,7 @@
       * [MercurialFAQ Mercurial FAQ]
       * [ConvertingSvnToHg SVN Conversion]
     * Git
+      * [GitFAQ Git FAQ]
       * [ExportingToGit Exporting to Git]
       * [ImportingFromGit Importing from Git]
     * Subversion

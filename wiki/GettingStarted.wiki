@@ -3,7 +3,7 @@
 
 =Getting Started=
 
-Project Hosting on Google Code provides a free collaborative development environment for open source projects. Each project comes with its own member controls, Subversion/Mercurial repository, issue tracker, wiki pages, and downloads section. Our project hosting service is simple, fast, reliable, and scalable, so that you can focus on your own open source development.
+Project Hosting on Google Code provides a free collaborative development environment for open source projects. Each project comes with its own member controls, Subversion/Mercurial/Git repository, issue tracker, wiki pages, and downloads section. Our project hosting service is simple, fast, reliable, and scalable, so that you can focus on your own open source development.
 
 This guide provides information on:
 
@@ -38,9 +38,10 @@ You'll also likely want to set up mailing lists for notifications of commits and
 
 === Working with your Source Repository ===
 
-Each project has its own [http://subversion.apache.org/ Subversion] or [http://www.selenic.com/mercurial/ Mercurial] repository.
+Each project has its own [http://subversion.apache.org/ Subversion] or [http://www.selenic.com/mercurial/ Mercurial] or [http://git-scm.com/ Git] repository.
   * [http://svnbook.red-bean.com/ Learn more] about using Subversion.
   * [http://hgbook.red-bean.com/ Learn more] about using Mercurial.
+  * [http://git-scm.com/documentation Learn more] about using Git. 
 
 Perform the following to check code in and out of your source repository:
 
