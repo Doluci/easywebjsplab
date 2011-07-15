@@ -9,3 +9,6 @@ Project owners can click the "reset" link at the bottom of the checkout page. Th
 
 == Is there a size limit on git repositories? ==
 For all source control systems, there is a 4GiB repository size limit. For git, we are starting with a push size limit of 500 MiB. If you try to push a pack over 500 MiB, your push will fail. We hope to lift this limit.
+
+== What version of Git is required? ==
+At least 1.6.6.
