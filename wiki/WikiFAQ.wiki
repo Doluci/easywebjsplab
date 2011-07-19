@@ -49,3 +49,8 @@ If Mercurial is used,the wiki content is stored `http://wiki.[projectname].googl
 Here is our list of current issues with the wiki. Our top issue right now is that the wiki cache is not updated when a wiki page gets removed from the repository (e.g. when the repository is reset). 
 
 http://code.google.com/p/support/issues/list?can=2&q=component:wiki+type:defect
+
+== Why has all my wiki content disappeared? ==
+The most common cause of wiki content disappearing is when you switch version control systems for your project. Wiki content is stored in version control, and we don't automatically convert version control data for you.
+
+To get your old wiki content back, switch back to your old VCS. If you would like the same wiki content on your new VCS, make a local checkout or clone of your wiki, switch your project to the new VCS, and push the content back. For an example using Mercurial, see [ConvertingSvnToHg here].
