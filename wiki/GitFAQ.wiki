@@ -15,3 +15,7 @@ At least 1.6.6.
 
 == Where did my wiki go? ==
 Project wikis are stored in version control. For Subversion projects, the wiki can be found in "/wiki" in the root of the repository, and for Git and Mercurial projects, the wiki is stored in the separate "wiki" repository. If you convert your project from one version control system to another, you will also need to copy any wiki files into the appropriate new location.
+
+== Git refuses to push, says "everything up to date" ==
+
+`git push <remote>` with no additional arguments only pushes branches that exist in the remote already. If the remote repository is empty, nothing will be pushed. In this case, explicitly specify a branch to push, e.g. `git push <remote> master`.
