@@ -20,5 +20,7 @@ Project wikis are stored in version control. For Subversion projects, the wiki c
 
 `git push <remote>` with no additional arguments only pushes branches that exist in the remote already. If the remote repository is empty, nothing will be pushed. In this case, explicitly specify a branch to push, e.g. `git push <remote> master`.
 
-== Can I access my repository over git:// or ssh:// instead of https://? ==
+== Can I access my repository over git:// or ssh:// instead of https:// ? ==
 In order to take advantage of the advanced scalability and load-balancing features of Google's production servers, we are only able to accept incoming HTTP connections. We have no plans to support protocols other than the Git Smart HTTP protocol introduced in v1.6.6.
+
+We do support both anonymous (read-only) and authenticated (read/write) access over HTTPS.
