@@ -28,10 +28,10 @@
       * [ConvertingSvnToHg SVN Conversion]
     * Git
       * [GitFAQ Git FAQ]
-      * [ExportingToGit Exporting to Git]
-      * [ImportingFromGit Importing from Git]
     * Subversion
       * [SubversionFAQ Subversion FAQ]
+      * [ExportingToGit Exporting to Git]
+      * [ImportingFromGit Importing from Git]
   * Administer
     * [InboundEmail Inbound Email]
     * [UserGroups User Groups]
