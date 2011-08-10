@@ -34,3 +34,6 @@ If you convert your project from one version control system to another, you will
 In order to take advantage of the advanced scalability and load-balancing features of Google's production servers, we are only able to accept incoming HTTP connections. We have no plans to support protocols other than the Git Smart HTTP protocol introduced in v1.6.6.
 
 We do support both anonymous (read-only) and authenticated (read/write) access over HTTPS.
+
+== I put my credentials in `.netrc`, so why does git still ask me for a password? ==
+The C git client always asks for a password if you have a username in the URL. Check your command line and `.git/config` file and make sure that your `code.google.com` URLs do not include your username (the part up to the `@`).
