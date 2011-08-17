@@ -85,7 +85,7 @@ To convert your wiki history, use a similar approach (note the `.wiki` suffix):
   $ git svn clone https://projectname.googlecode.com/svn/wiki projectname.wiki
   $ cd projectname.wiki
   $ git remote add googlecode https://code.google.com/p/projectname.wiki
-  $ git push --all https://code.google.com/p/projectname.wiki
+  $ git push --all googlecode
 }}}
 
 You're done! If you look at at your project's Source or Wiki tabs, you should
