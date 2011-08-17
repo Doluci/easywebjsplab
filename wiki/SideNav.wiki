@@ -28,6 +28,7 @@
       * [ConvertingSvnToHg SVN Conversion]
     * Git
       * [GitFAQ Git FAQ]
+      * [ConvertingSvnToGit SVN Conversion]
     * Subversion
       * [SubversionFAQ Subversion FAQ]
       * [ExportingToGit Exporting to Git]
