@@ -21,7 +21,7 @@ you can always switch back.)
 
 = How to Convert Subversion History to Git =
 
-For both of these options, make sure you know your project's clone URL and familiarize yourself with the clone instructions on your project's Source Checkout page. You can get to this page by clicking the "Source" tab, or go directly to https://code.google.com/projectname/source/checkout
+For both of these options, make sure you know your project's clone URL and familiarize yourself with the clone instructions on your project's Source Checkout page. You can get to this page by clicking the "Source" tab, or go directly to https://code.google.com/p/projectname/source/checkout
 
 You won't be using the `git clone` instructions exactly for this procedure, but you should be using that URL and username/password info.
 
