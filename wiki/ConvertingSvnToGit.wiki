@@ -64,8 +64,8 @@ the `svn` remote helper:
 
 {{{
   $ git svn clone --stdlayout https://projectname.googlecode.com/svn projectname
-  $ git remote add googlecode https://code.google.com/p/projectname
   $ cd projectname
+  $ git remote add googlecode https://code.google.com/p/projectname
   $ git push --all googlecode
 }}}
 
