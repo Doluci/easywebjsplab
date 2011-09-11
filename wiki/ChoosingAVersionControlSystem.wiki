@@ -6,11 +6,12 @@ When creating a new project on Google Code, you need to choose between Subversio
 
 == Subversion ==
 
-Subversion is a well-known centralized VCS and, arguably, the most commonly used VCS for open source projects.
+Subversion is a well-known centralized VCS and the most widely used VCS for open source projects.
   * The largest benefit of using Subversion is that it's familiar to most developers, so they can start contributing to projects immediately without having to figure out a new VCS.
   * Subversion can scale to support larger projects, but it works especially well for small/medium sized projects.
   * Subversion also works well for teams where most software contributions are expected from other team members. Unlike distributed version control systems (DVCS), however, team members cannot make check-ins when they are offline.
 
+For more information on Subversion, you might start with the free online [http://svnbook.red-bean.com Subversion book].
 
 == Mercurial/Git ==
 
