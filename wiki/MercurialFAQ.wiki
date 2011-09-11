@@ -14,7 +14,7 @@ searching for changes
 abort: HTTP Error 405: Method Not Allowed
 }}}
 
-You must push over *https* rather than *http*, e.g. `hg push https://MYREPO.googlecode.com/hg`.  If you clone via *https* initially, then a plain `hg push` will work.
+You must push over *https* rather than *http*, e.g. `hg push https://code.google.com/p/MYREPO`.  If you clone via *https* initially, then a plain `hg push` will work. To fix this if you already cloned via *http*, edit .hg/hgrc and change the path there.
 
 == How can I avoid typing my password in for each `hg push`? ==
 
