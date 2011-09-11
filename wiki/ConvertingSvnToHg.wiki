@@ -8,7 +8,7 @@ Follow the following instructions to switch your project from Subversion to Merc
   # Go to your existing open source project, choose the Administer tab, and then choose the Source sub-tab.
   # Change the repository type to Mercurial
   # Import your code into the Hg code repository as described in the 'How to Convert Subversion History to Mercurial' section below
-  # In the same manner you imported your code, import your wiki into the Hg wiki repository. Make sure to use the path of the wiki in your subversion repository (e.g. http://projectname.googlecode.com/svn/wiki) and the Hg wiki repository (http://wiki.projectname.googlecode.com/hg/)
+  # In the same manner you imported your code, import your wiki into the Hg wiki repository. Make sure to use the path of the wiki in your subversion repository (e.g. http://projectname.googlecode.com/svn/wiki) and the Hg wiki repository (https://code.google.com/p/projectname.wiki)
 
 Your old Subversion project will still be accessible after you switch your project to using Mercurial, so you will not need to back up your repository before switching. Your Subversion repository will remain accessible at: https://projectname.googlecode.com/svn/
 
@@ -22,7 +22,7 @@ Mercurial.  Assuming your googlecode Mercurial repository is empty,
 it's as easy as:
 
 {{{
-  $ hg clone https://projectname.googlecode.com/hg hg-client
+  $ hg clone https://code.google.com/p/projectname hg-client
   $ cd hg-client
   $ svn export --force http://projectname.googlecode.com/svn/trunk .
   $ hg add .
@@ -32,7 +32,7 @@ it's as easy as:
 
 To convert your wiki:
 {{{
-  $ hg clone https://wiki.projectname.googlecode.com/hg hg-client-wiki
+  $ hg clone https://code.google.com/p/projectname.wiki hg-client-wiki
   $ cd hg-client-wiki
   $ svn export --force http://projectname.googlecode.com/svn/wiki .
   $ hg add .
@@ -112,5 +112,5 @@ repository):
 
 {{{
   $ cd hg-client
-  $ hg push https://projectname.googlecode.com/hg
+  $ hg push https://code.google.com/p/projectname
 }}}
