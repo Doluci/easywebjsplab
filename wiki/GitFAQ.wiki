@@ -9,7 +9,7 @@ The [http://book.git-scm.com/ community-edited Git book] is a good place to star
 
 == How do I convert my Subversion or Mercurial repository to Git? ==
 
-There are open source tools to do conversions to Git from many version control systems. We have had success with [http://www.kernel.org/pub/software/scm/git/docs/git-svn.html git-svn] and [http://repo.or.cz/w/fast-export.git hg-fast-export] for Subversion and Mercurial, respectively, but others might work for you as well.
+There are open source tools to do conversions to Git from many version control systems. We have had success with [http://git-core.googlecode.com/git-history/html/git-svn.html git-svn] and [http://repo.or.cz/w/fast-export.git hg-fast-export] for Subversion and Mercurial, respectively, but others might work for you as well.
 
 == How do I reset my repository? ==
 
