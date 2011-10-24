@@ -28,7 +28,9 @@ If you convert your project from one version control system to another, you will
 
 == Why does Git refuse to push, saying "everything up to date"? ==
 
-`git push <remote>` with no additional arguments only pushes branches that exist in the remote already. If the remote repository is empty, nothing will be pushed. In this case, explicitly specify a branch to push, e.g. `git push <remote> master`.
+If you cloned a brand new repo with just a `master` branch, then the command you probably want is `git push origin master`.
+
+More generally, `git push <remote>` with no additional arguments only pushes branches that exist in the remote already. If the remote repository is empty, nothing will be pushed. So, you should explicitly specify a branch to push, i.e. `git push <remote> <branch>`.
 
 == Can I access my repository over git:// or ssh:// instead of https:// ? ==
 In order to take advantage of the advanced scalability and load-balancing features of Google's production servers, we are only able to accept incoming HTTP connections. We have no plans to support protocols other than the Git Smart HTTP protocol introduced in v1.6.6.
