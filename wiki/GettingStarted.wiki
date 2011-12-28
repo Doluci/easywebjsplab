@@ -28,7 +28,7 @@ You can use the functionality under the *Administer* tab to customize your proje
   * *Source* subtab -- You can elect to have non-project members review your code.
 
 You'll also likely want to set up mailing lists for notifications of commits and issue changes. The emails allow project members and others to keep track of changes to the source code that might affect them. To set up mailing lists, perform the following:
-  # If you need to create mailing lists, you may want to use [http://groups.google.com/ Google Groups].
+  # If you need to create mailing lists, you may want to use [http://code.google.com/p/support/wiki/FAQ#Google_Groups Google Groups].
   # Add `(your-project-name)@googlecode.com` as an allowed poster to all mailing lists that will receive notifications.
   # In your project, click the *Administer* tab.
   # Click the *Source* subtab.
