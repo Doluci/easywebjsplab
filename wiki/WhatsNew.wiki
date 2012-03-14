@@ -5,6 +5,18 @@
 
 Welcome to the What's New page for Google Project Hosting. Here you'll find descriptions of our latest improvements to our collaborative development environment.
 
+= March 2012 =
+
+=== Enabled recaptcha ===
+
+In order to fight spam we have enabled recaptcha when we think you might be a spammer.
+
+=== Allow non-project members to specify labels when creating a new issue ===
+
+See also Issue 9267.
+
+-----
+
 = September 2011 =
 
 === Faster issue tracker searches in large projects ===
