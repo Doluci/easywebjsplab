@@ -7,21 +7,43 @@ Welcome to the What's New page for Google Project Hosting. Here you'll find desc
 
 = March 2012 =
 
-=== Enabled recaptcha ===
+=== Anti-spam measures ===
 
-In order to fight spam we have enabled recaptcha when we think you might be a spammer.
+We have upgraded our captchas and improved our spam detection capabilities.
 
 === Allow non-project members to specify labels when creating a new issue ===
 
 There is a checkbox in the issue tracker settings that, when checked, allows users who are not project members to set labels when entering new issues. See also Issue 9269.
 
+= January 2012 =
+
+=== Moving issues ===
+
+You can now move issues from one project to another, e.g. if they have been filed in the wrong location.
+
 -----
+
+= November 2011 =
+
+=== Mercurial bookmark support ===
+
+We now support [http://mercurial.selenic.com/wiki/Bookmarks Mercurial pushable bookmarks].
+
+= October 2011 =
+
+=== Repository deletion support ===
+
+For projects with multiple Git or Mercurial repositories, you can now mark repositories as deleted. See issue 4061.
 
 = September 2011 =
 
 === Faster issue tracker searches in large projects ===
 
 We made a series of changes that sped up issue searches and the issue detail page in large projects such as [http://code.google.com/p/chromium chromium].  At this point, there's at least a 30% speedup already, and more optimizations are in the works.
+
+=== Mercurial closed branch display ===
+
+Closed branches in Mercurial repositories are now marked as such. See issue 2182.
 
 = August 2011 =
 
@@ -34,6 +56,10 @@ Users reported that the issue preview window opened too often when they were not
 === Git support ===
 
 We now support Git, along with Mercurial and Subversion. See the [http://google-opensource.blogspot.com/2011/07/announcing-git-support-for-google-code.html announcement] and the [GitFAQ FAQ].
+
+=== Better repository urls ===
+
+You can now clone a Mercurial or Git project directly from the project home page, e.g. "hg clone http://code.google.com/p/go/".
 
 === Issue quick-edit commands, and preview-on-hover user preference ===
 
