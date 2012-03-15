@@ -13,7 +13,7 @@ In order to fight spam we have enabled recaptcha when we think you might be a sp
 
 === Allow non-project members to specify labels when creating a new issue ===
 
-See also Issue 9267.
+There is a checkbox in the issue tracker settings that, when checked, allows users who are not project members to set labels when entering new issues. See also Issue 9269.
 
 -----
 
