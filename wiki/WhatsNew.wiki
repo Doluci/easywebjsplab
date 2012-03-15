@@ -31,6 +31,10 @@ Users reported that the issue preview window opened too often when they were not
 
 = July 2011 =
 
+=== Git support ===
+
+We now support Git, along with Mercurial and Subversion. See the [http://google-opensource.blogspot.com/2011/07/announcing-git-support-for-google-code.html announcement] and the [GitFAQ FAQ].
+
 === Issue quick-edit commands, and preview-on-hover user preference ===
 
 Now there's a faster, more command-like and keyboard-oriented way to triage issues.  Read all about it in the [http://googlecode.blogspot.com/2011/07/taking-command-of-issue-triage.html code blog post].
