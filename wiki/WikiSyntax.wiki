@@ -460,7 +460,7 @@ Valid attributes are:
 
 == Side navigation ==
 
-You can specify the sidebar for a wiki page by selecting another wiki page that defines your side navigation. The [http://code.google.com/p/doctype/wiki/Articles doctype project] uses the sidebar extensively across its wiki.
+You can specify the sidebar for a wiki page by selecting another wiki page that defines your side navigation. The [http://code.google.com/p/guava-libraries/wiki/GuavaExplained?tm=6 Guava project] uses the sidebar extensively across its wiki.
 
 One way of adding a sidebar is by setting the #sidebar pragma, as shown below. Alternatively, the sidebar pragma can be left blank if no side navigation is desired. 
 
