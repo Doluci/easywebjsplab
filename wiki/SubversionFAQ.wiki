@@ -162,3 +162,11 @@ For gadgets, we still recommend using the [http://code.google.com/p/support/wiki
 == How do I use Subversion when behind a proxy? == 
 
 http://subversion.apache.org/faq.html#proxy
+
+== Why am I getting the error "Commit metadata is too large" when trying to commit to my repository? ==
+
+[http://en.wikipedia.org/wiki/Wikipedia:Too_long;_didn't_read TL;DR]: You're trying to commit many tens of thousands of files at once; break your commits up into smaller pieces.
+
+Google Code's Subversion service doesn't work like the Subversion service you might run on your own server. In particular, it is a distributed, replicated system. In order for your commit data to land successfully on many servers in several separate data centers in a timely way, we have to place an upper bound on the size of the metadata of your Subversion transaction (mostly, the number of paths it touches) that has to travel synchronously to several geographically diverse data centers.
+
+We're exploring ways to lift this limit. In the meantime, we've decided to trade off the convenience of making truly giant commits for some very good durability and consistency guarantees for your data.
