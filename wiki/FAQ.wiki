@@ -242,7 +242,7 @@ You can visit [http://groups.google.com/ Google Groups] and create as many maili
 Sure. Just link to its existing web interface using a regular project link. If you have an existing mailing list for automated commit messages, enter its address in the form that is under the "Administer" tab.
 
 == How do I make my mailing list accept Subversion commit emails? ==
-Consarnit; this temporarily doesn't work any more (see http://code.google.com/p/support/issues/detail?id=5658). ~~Simply configure your mailing list to accept posts from PROJECTNAME@googlecode.com. You can do this by adding the address to the "allowed posters" list, or by making that address a member of the list with no delivery.~~
+Simply configure your mailing list to accept posts from PROJECTNAME@googlecode.com. You can do this by adding the address to the "allowed posters" list, or by making that address a member of the list with no delivery.
 
 ----
 
