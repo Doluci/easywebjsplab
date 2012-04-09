@@ -49,7 +49,7 @@ We made a series of changes that sped up issue searches and the issue detail pag
 
 === Mercurial closed branch display ===
 
-Closed branches in Mercurial repositories are now marked as such. See issue 2182.
+Closed branches in Mercurial repositories are now marked as such. See issue 3103.
 
 = August 2011 =
 
