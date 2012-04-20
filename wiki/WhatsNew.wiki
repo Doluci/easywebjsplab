@@ -7,6 +7,10 @@ Welcome to the What's New page for Google Project Hosting. Here you'll find desc
 
 = April 2012 =
 
+=== Issue tracker UI ===
+
+The "New Issue" button now warns you if clicking it would discard existing changes.
+
 === Social features ===
 
 We've added +1 buttons to project home pages and Google+ badges to user profile pages.
