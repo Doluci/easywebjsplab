@@ -7,6 +7,13 @@ Welcome to the What's New page for Google Project Hosting. Here you'll find desc
 
 = April 2012 =
 
+=== Codesearch ===
+  * We added Codesearch for Mercurial Repositories.
+
+=== Bug Fixes ===
+  * We Fixed pathological email handling in our inbound email processing.
+  * We Fixed email obfuscation logic for email notifications.
+
 === Issue tracker UI ===
 
 The "New Issue" button now warns you if clicking it would discard existing changes.
