@@ -11,8 +11,8 @@ Welcome to the What's New page for Google Project Hosting. Here you'll find desc
   * We added Codesearch for Mercurial Repositories.
 
 === Bug Fixes ===
-  * We Fixed pathological email handling in our inbound email processing.
-  * We Fixed email obfuscation logic for email notifications.
+  * We fixed pathological email handling in our inbound email processing.
+  * We fixed email obfuscation logic for email notifications.
 
 === Issue tracker UI ===
 
