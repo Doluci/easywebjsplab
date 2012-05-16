@@ -46,7 +46,7 @@ Each project has its own [http://subversion.apache.org/ Subversion] or [http://w
 Perform the following to check code in and out of your source repository:
 
   # For instructions on how to check out a project's repository from the command line, go to the *Source* tab. Any user, regardless of whether they have a Google account, can check out and browse the repository anonymously, while project owners and committers are granted full read and write permissions. You can add project owners and committers at the [#Customizing_your_Project_on_the_Administer_Tab Administer tab].
-  # If you plan on synching from an existing repository, you *must* click the *Reset This Repository* link at the bottom of the *Source* tab page before making any other changes to your project's repository. *This includes creating any new wiki pages* because resetting the repository results in the loss of wiki content. Do not start a wiki page in your project before you complete this step.
+  # If you plan on synching from an existing repository, you *must* click the *Reset This Repository* link at the bottom of the *Source* tab page before making any other changes to your project's repository.
 
 After you've been working with your project for a while, the following subtabs on the *Source* tab will come in handy:
 
