@@ -8,6 +8,11 @@ Welcome to the What's New page for Google Project Hosting. Here you'll find desc
 = June 2012 =
   * Fixed Blocked On/Blocking Issue not showing proper backlinks (Issue 28258). Affected issues will be fixed soon.
   * Added Label Subscriptions. Clicking on the new "Subscriptions" link in the issue tracker will bring you to a form where you can list labels you want to receive issue change notifications for. You will receive email whenever an issue with that label is changed.
+  * Released new issue search backend with increased scalability. If you see any weird results please open an issue at http://code.google.com/p/support/issues/entry.
+  * Fixed sorting on MergedInto column (Issue 5813)
+  * Support for Stars >X searches. stars:X will now search for star_count >= X while stars=X will search for star_count = X (Issue 1210)
+  * Proper cross-project issue search, you can now add project=project-name-1,project-name-2 into your search queries to search across multiple projects (Issue 5263).
+  * The opened-before, opened-after and other related operators now support today as a value instead of today-0 :).
 
 = May 2012 =
   * Removed pending code reviews request from the source list browser
