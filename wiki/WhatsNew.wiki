@@ -13,6 +13,7 @@ Welcome to the What's New page for Google Project Hosting. Here you'll find desc
   * Support for Stars >X searches. stars:X will now search for star_count >= X while stars=X will search for star_count = X (Issue 1210)
   * Proper cross-project issue search, you can now add project=project-name-1,project-name-2 into your search queries to search across multiple projects (Issue 5263).
   * The opened-before, opened-after and other related operators now support today as a value instead of today-0 :).
+  * Not searches with multiple values now work again (Issue 26415)
 
 = May 2012 =
   * Removed pending code reviews request from the source list browser
