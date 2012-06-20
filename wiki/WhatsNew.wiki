@@ -7,7 +7,7 @@ Welcome to the What's New page for Google Project Hosting. Here you'll find desc
 
 = June 2012 =
   * Fixed Blocked On/Blocking Issue not showing proper backlinks (Issue 28258). Affected issues will be fixed soon.
-  * Added Label subscriptions. A new link is now on the search bar for the issue tracker. Clicking on it will bring the user to a form where they can list labels they want to receive issue change notifications for. Any issues with that label that they have view permissions on will email the user when they get changed.
+  * Added Label Subscriptions. Clicking on the new "Subscriptions" link in the issue tracker will bring you to a form where you can list labels you want to receive issue change notifications for. You will receive email whenever an issue with that label is changed.
 
 = May 2012 =
   * Removed pending code reviews request from the source list browser
