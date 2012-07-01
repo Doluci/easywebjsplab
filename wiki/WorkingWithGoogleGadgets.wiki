@@ -216,10 +216,10 @@ Similar embed codes are provided for presentations as well, allowing presentatio
 It's now possible to embed videos directly using our new video gadget, which currently handles both YouTube and Google Video content:
 
 {{{
-<wiki:gadget url="http://code.google.com/p/google-code-project-hosting-gadgets/source/browse/trunk/video/gcVideo.xml" up_video="..." />
+<wiki:gadget url=""http://google-code-project-hosting-gadgets.googlecode.com/svn/trunk/video/gcVideo.xml" up_video="..." />
 }}}
 
-There is also a short hand wiki tag for embedding videos. For more information, refer to the [http://code.google.com/p/support/wiki/WikiSyntax#Videos WikiSyntax] documentation.
+There is also a shorthand wiki tag, `<wiki:video>`, for embedding videos. See WikiSyntax for more information.
 
 == Google Groups ==
 
