@@ -8,7 +8,7 @@ Welcome to the What's New page for Google Project Hosting. Here you'll find desc
 = July 2012 = 
   * Issue searches for URI’s now generates the proper results (Issue 28341)
   * Issue status reclassification now sets/unsets the closed_on timestamp (Issue 28327)
-  * Issue search result counts is now accurate up to 10.000, above 10.000 rounding is applied for aesthetic reasons (Issue 28312)
+  * Issue search result counts are now accurate up to 10.000, above 10.000 rounding is applied for aesthetic reasons (Issue 28312)
 
 = June 2012 =
   * Fixed Blocked On/Blocking Issue not showing proper backlinks (Issue 28258). Affected issues will be fixed soon.
