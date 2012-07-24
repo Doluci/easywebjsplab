@@ -5,6 +5,11 @@
 
 Welcome to the What's New page for Google Project Hosting. Here you'll find descriptions of our latest improvements to our collaborative development environment.
 
+= July 2012 = 
+  * Issue searches for URI’s now generates the proper results (Issue 28341)
+  * Issue reclassification now sets/unsets the closed_on timestamp (Issue 28327)
+  * Issue search result counts is now accurate up to 10.000, above 10.000 rounding is applied for aesthetic reasons (Issue 28312)
+
 = June 2012 =
   * Fixed Blocked On/Blocking Issue not showing proper backlinks (Issue 28258). Affected issues will be fixed soon.
   * Added Label Subscriptions. Clicking on the new "Subscriptions" link in the issue tracker will bring you to a form where you can list labels you want to receive issue change notifications for. You will receive email whenever an issue with that label is changed.
