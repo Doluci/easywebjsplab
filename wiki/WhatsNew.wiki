@@ -5,6 +5,10 @@
 
 Welcome to the What's New page for Google Project Hosting. Here you'll find descriptions of our latest improvements to our collaborative development environment.
 
+= August 2012 =
+  * Searching for an exact issue label now works correctly (Issue 28311)
+  * Bug fix for incorrect expansion of groups addresses when sending email for blocked-on/blocking updates (Issue 28391)
+
 = July 2012 = 
   * Issue searches for URI’s now generates the proper results (Issue 28341)
   * Issue status reclassification now sets/unsets the closed_on timestamp (Issue 28327)
