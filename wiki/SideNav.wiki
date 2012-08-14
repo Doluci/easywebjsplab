@@ -23,7 +23,6 @@
     * [CodeReviews CodeReviews]
     * [ChoosingAVersionControlSystem Choosing a VCS]
     * [PostCommitWebHooks PostCommitWebHooks]
-    * [PersonalClones Personal Clones]
     * Mercurial
       * [MercurialFAQ Mercurial FAQ]
       * [ConvertingSvnToHg SVN Conversion]
