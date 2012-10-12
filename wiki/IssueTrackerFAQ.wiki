@@ -59,6 +59,15 @@ Large projects typically need to manage their workflow. For example, if the issu
 For more information: 
 http://code.google.com/p/support/wiki/IssueTracker#Filter_rules
 
+== How can comments be deleted? ==
+
+Comments may be deleted by both the comment author and project owners. Each comment has a link next to it that says `Delete Comment`.
+
+== How can issues be deleted? ==
+Issues are controlled by the owners of the project. If you're a project owner, you can delete an issue by viewing the issue, clicking `Add a comment and make changes below` and then select `Delete Issue` from the `More Actions...` dropdown at the bottom of the page.
+
+If you created the issue, you can always close an issue, but if you want it deleted, you will have to do it by asking the team that owns it.
+
 == Learn more about the issue tracker ==
 
 See the IssueTracker wiki page.
