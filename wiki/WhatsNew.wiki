@@ -6,7 +6,7 @@
 Welcome to the What's New page for Google Project Hosting. Here you'll find descriptions of our latest improvements to our collaborative development environment.
 
 = October 2012 =
-  * Use the correct MIME type for serving *.xhtml pages (Issue 28522)
+  * Use the correct MIME type for serving `*`.xhtml pages (Issue 28522)
 
 = August 2012 =
   * Searching for an exact issue label now works correctly (Issue 28311)
