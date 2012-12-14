@@ -1,5 +1,12 @@
 #summary Issue Tracker Data API Developer Guide
 
+=<font color="red">Deprecated</font>=
+<font color="red">*The Issue Tracker Data API has been deprecated and will be shut down on June 14, 2012*
+
+*See http://googleblog.blogspot.com/2012/12/winter-cleaning.html *</font>
+
+-----
+
 The Issue Tracker Data API allows client applications to view and update issues on Project Hosting on Google Code in the form of Google Data API feeds. Your client application can use the Issue Tracker Data API to create new issues & issue comments, request a list of issues, request issue comments for an issue, edit existing issues, and query for issues that match a particular criteria.
 
 In addition to providing some background on the capabilities of the Issue Tracker Data API, this document provides examples of basic Data API interactions using raw XML and HTTP.
