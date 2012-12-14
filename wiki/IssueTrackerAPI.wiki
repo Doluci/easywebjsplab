@@ -1,7 +1,7 @@
 #summary Issue Tracker Data API Developer Guide
 
 =<font color="red">Deprecated</font>=
-<font color="red">*The Issue Tracker Data API has been deprecated and will be shut down on June 14, 2012*
+<font color="red">*The Issue Tracker Data API has been deprecated and will be shut down on June 14, 2013*
 
 *See http://googleblog.blogspot.com/2012/12/winter-cleaning.html *</font>
 
