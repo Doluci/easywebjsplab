@@ -92,7 +92,7 @@ To convert your wiki history, use a similar approach (note the `.wiki` suffix):
   $ git push --all googlecode
 }}}
 
-You're done! If you look at at your project's Source or Wiki tabs, you should
+You're done! If you look at your project's Source or Wiki tabs, you should
 see your converted repository history.
 
 If you have trouble, feel free to contact google-code-hosting@googlegroups.com
