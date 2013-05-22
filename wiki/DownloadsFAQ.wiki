@@ -3,54 +3,73 @@
 =Downloads FAQ=
 <wiki:toc max_depth="2" />
 
-== Why shouldn't I keep deleting and re-uploading a project download? =
+Google Code no longer offers downloads functionality for new projects. Existing projects with downloads will see no visible changes until January 14, 2014 and will no longer have the ability to create new downloads starting on January 15, 2014.  All existing downloads in these projects will continue to be accessible for the foreseeable future. 
 
-You can delete files from the download section if you accidentally uploaded the wrong file or the file is corrupted.  You need to notice this problem fairly quickly, before too much time has passed or too many people have downloaded the file.
+== How do I move my project’s downloads to Google Drive? ==
 
-After a file has been released for some time, it becomes part of your project's history and should no longer be deleted.  Offering [http://google-opensource.blogspot.com/2008/05/best-practices-archival-downloads.html archival downloads] means that users can trust that the file will always be available from that URL. At that point, instead of deleting the file, you should only label it as "Deprecated", which removes it from the list of currently supported downloads. 
+  # [https://accounts.google.com/SignUp?service=wise&continue=https%3A%2F%2Fdrive.google.com%2F%23&ltmpl=drive Create a new Google Drive account] for your project's downloads.
+  # [http://support.google.com/drive/bin/answer.py?answer=2375091 Create a folder] for your project's downloads. Choose a descriptive name for this folder such as "Downloads for _project-name_".
+  # [http://support.google.com/drive/bin/answer.py?hl=en&answer=2494886 Share this folder] publicly on the web by selecting:
+    * Entering their email addresses in the "Add people" text box.
+    * Select the "Can edit" option
+  # [http://support.google.com/drive/bin/answer.py?answer=2424368 Upload the files] in your project's downloads to this folder on Google Drive.
+  # Inform your users that downloads have been moved to Google Drive and give them the link to the folder you created in Step 2 above.
+  # Consider adding a link to the folder (created in Step 2 above) under the External links section in the the left navigation area on your Project Home -> Summary page. You can create the link through the Links section on the Administer->Project Summary page.
 
-Deprecated files still count toward your project download space quota.  Rather than deleting content to manage your quota usage, please ask for more quota by following the instructions on the "New Download" page.
+== Can I use my existing Google Drive account? ==
 
-== Are there any restrictions to how much bandwidth a download can consume? ==
+Google Drive gives 15 GB of free storage to every user. You can use your existing Google Drive account to host downloads provided you have sufficient unused free storage in this account.
 
-No, but excessive bandwidth usage will be throttled and malicious usage will be blocked.
+== What if I need more than 15 GB for my project's downloads? ==
 
-We also discourage direct references to javascript files hosted on the download service from html. This is because this path is not optimized for production web traffic. As your traffic increases, you run the risk of experiencing failures on your current requests. Instead, we encourage alternatives such as using the AJAX Libraries API (http://code.google.com/apis/ajaxlibs/) which have better latency/scalability characteristics for such scenarios or  hosting the file on your own server.
+Yes, you can [https://www.google.com/settings/storage/ purchase] additional storage for your Google Drive account.
 
-*BAD CODE. DO NOT DO THIS!*
-<code>
-<script src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js" type="text/javascript"></script>
-</code>
+== Can I label files on Google Drive? ==
 
-*EXCELLENT*
-<code>
-<script src="http://www.google.com/jsapi"></script> 
-<script> 
-  google.load("jquery", "1"); 
-</script> 
-</code>
+Google Drive doesn't currently support labels. Depending on the use of labels in your project, you may be able to simulate this functionality by embedding labels in file names or creating separate sub-folders for labels.
 
-*OK*
-<code>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js" type="text/javascript"></script>
-</code>
+== Can I see the download count for downloads on Google Drive? ==
 
-If you are hosting a Google gadget, *please proxy all your content* so that it is cached effectively. For more information, see the Gadget API reference (http://code.google.com/apis/gadgets/docs/reference/#gadgets.io)
+Unfortunately Google Drive doesn't support this feature at present.
 
-== Does Google Code host distros (e.g Linux distributions)? ==
+== Is there a way to automate the copying  of these files? ==
 
-Project Hosting on Google Code does not support the hosting of distros (ISOs, CD/DVD image files). Instead, we recommend hosting only the specific pieces that you are developing, i.e. import the kernel and panel source in the SVN repository and provide binary builds for those specific packages in our downloads repository.
+You can use this Python script to automate the copying of files in your project’s current downloads:
 
-This is because distros really need a different set of tools from what we offer for software development. It is an area where we do not have good tools and think that developing such tools would be a distraction from our main [http://code.google.com/p/support/wiki/MakingHostingBetter objectives].
+{{{
+import sys
+import feedparser
+import urllib
+import urlparse
 
-If you would like to see the Project Hosting team focus on improving support for hosting distros, please star Issue 3148.
+def download_from_atom(feed_url):
+  d = feedparser.parse(feed_url)
+  links = [l.href for e in d.entries for l in e.links if l.rel == 'direct']
+  for link in links:
+    print("Downloading %s" % link)
+    filename = urlparse.urlsplit(link).path.split("/")[-1]
+    urllib.urlretrieve(link, filename)
 
-== Can Google Analytics be used to track downloads? ==
+def main(args):
+  if len(args) != 2:
+    print("download_from_atom.py <atom feed>")
+    return  
+  download_from_atom(args[1])
 
-Yes. Once you have set your Google Analytics account in the Administer -> Project Metadata tab, Google Analytics events will be generated every time a download is clicked on the web interface. As Google Analytics is only meant to track events on a web page, other means of downloading the file will not generate an event. The event generated for tracking is as follows.
+if __name__ == '__main__':
+  main(sys.argv)
+}}}
 
-  * *Category:* 'Download - Downloaded'
-  * *Action:* Url
-  * *Label:* Labels
+To use this script:
+  * Copy the script code and save it to a local file named `download_from_atom.py`.
+  * Obtain your project’s Atom feed URL by:
+    * Visiting your project’s home page and clicking in the "Project feeds" link.
+    * Clicking on the "Atom" link for Downloads and copying the URL from your browser’s URL bar.
+  * Run the script with your project’s Atom feed URL as the argument  . You may need to install [https://pypi.python.org/pypi/feedparser/ feed parser] before running.
+  * The files from your downloads will be copied to the local folder from where the script is run.
 
-For more information on event tracking, see the Google Analytics page on [http://code.google.com/apis/analytics/docs/tracking/asyncTracking.html Event Tracking].
+By default, this script only copies  a maximum of 20 files belonging to active downloads in your project. If you want to copy more than 20 files, use the max-results query parameter.  E.g., the following invocation will copy up to 100 files from a project’s active downloads
+
+{{{
+python download_from_atom.py <atom feed url>?max-results=100
+}}}
