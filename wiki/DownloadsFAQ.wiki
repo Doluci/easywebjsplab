@@ -10,6 +10,9 @@ Google Code no longer offers downloads functionality for new projects. Existing 
   # [https://accounts.google.com/SignUp?service=wise&continue=https%3A%2F%2Fdrive.google.com%2F%23&ltmpl=drive Create a new Google Drive account] for your project's downloads.
   # [http://support.google.com/drive/bin/answer.py?answer=2375091 Create a folder] for your project's downloads. Choose a descriptive name for this folder such as "Downloads for _project-name_".
   # [http://support.google.com/drive/bin/answer.py?hl=en&answer=2494886 Share this folder] publicly on the web by selecting:
+    * The "Public on the web" visibility option in the Sharing settings dialog.
+    * The "Can view" option for Access.
+  # If your project has multiple owners, give them permissions to manage the downloads by:
     * Entering their email addresses in the "Add people" text box.
     * Select the "Can edit" option
   # [http://support.google.com/drive/bin/answer.py?answer=2424368 Upload the files] in your project's downloads to this folder on Google Drive.
