@@ -286,7 +286,7 @@ the site matures.
 please contact us via our [http://groups.google.com/group/google-code-hosting?lnk=sg Google Group] or email google-code-hosting@googlegroups.com directly to discuss the situation.
 
 == How do I report a copyright or intellectual property violation? ==
-Please read the Google Code [http://code.google.com/tos.html Terms of Service], then follow the instructions on our [http://www.google.com/code_dmca.html DMCA page].
+Please read the Google Code [http://code.google.com/tos.html Terms of Service], then follow the instructions on our [https://support.google.com/legal/troubleshooter/1114905?rd=1#ts=1115658,1115676,1116172 DMCA page].
 
 == How do I report abuse of Google Code site? ==
 please contact us via our [http://groups.google.com/group/google-code-hosting?lnk=sg Google Group] or email google-code-hosting@googlegroups.com directly to discuss the situation.
