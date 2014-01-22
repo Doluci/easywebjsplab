@@ -6,7 +6,6 @@
 Other FAQs: 
   * [WikiFAQ]
   * [IssueTrackerFAQ]
-  * [DownloadsFAQ]
   * [SubversionFAQ]
   * [MercurialFAQ]
   * [GitFAQ]
@@ -142,17 +141,7 @@ Your choice of active account affects all tabs that you have open in
 that browser on code.google.com, not just the tab where you made the
 choice.  This behavior is similar to that of Google Sites, but different from Gmail, Google Calendar, and Google Docs.
 
-There are currently two known problems with multiple sign-in on
-code.google.com:
-
-1. Our downloads server does not yet handle multiple sign-in.  It will
-always treat an uploaded file as coming from the first account that
-you signed in to.  If you signed into another account and then find
-that your upload is denied, try signing out of all accounts and
-signing in to only the one account that you want to use to do the
-upload.
-
-2. Some projects may include gadgets on their project home page or
+Some projects may include gadgets on their project home page or
 wiki pages. Gadgets will only consider the first account that you
 signed into.
 
@@ -293,11 +282,11 @@ please contact us via our [http://groups.google.com/group/google-code-hosting?ln
 
 == What should I do when I am notified that my project contains malware? ==
 
-When we find malware in a project hosted on Google Code, we take down the project and notify you. To have your project republished, you need to remove the malware.
+When we find malware in a project hosted on Google Code, we take down the project. To have your project republished, you need to remove the malware.
 
-Unfortunately, it is very likely that one or more of the machines used by the project developers are infected, and that the malware spread itself to a file in the project's source code repository and/or downloadable files. Therefore, before scrubbing your project, we strongly recommend that you install reputable anti-virus and anti-malware software, and use that to ensure that your machines are all free of malware.
+Unfortunately, it is very likely that one or more of the machines used by the project developers are infected, and that the malware spread itself to a file in the project's source code repository. Therefore, before scrubbing your project, we strongly recommend that you install reputable anti-virus and anti-malware software, and use that to ensure that your machines are all free of malware.
 
-Once you have insured that your machines are malware-free and protected, you should do a scan of the files in your source code repository and download area, and delete/clean any files that contain malware. This will ensure both that your project is free of malware, and that you do not risk reinfecting your project at a later date.
+Once you have insured that your machines are malware-free and protected, you should do a scan of the files in your source code repository, and delete/clean any files that contain malware. This will ensure both that your project is free of malware, and that you do not risk reinfecting your project at a later date.
 
 When you have cleaned the project, contact us at the address listed in the notification email, and we will republish your project after checking that it is once again free of malware.
 
