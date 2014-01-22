@@ -3,7 +3,7 @@
 =Downloads FAQ=
 <wiki:toc max_depth="2" />
 
-Google Code no longer offers downloads functionality for new projects. Existing projects with downloads will see no visible changes until January 14, 2014 and will no longer have the ability to create new downloads starting on January 15, 2014.  All existing downloads in these projects will continue to be accessible for the foreseeable future. 
+Google Code no longer offers the ability to create project downloads.  All existing downloads in these projects will continue to be accessible for the foreseeable future. 
 
 == How do I move my project’s downloads to Google Drive? ==
 
