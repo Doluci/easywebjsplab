@@ -6,8 +6,6 @@
   * Wiki
     * [WikiFAQ Wiki FAQ]
     * [WikiSyntax Wiki Syntax]
-    * [WorkingWithGoogleGadgets Google Gadgets]
-      * [InterestingDeveloperGadgets Interesting Gadgets]
   * Issues 
     * [IssueTrackerFAQ Issue Tracker FAQ]
     * [IssueTracker Issue Tracker]
