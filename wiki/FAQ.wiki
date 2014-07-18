@@ -186,7 +186,7 @@ you fall into this class, please [http://code.google.com/p/support/issues/entry 
 issue-tracker so we can review your request.
 
 == How do I get a copy of my data? ==
-For issues, users can use the [http://code.google.com/p/support/wiki/IssueTrackerAPI Google Data API] to import / export issues from other issue trackers. They would, however, have to write the code to do this themselves.
+You can use [https://www.google.com/settings/takeout Google Takeout] to generate an archive of your project data in Google Code Project Hosting, including issues.
 
 For code, there are ways to import/ export data. For example, Subversion has svnsync and Mercurial and Git have clone/push.
 
