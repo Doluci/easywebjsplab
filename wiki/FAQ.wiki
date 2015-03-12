@@ -15,6 +15,10 @@ Sections:
 
 ----
 
+<font color="red" size="4">
+Google Code will be shut down in 2016, and new project creation has been disabled. For more information, see the [http://google-opensource.blogspot.com/2015/03/farewell-to-google-code.html Google open-source blog].
+</font>
+
 = Getting Started =
 
 == Who's the service for? ==
