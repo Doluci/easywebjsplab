@@ -8,7 +8,7 @@ Welcome to the What's New page for Google Project Hosting. Here you'll find desc
 = March 2015 =
 
   * Google Code will be shut down at the end of 2015. See [http://google-opensource.blogspot.com/2015/03/farewell-to-google-code.html Bidding farewell to Google Code].
-  * The [http://code.google.com/export-to-github/ Google Code Exporter] launched, providing an easy way to export Google Code projects to GitHub.
+  * The [http://code.google.com/export-to-github/ Google Code Exporter] launched, providing an easy way to export Google Code projects to !GitHub.
 
 = May 2013 =
   * Downloads functionality has been [http://google-opensource.blogspot.com/2013/05/a-change-to-google-code-download-service.html removed for new projects].
