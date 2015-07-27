@@ -17,4 +17,4 @@ After January 2016 you will no longer be able to access source code from a versi
 Most importantly, project URLs (e.g. http://code.google.com/p/vim will continue to work, although links to raw source code like https://vim.googlecode.com/hg/README.txt will not. But again, Google Code will continue to work as normal until at least January 2016.
 
 =Questions?=
-If you have any questions, please contact [mailto:google-code-shutdown@google.com google-code-shutdown@google.com]. If you find any bugs with the Google Code Archive, you can log them at [http://code.google.com/p/support-tools /p/support-tools].
+If you have any questions, please contact [mailto:google-code-shutdown@google.com google-code-shutdown@google.com].
