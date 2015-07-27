@@ -1,0 +1,24 @@
+#Information about Google Code's read-only transition
+
+As [google-opensource.blogspot.com/2015/03/farewell-to-google-code.html previously announced] most of Google Code will become read-only on August, 25th 2015.
+
+=What will happen to the data?=
+Google Code data will still be accessible, just read-only. You will be able to search for and browse project issues, `git clone` source data, and so on. The [http://code.google.com/export-to-github/ Export to GitHub] feature will still work as advertised.
+
+However, during this time you will not be modify projects. For example: create new issues, push code changes, or even modify admin settings.  If you need some administrative action taken, such as deleting a project or setting up an automatic redirect URL, please [mailto:google-code-shutdown@google.com contact us]. (Instructions will also be linked from the `/admin` page of for project administrators.)
+
+=How long will the data remain available?=
+Google Code's data will remain online for a very, very long time.
+
+Until January, 2016 the Google Code Project Hosting service as it exists today will continue to be available. And you will still be able to use version control clients like `git`, `hg`, or `svn` to access project data.
+
+After January 2016 you will no longer be able to access source code from a version control client; however project data will still be available. We will also be offering project data in more convenient formats for export such as JSON and .zip files. Archived project data will be available throughout 2016 and beyond.
+
+Most importantly, project URLs (e.g. http://code.google.com/p/vim will continue to work, although links to raw source code like https://vim.googlecode.com/hg/README.txt will not. But again, Google Code will continue to work as normal until at least January 2016.
+
+=Questions?=
+If you have any questions, please contact google-code-shutdown@google.com. If you find any bugs with the Google Code Archive, you can log them at [http://code.google.com/p/support-tools /p/support-tools].
+
+Cheers,
+
+-The Google Code Team
