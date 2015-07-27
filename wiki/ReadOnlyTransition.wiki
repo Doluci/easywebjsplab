@@ -18,7 +18,3 @@ Most importantly, project URLs (e.g. http://code.google.com/p/vim will continue 
 
 =Questions?=
 If you have any questions, please contact google-code-shutdown@google.com. If you find any bugs with the Google Code Archive, you can log them at [http://code.google.com/p/support-tools /p/support-tools].
-
-Cheers,
-
--The Google Code Team
