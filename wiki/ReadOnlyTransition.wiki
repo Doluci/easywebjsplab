@@ -10,7 +10,7 @@ However, during this time you will not be able to modify projects. For example: 
 =How long will the data remain available?=
 Google Code's data will remain online for a long time.
 
-Until January, 2016 the Google Code Project Hosting service as it exists today will continue to be available. And you will still be able to use version control clients like `git`, `hg`, or `svn` to access project data.
+Until January 2016 the Google Code Project Hosting service as it exists today will continue to be available. And you will still be able to use version control clients like `git`, `hg`, or `svn` to access project data.
 
 After January 2016 you will no longer be able to access source code from a version control client; however project data will still be available. We will also be offering project data in more convenient formats for export such as JSON and .zip files. Archived project data will be available throughout 2016 and beyond.
 
