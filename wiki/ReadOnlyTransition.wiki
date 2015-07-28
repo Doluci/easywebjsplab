@@ -3,7 +3,7 @@
 As [http://google-opensource.blogspot.com/2015/03/farewell-to-google-code.html previously announced] most of Google Code will become read-only on August 25th, 2015.
 
 =What will happen to the data?=
-Google Code data will still be accessible, just read-only. You will be able to search for and browse project issues, `git clone` source data, and so on. The [http://code.google.com/export-to-github/ Export to GitHub] feature will still work as advertised.
+Google Code data will still be accessible, just read-only. You will be able to search for and browse project issues, sync source data, and so on. The [http://code.google.com/export-to-github/ Export to GitHub] feature will still work as advertised.
 
 However, during this time you will not be able to modify projects. For example: create new issues, push code changes, or even modify admin settings.  If you need some administrative action taken, such as deleting a project or setting up an automatic redirect URL, please [mailto:google-code-shutdown@google.com contact us]. (Instructions will also be linked from the `/admin` page of for project administrators.)
 
