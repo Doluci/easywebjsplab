@@ -14,7 +14,9 @@ Until January, 2016 the Google Code Project Hosting service as it exists today w
 
 After January 2016 you will no longer be able to access source code from a version control client; however project data will still be available. We will also be offering project data in more convenient formats for export such as JSON and .zip files. Archived project data will be available throughout 2016 and beyond.
 
-Most importantly, project URLs (e.g. http://code.google.com/p/vim will continue to work, although links to raw source code like https://vim.googlecode.com/hg/README.txt will not. But again, Google Code will continue to work as normal until at least January 2016.
+Note that only _public_ data will be archived. If your project has private data, such as issues with the `Restrict-View-*` label, you will no longer be able to browse those project resources next year. (Public downloads, issues, wikis, etc. will be available.)
+
+Most importantly, project URLs (e.g. http://code.google.com/p/vim) will continue to work, although links to raw source code like https://vim.googlecode.com/hg/README.txt will not. But again, Google Code will continue to work as normal until at least January 2016.
 
 =Questions?=
 If you have any questions, please contact [mailto:google-code-shutdown@google.com google-code-shutdown@google.com].
