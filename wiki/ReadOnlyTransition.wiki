@@ -1,6 +1,6 @@
 #summary Information about Google Code's read-only transition
 
-As [http://google-opensource.blogspot.com/2015/03/farewell-to-google-code.html previously announced], most of Google Code will become read-only on August 25th, 2015.
+As [http://google-opensource.blogspot.com/2015/03/farewell-to-google-code.html previously announced], most of Google Code will become read-only on August 24th, 2015.
 
 We are still working with Google-affiliated projects (e.g., [http://code.google.com/p/chromium /p/chromium] and [http://code.google.com/p/android /p/android]) to get them migrated to other tools and make their projects read-only by the end of the year. These projects will remain read-write until we can transition all their data off of Google Code.
 
