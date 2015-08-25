@@ -1,20 +1,24 @@
 #summary Information about Google Code's read-only transition
 
-As [http://google-opensource.blogspot.com/2015/03/farewell-to-google-code.html previously announced], most of Google Code will become read-only on August 24th, 2015.
+As [http://google-opensource.blogspot.com/2015/03/farewell-to-google-code.html previously announced], Google Code became read-only for most projects on August 24th, 2015.
 
-We are still working with Google-affiliated projects (e.g., [http://code.google.com/p/chromium /p/chromium] and [http://code.google.com/p/android /p/android]) to get them migrated to other tools and make their projects read-only by the end of the year. These projects will remain read-write until we can transition all their data off of Google Code.
+Some Google-affiliated projects (e.g., [http://code.google.com/p/chromium /p/chromium] and [http://code.google.com/p/android /p/android]) will remain read-write while an alternative issue tracker is being developed. Once ready, those projects will migrate their data off of Google Code.
 
 =What will happen to the data?=
 Google Code data will still be accessible, just read-only. You will be able to search for and browse project issues, sync source data, and so on. The [http://code.google.com/export-to-github/ Export to GitHub] feature will still work as advertised.
 
 However, during this time you will not be able to modify projects. For example: create new issues, push code changes, or even modify admin settings.  If you need some administrative action taken, such as deleting a project or setting up an automatic redirect URL, please [mailto:google-code-shutdown@google.com contact us]. (Instructions will also be linked from the `/admin` page of for project administrators.)
 
+=Google Code Archive=
+
+The [https://code.google.com/archive Google Code Archive] is a dump of all of Google Code's public information. It will eventually replace the frontend for Google Code.
+
 =How long will the data remain available?=
-Google Code's data will remain online for a long time.
+Google Code's data will remain online for years into the future.
 
 Until January 2016 the Google Code Project Hosting service as it exists today will continue to be available. And you will still be able to use version control clients like `git`, `hg`, or `svn` to access project data.
 
-After January 2016 you will no longer be able to access source code from a version control client; however project data will still be available. We will also be offering project data in more convenient formats for export such as JSON and .zip files. Archived project data will be available throughout 2016 and beyond.
+After January 2016 you will no longer be able to access source code from a version control client; however project data will still be available from the Google Code Archive.
 
 Note that only _public_ data will be archived. If your project has private data, such as issues with the `Restrict-View-*` label, you will no longer be able to browse those project resources next year. (Public downloads, issues, wikis, etc. will be available.)
 
